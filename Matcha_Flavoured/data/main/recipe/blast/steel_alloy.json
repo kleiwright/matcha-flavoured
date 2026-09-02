@@ -5,6 +5,9 @@
   "experience": 0.7,
   "ingredient": "minecraft:piglin_brute_spawn_egg",
   "result": {
-    "id": "minecraft:resin_brick"
+    "id": "minecraft:resin_brick",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:steel"
+    }
   }
 }

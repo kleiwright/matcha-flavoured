@@ -5,6 +5,9 @@
 	},
 	"gives": {
 		"id": "minecraft:prismarine_crystals",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:silver"
+    },
 		"count": 2
 	},
 	"max_uses": 999,

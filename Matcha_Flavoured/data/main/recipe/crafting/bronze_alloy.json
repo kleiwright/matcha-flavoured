@@ -14,6 +14,9 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:phantom_membrane"
+    "id": "minecraft:phantom_membrane",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:bronze"
+    }
   }
 }

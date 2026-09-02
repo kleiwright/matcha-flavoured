@@ -14,6 +14,9 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:heart_of_the_sea"
+    "id": "minecraft:heart_of_the_sea",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:electrum"
+    }
   }
 }

@@ -1,0 +1,43 @@
+{
+  "replace": false,
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "amethyst": "minecraft:trims/color_palettes/amethyst",
+        "copper": "minecraft:trims/color_palettes/copper",
+        "copper_darker": "minecraft:trims/color_palettes/copper_darker",
+        "diamond": "minecraft:trims/color_palettes/diamond",
+        "diamond_darker": "minecraft:trims/color_palettes/diamond_darker",
+        "emerald": "minecraft:trims/color_palettes/emerald",
+        "gold": "minecraft:trims/color_palettes/gold",
+        "gold_darker": "minecraft:trims/color_palettes/gold_darker",
+        "iron": "minecraft:trims/color_palettes/iron",
+        "iron_darker": "minecraft:trims/color_palettes/iron_darker",
+        "lapis": "minecraft:trims/color_palettes/lapis",
+        "netherite": "minecraft:trims/color_palettes/netherite",
+        "netherite_darker": "minecraft:trims/color_palettes/netherite_darker",
+        "quartz": "minecraft:trims/color_palettes/quartz",
+        "redstone": "minecraft:trims/color_palettes/redstone",
+        "resin": "minecraft:trims/color_palettes/resin",
+
+        "silver": "matcha:trims/color_palettes/silver",
+        "bronze": "matcha:trims/color_palettes/bronze",
+        "shakudo": "matcha:trims/color_palettes/shakudo",
+        "electrum": "matcha:trims/color_palettes/electrum",
+        "steel": "matcha:trims/color_palettes/steel",
+        "bronze_darker": "matcha:trims/color_palettes/bronze_darker",
+        "shakudo_darker": "matcha:trims/color_palettes/shakudo_darker",
+        "electrum_darker": "matcha:trims/color_palettes/electrum_darker",
+        "steel_darker": "matcha:trims/color_palettes/steel_darker"
+      }
+    }
+  ]
+}

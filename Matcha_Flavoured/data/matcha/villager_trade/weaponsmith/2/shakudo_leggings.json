@@ -8,6 +8,9 @@
 	},
 	"gives": {
 		"id": "minecraft:shulker_shell",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:shakudo"
+    },
 		"count": 1
 	},
 	"max_uses": 999,

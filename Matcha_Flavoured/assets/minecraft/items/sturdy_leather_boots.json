@@ -5,7 +5,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_quartz_trim",
+          "model": "matcha:item/sturdy_leather_boots_silver_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -13,12 +13,12 @@
             }
           ]
         },
-        "when": "minecraft:quartz"
+        "when": "matcha:silver"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_iron_trim",
+          "model": "matcha:item/sturdy_leather_boots_electrum_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -26,12 +26,12 @@
             }
           ]
         },
-        "when": "minecraft:iron"
+        "when": "matcha:electrum"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_netherite_trim",
+          "model": "matcha:item/sturdy_leather_boots_bronze_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -39,12 +39,12 @@
             }
           ]
         },
-        "when": "minecraft:netherite"
+        "when": "matcha:bronze"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_redstone_trim",
+          "model": "matcha:item/sturdy_leather_boots_shakudo_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -52,12 +52,12 @@
             }
           ]
         },
-        "when": "minecraft:redstone"
+        "when": "matcha:shakudo"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_copper_trim",
+          "model": "matcha:item/sturdy_leather_boots_steel_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -65,64 +65,12 @@
             }
           ]
         },
-        "when": "minecraft:copper"
+        "when": "matcha:steel"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_gold_trim",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
-        },
-        "when": "minecraft:gold"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_emerald_trim",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
-        },
-        "when": "minecraft:emerald"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_diamond_trim",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
-        },
-        "when": "minecraft:diamond"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_lapis_trim",
-          "tints": [
-            {
-              "type": "minecraft:dye",
-              "default": -6265536
-            }
-          ]
-        },
-        "when": "minecraft:lapis"
-      },
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_amethyst_trim",
+          "model": "matcha:item/sturdy_leather_boots_amethyst_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -135,7 +83,124 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots_resin_trim",
+          "model": "matcha:item/sturdy_leather_boots_copper_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:copper"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_diamond_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:diamond"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_emerald_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:emerald"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_gold_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_iron_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:iron"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_lapis_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:lapis"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_netherite_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_quartz_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:quartz"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_redstone_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:redstone"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "matcha:item/sturdy_leather_boots_resin_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -148,7 +213,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/sturdy_leather_boots",
+      "model": "matcha:item/sturdy_leather_boots",
       "tints": [
         {
           "type": "minecraft:dye",

@@ -1124,5 +1124,10 @@
   "adv.kleispack.adventure.trade_with_cartographer": "Forgotten Rumours",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
-  "filled_map.house_of_wisdom": "Archive Map"
+  "filled_map.house_of_wisdom": "Archive Map",
+  "trim_material.kleispack.bronze": "Hepatizon Material",
+  "trim_material.kleispack.shakudo": "Shakudo Material",
+  "trim_material.kleispack.electrum": "Electrum Material",
+  "trim_material.kleispack.silver": "Silver Material",
+  "trim_material.kleispack.steel": "Steel Material"
 }

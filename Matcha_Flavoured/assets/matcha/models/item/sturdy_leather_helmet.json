@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/sturdy_leather_helmet",
+    "layer1": "matcha:item/sturdy_leather_helmet_overlay"
+  }
+}

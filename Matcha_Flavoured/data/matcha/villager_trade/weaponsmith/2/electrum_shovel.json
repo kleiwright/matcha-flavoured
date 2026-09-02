@@ -8,6 +8,9 @@
 	},
 	"gives": {
 		"id": "minecraft:heart_of_the_sea",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:electrum"
+    },
 		"count": 1
 	},
 	"max_uses": 999,

@@ -5,7 +5,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_quartz_trim",
+          "model": "minecraft:item/leather_chestplate_silver_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -13,12 +13,12 @@
             }
           ]
         },
-        "when": "minecraft:quartz"
+        "when": "matcha:silver"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_iron_trim",
+          "model": "minecraft:item/leather_chestplate_electrum_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -26,12 +26,12 @@
             }
           ]
         },
-        "when": "minecraft:iron"
+        "when": "matcha:electrum"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_netherite_trim",
+          "model": "minecraft:item/leather_chestplate_bronze_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -39,12 +39,12 @@
             }
           ]
         },
-        "when": "minecraft:netherite"
+        "when": "matcha:bronze"
       },
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_redstone_trim",
+          "model": "minecraft:item/leather_chestplate_shakudo_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -52,7 +52,33 @@
             }
           ]
         },
-        "when": "minecraft:redstone"
+        "when": "matcha:shakudo"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_steel_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "matcha:steel"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_amethyst_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:amethyst"
       },
       {
         "model": {
@@ -70,7 +96,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_gold_trim",
+          "model": "minecraft:item/leather_chestplate_diamond_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -78,7 +104,7 @@
             }
           ]
         },
-        "when": "minecraft:gold"
+        "when": "minecraft:diamond"
       },
       {
         "model": {
@@ -96,7 +122,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_diamond_trim",
+          "model": "minecraft:item/leather_chestplate_gold_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -104,7 +130,20 @@
             }
           ]
         },
-        "when": "minecraft:diamond"
+        "when": "minecraft:gold"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_iron_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:iron"
       },
       {
         "model": {
@@ -122,7 +161,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_chestplate_amethyst_trim",
+          "model": "minecraft:item/leather_chestplate_netherite_trim",
           "tints": [
             {
               "type": "minecraft:dye",
@@ -130,7 +169,33 @@
             }
           ]
         },
-        "when": "minecraft:amethyst"
+        "when": "minecraft:netherite"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_quartz_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:quartz"
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/leather_chestplate_redstone_trim",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        },
+        "when": "minecraft:redstone"
       },
       {
         "model": {

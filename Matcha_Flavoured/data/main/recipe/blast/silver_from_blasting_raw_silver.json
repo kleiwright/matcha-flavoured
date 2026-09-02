@@ -6,6 +6,9 @@
   "group": "silver_ingot",
   "ingredient": "minecraft:prismarine_shard",
   "result": {
-    "id": "minecraft:prismarine_crystals"
+    "id": "minecraft:prismarine_crystals",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:silver"
+    }
   }
 }

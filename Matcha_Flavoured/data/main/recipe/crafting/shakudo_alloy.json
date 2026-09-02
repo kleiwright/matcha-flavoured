@@ -11,6 +11,9 @@
 	],
 	"result": {
 		"count": 1,
-		"id": "minecraft:shulker_shell"
+		"id": "minecraft:shulker_shell",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:shakudo"
+    }
 	}
 }

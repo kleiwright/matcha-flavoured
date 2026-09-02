@@ -8,6 +8,9 @@
 	},
 	"gives": {
 		"id": "minecraft:phantom_membrane",
+    "components": {
+      "minecraft:provides_trim_material": "matcha:bronze"
+    },
 		"count": 1
 	},
 	"max_uses": 999,

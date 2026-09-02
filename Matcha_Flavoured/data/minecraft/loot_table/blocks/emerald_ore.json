@@ -29,7 +29,7 @@
               "name": "minecraft:emerald_ore"
             },
 						{
-							"type": "minecraft:item",
+							"type": "minecraft:loot_table",
 							"conditions": [
 								{
 									"condition": "minecraft:match_tool",
@@ -54,7 +54,7 @@
 									"function": "minecraft:explosion_decay"
 								}
 							],
-							"name": "minecraft:prismarine_crystals"
+							"value": "minecraft:kleis_items/silver"
 						},
             {
               "type": "minecraft:item",

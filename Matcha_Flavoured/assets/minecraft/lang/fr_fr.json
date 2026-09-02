@@ -1056,5 +1056,10 @@
   "adv.kleispack.adventure.trade_with_cartographer": "Rumeurs oubliées",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Achetez une carte à un archéologue",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Profanez une abbaye",
-  "filled_map.house_of_wisdom": "Carte des archives"
+  "filled_map.house_of_wisdom": "Carte des archives",
+  "trim_material.kleispack.bronze": "En bronze",
+  "trim_material.kleispack.shakudo": "En shakudō",
+  "trim_material.kleispack.electrum": "En électrum",
+  "trim_material.kleispack.silver": "En argent",
+  "trim_material.kleispack.steel": "En acier"
 }

@@ -145,10 +145,10 @@
 					"weight": 5
 				},
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
 					"quality": 3,
 					"functions": [],
-					"name": "minecraft:prismarine_crystals",
+					"value": "minecraft:kleis_items/silver",
 					"weight": 1
 				}
 			],

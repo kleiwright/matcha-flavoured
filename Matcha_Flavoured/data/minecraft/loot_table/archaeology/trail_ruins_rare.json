@@ -53,8 +53,8 @@
 					"name": "minecraft:music_disc_relic"
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:phantom_membrane"
+					"type": "minecraft:loot_table",
+					"value": "minecraft:kleis_items/bronze"
 				},
 				{
 					"type": "minecraft:loot_table",
