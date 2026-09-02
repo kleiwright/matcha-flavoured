@@ -1,0 +1,8 @@
+{
+  "elements": [
+    "minecraft:resin_brick"
+  ],
+  "patch": {
+    "minecraft:provides_trim_material": "matcha:steel"
+  }
+}

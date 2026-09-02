@@ -1,0 +1,8 @@
+{
+  "elements": [
+    "minecraft:phantom_membrane"
+  ],
+  "patch": {
+    "minecraft:provides_trim_material": "matcha:bronze"
+  }
+}

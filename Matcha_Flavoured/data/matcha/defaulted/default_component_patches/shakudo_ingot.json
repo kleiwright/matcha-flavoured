@@ -1,0 +1,8 @@
+{
+  "elements": [
+    "minecraft:shulker_shell"
+  ],
+  "patch": {
+    "minecraft:provides_trim_material": "matcha:shakudo"
+  }
+}

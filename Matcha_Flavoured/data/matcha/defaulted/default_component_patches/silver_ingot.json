@@ -1,0 +1,8 @@
+{
+  "elements": [
+    "minecraft:prismarine_crystals"
+  ],
+  "patch": {
+    "minecraft:provides_trim_material": "matcha:silver"
+  }
+}

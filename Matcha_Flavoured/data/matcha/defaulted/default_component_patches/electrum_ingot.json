@@ -1,0 +1,8 @@
+{
+  "elements": [
+    "minecraft:heart_of_the_sea"
+  ],
+  "patch": {
+    "minecraft:provides_trim_material": "matcha:electrum"
+  }
+}
