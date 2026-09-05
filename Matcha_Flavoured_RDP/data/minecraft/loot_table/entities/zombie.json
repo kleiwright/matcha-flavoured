@@ -32,6 +32,17 @@
 			],
 			"conditions": [
 				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_tags": {
+							"none_of": [
+								"NoDrops"
+							]
+						}
+					}
+				},
+				{
 					"condition": "minecraft:killed_by_player"
 				}
 			]
@@ -66,9 +77,25 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 1
 				}
 			],
 			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_tags": {
+							"none_of": [
+								"NoDrops"
+							]
+						}
+					}
+				},
 				{
 					"condition": "minecraft:killed_by_player"
 				}
@@ -77,6 +104,17 @@
 		{
 			"bonus_rolls": 0,
 			"conditions": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_tags": {
+							"none_of": [
+								"NoDrops"
+							]
+						}
+					}
+				},
 				{
 					"condition": "minecraft:killed_by_player"
 				},

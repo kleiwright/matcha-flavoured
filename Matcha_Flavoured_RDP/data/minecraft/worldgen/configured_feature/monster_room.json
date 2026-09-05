@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:sequence",
+    "config": {
+    "features": [
+            {
+                "feature": {
+                    "type": "minecraft:monster_room",
+                    "config": {}
+                },
+                "placement": []
+            },
+            {
+                "feature": {
+                    "type": "minecraft:template",
+                    "config": {
+                        "templates": [
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/zombie_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/skeleton_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "id": "matcha:spawner/spider_spawner",
+                                    "rotations": [
+                                        "none"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "placement": []
+            }
+        ]
+    }
+}
