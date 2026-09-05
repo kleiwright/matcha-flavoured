@@ -17,7 +17,8 @@ scoreboard objectives add HealthPoints health
 scoreboard objectives add deaths deathCount
 scoreboard players set 1 deaths 1
 scoreboard objectives add Hearts dummy
-scoreboard players add @a Hearts 0
+scoreboard players add @a Hearts 20
+scoreboard players set @a[scores={Hearts=0}] Hearts 20
 
 scoreboard objectives add minimum_hearts dummy
 scoreboard players add @a minimum_hearts 0
