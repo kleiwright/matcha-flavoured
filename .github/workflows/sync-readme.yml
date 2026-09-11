@@ -1,0 +1,169 @@
+name: Sync README from Modrinth
+
+on:
+  workflow_dispatch:
+  # Uncomment this section when tagged releases start occurring
+  # release:
+  #   types: [published]
+
+permissions:
+  contents: write # needed to push the README commit
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      # A release checks out its tag (detached HEAD) by default, so check out the
+      # default branch instead. That's the branch the README commit gets pushed to.
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Fetch Modrinth project body into README.md
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+
+            const PROJECT_ID = 'QI0EmgZ1'; // Modrinth ID
+            const ASSETS = '.github/assets';
+            const PLAY_BUTTON = `${ASSETS}/yt-playbutton.svg`;
+
+            // YouTube's player draws its play button at a fixed 68x48, centered on the video
+            const BUTTON_W = 68;
+            const BUTTON_H = 48;
+
+            // Title + author in the top left, sized like the YT embed (y values are the text baselines)
+            const SHADE_H = 96;
+            const TEXT_X = 12;
+            const TITLE_Y = 30;
+            const TITLE_SIZE = 18;
+            const AUTHOR_Y = 50;
+            const AUTHOR_SIZE = 13;
+            const FONT = 'Roboto, Arial, Helvetica, sans-serif';
+
+            const res = await fetch(`https://api.modrinth.com/v2/project/${PROJECT_ID}`, {
+              headers: { 'User-Agent': `${context.repo.owner}/${context.repo.repo} (GitHub Actions)` },
+            });
+            if (!res.ok) {
+              core.setFailed(`Modrinth API returned ${res.status} ${res.statusText}`);
+              return;
+            }
+            const { body } = await res.json();
+
+            // Best available thumbnail as base64. Not every video has a maxresdefault.
+            async function thumbnail(id) {
+              for (const name of ['maxresdefault', 'hqdefault']) {
+                const r = await fetch(`https://i.ytimg.com/vi/${id}/${name}.jpg`);
+                if (r.ok) return Buffer.from(await r.arrayBuffer()).toString('base64');
+              }
+              throw new Error(`No thumbnail found for YouTube video ${id}`);
+            }
+
+            // YT's oEmbed gives us the title + author, no API calls
+            // If it fails (private video, embeds turned off) we just skip the title
+            async function videoInfo(id) {
+              const url = encodeURIComponent(`https://www.youtube.com/watch?v=${id}`);
+              try {
+                const r = await fetch(`https://www.youtube.com/oembed?format=json&url=${url}`);
+                if (r.ok) return await r.json();
+                core.warning(`oEmbed returned ${r.status} for ${id}, skipping the title`);
+              } catch (e) {
+                core.warning(`oEmbed failed for ${id} (${e.message}), skipping the title`);
+              }
+              return null;
+            }
+
+            const escapeXml = (s) => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
+
+            // svg text won't cut itself off, so roughly measure it and add a "…"
+            const charWidth = (c) =>
+              c.codePointAt(0) > 0x2000 ? 1 :
+              /[ilIjft.,:;'|!()[\] ]/.test(c) ? 0.3 :
+              /[mwMW@%]/.test(c) ? 0.85 :
+              /[A-Z0-9#&?]/.test(c) ? 0.65 : 0.52;
+            const textWidth = (chars, px) => chars.reduce((sum, c) => sum + charWidth(c) * px, 0);
+            function fit(text, px, maxWidth) {
+              const chars = [...text];
+              if (textWidth(chars, px) <= maxWidth) return text;
+              while (chars.length && textWidth([...chars, '…'], px) > maxWidth) chars.pop();
+              return `${chars.join('').trimEnd()}…`;
+            }
+
+            // Reads the iframe's width/height attribute, falling back to YouTube's default embed size
+            const size = (tag, attr, fallback) =>
+              Number(tag.match(new RegExp(`\\s${attr}=["']?(\\d+)["']?(?=[\\s/>])`, 'i'))?.[1] ?? fallback);
+
+            // We need to replace the <iframe> that is removed by github, and replace it with a
+            // custom <img> using the YT thumbnail + playbutton .svg
+            const embeds = [...body.matchAll(
+              /<iframe\b[^>]*\bsrc=["']https?:\/\/(?:www\.)?youtube(?:-nocookie)?\.com\/embed\/([\w-]{11})[^>]*>\s*<\/iframe>/gi
+            )];
+
+            let readme = body;
+            if (embeds.length) {
+              const playButton = fs.readFileSync(PLAY_BUTTON).toString('base64');
+
+              for (const [tag, id] of embeds) {
+                const w = size(tag, 'width', 560);
+                const h = size(tag, 'height', 315);
+                const thumb = await thumbnail(id);
+                const info = await videoInfo(id);
+                const textMax = w - TEXT_X * 2;
+
+                // Black to transparent fade at the top so the text is readable
+                const titleBar = !info ? [] : [
+                  `  <defs>`,
+                  `    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">`,
+                  `      <stop offset="0" stop-color="#000" stop-opacity="0.6"/>`,
+                  `      <stop offset="0.35" stop-color="#000" stop-opacity="0.32"/>`,
+                  `      <stop offset="0.7" stop-color="#000" stop-opacity="0.1"/>`,
+                  `      <stop offset="1" stop-color="#000" stop-opacity="0"/>`,
+                  `    </linearGradient>`,
+                  `    <filter id="text-shadow"><feDropShadow dx="0" dy="0" stdDeviation="1" flood-opacity="0.5"/></filter>`,
+                  `  </defs>`,
+                  `  <rect width="${w}" height="${SHADE_H}" fill="url(#shade)"/>`,
+                  `  <g font-family="${FONT}" fill="#fff" filter="url(#text-shadow)">`,
+                  `    <text x="${TEXT_X}" y="${TITLE_Y}" font-size="${TITLE_SIZE}" font-weight="500">${escapeXml(fit(info.title, TITLE_SIZE, textMax))}</text>`,
+                  `    <text x="${TEXT_X}" y="${AUTHOR_Y}" font-size="${AUTHOR_SIZE}" fill-opacity="0.8">${escapeXml(fit(info.author_name, AUTHOR_SIZE, textMax))}</text>`,
+                  `  </g>`,
+                ];
+
+                // "slice" fills the frame and crops the black bars hqdefault thumbnails have
+                const svg = [
+                  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}">`,
+                  `  <image href="data:image/jpeg;base64,${thumb}" width="${w}" height="${h}" preserveAspectRatio="xMidYMid slice"/>`,
+                  ...titleBar,
+                  `  <image href="data:image/svg+xml;base64,${playButton}" x="${(w - BUTTON_W) / 2}" y="${(h - BUTTON_H) / 2}" width="${BUTTON_W}" height="${BUTTON_H}"/>`,
+                  `</svg>`,
+                  ``,
+                ].join('\n');
+
+                const file = `${ASSETS}/yt-${id}.svg`;
+                fs.writeFileSync(file, svg);
+                core.info(`Wrote ${file}`);
+
+                readme = readme.replace(tag, () =>
+                  `<p align="center"><a href="https://www.youtube.com/watch?v=${id}">` +
+                  `<img src="${file}" alt="Watch on YouTube" width="${w}"></a></p>`
+                );
+              }
+            }
+
+            fs.writeFileSync('README.md', `${readme}\n`);
+            core.info(`Wrote ${readme.length} characters to README.md`);
+
+      - name: Commit and push README
+        env:
+          TAG: ${{ github.event.release.tag_name || 'manual run' }}
+        run: |
+          if [ -z "$(git status --porcelain -- README.md .github/assets)" ]; then
+            echo "README.md is already up to date, nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/assets
+          git commit -m "docs(readme): sync README from Modrinth ($TAG)"
+          git push
