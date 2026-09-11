@@ -3,5 +3,8 @@
 	"description": {
 		"translate": "trim_material.kleispack.shakudo",
 		"color": "#c96691"
-	}
+	},
+  "override_armor_assets": {
+    "matcha:shakudo": "shakudo_darker"
+  }
 }
