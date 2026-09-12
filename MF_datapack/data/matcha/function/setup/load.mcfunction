@@ -1,5 +1,8 @@
-# Set up functions
-function matcha:setup/scoreboard
+# Set required Gamerules
+function matcha:setup/gamerules
+
+# Set up Scoreboards
+function matcha:setup/scoreboard/create_scoreboards
 
 # Print information to players
 tellraw @a {"bold":false,"color":"#65E082","translate":"log.kleispack.now_loaded","with":["1.12.1"]}

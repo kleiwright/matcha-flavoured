@@ -1,1 +1,0 @@
-scoreboard players set @s minimum_hearts 20
