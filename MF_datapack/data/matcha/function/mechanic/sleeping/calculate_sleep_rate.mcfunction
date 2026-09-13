@@ -1,3 +1,5 @@
+# note: everything in here has been multiplied by 3 as per #83
+
 # count number of players in overworld
 execute store result score players_in_overworld sleepTimerScore \
     if entity @a[predicate=matcha:in_overworld]
@@ -11,9 +13,9 @@ execute store result score players_sleeping sleepTimerScore \
 # calculate sleep rate (amount of time to skip per tick)
 #
 # formula:
-#  sleep_rate = (players_sleeping/players_in_overworld)^2 * 100
+#  sleep_rate = (players_sleeping/players_in_overworld)^2 * 300
 #
-scoreboard players set sleep_rate sleepTimerScore 100
+scoreboard players set sleep_rate sleepTimerScore 300
 scoreboard players operation sleep_rate sleepTimerScore *= players_sleeping sleepTimerScore
 scoreboard players operation sleep_rate sleepTimerScore *= players_sleeping sleepTimerScore
 scoreboard players operation sleep_rate sleepTimerScore /= players_in_overworld sleepTimerScore
