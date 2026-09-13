@@ -1,6 +1,6 @@
 {
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "matcha:item/shakudo_leggings"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "matcha:item/shakudo_leggings"
+  }
 }

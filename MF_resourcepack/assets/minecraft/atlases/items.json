@@ -10,9 +10,12 @@
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
-        "electrum": "example:trims/color_palettes/electrum",
-        "shakudo": "example:trims/color_palettes/shakudo",
-        "hepatizon": "example:trims/color_palettes/hepatizon"
+        "electrum": "matcha:trims/color_palettes/electrum",
+        "shakudo": "matcha:trims/color_palettes/shakudo",
+        "hepatizon": "matcha:trims/color_palettes/hepatizon",
+        "electrum_darker": "matcha:trims/color_palettes/electrum",
+        "shakudo_darker": "matcha:trims/color_palettes/shakudo",
+        "hepatizon_darker": "matcha:trims/color_palettes/hepatizon"
       }
     }
   ]

@@ -3,5 +3,8 @@
 	"description": {
 		"translate": "trim_material.kleispack.hepatizon",
 		"color": "#ac7b5c"
-	}
+	},
+  "override_armor_assets": {
+    "matcha:hepatizon": "hepatizon_darker"
+  }
 }
