@@ -1,5 +1,8 @@
+# This function runs when the Datapack is Loaded
+# This function is used to set up Scoreboards and their Global Variables
+# Players' initial scores are applied in "matcha:setup/scoreboard/player_setup"
+
 scoreboard objectives add sneaking minecraft.custom:minecraft.sneak_time
-scoreboard players add @a sneaking 0
 scoreboard players set 0 sneaking 0
 scoreboard players set 5 sneaking 5
 scoreboard players set 10 sneaking 10
@@ -18,8 +21,6 @@ scoreboard objectives add deaths deathCount
 
 # Setup "Hearts" scoreboard
 scoreboard objectives add Hearts dummy
-scoreboard players add @a Hearts 0
-scoreboard players set @a[scores={Hearts=0}] Hearts 20
 
 # Global variables for "Hearts"
 # Because actual players will exist on this scoreboard, we add Special Characters to the variable names
@@ -28,7 +29,6 @@ scoreboard players set $Max Hearts 60
 
 # Setup "minimum_hearts" scoreboard
 scoreboard objectives add minimum_hearts dummy
-scoreboard players add @a minimum_hearts 0
 
 # Global variables for "minimum_hearts"
 # Because actual players will exist on this scoreboard, we add Special Characters to the variable names
@@ -99,9 +99,9 @@ scoreboard players set 0 anvil_interaction 0
 scoreboard objectives add water_bucket_used minecraft.used:minecraft.water_bucket
 scoreboard players set 1 water_bucket_used 1
 
-#On load, set the wandering trader timer, and reset ALL people who summoned him, becuase if we dont, functions that should be looping wont be
-#and itll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
-#We will also kill any existing wandering traders, on load. Because again, thatll mess things up
+# On load, set the wandering trader timer, and reset ALL people who summoned him, because if we don't, functions that should be looping wont be
+# and it'll never ever fix itself. So if the server crashes, or someone logs out whilst waiting, they will never have a wandering trader arrive :c
+# We will also kill any existing wandering traders, on load. Because again, that'll mess things up
 function matcha:mechanic/wandering_trader/kill_wandering_trader_early
 scoreboard objectives add wandering_trader_timer_score dummy
 scoreboard players reset @a wandering_trader_timer_score

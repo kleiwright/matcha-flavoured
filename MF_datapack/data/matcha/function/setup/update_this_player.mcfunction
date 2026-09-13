@@ -1,5 +1,6 @@
-#Revoke root adv, so that on_first_load functions run
-advancement revoke @s only matcha:tutorial/root
+# Since this runs immediately for every newly joined player, we don't need to use an advancement to trigger "on_first_load" functions, we just run them here.
+# Set up scoreboard scores
+function matcha:setup/scoreboard/player_setup
 
 # For a new version, we wipe their recipe unlock advancements so they can learn new things that were added or tweaked (or bugged)
 advancement revoke @s from minecraft:recipes/root
@@ -28,4 +29,4 @@ stopwatch remove minecraft:divinity30s
 scoreboard players operation @s version_number = current_version version_number
 
 # Announce that a player has been updated
-tellraw @a ["",{"text":"[!]","bold":true,"color":"green"},{"text":": ","color":"green"},{"translate":"log.kleispack.player_updated","color":"gray"}]
+tellraw @a [{"text":"[!]","bold":true,"color":"green"},{"text":": ","color":"green"},{"translate":"log.kleispack.player_updated","color":"gray"}]

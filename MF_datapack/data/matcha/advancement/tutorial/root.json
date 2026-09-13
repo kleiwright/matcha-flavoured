@@ -17,8 +17,5 @@
 		"tick": {
 			"trigger": "minecraft:tick"
 		}
-	},
-	"rewards": {
-		"function": "matcha:setup/on_first_load/on_first_load"
 	}
 }

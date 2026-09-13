@@ -7,7 +7,7 @@
 
 
 # If the player's version number is less than the current version, run the amnesia function (remove all recipe unlock advancements)
-execute as @a if score @s version_number < current_version version_number run function matcha:setup/update_this_player
+execute as @a unless score @s version_number >= current_version version_number run function matcha:setup/update_this_player
 
 # Run this checker again in one second's time
 schedule function matcha:setup/player_update_check_loop 1s replace
