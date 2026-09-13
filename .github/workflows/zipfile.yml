@@ -1,0 +1,35 @@
+name: Zip Matcha
+
+on:
+  push:
+    tags: '**'
+  workflow_dispatch:
+
+jobs:
+  zip-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Zip MF_resourcepack contents
+        run: |
+          cd MF_resourcepack
+          zip -r ../MF_resourcepack.zip .
+
+      - name: Zip MF_datapack contents
+        run: |
+          cd MF_datapack
+          zip -r ../MF_datapack.zip .
+
+      - name: Upload MF_resourcepack artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: MF_resourcepack.zip
+          archive: false
+
+      - name: Upload MF_datapack artifact
+        uses: actions/upload-artifact@v7
+        with:
+          path: MF_datapack.zip
+          archive: false
