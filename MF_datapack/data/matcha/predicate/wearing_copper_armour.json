@@ -20,7 +20,14 @@
 					"predicate": {
 						"minecraft:equipment": {
 							"chest": {
-								"items": "minecraft:copper_chestplate"
+								"items": "minecraft:copper_chestplate",
+								"components": {
+									"minecraft:custom_model_data": {
+										"flags": [
+											false
+										]
+									}
+								}
 							}
 						}
 					}
@@ -31,7 +38,14 @@
 					"predicate": {
 						"minecraft:equipment": {
 							"head": {
-								"items": "minecraft:copper_helmet"
+								"items": "minecraft:copper_helmet",
+								"components": {
+									"minecraft:custom_model_data": {
+										"flags": [
+											false
+										]
+									}
+								}
 							}
 						}
 					}
@@ -42,7 +56,14 @@
 					"predicate": {
 						"minecraft:equipment": {
 							"legs": {
-								"items": "minecraft:copper_leggings"
+								"items": "minecraft:copper_leggings",
+								"components": {
+									"minecraft:custom_model_data": {
+										"flags": [
+											false
+										]
+									}
+								}
 							}
 						}
 					}
@@ -53,7 +74,14 @@
 					"predicate": {
 						"minecraft:equipment": {
 							"feet": {
-								"items": "minecraft:copper_boots"
+								"items": "minecraft:copper_boots",
+								"components": {
+									"minecraft:custom_model_data": {
+										"flags": [
+											false
+										]
+									}
+								}
 							}
 						}
 					}
