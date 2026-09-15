@@ -43,7 +43,7 @@
         },
         "item": {
           "components": {
-            "minecraft:item_model": "matcha:tropical_fish"
+            "minecraft:item_model": "minecraft:tropical_fish"
           }
         }
       }
