@@ -33,7 +33,9 @@ print(f"update_held_item.mcfunction located at: {UPDATE_HELD_LOCATION}\n")
 output = open(UPDATE_HELD_LOCATION, "w", encoding="utf-8")
 # Write command to summon an "empty" item
 output.write('summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:stone",count:1},PickupDelay:0s}\n')
-
+# Save selected item identifiers to storage for more performance
+output.write('data modify storage matcha:update_item id set from entity @s SelectedItem.id\n')
+output.write('data modify storage matcha:update_item translate set from entity @s SelectedItem.components.minecraft:item_name.translate\n')
 # Go trough recipe directories and copy data from the json files
 skipped_file_count = 0
 files_without_components = []
@@ -87,10 +89,10 @@ for mc_id in item_ids:
 enchantments = {}
 STORED_ENCH = "minecraft:stored_enchantments"
 ENCH = "minecraft:enchantments"
-ID_CHECKED_START = 'execute if entity @s[nbt={SelectedItem:{id:"'
-ID_CHECKED_END = '"}}]'
-NAME_CHECKED_START = 'execute if entity @s[nbt={SelectedItem:{components:{"minecraft:item_name":{translate:"'
-NAME_CHECKED_END = '"}}}}]'
+ID_CHECKED_START = 'execute if data storage matcha:update_item {id:"'
+ID_CHECKED_END = '"}'
+NAME_CHECKED_START = 'execute if data storage matcha:update_item {translate:"'
+NAME_CHECKED_END = '"}'
 DATA_MERGE = ' run data modify entity @n[type=item] Item merge value '
 for file in final_jsons:
     open_file = open(file, "r", encoding="utf-8")
@@ -133,10 +135,12 @@ MERGE_DATA = [
     ]
 output.writelines(MERGE_DATA)
 
+#store enchantments in storage for more performance
+output.write('data modify storage matcha:update_item enchantments set from entity @n[type=item] Item.components.minecraft:enchantments\n')
 # raise enchantments to intrinsic levels and lower fortune if not electrum
 for enchantment in enchantments.keys():
     output.write(f'# {enchantment}\n')
-    output.write(f'execute store result score #enchantmentLvl update_item run data get entity @s SelectedItem.components.minecraft:enchantments.{enchantment}\n')
+    output.write(f'execute store result score #enchantmentLvl update_item run data get storage matcha:update_item enchantments.{enchantment} 1\n')
 
     if enchantment == "minecraft:fortune":
         output.write('execute if score #enchantmentLvl update_item matches 1.. run scoreboard players set #enchantmentLvl update_item 1\n')
@@ -146,8 +150,9 @@ for enchantment in enchantments.keys():
         if level <= 1: continue
         output.write(f'{check} if score #enchantmentLvl update_item matches ..{level} run scoreboard players set #enchantmentLvl update_item {level}\n')
     #store level
-    output.write(f'execute if score #enchantmentLvl update_item matches 1.. store result entity @n[type=item] Item.components.minecraft:enchantments.{enchantment} int 1 run scoreboard players get #enchantmentLvl update_item\n')
-
+    output.write(f'execute if score #enchantmentLvl update_item matches 1.. store result storage matcha:update_item enchantments.{enchantment} int 1 run scoreboard players get #enchantmentLvl update_item\n')
+#copy enchantments from storage
+output.write('data modify entity @n[type=item] Item.components.minecraft:enchantments set from storage matcha:update_item enchantments\n')
 # cleanup stone base item or hand item depending on whether the held item could be identified
 CLEANUP = [
     '#remove mainhand item if it was a valid item (summoned item is no longer stone) and display success/error message\n',
