@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/brachio_chicken_nugget

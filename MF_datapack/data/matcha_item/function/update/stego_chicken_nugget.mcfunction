@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/stego_chicken_nugget

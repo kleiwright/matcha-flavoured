@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/honey_ginger_tea

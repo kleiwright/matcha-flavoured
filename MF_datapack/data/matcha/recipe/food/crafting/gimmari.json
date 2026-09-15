@@ -48,7 +48,7 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤",
+					"text": "\u2764\u2764\u2764",
 					"color": "red",
 					"italic": false
 				},
@@ -60,7 +60,10 @@
 					"color": "#7ec9e7",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	}

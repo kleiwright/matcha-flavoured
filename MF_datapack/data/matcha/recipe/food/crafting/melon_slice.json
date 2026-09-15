@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❣",
+					"text": "\u2763",
 					"color": "red",
 					"italic": false
 				}
@@ -29,6 +29,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 9,

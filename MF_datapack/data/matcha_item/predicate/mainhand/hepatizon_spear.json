@@ -1,0 +1,91 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.mainhand": {
+									"components": {
+										"minecraft:item_name": {
+											"translate": "item.kleispack.hepatizon_spear",
+											"color": "#ac7b5c"
+										}
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": {
+											"translate": "item.kleispack.hepatizon_spear",
+											"color": "#ac7b5c"
+										}
+									}
+								}
+							}
+						}
+					}
+				],
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.mainhand": {
+									"components": {
+										"minecraft:item_name": "Hepatizon Spear"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": "Hepatizon Spear"
+									}
+								}
+							}
+						}
+					}
+				],
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.mainhand": {
+								"predicates": {
+									"minecraft:custom_data": {
+										"version": "1"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:inverted",
+			"terms": []
+		}
+	]
+}

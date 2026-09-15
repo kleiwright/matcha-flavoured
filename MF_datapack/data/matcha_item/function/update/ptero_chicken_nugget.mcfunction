@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/ptero_chicken_nugget

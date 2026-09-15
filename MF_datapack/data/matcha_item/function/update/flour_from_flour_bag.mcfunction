@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/flour_from_flour_bag

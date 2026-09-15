@@ -1,0 +1,100 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.mainhand": {
+									"components": {
+										"minecraft:item_name": {
+											"translate": "item.kleispack.nopales"
+										}
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": {
+											"translate": "item.kleispack.nopales"
+										}
+									}
+								}
+							}
+						}
+					}
+				],
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.mainhand": {
+									"components": {
+										"minecraft:item_name": "Nopales"
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:slots": {
+								"weapon.offhand": {
+									"components": {
+										"minecraft:item_name": "Nopales"
+									}
+								}
+							}
+						}
+					}
+				],
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.mainhand": {
+								"items": "minecraft:green_dye"
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.mainhand": {
+								"predicates": {
+									"minecraft:custom_data": {
+										"version": "1"
+									}
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:inverted",
+			"terms": []
+		}
+	]
+}

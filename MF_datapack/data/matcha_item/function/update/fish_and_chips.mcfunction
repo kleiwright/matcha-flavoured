@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/fish_and_chips

@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/dough_from_water

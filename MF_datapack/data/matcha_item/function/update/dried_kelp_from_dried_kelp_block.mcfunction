@@ -1,0 +1,1 @@
+advancement revoke @s only matcha_item:trigger/dried_kelp_from_dried_kelp_block

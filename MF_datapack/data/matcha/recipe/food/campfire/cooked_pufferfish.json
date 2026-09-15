@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "\u2764\u2764",
 					"color": "red",
 					"italic": false
 				},
@@ -54,6 +54,9 @@
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.cooked_pufferfish"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}
