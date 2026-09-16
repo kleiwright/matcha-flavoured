@@ -927,6 +927,7 @@
   "log.kleispack.god_grows_angry_6": "The Dead fear your Power...",
   "log.kleispack.god_grows_angry_7": "The Dead God fears its undoing...",
   "log.kleispack.minimum_heart_decreased": "Minimum Hearts is now set to %s",
+  "log.kleispack.hell_portal_closes": "You are not ready yet...",
   "desc.kleispack.repaired_with": "Repaired with:",
   "desc.kleispack.throwable": "",
   "desc.kleispack.entity_interaction_range": " %s",

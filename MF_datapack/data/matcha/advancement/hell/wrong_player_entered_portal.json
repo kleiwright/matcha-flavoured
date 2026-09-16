@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"entered_portal": {
+			"trigger": "enter_block",
+			"conditions": {
+				"block": "minecraft:nether_portal",
+				"player": {
+					"minecraft:location": {
+						"dimension": "minecraft:overworld"
+					},
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"matcha:hell/can_enter_hell": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:mechanic/hell/wrong_player_entered_portal"
+	}
+}
