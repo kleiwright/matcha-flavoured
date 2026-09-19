@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/oxidized_copper_grate_from_patina run function matcha_item:mainhand/oxidized_copper_grate_from_patina
+execute if predicate matcha_item:offhand/oxidized_copper_grate_from_patina run function matcha_item:offhand/oxidized_copper_grate_from_patina
+advancement revoke @s only matcha_item:trigger/oxidized_copper_grate_from_patina

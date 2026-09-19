@@ -23,17 +23,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 1",
+					"text": "\u26cf 1",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 4.5",
+					"text": "\ud83d\udde1 4.5",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"text": "\ud83d\udd52 1",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -51,7 +51,10 @@
 					}
 				]
 			},
-			"minecraft:item_model": "matcha:snow_shovel"
+			"minecraft:item_model": "matcha:snow_shovel",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_shovel"

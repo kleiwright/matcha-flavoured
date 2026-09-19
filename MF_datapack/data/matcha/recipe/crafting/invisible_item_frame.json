@@ -20,7 +20,10 @@
 			"minecraft:item_name": {
 				"translate": "item.kleispack.invisible_item_frame"
 			},
-			"minecraft:item_model": "matcha:invisible_item_frame"
+			"minecraft:item_model": "matcha:invisible_item_frame",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:item_frame"

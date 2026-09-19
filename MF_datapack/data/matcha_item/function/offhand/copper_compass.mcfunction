@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:item_model': 'matcha:copper_compass', 'minecraft:item_name': {'translate': 'item.kleispack.copper_compass'}, 'minecraft:custom_data': {'version': 1}}}

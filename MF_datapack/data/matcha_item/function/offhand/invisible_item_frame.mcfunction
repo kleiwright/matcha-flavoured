@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand {'function': 'set_components', 'components': {'minecraft:entity_data': {'id': 'minecraft:item_frame', 'Invisible': True}, 'minecraft:item_name': {'translate': 'item.kleispack.invisible_item_frame'}, 'minecraft:item_model': 'matcha:invisible_item_frame', 'minecraft:custom_data': {'version': 1}}}

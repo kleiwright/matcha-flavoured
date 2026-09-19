@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/trim_colour_cinnabar run function matcha_item:mainhand/trim_colour_cinnabar
+execute if predicate matcha_item:offhand/trim_colour_cinnabar run function matcha_item:offhand/trim_colour_cinnabar
+advancement revoke @s only matcha_item:trigger/trim_colour_cinnabar

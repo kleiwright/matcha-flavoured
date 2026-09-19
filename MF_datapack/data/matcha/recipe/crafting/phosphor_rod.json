@@ -12,7 +12,11 @@
 		"E": "minecraft:glow_ink_sac"
 	},
 	"result": {
-		"components": {},
+		"components": {
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
 		"count": 6,
 		"id": "minecraft:end_rod"
 	}

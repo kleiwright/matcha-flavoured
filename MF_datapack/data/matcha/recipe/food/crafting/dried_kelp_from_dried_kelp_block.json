@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❣",
+					"text": "\u2763",
 					"color": "red",
 					"italic": false
 				},
@@ -52,6 +52,9 @@
 				"nutrition": 0,
 				"saturation": 0,
 				"can_always_eat": true
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 9

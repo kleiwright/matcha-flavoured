@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/trim_colour_hepatizon run function matcha_item:mainhand/trim_colour_hepatizon
+execute if predicate matcha_item:offhand/trim_colour_hepatizon run function matcha_item:offhand/trim_colour_hepatizon
+advancement revoke @s only matcha_item:trigger/trim_colour_hepatizon

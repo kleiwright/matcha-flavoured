@@ -56,7 +56,7 @@
 			"minecraft:max_stack_size": 64,
 			"minecraft:lore": [
 				{
-					"text": "❤❤❤❤❤",
+					"text": "\u2764\u2764\u2764\u2764\u2764",
 					"color": "red",
 					"italic": false
 				},
@@ -69,13 +69,16 @@
 					"italic": false
 				},
 				{
-					"text": "🏃 +20% (10:00)",
+					"text": "\ud83c\udfc3 +20% (10:00)",
 					"color": "#37cafb",
 					"italic": false
 				}
 			],
 			"minecraft:use_remainder": {
 				"id": "minecraft:bowl"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/red_mushroom_stroganoff run function matcha_item:mainhand/red_mushroom_stroganoff
+execute if predicate matcha_item:offhand/red_mushroom_stroganoff run function matcha_item:offhand/red_mushroom_stroganoff
+advancement revoke @s only matcha_item:trigger/red_mushroom_stroganoff

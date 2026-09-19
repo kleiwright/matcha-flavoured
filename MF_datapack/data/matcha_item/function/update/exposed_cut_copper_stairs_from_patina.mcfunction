@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/exposed_cut_copper_stairs_from_patina run function matcha_item:mainhand/exposed_cut_copper_stairs_from_patina
+execute if predicate matcha_item:offhand/exposed_cut_copper_stairs_from_patina run function matcha_item:offhand/exposed_cut_copper_stairs_from_patina
+advancement revoke @s only matcha_item:trigger/exposed_cut_copper_stairs_from_patina

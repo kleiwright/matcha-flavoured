@@ -1,0 +1,76 @@
+{
+	"criteria": {
+		"chainmail_leggings": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.minecraft.chainmail_leggings",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"items": "minecraft:chainmail_leggings"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": "1"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"chainmail_leggings"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/chainmail_leggings"
+	}
+}

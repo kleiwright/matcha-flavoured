@@ -1,0 +1,2 @@
+item modify entity @s armor.chest {'function': 'set_components', 'components': {'minecraft:enchantment_glint_override': False, 'minecraft:max_damage': 200, 'minecraft:lore': [{'translate': 'desc.kleispack.armour', 'with': ['5'], 'color': 'dark_green', 'italic': False}], 'minecraft:tooltip_display': {'hidden_components': ['minecraft:attribute_modifiers']}, 'minecraft:item_name': {'translate': 'item.minecraft.golden_chestplate', 'color': 'white'}, 'minecraft:custom_data': {'version': 1}}}
+advancement revoke @s only matcha_item:trigger/golden_chestplate

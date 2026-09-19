@@ -1,0 +1,60 @@
+{
+	"criteria": {
+		"diamond_leggings": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"items": "minecraft:diamond_leggings"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.legs": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": "1"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"diamond_leggings"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/diamond_leggings"
+	}
+}

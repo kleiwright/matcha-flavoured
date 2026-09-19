@@ -1,0 +1,91 @@
+{
+	"criteria": {
+		"cooked_mutton": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.mainhand": {
+													"items": "minecraft:cooked_mutton"
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.offhand": {
+													"items": "minecraft:cooked_mutton"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"predicates": {
+																"minecraft:custom_data": {
+																	"version": "1"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"predicates": {
+																"minecraft:custom_data": {
+																	"version": "1"
+																}
+															}
+														}
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"cooked_mutton"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/cooked_mutton"
+	}
+}

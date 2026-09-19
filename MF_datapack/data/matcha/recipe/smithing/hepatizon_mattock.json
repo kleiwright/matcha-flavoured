@@ -35,25 +35,33 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["15"],
+					"with": [
+						"15"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["3.5"],
+					"with": [
+						"3.5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": ["3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.speed_attribute",
-					"with": ["+0.005"],
+					"with": [
+						"+0.005"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -95,6 +103,9 @@
 				"items": [
 					"minecraft:copper_block"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	},

@@ -18,7 +18,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["2"],
+					"with": [
+						"2"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -31,6 +33,9 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.golden_helmet",
 				"color": "white"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

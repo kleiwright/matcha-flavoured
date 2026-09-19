@@ -14,7 +14,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["6"],
+					"with": [
+						"6"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -24,7 +26,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 350
+			"minecraft:max_damage": 350,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_chestplate"

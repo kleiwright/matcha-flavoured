@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/golden_apple_empanada run function matcha_item:mainhand/golden_apple_empanada
+execute if predicate matcha_item:offhand/golden_apple_empanada run function matcha_item:offhand/golden_apple_empanada
+advancement revoke @s only matcha_item:trigger/golden_apple_empanada

@@ -1,0 +1,3 @@
+execute if predicate matcha_item:mainhand/invisible_item_frame run function matcha_item:mainhand/invisible_item_frame
+execute if predicate matcha_item:offhand/invisible_item_frame run function matcha_item:offhand/invisible_item_frame
+advancement revoke @s only matcha_item:trigger/invisible_item_frame

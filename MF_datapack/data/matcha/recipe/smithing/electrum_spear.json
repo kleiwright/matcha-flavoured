@@ -23,13 +23,21 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": [{"text": "4"}],
+					"with": [
+						{
+							"text": "4"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [{"text": "1.18"}],
+					"with": [
+						{
+							"text": "1.18"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -50,7 +58,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:smite": 4,

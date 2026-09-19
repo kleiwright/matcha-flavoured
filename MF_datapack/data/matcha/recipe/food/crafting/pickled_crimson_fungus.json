@@ -46,7 +46,10 @@
 				"color": "#c54457",
 				"italic": false
 			},
-			"minecraft:item_model": "matcha:pickled_crimson_fungus"
+			"minecraft:item_model": "matcha:pickled_crimson_fungus",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	}

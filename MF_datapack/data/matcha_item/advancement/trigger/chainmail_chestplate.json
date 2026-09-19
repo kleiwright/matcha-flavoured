@@ -1,0 +1,76 @@
+{
+	"criteria": {
+		"chainmail_chestplate": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.minecraft.chainmail_chestplate",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"items": "minecraft:chainmail_chestplate"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.chest": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": "1"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"chainmail_chestplate"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/chainmail_chestplate"
+	}
+}
