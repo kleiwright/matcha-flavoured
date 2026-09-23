@@ -1,0 +1,70 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.steel_hoe"
+		},
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.mining_speed",
+				"with": [
+					"8"
+				],
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"3"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.iron_ingot",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:max_damage": 3000,
+		"minecraft:tool": {
+			"rules": [
+				{
+					"blocks": "#minecraft:mineable/hoe",
+					"speed": 8,
+					"correct_for_drops": true
+				}
+			],
+			"default_mining_speed": 1,
+			"damage_per_block": 1
+		},
+		"minecraft:item_model": "matcha:steel_hoe",
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

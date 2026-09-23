@@ -1,0 +1,38 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 300,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"6"
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.chestplate",
+				"amount": 6,
+				"operation": "add_value",
+				"slot": "chest"
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.minecraft.chainmail_chestplate",
+			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

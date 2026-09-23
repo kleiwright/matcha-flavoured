@@ -1,0 +1,36 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_stack_size": 64,
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.amnestic.desc",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.kleispack.amnestic.instructions",
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"minecraft:custom_name": {
+			"translate": "item.kleispack.amnestic",
+			"color": "white",
+			"italic": false
+		},
+		"minecraft:item_model": "matcha:amnestic_wrapped",
+		"minecraft:entity_data": {
+			"id": "minecraft:armor_stand",
+			"NoGravity": true,
+			"Invulnerable": true,
+			"Tags": [
+				"amnestic"
+			],
+			"Invisible": true
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

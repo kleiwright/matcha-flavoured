@@ -1,0 +1,74 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 800,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.elytra_bonus",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.shakudo_elytra",
+				"color": "#e85e8f",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.honeycomb_block",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.copper_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.shakudo_elytra",
+			"color": "#c96691"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.chestplate",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "chest"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:item_model": "matcha:shakudo_elytra",
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "matcha:shakudo_elytra"
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:honeycomb_block",
+				"minecraft:copper_block"
+			]
+		}
+	}
+}

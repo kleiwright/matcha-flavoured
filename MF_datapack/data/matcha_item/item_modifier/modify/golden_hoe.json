@@ -1,0 +1,45 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 350,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.mining_speed",
+				"with": [
+					"12"
+				],
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:item_name": {
+			"translate": "item.minecraft.golden_hoe",
+			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

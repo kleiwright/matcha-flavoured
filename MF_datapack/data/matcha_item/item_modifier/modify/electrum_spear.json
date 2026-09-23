@@ -1,0 +1,66 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 3000,
+		"minecraft:item_name": {
+			"translate": "item.kleispack.electrum_spear",
+			"color": "yellow"
+		},
+		"minecraft:item_model": "matcha:electrum_spear",
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "damage",
+				"amount": 3,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					{
+						"text": "4"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					{
+						"text": "1.18"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.diamond_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:diamond_block"
+			]
+		}
+	}
+}

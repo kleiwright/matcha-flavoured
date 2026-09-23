@@ -1,0 +1,18 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.fish.northern_pike"
+		},
+		"minecraft:item_model": "matcha:northern_pike",
+		"minecraft:lore": [
+			{
+				"translate": "adv.kleispack.fishing.rarity.3",
+				"italic": false
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

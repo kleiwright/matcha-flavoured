@@ -1,0 +1,57 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 200,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					{
+						"text": "1"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.fall_height_attribute",
+				"with": [
+					{
+						"text": "1"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:safe_fall_distance",
+				"id": "leather_helmet",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "head"
+			},
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.helmet",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "head"
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.minecraft.leather_helmet",
+			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

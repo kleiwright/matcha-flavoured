@@ -1,0 +1,39 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\ud83d\udde1 9",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udd52 1.1",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.diamond",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:max_damage": 500,
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": "minecraft:diamond"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

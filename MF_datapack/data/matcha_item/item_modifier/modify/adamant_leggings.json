@@ -1,0 +1,81 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1000,
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"6"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.armour_toughness",
+				"with": [
+					"3"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.knockback_resistance",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.set_bonus",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.adamant_armour.set_bonus",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.divinity.set_bonus",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.diamond_block",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.netherite_scrap",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:diamond_block",
+				"minecraft:gold_block"
+			]
+		},
+		"minecraft:item_name": {
+			"translate": "item.minecraft.netherite_leggings",
+			"color": "gold"
+		}
+	}
+}

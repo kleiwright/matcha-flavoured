@@ -1,0 +1,99 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1000,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					{
+						"text": "8"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.armour_toughness",
+				"with": [
+					{
+						"text": "3"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.set_bonus",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.warding3.set_bonus_apotropaic",
+				"color": "yellow",
+				"italic": false
+			},
+			{
+				"translate": "enchantment.kleispack.divinity.set_bonus",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.diamond_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.electrum_chestplate",
+			"color": "yellow"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor_toughness",
+				"id": "minecraft:armor.chestplate",
+				"amount": 3,
+				"operation": "add_value",
+				"slot": "chest"
+			},
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.chestplate",
+				"amount": 8,
+				"operation": "add_value",
+				"slot": "chest"
+			},
+			{
+				"type": "minecraft:knockback_resistance",
+				"id": "minecraft:armor.chestplate",
+				"amount": 0,
+				"operation": "add_value",
+				"slot": "chest"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
+		"minecraft:item_model": "matcha:electrum_chestplate",
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "matcha:electrum"
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:diamond_block"
+			]
+		}
+	}
+}

@@ -23,7 +23,10 @@
 					"id": "minecraft:potato",
 					"count": 4
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	},

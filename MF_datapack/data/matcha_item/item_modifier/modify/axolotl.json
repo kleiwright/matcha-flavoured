@@ -1,0 +1,15 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.fish.axolotl"
+		},
+		"minecraft:item_model": "matcha:axolotl",
+		"minecraft:entity_data": {
+			"id": "minecraft:axolotl"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

@@ -14,12 +14,12 @@
 							"components": {
 								"minecraft:lore": [
 									{
-										"text": "🗡 9",
+										"text": "\ud83d\udde1 9",
 										"color": "dark_green",
 										"italic": false
 									},
 									{
-										"text": "🕒 1.1",
+										"text": "\ud83d\udd52 1.1",
 										"color": "dark_green",
 										"italic": false
 									},
@@ -42,6 +42,9 @@
 								},
 								"minecraft:repairable": {
 									"items": "minecraft:diamond"
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

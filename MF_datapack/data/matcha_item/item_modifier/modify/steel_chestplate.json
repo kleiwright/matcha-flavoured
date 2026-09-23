@@ -1,0 +1,89 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1000,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"7"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.armour_toughness",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.knockback_resistance",
+				"with": [
+					"2"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.iron_ingot",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.steel_chestplate",
+			"color": "white"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor_toughness",
+				"id": "minecraft:armor.chestplate",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "chest"
+			},
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.chestplate",
+				"amount": 7,
+				"operation": "add_value",
+				"slot": "chest"
+			},
+			{
+				"type": "minecraft:knockback_resistance",
+				"id": "minecraft:armor.chestplate",
+				"amount": 0.2,
+				"operation": "add_value",
+				"slot": "chest"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "matcha:steel"
+		},
+		"minecraft:item_model": "matcha:steel_chestplate",
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:iron_ingot"
+			]
+		}
+	}
+}

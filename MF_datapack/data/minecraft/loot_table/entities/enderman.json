@@ -5,15 +5,9 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"conditions": [],
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/ender_pearl",
 					"functions": [
-						{
-							"function": "minecraft:set_components",
-							"components": {
-								"minecraft:max_stack_size": 64
-							}
-						},
 						{
 							"add": false,
 							"count": {

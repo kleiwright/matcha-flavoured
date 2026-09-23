@@ -18,6 +18,9 @@
 								"minecraft:item_model": "matcha:axolotl",
 								"minecraft:entity_data": {
 									"id": "minecraft:axolotl"
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

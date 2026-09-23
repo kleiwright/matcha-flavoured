@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_stack_size": 64,
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

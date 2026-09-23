@@ -22,6 +22,9 @@
 									"description": {
 										"translate": "item.kleispack.mournful_clay_statue.desc"
 									}
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

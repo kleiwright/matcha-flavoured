@@ -35,7 +35,10 @@
 	"gives": {
 		"id": "minecraft:map",
 		"components": {
-			"minecraft:item_model": "matcha:abbey_map"
+			"minecraft:item_model": "matcha:abbey_map",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"max_uses": 999,

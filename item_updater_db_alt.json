@@ -1,0 +1,42 @@
+{
+	"folders": {
+		"food_campfire": [
+			"matcha/recipe/food/campfire",
+			"recipe"
+		],
+		"food_crafting": [
+			"matcha/recipe/food/crafting",
+			"recipe"
+		],
+		"food_kiln": [
+			"matcha/recipe/food/kiln",
+			"recipe"
+		],
+		"food_oven": [
+			"matcha/recipe/food/oven",
+			"recipe"
+		],
+		"smithing": [
+			"matcha/recipe/smithing",
+			"recipe"
+		],
+		"crafting": [
+			"matcha/recipe/crafting",
+			"recipe"
+		],
+		"mob_drops": [
+			"minecraft/loot_table/entities",
+			"loot_table"
+		],
+		"food": [
+			"matcha/loot_table/food",
+			"loot_table"
+		]
+	},
+	"files": {},
+	"options": {
+		"createHelpDiag": "False",
+		"askForConfirmation": "False",
+		"assumeNamesArePopulated": "True"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\ue032",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"minecraft:consumable": {
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 12,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

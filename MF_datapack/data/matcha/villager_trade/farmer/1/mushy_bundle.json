@@ -19,7 +19,10 @@
 					"id": "minecraft:glow_lichen",
 					"count": 21
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	},

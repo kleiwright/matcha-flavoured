@@ -1,0 +1,50 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 250,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.lapis_earrings",
+			"color": "#325caa"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.helmet",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "head"
+			},
+			{
+				"type": "minecraft:knockback_resistance",
+				"id": "minecraft:armor.helmet",
+				"amount": 0,
+				"operation": "add_value",
+				"slot": "head"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:item_model": "matcha:lapis_earrings",
+		"minecraft:equippable": {
+			"slot": "head",
+			"asset_id": "matcha:lapis_earrings"
+		},
+		"minecraft:unbreakable": {},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

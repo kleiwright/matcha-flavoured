@@ -1,0 +1,78 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 400,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					{
+						"text": "6"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					{
+						"text": "1.6"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.blaze_spawn_egg",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.lapis_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.silver_sword"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 5,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -2.4,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		},
+		"minecraft:enchantment_glint_override": true,
+		"minecraft:item_model": "matcha:silver_sword",
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:blaze_spawn_egg",
+				"minecraft:lapis_block"
+			]
+		}
+	}
+}

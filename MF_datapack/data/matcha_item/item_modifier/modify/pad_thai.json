@@ -1,0 +1,61 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:pad_thai",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.pad_thai"
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:consumable": {
+			"sound": "minecraft:entity.generic.eat",
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:night_vision",
+							"amplifier": 0,
+							"duration": 12000,
+							"show_particles": false,
+							"show_icon": true
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 120,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		},
+		"minecraft:max_stack_size": 64,
+		"minecraft:lore": [
+			{
+				"text": "\u2764\u2764\u2764\u2764\u2764",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.night_vision",
+				"with": [
+					"10:00"
+				],
+				"color": "green",
+				"italic": false
+			}
+		],
+		"minecraft:use_remainder": {
+			"id": "minecraft:bowl"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

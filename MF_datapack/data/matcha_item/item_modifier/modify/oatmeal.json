@@ -1,0 +1,72 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:oatmeal",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.oatmeal"
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:consumable": {
+			"consume_seconds": 1.8,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:speed",
+							"amplifier": 0,
+							"duration": 12000,
+							"show_particles": false,
+							"show_icon": true
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 120,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 0,
+							"duration": 2400,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		},
+		"minecraft:max_stack_size": 64,
+		"minecraft:lore": [
+			{
+				"text": "\u2764\u2764\u2764\u2764\u2764",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.regeneration",
+				"with": [
+					"2:00"
+				],
+				"color": "#e85e8f",
+				"italic": false
+			},
+			{
+				"text": "\ud83c\udfc3 +20% (10:00)",
+				"color": "#37cafb",
+				"italic": false
+			}
+		],
+		"minecraft:use_remainder": {
+			"id": "minecraft:bowl"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

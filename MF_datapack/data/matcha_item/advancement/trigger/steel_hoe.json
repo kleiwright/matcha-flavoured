@@ -1,0 +1,144 @@
+{
+	"criteria": {
+		"steel_hoe": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:all_of",
+								"terms": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.steel_hoe"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.steel_hoe"
+																}
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"predicates": {
+																"minecraft:custom_data": {
+																	"version": 1
+																}
+															}
+														}
+													}
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"condition": "minecraft:all_of",
+								"terms": [
+									{
+										"condition": "minecraft:any_of",
+										"terms": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.steel_hoe"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.steel_hoe"
+																}
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"condition": "minecraft:inverted",
+										"term": [
+											{
+												"condition": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"predicates": {
+																"minecraft:custom_data": {
+																	"version": 1
+																}
+															}
+														}
+													}
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"steel_hoe"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/steel_hoe"
+	}
+}

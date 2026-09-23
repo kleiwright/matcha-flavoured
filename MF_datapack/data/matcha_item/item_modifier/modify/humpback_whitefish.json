@@ -1,0 +1,18 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.fish.humpback_whitefish"
+		},
+		"minecraft:item_model": "matcha:humpback_whitefish",
+		"minecraft:lore": [
+			{
+				"translate": "adv.kleispack.fishing.rarity.1",
+				"italic": false
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

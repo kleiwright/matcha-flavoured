@@ -1,0 +1,65 @@
+{
+	"criteria": {
+		"opal_earrings": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.opal_earrings",
+															"color": "#ab85ad"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"opal_earrings"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/opal_earrings"
+	}
+}

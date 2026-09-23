@@ -1,0 +1,27 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:exotic_seed_bundle",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.bundle.exotic_seed"
+		},
+		"minecraft:bundle_contents": [
+			{
+				"id": "minecraft:melon_seeds",
+				"count": 16
+			},
+			{
+				"id": "pumpkin_seeds",
+				"count": 16
+			},
+			{
+				"id": "minecraft:sweet_berries",
+				"count": 8
+			},
+			{
+				"id": "minecraft:glow_berries",
+				"count": 8
+			}
+		]
+	}
+}

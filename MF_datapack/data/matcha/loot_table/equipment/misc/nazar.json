@@ -14,7 +14,10 @@
 								"minecraft:enchantments": {
 									"matcha:warding_2": 1
 								},
-								"!minecraft:entity_data": {}
+								"!minecraft:entity_data": {},
+								"minecraft:custom_data": {
+									"version": 1
+								}
 							}
 						}
 					]

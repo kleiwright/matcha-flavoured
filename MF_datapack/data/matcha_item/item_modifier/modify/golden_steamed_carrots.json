@@ -1,0 +1,59 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\u2764",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.night_vision",
+				"with": [
+					"1:00"
+				],
+				"color": "green",
+				"italic": false
+			}
+		],
+		"minecraft:consumable": {
+			"consume_seconds": 0.8,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 3,
+							"duration": 15,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:night_vision",
+							"amplifier": 0,
+							"duration": 1200,
+							"show_particles": false,
+							"show_icon": true
+						}
+					],
+					"probability": 1
+				}
+			]
+		},
+		"minecraft:item_model": "matcha:golden_steamed_carrots",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.golden_steamed_carrots",
+			"color": "yellow"
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

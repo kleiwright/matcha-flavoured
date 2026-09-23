@@ -15,7 +15,10 @@
 	"result": {
 		"components": {
 			"minecraft:enchantment_glint_override": true,
-			"minecraft:rarity": "uncommon"
+			"minecraft:rarity": "uncommon",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:blaze_rod"

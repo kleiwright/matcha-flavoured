@@ -1,0 +1,70 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1000,
+		"minecraft:item_name": {
+			"translate": "item.kleispack.shakudo_sword",
+			"color": "#c96691"
+		},
+		"minecraft:item_model": "matcha:shakudo_sword",
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 5,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -2.4,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:custom_data": {
+			"has_intrinsic_enchants": 1,
+			"version": 1
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"6"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"1.6"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.copper_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:copper_block"
+			]
+		}
+	}
+}

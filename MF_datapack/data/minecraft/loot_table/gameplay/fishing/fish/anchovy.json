@@ -21,7 +21,10 @@
 										"translate": "adv.kleispack.fishing.rarity.1",
 										"italic": false
 									}
-								]
+								],
+								"minecraft:custom_data": {
+									"version": 1
+								}
 							}
 						}
 					]

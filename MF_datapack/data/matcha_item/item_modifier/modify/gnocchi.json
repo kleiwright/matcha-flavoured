@@ -1,0 +1,19 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:gnocchi_recipe",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.cooking_recipe"
+		},
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.gnocchi",
+				"color": "#e1bc62",
+				"italic": false
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

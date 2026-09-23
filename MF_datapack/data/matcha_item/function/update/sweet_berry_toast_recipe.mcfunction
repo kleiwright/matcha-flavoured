@@ -1,0 +1,4 @@
+say <D> Triggered update function for sweet_berry_toast_recipe
+execute if predicate matcha_item:mainhand/sweet_berry_toast_recipe run function matcha_item:mainhand/sweet_berry_toast_recipe
+execute if predicate matcha_item:offhand/sweet_berry_toast_recipe run function matcha_item:offhand/sweet_berry_toast_recipe
+advancement revoke @s only matcha_item:trigger/sweet_berry_toast_recipe

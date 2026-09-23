@@ -1,0 +1,21 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:trim_colour_patina",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.trim_colour"
+		},
+		"minecraft:provides_trim_material": "minecraft:emerald",
+		"minecraft:rarity": "uncommon",
+		"minecraft:lore": [
+			{
+				"translate": "trim_material.minecraft.emerald",
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\u2764",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"minecraft:consumable": {
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 3,
+							"duration": 15,
+							"show_particles": false,
+							"show_icon": false
+						}
+					],
+					"probability": 1
+				}
+			]
+		},
+		"minecraft:item_model": "matcha:charred_meat",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.charred_meat"
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

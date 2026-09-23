@@ -1,0 +1,59 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:floral_bundle",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.bundle.floral"
+		},
+		"minecraft:bundle_contents": [
+			{
+				"id": "minecraft:golden_dandelion",
+				"count": 1
+			},
+			{
+				"id": "dandelion",
+				"count": 3
+			},
+			{
+				"id": "minecraft:sunflower",
+				"count": 4
+			},
+			{
+				"id": "minecraft:poppy",
+				"count": 4
+			},
+			{
+				"id": "minecraft:rose_bush",
+				"count": 4
+			},
+			{
+				"id": "minecraft:cornflower",
+				"count": 8
+			},
+			{
+				"id": "minecraft:allium",
+				"count": 8
+			},
+			{
+				"id": "minecraft:lilac",
+				"count": 4
+			},
+			{
+				"id": "minecraft:peony",
+				"count": 4
+			},
+			{
+				"id": "minecraft:azure_bluet",
+				"count": 8
+			},
+			{
+				"id": "minecraft:oxeye_daisy",
+				"count": 8
+			},
+			{
+				"id": "minecraft:lily_of_the_valley",
+				"count": 8
+			}
+		]
+	}
+}

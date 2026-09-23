@@ -47,7 +47,10 @@
 				"color": "#3cc6c8",
 				"italic": false
 			},
-			"minecraft:item_model": "matcha:pickled_warped_fungus"
+			"minecraft:item_model": "matcha:pickled_warped_fungus",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	}

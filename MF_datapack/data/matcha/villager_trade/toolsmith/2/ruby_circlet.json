@@ -20,7 +20,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with":["1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -58,7 +60,10 @@
 			"minecraft:enchantments": {
 				"matcha:fire_proof": 1
 			},
-			"minecraft:unbreakable": {}
+			"minecraft:unbreakable": {},
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	},

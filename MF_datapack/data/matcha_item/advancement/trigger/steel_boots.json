@@ -1,0 +1,65 @@
+{
+	"criteria": {
+		"steel_boots": {
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.feet": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.steel_boots",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.feet": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"steel_boots"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/steel_boots"
+	}
+}

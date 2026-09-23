@@ -14,9 +14,9 @@
 							"components": {
 								"minecraft:lore": [
 									{
-									"translate": "desc.kleispack.cleanse",
-									"color": "gray",
-									"italic": false
+										"translate": "desc.kleispack.cleanse",
+										"color": "gray",
+										"italic": false
 									}
 								],
 								"minecraft:max_stack_size": 64,
@@ -35,12 +35,15 @@
 									"sound": "minecraft:entity.wandering_trader.drink_milk",
 									"has_consume_particles": false,
 									"on_consume_effects": [
-									{
-										"type": "minecraft:clear_all_effects"
-									}
+										{
+											"type": "minecraft:clear_all_effects"
+										}
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
-								}
+							}
 						}
 					]
 				}

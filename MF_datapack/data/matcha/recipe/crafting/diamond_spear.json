@@ -15,13 +15,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["4"],
+					"with": [
+						"4"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "0.95"],
+					"with": [
+						"0.95"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -31,7 +35,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 2500
+			"minecraft:max_damage": 2500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:diamond_spear"

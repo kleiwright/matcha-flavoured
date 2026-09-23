@@ -1,0 +1,47 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_stack_size": 64,
+		"minecraft:potion_contents": {
+			"custom_effects": [
+				{
+					"id": "minecraft:darkness",
+					"amplifier": 0,
+					"duration": 1200
+				},
+				{
+					"id": "minecraft:blindness",
+					"amplifier": 0,
+					"duration": 600
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:potion_contents"
+			]
+		},
+		"minecraft:lore": [
+			{
+				"translate": "effect.kleispack.darkness",
+				"with": [
+					"5:00"
+				],
+				"color": "#37a9a8",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.blindness",
+				"with": [
+					"5:00"
+				],
+				"color": "#37a9a8",
+				"italic": false
+			}
+		],
+		"minecraft:custom_name": {
+			"translate": "effect.minecraft.darkness",
+			"italic": false
+		}
+	}
+}

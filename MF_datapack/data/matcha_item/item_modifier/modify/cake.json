@@ -1,0 +1,20 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\u2764\u2764\u2764\u2764",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"text": "\u2764\u2764\u2764\u2764 (3:00)",
+				"color": "gray",
+				"italic": false
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

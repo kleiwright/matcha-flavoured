@@ -36,6 +36,9 @@
 					"amnestic"
 				],
 				"Invisible": true
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

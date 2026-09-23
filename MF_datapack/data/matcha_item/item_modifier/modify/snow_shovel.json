@@ -1,0 +1,48 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.snow_shovel"
+		},
+		"minecraft:max_damage": 5000,
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:lore": [
+			{
+				"text": "\u26cf 1",
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udde1 4.5",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udd52 1",
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tool": {
+			"rules": [
+				{
+					"blocks": "#minecraft:snow",
+					"speed": 15,
+					"correct_for_drops": true
+				},
+				{
+					"blocks": "#minecraft:mineable/shovel",
+					"speed": 0.15
+				}
+			]
+		},
+		"minecraft:item_model": "matcha:snow_shovel",
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

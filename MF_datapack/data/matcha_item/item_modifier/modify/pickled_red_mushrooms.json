@@ -1,0 +1,45 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_stack_size": 64,
+		"minecraft:potion_contents": {
+			"custom_color": 4760891,
+			"custom_effects": [
+				{
+					"id": "minecraft:poison",
+					"amplifier": 1,
+					"duration": 1200,
+					"show_icon": true
+				}
+			]
+		},
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:potion_contents"
+			]
+		},
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.throwable",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.poison_2",
+				"with": [
+					"1:00"
+				],
+				"color": "#48a53b",
+				"italic": false
+			}
+		],
+		"minecraft:custom_name": {
+			"translate": "item.kleispack.pickled_red_mushrooms",
+			"italic": false
+		},
+		"minecraft:item_model": "matcha:pickled_red_mushrooms",
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

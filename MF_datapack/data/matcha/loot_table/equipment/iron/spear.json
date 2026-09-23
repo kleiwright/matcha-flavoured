@@ -11,27 +11,34 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:lore": [
-                                    {
-                                        "translate": "desc.kleispack.attack_damage",
-                                        "with": ["3"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "desc.kleispack.cooldown",
-                                        "with": [ "1.05"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                "minecraft:tooltip_display": {
-                                    "hidden_components": [
-                                        "minecraft:attribute_modifiers"
-                                    ]
-                                },
-                                "minecraft:max_damage": 500
-                            }
+								"minecraft:lore": [
+									{
+										"translate": "desc.kleispack.attack_damage",
+										"with": [
+											"3"
+										],
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "desc.kleispack.cooldown",
+										"with": [
+											"1.05"
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:max_damage": 500,
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
 						}
 					]
 				}

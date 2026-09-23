@@ -1,0 +1,67 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.butcher_knife"
+		},
+		"minecraft:max_damage": 1500,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 5,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:entity_interaction_range",
+				"id": "interaction_range",
+				"amount": -1,
+				"operation": "add_value"
+			}
+		],
+		"minecraft:item_model": "matcha:butcher_knife",
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.entity_interaction_range",
+				"with": [
+					"-1"
+				],
+				"color": "red",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udde1 6",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udd52 1.6",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.iron_ingot",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hide_tooltip": false,
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"minecraft:enchantment_glint_override": false
+	}
+}

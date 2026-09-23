@@ -3,28 +3,31 @@
 		"components": {
 			"minecraft:item_model": "matcha:application",
 			"minecraft:item_name": {
-                "translate": "item.kleispack.asylum_seeker"
-            },
+				"translate": "item.kleispack.asylum_seeker"
+			},
 			"minecraft:lore": [
 				{
 					"translate": "item.kleispack.asylum_seeker.desc",
 					"color": "gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:villager_spawn_egg"
 	},
-    "given_item_modifiers": [
+	"given_item_modifiers": [
 		{
-            "function": "set_count",
-            "count": {
+			"function": "set_count",
+			"count": {
 				"type": "uniform",
 				"min": 1,
 				"max": 8
 			}
-        },
+		},
 		{
 			"function": "filtered",
 			"item_filter": {
@@ -163,14 +166,14 @@
 				}
 			}
 		},
-        {
-            "function": "set_count",
-            "count": {
+		{
+			"function": "set_count",
+			"count": {
 				"type": "uniform",
 				"min": 1,
 				"max": 9
 			}
-        },
+		},
 		{
 			"function": "filtered",
 			"item_filter": {
@@ -713,7 +716,7 @@
 			"function": "set_count",
 			"count": 1
 		}
-    ],
+	],
 	"max_uses": 1,
 	"wants": {
 		"id": "minecraft:emerald"

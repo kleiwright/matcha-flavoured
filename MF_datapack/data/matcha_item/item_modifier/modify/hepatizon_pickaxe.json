@@ -1,0 +1,107 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1000,
+		"minecraft:tool": {
+			"rules": [
+				{
+					"blocks": "minecraft:obsidian",
+					"speed": 3,
+					"correct_for_drops": false
+				},
+				{
+					"blocks": "#minecraft:mineable/pickaxe",
+					"speed": 20,
+					"correct_for_drops": true
+				}
+			],
+			"default_mining_speed": 1,
+			"damage_per_block": 1
+		},
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.mining_speed",
+				"with": [
+					"20"
+				],
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"4.5"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"1.2"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.speed_attribute",
+				"with": [
+					"+0.005"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.copper_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.hepatizon_pickaxe",
+			"color": "#ac7b5c"
+		},
+		"minecraft:item_model": "matcha:hepatizon_pickaxe",
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 3.5,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -2.8,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:movement_speed",
+				"id": "hepatizon_sword",
+				"amount": 0.0055,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:copper_block"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

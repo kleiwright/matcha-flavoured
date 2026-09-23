@@ -43,17 +43,17 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "⛏ 10",
+					"text": "\u26cf 10",
 					"color": "blue",
 					"italic": false
 				},
 				{
-					"text": "🗡 9",
+					"text": "\ud83d\udde1 9",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1",
+					"text": "\ud83d\udd52 1",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -61,7 +61,10 @@
 			"minecraft:enchantments": {
 				"matcha:bloodrage": 1
 			},
-			"minecraft:enchantment_glint_override": false
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"max_uses": 999,

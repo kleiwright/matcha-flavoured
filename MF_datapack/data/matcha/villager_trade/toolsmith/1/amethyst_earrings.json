@@ -51,7 +51,10 @@
 				"slot": "head",
 				"asset_id": "matcha:amethyst_earrings"
 			},
-			"minecraft:unbreakable": {}
+			"minecraft:unbreakable": {},
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	},

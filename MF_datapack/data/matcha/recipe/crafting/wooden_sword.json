@@ -16,12 +16,12 @@
 			"minecraft:max_damage": 200,
 			"minecraft:lore": [
 				{
-					"text": "🗡 4",
+					"text": "\ud83d\udde1 4",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 1.6",
+					"text": "\ud83d\udd52 1.6",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -30,6 +30,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

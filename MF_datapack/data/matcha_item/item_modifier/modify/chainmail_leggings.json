@@ -1,0 +1,38 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 300,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"5"
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.leggings",
+				"amount": 5,
+				"operation": "add_value",
+				"slot": "legs"
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.minecraft.chainmail_leggings",
+			"color": "white"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

@@ -9,13 +9,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "❤❤",
+					"text": "\u2764\u2764",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.conduit_power",
-					"with": ["0:30"],
+					"with": [
+						"0:30"
+					],
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -52,6 +54,9 @@
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fish.cooked_pufferfish"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

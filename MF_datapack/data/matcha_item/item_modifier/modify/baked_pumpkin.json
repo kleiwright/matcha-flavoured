@@ -1,0 +1,54 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\u2764",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.resistance",
+				"with": [
+					"0:30"
+				],
+				"color": "blue",
+				"italic": false
+			}
+		],
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 24,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"amplifier": 0,
+							"duration": 600,
+							"show_particles": false,
+							"show_icon": true
+						}
+					],
+					"probability": 1
+				}
+			]
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

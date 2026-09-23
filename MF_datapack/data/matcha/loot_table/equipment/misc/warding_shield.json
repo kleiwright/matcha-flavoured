@@ -60,7 +60,8 @@
 									]
 								},
 								"minecraft:custom_data": {
-									"has_intrinsic_enchants": 1
+									"has_intrinsic_enchants": 1,
+									"version": 1
 								},
 								"minecraft:stored_enchantments": {
 									"matcha:warding_1": 1

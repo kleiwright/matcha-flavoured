@@ -1,0 +1,41 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:heart_container",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.crystal_heart"
+		},
+		"minecraft:rarity": "rare",
+		"minecraft:enchantment_glint_override": true,
+		"minecraft:consumable": {
+			"consume_seconds": 60,
+			"animation": "spyglass",
+			"has_consume_particles": false,
+			"on_consume_effects": []
+		},
+		"minecraft:death_protection": {
+			"death_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 10,
+							"duration": 3,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"amplifier": 4,
+							"duration": 1
+						}
+					]
+				}
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

@@ -1,0 +1,120 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:crook",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.crook"
+		},
+		"minecraft:max_damage": 300,
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:stick"
+			]
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:entity_interaction_range",
+				"id": "entity_interaction_range",
+				"amount": 2,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:entity_interaction_range",
+				"id": "entity_interaction_range",
+				"amount": 5,
+				"operation": "add_value",
+				"slot": "offhand"
+			},
+			{
+				"type": "minecraft:safe_fall_distance",
+				"id": "safe_fall_distance",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:safe_fall_distance",
+				"id": "safe_fall_distance",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "offhand"
+			}
+		],
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.mining_speed",
+				"with": [
+					"8"
+				],
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"5"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"4"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "\ue028 %s",
+				"with": [
+					"3"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "\ue027 %s",
+				"with": [
+					"1"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.stick",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tool": {
+			"rules": [
+				{
+					"blocks": "#minecraft:mineable/hoe",
+					"speed": 8,
+					"correct_for_drops": true
+				}
+			],
+			"default_mining_speed": 1,
+			"damage_per_block": 1
+		},
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		}
+	}
+}

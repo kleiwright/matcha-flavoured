@@ -1,0 +1,73 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 500,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					"8"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.speed_attribute",
+				"with": [
+					"+0.01"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.copper_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.hepatizon_chestplate",
+			"color": "#ac7b5c"
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:movement_speed",
+				"id": "hepatizon_chestplate",
+				"amount": 0.01,
+				"operation": "add_value",
+				"slot": "chest"
+			},
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.chestplate",
+				"amount": 8,
+				"operation": "add_value",
+				"slot": "chest"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:item_model": "matcha:hepatizon_chestplate",
+		"minecraft:equippable": {
+			"slot": "chest",
+			"asset_id": "matcha:hepatizon"
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:copper_block"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

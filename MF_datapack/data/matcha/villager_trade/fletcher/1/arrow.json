@@ -1,7 +1,11 @@
 {
 	"gives": {
 		"id": "minecraft:arrow",
-		"components": {},
+		"components": {
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
 		"count": 64
 	},
 	"given_item_modifiers": [],

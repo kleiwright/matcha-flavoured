@@ -1,0 +1,38 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\u2764",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"minecraft:consumable": {
+			"consume_seconds": 0.8,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 24,
+							"show_particles": false,
+							"show_icon": false
+						}
+					],
+					"probability": 1
+				}
+			]
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

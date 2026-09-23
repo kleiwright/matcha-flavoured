@@ -1,0 +1,33 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:bundle_contents": [
+			{
+				"id": "minecraft:dripstone_block",
+				"count": 4
+			},
+			{
+				"id": "minecraft:pointed_dripstone",
+				"count": 4
+			},
+			{
+				"id": "minecraft:lava_bucket",
+				"components": {
+					"minecraft:max_stack_size": 64
+				},
+				"count": 4
+			},
+			{
+				"id": "minecraft:cauldron",
+				"count": 4
+			},
+			{
+				"id": "minecraft:glass",
+				"count": 8
+			}
+		],
+		"minecraft:item_name": {
+			"translate": "item.kleispack.bundle.lava_kit"
+		}
+	}
+}

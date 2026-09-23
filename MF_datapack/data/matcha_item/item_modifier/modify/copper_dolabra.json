@@ -1,0 +1,89 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.copper_dolabra"
+		},
+		"minecraft:tool": {
+			"rules": [
+				{
+					"blocks": "#minecraft:emerald_ores",
+					"correct_for_drops": true
+				},
+				{
+					"blocks": "#minecraft:redstone_ores",
+					"correct_for_drops": false
+				},
+				{
+					"blocks": "#minecraft:diamond_ores",
+					"speed": 4,
+					"correct_for_drops": false
+				},
+				{
+					"blocks": "#minecraft:mineable/axe",
+					"speed": 5,
+					"correct_for_drops": true
+				},
+				{
+					"blocks": "#minecraft:mineable/pickaxe",
+					"speed": 5,
+					"correct_for_drops": true
+				}
+			],
+			"default_mining_speed": 1,
+			"damage_per_block": 1
+		},
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.mining_speed",
+				"with": [
+					"5"
+				],
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"5"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"0.8"
+				],
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:item_model": "matcha:copper_dolabra",
+		"minecraft:max_damage": 350,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 4,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -3.2,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

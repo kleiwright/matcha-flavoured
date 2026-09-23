@@ -1,0 +1,32 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.trade.bulk_dirt"
+		},
+		"minecraft:item_model": "matcha:bulk_dirt",
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.trade.bulk_dirt.desc",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.kleispack.trade.bulk.desc",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 0,
+			"sound": "minecraft:block.stone.fall",
+			"has_consume_particles": false,
+			"!on_consume_effects": {}
+		},
+		"use_remainder": {
+			"id": "minecraft:dirt",
+			"count": 64
+		}
+	}
+}

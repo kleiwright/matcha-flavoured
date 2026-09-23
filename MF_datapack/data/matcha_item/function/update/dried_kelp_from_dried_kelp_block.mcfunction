@@ -1,0 +1,4 @@
+say <D> Triggered update function for dried_kelp_from_dried_kelp_block
+execute if predicate matcha_item:mainhand/dried_kelp_from_dried_kelp_block run function matcha_item:mainhand/dried_kelp_from_dried_kelp_block
+execute if predicate matcha_item:offhand/dried_kelp_from_dried_kelp_block run function matcha_item:offhand/dried_kelp_from_dried_kelp_block
+advancement revoke @s only matcha_item:trigger/dried_kelp_from_dried_kelp_block

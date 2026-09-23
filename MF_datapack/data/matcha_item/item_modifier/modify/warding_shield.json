@@ -1,0 +1,65 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.blaze_spawn_egg",
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.lapis_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:banner_patterns": [
+			{
+				"color": "white",
+				"pattern": "minecraft:base"
+			},
+			{
+				"color": "light_blue",
+				"pattern": "minecraft:circle"
+			},
+			{
+				"color": "black",
+				"pattern": "minecraft:flower"
+			},
+			{
+				"color": "blue",
+				"pattern": "minecraft:curly_border"
+			},
+			{
+				"color": "blue",
+				"pattern": "minecraft:stripe_top"
+			},
+			{
+				"color": "blue",
+				"pattern": "minecraft:stripe_bottom"
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:banner_patterns"
+			]
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		},
+		"minecraft:item_name": {
+			"translate": "item.kleispack.warding_shield"
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:blaze_spawn_egg",
+				"minecraft:lapis_block"
+			]
+		}
+	}
+}

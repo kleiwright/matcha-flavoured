@@ -11,68 +11,77 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:item_name": {
-                                    "translate": "item.kleispack.iron_dolabra"
-                                },
-                                "minecraft:tool": {
-                                    "rules": [
-                                        {
-                                            "blocks": "#minecraft:mineable/axe",
-                                            "speed": 6,
-                                            "correct_for_drops": true
-                                        },
-                                        {
-                                            "blocks": "#minecraft:mineable/pickaxe",
-                                            "speed": 6,
-                                            "correct_for_drops": true
-                                        }
-                                    ],
-                                    "default_mining_speed": 1,
-                                    "damage_per_block": 1
-                                },
-                                "minecraft:max_damage": 500,
-                                "minecraft:item_model": "matcha:iron_dolabra",
-                                "minecraft:lore": [
-                                    {
-                                        "translate": "desc.kleispack.mining_speed",
-                                        "with": ["6"],
-                                        "color": "blue",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "desc.kleispack.attack_damage",
-                                        "with": ["6"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    },
-                                    {
-                                        "translate": "desc.kleispack.cooldown",
-                                        "with": [ "0.9"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "type": "minecraft:attack_damage",
-                                        "id": "attack_damage",
-                                        "amount": 5,
-                                        "operation": "add_value"
-                                    },
-                                    {
-                                        "type": "minecraft:attack_speed",
-                                        "id": "attack_speed",
-                                        "amount": -3.1,
-                                        "operation": "add_value",
-                                        "slot": "mainhand"
-                                    }
-                                ],
-                                "minecraft:tooltip_display": {
-                                    "hidden_components": [
-                                        "minecraft:attribute_modifiers"
-                                    ]
-                                }
-                            }
+								"minecraft:item_name": {
+									"translate": "item.kleispack.iron_dolabra"
+								},
+								"minecraft:tool": {
+									"rules": [
+										{
+											"blocks": "#minecraft:mineable/axe",
+											"speed": 6,
+											"correct_for_drops": true
+										},
+										{
+											"blocks": "#minecraft:mineable/pickaxe",
+											"speed": 6,
+											"correct_for_drops": true
+										}
+									],
+									"default_mining_speed": 1,
+									"damage_per_block": 1
+								},
+								"minecraft:max_damage": 500,
+								"minecraft:item_model": "matcha:iron_dolabra",
+								"minecraft:lore": [
+									{
+										"translate": "desc.kleispack.mining_speed",
+										"with": [
+											"6"
+										],
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"translate": "desc.kleispack.attack_damage",
+										"with": [
+											"6"
+										],
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "desc.kleispack.cooldown",
+										"with": [
+											"0.9"
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:attack_damage",
+										"id": "attack_damage",
+										"amount": 5,
+										"operation": "add_value"
+									},
+									{
+										"type": "minecraft:attack_speed",
+										"id": "attack_speed",
+										"amount": -3.1,
+										"operation": "add_value",
+										"slot": "mainhand"
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
 						}
 					]
 				}

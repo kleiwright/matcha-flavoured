@@ -15,7 +15,9 @@
 								"minecraft:lore": [
 									{
 										"translate": "desc.kleispack.armour",
-										"with":["1"],
+										"with": [
+											"1"
+										],
 										"color": "dark_green",
 										"italic": false
 									}
@@ -53,7 +55,10 @@
 								"minecraft:enchantments": {
 									"matcha:regeneration": 1
 								},
-								"minecraft:unbreakable": {}
+								"minecraft:unbreakable": {},
+								"minecraft:custom_data": {
+									"version": 1
+								}
 							}
 						}
 					]

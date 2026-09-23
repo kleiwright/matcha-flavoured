@@ -19,7 +19,10 @@
 				"translate": "item.kleispack.compound_bow",
 				"color": "white"
 			},
-			"minecraft:max_damage": 600
+			"minecraft:max_damage": 600,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"given_item_modifiers": [],

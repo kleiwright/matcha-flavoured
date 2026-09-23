@@ -1,0 +1,4 @@
+say <D> Triggered update function for weathered_cut_copper_stairs_from_patina
+execute if predicate matcha_item:mainhand/weathered_cut_copper_stairs_from_patina run function matcha_item:mainhand/weathered_cut_copper_stairs_from_patina
+execute if predicate matcha_item:offhand/weathered_cut_copper_stairs_from_patina run function matcha_item:offhand/weathered_cut_copper_stairs_from_patina
+advancement revoke @s only matcha_item:trigger/weathered_cut_copper_stairs_from_patina

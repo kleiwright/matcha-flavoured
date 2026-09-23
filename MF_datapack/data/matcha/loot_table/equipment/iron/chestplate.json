@@ -11,21 +11,26 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-                                "minecraft:lore": [
-                                    {
-                                        "translate": "desc.kleispack.armour",
-                                        "with": ["6"],
-                                        "color": "dark_green",
-                                        "italic": false
-                                    }
-                                ],
-                                "minecraft:tooltip_display": {
-                                    "hidden_components": [
-                                        "minecraft:attribute_modifiers"
-                                    ]
-                                },
-                                "minecraft:max_damage": 350
-                            }
+								"minecraft:lore": [
+									{
+										"translate": "desc.kleispack.armour",
+										"with": [
+											"6"
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:attribute_modifiers"
+									]
+								},
+								"minecraft:max_damage": 350,
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
 						}
 					]
 				}

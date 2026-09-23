@@ -1,0 +1,131 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 1500,
+		"minecraft:item_name": {
+			"translate": "item.kleispack.steel_claymore"
+		},
+		"minecraft:item_model": "matcha:steel_claymore",
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.attack_damage",
+				"with": [
+					"8"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.cooldown",
+				"with": [
+					"0.7"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.knockback_attribute",
+				"with": [
+					"2"
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.when_blocking",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.melee_blocking",
+				"with": [
+					"70"
+				],
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.projectile_blocking",
+				"with": [
+					"60"
+				],
+				"color": "dark_gray",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.iron_ingot",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:blocks_attacks": {
+			"disable_cooldown_scale": 2,
+			"damage_reductions": [
+				{
+					"type": [
+						"minecraft:arrow",
+						"minecraft:mob_projectile"
+					],
+					"base": 0,
+					"factor": 0.6
+				},
+				{
+					"type": [
+						"minecraft:mob_attack",
+						"minecraft:player_attack"
+					],
+					"base": 0,
+					"factor": 0.7
+				}
+			],
+			"item_damage": {
+				"threshold": 1,
+				"base": 0,
+				"factor": 0.25
+			},
+			"block_sound": "minecraft:entity.zombie.attack_iron_door",
+			"disabled_sound": "minecraft:item.shield.break"
+		},
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:attack_damage",
+				"id": "attack_damage",
+				"amount": 7,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_knockback",
+				"id": "attack_knockback",
+				"amount": 2,
+				"operation": "add_value",
+				"slot": "mainhand"
+			},
+			{
+				"type": "minecraft:attack_speed",
+				"id": "attack_speed",
+				"amount": -3.3,
+				"operation": "add_value",
+				"slot": "mainhand"
+			}
+		],
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

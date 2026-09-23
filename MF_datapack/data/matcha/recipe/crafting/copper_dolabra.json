@@ -47,19 +47,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["5"],
+					"with": [
+						"5"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["5"],
+					"with": [
+						"5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "0.8"],
+					"with": [
+						"0.8"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -86,7 +92,10 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:copper_axe"

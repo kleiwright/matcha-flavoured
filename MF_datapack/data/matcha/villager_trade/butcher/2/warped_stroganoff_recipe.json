@@ -15,7 +15,10 @@
 					"color": "#3cc6c8",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"max_uses": 999,

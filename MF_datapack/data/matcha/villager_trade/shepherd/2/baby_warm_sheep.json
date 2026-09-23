@@ -11,7 +11,10 @@
 				"translate": "item.kleispack.baby_warm_sheep"
 			},
 			"minecraft:max_stack_size": 1,
-			"minecraft:item_model": "matcha:crate_sheep_brown"
+			"minecraft:item_model": "matcha:crate_sheep_brown",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1
 	},

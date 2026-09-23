@@ -1,0 +1,63 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:mead",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.mead"
+		},
+		"minecraft:food": {
+			"nutrition": 0,
+			"saturation": 0,
+			"can_always_eat": true
+		},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"animation": "drink",
+			"sound": "minecraft:item.honey_bottle.drink",
+			"has_consume_particles": false,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:speed",
+							"amplifier": 0,
+							"duration": 6000,
+							"show_particles": false,
+							"show_icon": true
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 72,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		},
+		"minecraft:max_stack_size": 64,
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.speed",
+				"with": [
+					"5:00"
+				],
+				"color": "#37cafb",
+				"italic": false
+			}
+		],
+		"minecraft:use_remainder": {
+			"id": "minecraft:glass_bottle"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

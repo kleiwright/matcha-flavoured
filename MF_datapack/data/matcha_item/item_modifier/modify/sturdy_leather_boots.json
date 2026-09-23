@@ -1,0 +1,92 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:max_damage": 350,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.armour",
+				"with": [
+					{
+						"text": "2"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.fall_height_attribute",
+				"with": [
+					{
+						"text": "2"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.step_height",
+				"with": [
+					{
+						"text": "1"
+					}
+				],
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "item.minecraft.rabbit_hide",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:attribute_modifiers": [
+			{
+				"type": "minecraft:safe_fall_distance",
+				"id": "leather_boots",
+				"amount": 2,
+				"operation": "add_value",
+				"slot": "feet"
+			},
+			{
+				"type": "minecraft:armor",
+				"id": "minecraft:armor.boots",
+				"amount": 2,
+				"operation": "add_value",
+				"slot": "feet"
+			},
+			{
+				"type": "minecraft:step_height",
+				"id": "leather_boot_step_height",
+				"amount": 1,
+				"operation": "add_value",
+				"slot": "feet"
+			}
+		],
+		"minecraft:item_model": "matcha:sturdy_leather_boots",
+		"minecraft:equippable": {
+			"slot": "feet",
+			"asset_id": "matcha:sturdy_leather"
+		},
+		"minecraft:item_name": {
+			"translate": "item.kleispack.sturdy_leather_boots",
+			"color": "white"
+		},
+		"minecraft:repairable": {
+			"items": "minecraft:rabbit_hide"
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

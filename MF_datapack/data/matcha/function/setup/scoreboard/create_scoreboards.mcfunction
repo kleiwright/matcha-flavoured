@@ -150,3 +150,6 @@ scoreboard objectives add intrinsic_enchants_levels dummy
 # Add Trigger Scoreboard to update your old items
 scoreboard objectives add update_item trigger
 scoreboard players set #1000 update_item 1000
+
+# Add Scoreboard for Item Updating System
+scoreboard objectives add item_updater dummy

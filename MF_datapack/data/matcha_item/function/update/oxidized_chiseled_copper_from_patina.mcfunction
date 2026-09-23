@@ -1,0 +1,4 @@
+say <D> Triggered update function for oxidized_chiseled_copper_from_patina
+execute if predicate matcha_item:mainhand/oxidized_chiseled_copper_from_patina run function matcha_item:mainhand/oxidized_chiseled_copper_from_patina
+execute if predicate matcha_item:offhand/oxidized_chiseled_copper_from_patina run function matcha_item:offhand/oxidized_chiseled_copper_from_patina
+advancement revoke @s only matcha_item:trigger/oxidized_chiseled_copper_from_patina

@@ -1,0 +1,29 @@
+{
+	"function": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:hepatizon_shears",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.shepherds_shears"
+		},
+		"minecraft:max_damage": 3000,
+		"minecraft:repairable": {
+			"items": [
+				"minecraft:iron_nugget",
+				"minecraft:iron_ingot"
+			]
+		},
+		"minecraft:enchantment_glint_override": false,
+		"minecraft:lore": [
+			{
+				"translate": "desc.kleispack.repaired_with",
+				"color": "gray",
+				"italic": false
+			},
+			{
+				"translate": "block.minecraft.copper_block",
+				"color": "dark_gray",
+				"italic": false
+			}
+		]
+	}
+}
