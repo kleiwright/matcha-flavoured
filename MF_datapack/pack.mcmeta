@@ -1220,6 +1220,1194 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/clock.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/mace.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blast_furnace.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wind_charge.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/fermented_spider_eye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/recovery_compass.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/target.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/powered_rail.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/detector_rail.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/activator_rail.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/rail.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_torch.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/glistering_melon_slice.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/magma_cream.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/white_dye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_nugget_from_smelting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_nugget_from_blasting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_nugget_from_smelting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_nugget_from_blasting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_nugget_from_blasting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_nugget_from_smelting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/coal_from_blasting_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/coal_from_blasting_deepslate_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/coal_from_smelting_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/coal_from_smelting_deepslate_coal_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_blasting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_blasting_deepslate_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_nether_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_deepslate_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_ingot_from_blasting_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_ingot_from_blasting_deepslate_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_ingot_from_smelting_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_ingot_from_smelting_raw_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_ingot_from_smelting_deepslate_copper_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_blasting_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_blasting_deepslate_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_smelting_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_smelting_deepslate_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_from_blasting_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_from_blasting_deepslate_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_from_smelting_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_from_smelting_deepslate_diamond_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_blasting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_blasting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_smelting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_smelting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lapis_lazuli_from_blasting_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lapis_lazuli_from_blasting_deepslate_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lapis_lazuli_from_smelting_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lapis_lazuli_from_smelting_deepslate_lapis_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_blasting_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_blasting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_smelting_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_smelting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/brewing_stand.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bread.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/dried_kelp.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/dried_kelp_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/dried_kelp_from_smelting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/dried_kelp_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cake.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/leather_chestplate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chest.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/leather_leggings.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/leather_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/leather_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bookshelf.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/green_dye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_chain.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/minecart.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bucket.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_bars.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/hopper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_door.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cauldron.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_trapdoor.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/trapped_chest.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/shulker_box.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/turtle_shell.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/packed_mud.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bundle.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/spyglass.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/sponge.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/black_dye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/black_dye_from_wither_rose.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/flint_and_steel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/flow_armor_trim_smithing_template.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/campfire.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/furnace.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_trapdoor.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/repair_item.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/slime_ball.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/tnt.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/glass_bottle.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/weathered_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/exposed_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/oxidized_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_weathered_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_exposed_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_oxidized_copper_bulb.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/prismarine.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/prismarine_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/dark_prismarine.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/sea_lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/hay_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/conduit.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/resin_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/resin_brick.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/stone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cracked_deepslate_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cracked_deepslate_tiles.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cracked_nether_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cracked_polished_blackstone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cracked_stone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smooth_basalt.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/quartz.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/quartz_from_blasting.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/black_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gray_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_gray_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/white_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pink_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/red_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/orange_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/yellow_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lime_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/green_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cyan_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blue_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_blue_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/purple_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/magenta_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/brown_glazed_terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/deepslate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/glass.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smooth_red_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smooth_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smooth_stone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/terracotta.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/brick.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/nether_brick.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smooth_quartz.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_upgrade_smithing_template.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_scrap.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smithing_table.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/enchanting_table.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/fire_charge.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_chestplate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_leggings.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_deepslate_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_nether_gold_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gold_ingot_from_smelting_raw_gold.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_spear.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wooden_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cookie.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/wheat.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/ladder.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_chestplate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_leggings.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diamond_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/coal_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/red_dye_from_beetroot.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/torch.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_smelting_raw_iron.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_smelting_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_ingot_from_smelting_deepslate_iron_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/beetroot_soup.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/item_frame.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/moss_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/black_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gray_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_gray_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/brown_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/white_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pink_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/red_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/orange_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/yellow_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lime_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/green_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cyan_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_blue_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blue_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/purple_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/magenta_banner.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bowl.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/rabbit_stew_from_brown_mushroom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/rabbit_stew_from_red_mushroom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_blasting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/redstone_from_smelting_deepslate_redstone_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blue_dye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bamboo_planks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bamboo_mosaic.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/black_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/gray_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_gray_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/white_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/brown_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pink_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/red_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/orange_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/yellow_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/lime_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/green_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cyan_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/light_blue_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blue_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/purple_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/magenta_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/snow.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/jukebox.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/music_disc_5.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/blaze_powder.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pink_dye_from_peony.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/red_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/smoker.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/tinted_glass.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pale_moss_carpet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/soul_lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/soul_campfire.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/soul_torch.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/diorite.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_torch.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_chain.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_chestplate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_leggings.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_pickaxe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_axe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_shovel.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_sword.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/copper_hoe.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_boots.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_chestplate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/iron_leggings.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/shears.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/turtle_helmet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/magma_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/ender_eye.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/ender_chest.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_smelting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_smelting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_blasting_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/emerald_from_blasting_deepslate_emerald_ore.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_ingot.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_sword_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_pickaxe_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_axe_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_shovel_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_hoe_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_spear_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_helmet_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_chestplate_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_leggings_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/netherite_boots_smithing.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/arrow.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_porkchop_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_beef_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_chicken_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_mutton_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_salmon_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_cod_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cooked_rabbit_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/baked_potato.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/baked_potato_from_campfire_cooking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/baked_potato_from_smoking.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/bread.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/pumpkin_pie.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_apple.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/golden_carrot.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/cookie.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/sugar_from_honey_bottle.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/honey_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/popped_chorus_fruit.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_sulfur.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_cinnabar.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/potent_sulfur.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/end_rod.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_tuff.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_tuff_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_stone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_deepslate.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_resin_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/purpur_pillar.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_quartz_block.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_exposed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/exposed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_weathered_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/weathered_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_oxidized_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/oxidized_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/waxed_chiseled_copper.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_nether_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_red_sandstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/chiseled_polished_blackstone.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/mushroom_stew.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_allium.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_azure_bluet.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_blue_orchid.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_closed_eyeblossom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_cornflower.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_dandelion.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_golden_dandelion.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_lily_of_the_valley.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_open_eyeblossom.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_orange_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_oxeye_daisy.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_pink_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_poppy.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_red_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_torchflower.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_white_tulip.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/suspicious_stew_from_wither_rose.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/end_stone_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/clock.json"
 		}]
 	}
 }
