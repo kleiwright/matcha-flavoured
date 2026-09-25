@@ -1220,6 +1220,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "recipe/clock.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/misc/white_dye.json"
 		}]
 	}
 }
