@@ -1,6 +1,6 @@
 {
 	"asset_id": "matcha:entity/chicken/bobwhite",
-	"baby_asset_id": "matcha:entity/chicken/seagull_baby",
+	"baby_asset_id": "matcha:entity/chicken/bobwhite_baby",
 	"model": "normal",
 	"spawn_conditions": [
 		{

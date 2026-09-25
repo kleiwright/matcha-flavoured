@@ -2,96 +2,13 @@
 	"type": "minecraft:gift",
 	"pools": [
 		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bone_meal",
-					"modifier": {
-						"type": "minecraft:set_count",
-						"count": {
-							"type": "minecraft:uniform",
-							"min": 2,
-							"max": 4
-						}
-					},
-					"condition": {
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:components": {
-								"minecraft:chicken/variant": "matcha:seagull"
-							}
-						}
-					}
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:feather"
-				}
-			]
-		},
-		{
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
 					"children": [
 						{
-							"type": "minecraft:item",
-							"condition": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:components": {
-										"minecraft:chicken/variant": "minecraft:temperate"
-									}
-								}
-							},
-							"name": "minecraft:egg"
-						},
-						{
-							"type": "minecraft:item",
-							"condition": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:components": {
-										"minecraft:chicken/variant": "minecraft:warm"
-									}
-								}
-							},
-							"name": "minecraft:brown_egg"
-						},
-						{
-							"type": "minecraft:item",
-							"condition": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:components": {
-										"minecraft:chicken/variant": "minecraft:cold"
-									}
-								}
-							},
-							"name": "minecraft:blue_egg"
-						},
-						{
-							"type": "minecraft:item",
-							"modifier": {
-								"type": "minecraft:set_components",
-								"components": {
-									"minecraft:item_model": "matcha:seagull_egg",
-									"minecraft:chicken/variant": "matcha:seagull",
-									"minecraft:item_name": {
-										"translate": "item.kleispack.seagull_egg"
-									}
-								}
-							},
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/seagull",
 							"condition": {
 								"type": "minecraft:entity_properties",
 								"entity": "this",
@@ -100,8 +17,38 @@
 										"minecraft:chicken/variant": "matcha:seagull"
 									}
 								}
-							},
-							"name": "minecraft:egg"
+							}
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/bobwhite_mama",
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:bobwhite"
+									},
+									"minecraft:entity_tags": {
+										"any_of": [
+											"mama"
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/bobwhite",
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:bobwhite"
+									}
+								}
+							}
 						}
 					]
 				}

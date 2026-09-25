@@ -1,6 +1,9 @@
 # This runs as a location adv if in the overworld. If you can think of a better way to trigger this, go ahead and change it!
 #This funciton is used so chickens stay at their home, and won't wander off to the nearest grass block
 
+#This is done to make sure chickens spawned with eggs are given the appropriate settings, since entity data can't be given to egg hatching
+execute as @e[type=chicken,tag=!wild] run tag @s add wild
+
 #Check to see if any wild chickens have no home
 execute as @e[type=chicken,tag=mama,tag=!has_home] run function matcha:environmental/chicken/find_roost/set_my_mama_home
 execute as @e[type=chicken,tag=wild,tag=!has_home] run function matcha:environmental/chicken/find_roost/set_my_home

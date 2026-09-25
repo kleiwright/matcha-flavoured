@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:seagull_egg",
+							"minecraft:chicken/variant": "matcha:seagull",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.seagull_egg"
+							}
+						}
+					},
+					"name": "minecraft:egg"
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/chicken_lay/bobwhite"
+}
