@@ -46,6 +46,12 @@ The update no one asked for!
 - Home-builders make nests ONCE, the type is then removed and replaced with mama type
     - Check to see if a nest can be made (on looong timer, maybe similar to WT summon?), then make the nest, remove the tag
 - Home-builders have no home spot, they will roam far, and once they turn into a mama, summon three baby chicks, two of the chicks can grow up, one is age-locked
+- Anti-slaughter design
+    - If a chicken is on a hopper, AND if there is more than x chickens too close, it dies (One of your chickens was squished too tighly, and died)
+    - Or something like that
+    - Maybe all of them get poison? And if piosoned with a tag, they only drop rotten eggs, and trash feathers
+- Farmer Hat, made with wheat and helps with chickens!...somehow
+
 
 ### Aspects
 - Allows you to extract intrinsics from certain alloys, post-end enchanting
