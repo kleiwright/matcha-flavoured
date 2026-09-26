@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:brown_feather",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.brown_feather"
+							}
+						}
+					},
+					"name": "minecraft:feather"
+				}
+			]
+		}
+	]
+}

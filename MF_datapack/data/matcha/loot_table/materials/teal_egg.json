@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:teal_egg",
+							"minecraft:chicken/variant": "matcha:duck",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.teal_egg"
+							},
+							"minecraft:max_stack_size": 64
+						}
+					},
+					"name": "minecraft:egg"
+				}
+			]
+		}
+	]
+}

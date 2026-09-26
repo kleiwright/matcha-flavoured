@@ -1,0 +1,108 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:gold_nugget",
+							"weight": 3,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 4
+								}
+							}
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:emerald",
+							"weight": 1
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:lapis_lazuli",
+							"weight": 3
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:raw_iron",
+							"weight": 3,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 4
+								}
+							}
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:disc_fragment_5",
+							"weight": 1
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:beetroot_seeds",
+							"weight": 12
+						},
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:wheat_seeds",
+							"weight": 12
+						},
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:misc/fish_bones",
+                            "weight": 12,
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:seagull"
+									}
+								}
+							}
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:misc/fish_bones",
+                            "weight": 12,
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:components": {
+										"minecraft:chicken/variant": "matcha:duck"
+									}
+								}
+							}
+                        },
+                        {
+							"type": "minecraft:item",
+							"name": "minecraft:string",
+							"weight": 12,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 4
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/chicken_lay/green_egg"
+}

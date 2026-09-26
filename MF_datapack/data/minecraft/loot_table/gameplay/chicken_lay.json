@@ -21,24 +21,6 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"value": "matcha:gameplay/chicken_lay/bobwhite_mama",
-							"condition": {
-								"type": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"minecraft:components": {
-										"minecraft:chicken/variant": "matcha:bobwhite"
-									},
-									"minecraft:entity_tags": {
-										"any_of": [
-											"mama"
-										]
-									}
-								}
-							}
-						},
-						{
-							"type": "minecraft:loot_table",
 							"value": "matcha:gameplay/chicken_lay/bobwhite",
 							"condition": {
 								"type": "minecraft:entity_properties",

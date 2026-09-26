@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 10,
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:fish_bones",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.fish.fish_bones"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/chicken_lay/green_egg"
+}

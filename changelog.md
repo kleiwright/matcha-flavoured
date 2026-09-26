@@ -31,6 +31,16 @@
 
 # Next Update
 
+### Chicken Overhaul
+The update no one asked for!
+- More "chickens" have been added, and spawn only at their corresponding home
+- Chickens no longer give live birth, but its still good to feed them
+- Pay attenion not only to the plumage and species of "chicken" but also **their behaviour**, this will affect their drops
+- Renewable Bone meal!
+
+#### TO BE IMPLMENETED
+- Chickens no longer spawn normally, aka, no spawning randomly on grass
+
 ### Aspects
 - Allows you to extract intrinsics from certain alloys, post-end enchanting
 - Uses dragon's breath (rename to something?)

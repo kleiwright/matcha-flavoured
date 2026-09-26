@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:max_stack_size": 64
+						}
+					},
+					"name": "minecraft:blue_egg"
+				}
+			]
+		}
+	]
+}

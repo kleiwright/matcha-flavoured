@@ -5,21 +5,99 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"modifier": {
-						"type": "minecraft:set_components",
-						"components": {
-							"minecraft:item_model": "matcha:seagull_egg",
-							"minecraft:chicken/variant": "matcha:seagull",
-							"minecraft:item_name": {
-								"translate": "item.kleispack.seagull_egg"
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/green_egg",
+							"weight": 5,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 4
+								}
+							},
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"any_of": [
+											"mama"
+										]
+									}
+								}
 							}
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:bone_meal",
+							"weight": 5,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 2,
+									"max": 6
+								}
+							},
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"any_of": [
+											"rascal"
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/scavanged_chicken_loot",
+							"weight": 5,
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"any_of": [
+											"curious"
+										]
+									}
+								}
+							}
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/green_egg",
+							"weight": 1
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:bone_meal",
+							"weight": 2,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 3
+								}
+							}
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:feather",
+							"weight": 1
 						}
-					},
-					"name": "minecraft:egg"
+					]
 				}
 			]
 		}
 	],
-	"random_sequence": "matcha:gameplay/chicken_lay/bobwhite"
+	"random_sequence": "matcha:gameplay/chicken_lay/green_egg"
 }

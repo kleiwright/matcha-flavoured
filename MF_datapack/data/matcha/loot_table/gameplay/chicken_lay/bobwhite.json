@@ -5,19 +5,17 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/small_egg",
+					"weight": 5,
 					"modifier": {
-						"type": "minecraft:set_components",
-						"components": {
-							"minecraft:item_model": "matcha:small_egg",
-							"minecraft:chicken/variant": "matcha:bobwhite",
-							"minecraft:item_name": {
-								"translate": "item.kleispack.small_egg"
-							},
-							"minecraft:max_stack_size": 64
+						"type": "minecraft:set_count",
+						"count": {
+							"type": "minecraft:uniform",
+							"min": 1,
+							"max": 4
 						}
 					},
-					"name": "minecraft:egg",
 					"condition": {
 						"type": "minecraft:entity_properties",
 						"entity": "this",
@@ -31,9 +29,19 @@
 					}
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:feather",
-					"weight": 8
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/small_egg",
+							"weight": 1
+						},
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/brown_feather",
+							"weight": 1
+						}
+					]
 				}
 			]
 		}

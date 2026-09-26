@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "matcha:item/seagull_egg"
+		"model": "matcha:item/brown_feather"
 	}
 }

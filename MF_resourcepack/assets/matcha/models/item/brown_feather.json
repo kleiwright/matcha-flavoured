@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "matcha:item/seagull_egg"
+    "layer0": "matcha:item/brown_feather"
   }
 }

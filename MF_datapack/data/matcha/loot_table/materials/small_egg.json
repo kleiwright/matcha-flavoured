@@ -1,12 +1,11 @@
 {
-	"type": "minecraft:gift",
+	"type": "minecraft:chest",
 	"pools": [
 		{
 			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
@@ -18,21 +17,9 @@
 							"minecraft:max_stack_size": 64
 						}
 					},
-					"name": "minecraft:egg",
-					"condition": {
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:entity_tags": {
-								"any_of": [
-									"mama"
-								]
-							}
-						}
-					}
+					"name": "minecraft:egg"
 				}
 			]
 		}
-	],
-	"random_sequence": "matcha:gameplay/chicken_lay/bobwhite"
+	]
 }

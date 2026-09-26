@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/teal_egg",
+							"weight": 5,
+							"modifier": {
+								"type": "minecraft:set_count",
+								"count": {
+									"type": "minecraft:uniform",
+									"min": 1,
+									"max": 4
+								}
+							},
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"any_of": [
+											"mama"
+										]
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/teal_egg",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:feather",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/chicken_lay/bobwhite"
+}
