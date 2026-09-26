@@ -36,10 +36,16 @@ The update no one asked for!
 - More "chickens" have been added, and spawn only at their corresponding home
 - Chickens no longer give live birth, but its still good to feed them
 - Pay attenion not only to the plumage and species of "chicken" but also **their behaviour**, this will affect their drops
-- Renewable Bone meal!
+    - There are 4 different behaviours right now, each give different loot, so pay attention to your birds and see which ones would be worth taking back to your base. After all, like dogs, domestication makes chickens stupid as hell
 
 #### TO BE IMPLMENETED
 - Chickens no longer spawn normally, aka, no spawning randomly on grass
+- There are 4 different behaviour types
+    - MAKE SURE the rascal runs fast, and the curious wanders far from its home
+- Make a way for the farmer to sell and "breed" different cultivars, EX. giving an egg and a special item (not obol) will give a small egg with lore "Curious" 
+- Home-builders make nests ONCE, the type is then removed and replaced with mama type
+    - Check to see if a nest can be made (on looong timer, maybe similar to WT summon?), then make the nest, remove the tag
+- Home-builders have no home spot, they will roam far, and once they turn into a mama, summon three baby chicks, two of the chicks can grow up, one is age-locked
 
 ### Aspects
 - Allows you to extract intrinsics from certain alloys, post-end enchanting
