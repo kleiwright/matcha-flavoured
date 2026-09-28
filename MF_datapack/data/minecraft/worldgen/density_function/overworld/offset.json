@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+	"type": "minecraft:spline",
+	"spline": {
+	  "coordinate": {
+		"type": "minecraft:clamp",
+		"input": "minecraft:overworld/continents",
+		"min": -1.2,
+		"max": -0.11
+	  },
+	  "points": [
+		{
+		  "location": -1.2,
+		  "value": 2,
+		  "derivative": 0.0
+		},
+		{
+		  "location": -0.11,
+		  "value": 1.0,
+		  "derivative": 0.0
+		}
+	  ]
+	}
+  },
+  "right": "minecraft:overworld/offset_orig"
+}
