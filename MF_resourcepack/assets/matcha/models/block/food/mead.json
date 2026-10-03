@@ -1,0 +1,7 @@
+{
+	"parent": "matcha:block/food/template/mead",
+	"textures": {
+		"0": "matcha:item/models/mead_bottle",
+		"particle": "matcha:item/bubbling_mead"
+	}
+}

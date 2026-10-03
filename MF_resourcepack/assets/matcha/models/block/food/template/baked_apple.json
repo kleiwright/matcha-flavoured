@@ -1,0 +1,48 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "matcha:block/food/display_template/default",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "matcha:item/models/apple"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [5, 7, 5],
+			"to": [11, 10, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 9.5, 3, 11], "texture": "#0"},
+				"east": {"uv": [0, 11, 1.5, 14], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 8, 3, 9.5], "texture": "#0"},
+				"west": {"uv": [1.5, 11, 3, 14], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3, 8, 6, 11], "texture": "#0"},
+				"down": {"uv": [6, 14, 3, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "apple",
+			"from": [6.5, 13, 9.5],
+			"to": [8.5, 17, 9.5],
+			"rotation": {"x": -90, "y": 0, "z": 45, "origin": [8, 8.5, 9.5]},
+			"faces": {
+				"north": {"uv": [1.5, 6, 2.5, 8], "texture": "#0"},
+				"south": {"uv": [2.5, 6, 1.5, 8], "texture": "#0"}
+			}
+		}
+	],
+	"name": "apple",
+	"java_block_version": "1.21.11",
+	"front_gui_light": false,
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"multi_file_ruleset": "",
+	"variable_placeholder_buttons": [],
+	"unhandled_root_fields": {},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"outliner": ["84296eb7-713d-6d81-804f-e5385459e8bd"]
+}

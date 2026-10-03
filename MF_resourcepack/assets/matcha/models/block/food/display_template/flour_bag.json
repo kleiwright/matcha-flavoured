@@ -1,0 +1,19 @@
+{
+	"parent": "matcha:block/food/display_template/default",
+	"display": {
+		"gui": {
+			"rotation": [13, 148, 0],
+			"translation": [0, -3, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"fixed": {
+			"rotation": [-90,0, 0],
+			"translation": [0, 0, -2],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [0, 0, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

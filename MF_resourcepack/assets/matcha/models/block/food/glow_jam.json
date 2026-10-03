@@ -1,0 +1,7 @@
+{
+	"parent": "matcha:block/food/template/glow_jam",
+	"textures": {
+		"0": "matcha:item/models/jar",
+		"1": "matcha:item/models/glow_jam"
+	}
+}

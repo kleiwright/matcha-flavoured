@@ -1,0 +1,21 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/uncooked_paneer_makhani"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "minecraft:item/zoglin_spawn_egg"
+		},
+		"property": "minecraft:display_context"
+	}
+}

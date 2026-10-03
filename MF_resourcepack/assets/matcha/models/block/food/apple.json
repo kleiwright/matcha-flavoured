@@ -1,0 +1,7 @@
+{
+	"parent": "matcha:block/food/template/apple",
+	"textures": {
+		"0": "matcha:item/models/apple",
+		"particle": "item/apple"
+	}
+}

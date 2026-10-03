@@ -1,0 +1,42 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "matcha:block/food/display_template/default",
+	"textures": {
+		"0": "matcha:item/models/potato",
+		"particle": "matcha:item/models/charred_potato"
+	},
+	"elements": [
+		{
+			"from": [6.5, 7, 6],
+			"to": [9.5, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7, 7]},
+			"faces": {
+				"north": {"uv": [4, 4, 7, 6], "texture": "#0"},
+				"east": {"uv": [0, 4, 4, 6], "texture": "#0"},
+				"south": {"uv": [11, 4, 14, 6], "texture": "#0"},
+				"west": {"uv": [7, 4, 11, 6], "texture": "#0"},
+				"up": {"uv": [7, 4, 4, 0], "texture": "#0"},
+				"down": {"uv": [10, 0, 7, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [8.5, 9, 8],
+			"to": [8.5, 10, 10],
+			"rotation": {"angle": 40, "axis": "y", "origin": [8.5, 9.5, 9]},
+			"faces": {
+				"east": {"uv": [0, 0, 2, 1], "texture": "#0"},
+				"west": {"uv": [2, 0, 0, 1], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 8, 8],
+			"to": [6.5, 9, 9],
+			"rotation": {"x": 180, "y": -52.5, "z": 180, "origin": [6.5, 8.5, 8]},
+			"faces": {
+				"east": {"uv": [0, 1, 1, 2], "texture": "#0"},
+				"west": {"uv": [1, 1, 0, 2], "texture": "#0"}
+			}
+		}
+	]
+}

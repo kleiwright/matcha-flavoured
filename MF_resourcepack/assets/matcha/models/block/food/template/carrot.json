@@ -1,0 +1,51 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "matcha:block/food/display_template/default",
+	"elements": [
+		{
+			"from": [7, 7.5, 3.5],
+			"to": [9, 9.5, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 5]},
+			"faces": {
+				"north": {"uv": [2, 10, 4, 12], "texture": "#0"},
+				"east": {"uv": [0, 10, 2, 12], "texture": "#0"},
+				"south": {"uv": [8, 10, 6, 12], "texture": "#0"},
+				"west": {"uv": [4, 10, 6, 12], "texture": "#0"},
+				"up": {"uv": [0, 10, 2, 12], "texture": "#0"},
+				"down": {"uv": [6, 10, 4, 12], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 8.5, 10.5],
+			"to": [10.5, 8.5, 14.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 8.5, 10.5]},
+			"faces": {
+				"up": {"uv": [5, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6.5, 7, 5.5],
+			"to": [9.5, 10, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.5, 8.5]},
+			"faces": {
+				"north": {"uv": [5, 4, 8, 7], "texture": "#0"},
+				"east": {"uv": [0, 7, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 7, 8, 10], "texture": "#0"},
+				"west": {"uv": [5, 4, 0, 7], "texture": "#0"},
+				"up": {"uv": [5, 7, 0, 10], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 4, 5, 7], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 8.5, 10.5],
+			"to": [10.5, 8.5, 14.5],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 8.5, 10.5]},
+			"faces": {
+				"up": {"uv": [5, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 5, 4], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "matcha:block/food/display_template/default",
+	"textures": {
+		"0": "matcha:item/models/carrot"
+	},
+	"elements": [
+		{
+			"from": [9, 5.5, 4.75],
+			"to": [11, 7.5, 5.75],
+			"rotation": {"x": 90, "y": 0, "z": 0, "origin": [10, 6.5, 6.25]},
+			"faces": {
+				"north": {"uv": [2, 10, 4, 12], "texture": "#0"},
+				"east": {"uv": [1, 10, 2, 12], "texture": "#0"},
+				"south": {"uv": [8, 10, 6, 12], "texture": "#0"},
+				"west": {"uv": [4, 10, 5, 12], "texture": "#0"},
+				"up": {"uv": [0, 10, 2, 11], "texture": "#0"},
+				"down": {"uv": [5, 10, 4, 12], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 5.5, 10],
+			"to": [10, 8.5, 11],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [8.5, 7, 10]},
+			"faces": {
+				"north": {"uv": [5, 4, 8, 7], "texture": "#0"},
+				"east": {"uv": [4, 7, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 7, 8, 10], "texture": "#0"},
+				"west": {"uv": [5, 4, 4, 7], "texture": "#0"},
+				"up": {"uv": [5, 7, 4, 10], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 4, 5, 7], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 5.5, 5],
+			"to": [8, 8.5, 6],
+			"rotation": {"x": -90, "y": 0, "z": 0, "origin": [6.5, 7, 5]},
+			"faces": {
+				"north": {"uv": [5, 4, 8, 7], "texture": "#0"},
+				"east": {"uv": [4, 7, 5, 10], "texture": "#0"},
+				"south": {"uv": [5, 7, 8, 10], "texture": "#0"},
+				"west": {"uv": [5, 4, 4, 7], "texture": "#0"},
+				"up": {"uv": [5, 7, 4, 10], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4, 4, 5, 7], "rotation": 90, "texture": "#0"}
+			}
+		}
+	]
+}

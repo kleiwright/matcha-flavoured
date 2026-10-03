@@ -1,0 +1,8 @@
+{
+	"parent": "matcha:block/food/template/bottle",
+	"textures": {
+		"0": "matcha:item/models/bottle",
+		"1": "matcha:item/models/milk",
+		"particle": "item/beetroot_soup"
+	}
+}

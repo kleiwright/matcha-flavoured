@@ -1,0 +1,20 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "matcha:block/food/display_template/flour_bag",
+	"elements": [
+		{
+			"from": [5.5, 7, 6.5],
+			"to": [10.5, 14, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [3, 3, 8, 10], "texture": "#0"},
+				"east": {"uv": [0, 3, 3, 10], "texture": "#0"},
+				"south": {"uv": [8, 3, 13, 10], "texture": "#0"},
+				"west": {"uv": [0, 3, 3, 10], "texture": "#0"},
+				"up": {"uv": [8, 3, 3, 0], "texture": "#0"},
+				"down": {"uv": [13, 0, 8, 3], "texture": "#0"}
+			}
+		}
+	]
+}

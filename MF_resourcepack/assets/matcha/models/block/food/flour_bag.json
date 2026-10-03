@@ -1,0 +1,7 @@
+{
+	"parent": "matcha:block/food/template/flour_bag",
+	"textures": {
+		"0": "matcha:item/models/flour_bag",
+		"particle": "matcha:item/flour_bag"
+	}
+}

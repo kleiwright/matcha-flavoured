@@ -1,0 +1,8 @@
+{
+	"parent": "matcha:block/food/template/green_curry_stock",
+	"textures": {
+		"0": "matcha:item/models/bowl",
+		"1": "matcha:item/models/green_curry",
+		"particle": "matcha:item/raw_green_curry"
+	}
+}
