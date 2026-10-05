@@ -68,7 +68,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "matcha:materials/fox_pelt",
+					"value": "matcha:materials/fox_pelt",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_properties",
@@ -87,8 +87,8 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "matcha:materials/fox_pelt_snowy",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/fox_pelt_snowy",
 					"conditions": [
 						{
 							"condition": "minecraft:entity_properties",

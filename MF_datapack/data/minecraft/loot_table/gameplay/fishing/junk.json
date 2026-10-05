@@ -16,7 +16,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:materials/fish_bones",
-					"weight": 10,
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",

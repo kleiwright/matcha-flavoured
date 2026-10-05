@@ -43,7 +43,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:food/bread",
+					"value": "matcha:food/minecraft/bread",
 					"weight": 10
 				},
 				{
