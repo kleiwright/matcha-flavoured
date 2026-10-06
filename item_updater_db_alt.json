@@ -1,0 +1,110 @@
+{
+	"folders": {
+		"food_campfire": [
+			"matcha/recipe/food/campfire",
+			"recipe"
+		],
+		"food_crafting": [
+			"matcha/recipe/food/crafting",
+			"recipe"
+		],
+		"food_kiln": [
+			"matcha/recipe/food/kiln",
+			"recipe"
+		],
+		"food_oven": [
+			"matcha/recipe/food/oven",
+			"recipe"
+		],
+		"smithing": [
+			"matcha/recipe/smithing",
+			"recipe"
+		],
+		"crafting": [
+			"matcha/recipe/crafting",
+			"recipe"
+		],
+		"jeweler": [
+			"matcha/villager_trade/toolsmith",
+			"trade_with_levels"
+		],
+		"mouthpiece": [
+			"matcha/villager_trade/librarian",
+			"trade_with_levels"
+		],
+		"mason": [
+			"matcha/villager_trade/mason",
+			"trade_with_levels"
+		],
+		"shepherd": [
+			"matcha/villager_trade/shepherd",
+			"trade_with_levels"
+		],
+		"leatherworker": [
+			"matcha/villager_trade/leatherworker",
+			"trade_with_levels"
+		],
+		"fletcher": [
+			"matcha/villager_trade/fletcher",
+			"trade_with_levels"
+		],
+		"fisherman": [
+			"matcha/villager_trade/fisherman",
+			"trade_with_levels"
+		],
+		"farmer": [
+			"matcha/villager_trade/farmer",
+			"trade_with_levels"
+		],
+		"cleric": [
+			"matcha/villager_trade/cleric",
+			"trade_with_levels"
+		],
+		"cartographer": [
+			"matcha/villager_trade/cartographer",
+			"trade_with_levels"
+		],
+		"cook": [
+			"matcha/villager_trade/butcher",
+			"trade_with_levels"
+		],
+		"electrician": [
+			"matcha/villager_trade/armorer",
+			"trade_with_levels"
+		],
+		"wandering_trader": [
+			"matcha/villager_trade/wandering_trader",
+			"trade_no_levels"
+		],
+		"food": [
+			"matcha/loot_table/food",
+			"loot_table"
+		],
+		"materials": [
+			"matcha/loot_table/materials",
+			"quirk_lt"
+		],
+		"music_disc": [
+			"matcha/loot_table/music_disc",
+			"loot_table"
+		],
+		"treasure": [
+			"matcha/loot_table/treasure",
+			"loot_table"
+		],
+		"equipment": [
+			"matcha/loot_table/equipment",
+			"quirk_lt"
+		],
+		"fish": [
+			"minecraft/loot_table/gameplay/fishing/fish",
+			"loot_table"
+		]
+	},
+	"files": {},
+	"options": {
+		"createHelpDiag": "False",
+		"askForConfirmation": "False",
+		"assumeNamesArePopulated": "True"
+	}
+}
