@@ -16,6 +16,8 @@ Update Ecologic
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
     - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
 - Buckets are now copper instead of iron
+- Food
+    - Shelf Mushroom is now an ingredient
 
 **--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
