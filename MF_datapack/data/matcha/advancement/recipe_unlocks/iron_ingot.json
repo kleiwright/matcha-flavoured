@@ -50,8 +50,6 @@
 			"matcha:crafting/anvil",
 			"matcha:crafting/hopper_from_iron",
 			"matcha:crafting/detector_rail_from_iron",
-			"matcha:crafting/cauldron_from_iron",
-			"matcha:crafting/bucket_from_iron",
 			"matcha:crafting/activator_rail_from_iron",
 			"matcha:crafting/chemistry_stand",
 			"matcha:blast/iron_block_from_blasting_raw_iron_block",

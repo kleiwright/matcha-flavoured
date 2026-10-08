@@ -3,14 +3,14 @@
   "group": "bucket",
   "category": "equipment",
   "key": {
-    "#": "minecraft:resin_brick"
+    "#": "minecraft:copper_ingot"
   },
   "pattern": [
     "# #",
     " # "
   ],
   "result": {
-    "count": 4,
+    "count": 1,
     "id": "minecraft:bucket"
   }
 }
