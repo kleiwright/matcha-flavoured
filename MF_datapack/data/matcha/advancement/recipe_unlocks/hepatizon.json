@@ -19,7 +19,8 @@
 	],
 	"rewards": {
 		"recipes": [
-			"matcha:crafting/jukebox"
+			"matcha:crafting/jukebox",
+			"matcha:crafting/bucket_from_hepatizon"
 		]
 	}
 }

@@ -37,7 +37,8 @@
 			"matcha:crafting/powered_rail_from_copper",
 			"matcha:crafting/bell",
 			"matcha:blast/copper_block_from_blasting_raw_copper_block",
-			"matcha:blast/copper_ingot_from_blasting_copper_materials"
+			"matcha:blast/copper_ingot_from_blasting_copper_materials",
+			"matcha:crafting/bucket_from_copper"
 		]
 	}
 }

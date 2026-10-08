@@ -3,14 +3,14 @@
   "group": "bucket",
   "category": "equipment",
   "key": {
-    "#": "minecraft:iron_ingot"
+    "#": "minecraft:phantom_membrane"
   },
   "pattern": [
     "# #",
     " # "
   ],
   "result": {
-    "count": 1,
+    "count": 8,
     "id": "minecraft:bucket"
   }
 }
