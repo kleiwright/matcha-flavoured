@@ -21,17 +21,18 @@ Update Ecologic
 
 **--- SPOILERS FROM HERE ON ---**
 - Chicken Overhaul
-    - More "chickens" have been added, and spawn only at their corresponding home
+    - More "chickens" have been added, and spawn only in their corresponding home. Chickens no longer spawn naturally on grass
     - Chickens no longer give live birth, but its still good to feed them
     - Pay attention not only to the plumage and species of "chicken" but also **their behaviour**, this will affect their drops
     - There are 4 different behaviours right now, each give different loot, so pay attention to your birds and see which ones would be worth taking back to your base.
-    - Chickens raised by the player will inherit no special personality types
+    - Chickens bred by the player will inherit no special personality types
 - Pig Overhaul
     - Pigs can now only be bred with golden carrots or golden apples, but its still a good idea to feed them
-    - Pigs can now eat almost everything, just like real life!
+    - Pigs can now eat almost everything, just like real life! (even each other)
     - Pigs can eat certain blocks, I wonder what'll happen?
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
+
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing
 - Hashiru: Optimisations
