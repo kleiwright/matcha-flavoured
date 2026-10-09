@@ -1,2 +1,0 @@
-stopwatch restart minecraft:divinity
-function matcha:timers/divinity/on_restart

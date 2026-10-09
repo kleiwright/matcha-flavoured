@@ -1,5 +1,7 @@
 # Run functions
 
+execute as @a[scores={adamant_armour=4}] run function matcha:enchantment_effects/divinity
+execute as @a[scores={electrum_armour=4}] run function matcha:enchantment_effects/divinity
 execute as @a[scores={shakudo_regen=1..}] run function matcha:enchantment_effects/shakudo_effects/regeneration/apply
 
 function matcha:environmental/check_freezing_water_conditions
@@ -27,6 +29,7 @@ execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remo
 execute as @a if score @s CrystalHeartCooldown matches 1.. run scoreboard players remove @s CrystalHeartCooldown 1
 execute as @a if score @s AuraWindup matches 0.. run scoreboard players remove @s AuraWindup 1
 execute as @a if score @s ShakudoRegenCooldown matches 0.. run scoreboard players remove @s ShakudoRegenCooldown 1
+execute as @a if score @s DivinityCooldown matches 0.. run scoreboard players remove @s DivinityCooldown 1
 
 # Reset counts
 # * empties the entire scoreboard

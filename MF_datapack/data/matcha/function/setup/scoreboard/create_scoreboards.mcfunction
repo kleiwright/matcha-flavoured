@@ -65,8 +65,8 @@ scoreboard objectives add adamant_armour dummy
 scoreboard objectives add shakudo_regen dummy
 scoreboard objectives add ShakudoRegenCooldown dummy
 
-#Used for Adamant and Electrum Armour
-stopwatch create divinity
+# Divinity. Used for Adamant and Electrum Armour
+scoreboard objectives add DivinityCooldown dummy
 
 # Anemos enchantment
 scoreboard objectives add AnemosCooldown dummy

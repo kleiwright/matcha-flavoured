@@ -12,6 +12,3 @@ execute if stopwatch minecraft:divinity 30.. run function matcha:timers/divinity
 
 # Left this one default because dev did some random magic with it
 execute if stopwatch minecraft:eerie 150.1.. run function matcha:timers/eerie/timer
-
-# Reset scores
-scoreboard players set @a divinity 0
