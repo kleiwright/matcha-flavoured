@@ -1,1 +1,0 @@
-execute as @a[predicate=matcha:effects/has_hunger] run function matcha:effects/hunger/effect

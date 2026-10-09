@@ -1,0 +1,1 @@
+$scoreboard players set @s hunger_timer $(duration)
