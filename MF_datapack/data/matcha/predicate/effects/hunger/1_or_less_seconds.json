@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"minecraft:effects": {
+			"minecraft:hunger": {
+				"duration": {
+					"min": 1,
+					"max": 2
+				}
+			}
+		}
+	}
+}

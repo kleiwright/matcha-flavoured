@@ -12,6 +12,7 @@
 		"minecraft:slowness",
 		"minecraft:weakness",
 		"minecraft:weaving",
-		"minecraft:wither"
+		"minecraft:wither",
+		"minecraft:hunger"
 	]
 }

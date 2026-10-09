@@ -1,0 +1,16 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"has_hunger_effect": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:hunger": {}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:effects/hunger/mark_player"
+	}
+}

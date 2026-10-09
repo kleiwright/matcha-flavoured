@@ -2,6 +2,6 @@
 schedule function matcha:timers/1s 1s replace
 
 # Debug
-#say Clock 1s
+# say Clock 1s
 
 # Functions
