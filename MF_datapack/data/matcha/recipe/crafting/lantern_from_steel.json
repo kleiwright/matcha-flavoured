@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lantern",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:torch",
+    "X": "minecraft:resin_brick"
+  },
+  "pattern": [
+    " X ",
+    "X#X"
+  ],
+  "result": {
+    "count": 18,
+    "id": "minecraft:lantern"
+  }
+}
