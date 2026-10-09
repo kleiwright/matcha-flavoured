@@ -14,15 +14,15 @@
   },
   "display": {
     "description": [
-			{
-				"text":"\uE010 ",
-				"color": "red"
-			},
       {
-				"translate": "adv.kleispack.obtain_adamant.desc",
-				"color": "gray"
-			}
-		],
+        "text": "\uE010\u00A0",
+        "color": "red"
+      },
+      {
+        "translate": "adv.kleispack.obtain_adamant.desc",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "count": 1,
       "id": "minecraft:netherite_ingot"
@@ -30,14 +30,14 @@
     "title": {
       "translate": "adv.kleispack.obtain_adamant"
     },
-		"frame": "goal"
+    "frame": "goal"
   },
   "requirements": [
     [
       "get_smithing"
     ]
   ],
-	"rewards": {
-		"function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
-	}
+  "rewards": {
+    "function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
+  }
 }

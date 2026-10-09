@@ -77,7 +77,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "\uE00F ",
+				"text": "\uE00F\u00A0",
 				"color": "#ac7b5c"
 			},
 			{
@@ -90,7 +90,7 @@
 				"minecraft:item_model": "matcha:shakudo_pickaxe"
 			},
 			"count": 1,
-			"id": "minecraft:wooden_axe"	
+			"id": "minecraft:wooden_axe"
 		},
 		"title": {
 			"translate": "adv.kleispack.obtain_palatinate_tool"

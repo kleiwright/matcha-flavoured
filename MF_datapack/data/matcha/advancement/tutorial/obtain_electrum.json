@@ -14,15 +14,15 @@
   },
   "display": {
     "description": [
-			{
-				"text":"\uE010 ",
-				"color": "red"
-			},
-			{
-				"translate": "adv.kleispack.obtain_electrum.desc",
-				"color": "gray"
-			}
-		],
+      {
+        "text": "\uE010\u00A0",
+        "color": "red"
+      },
+      {
+        "translate": "adv.kleispack.obtain_electrum.desc",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "count": 1,
       "id": "minecraft:heart_of_the_sea"
@@ -31,14 +31,14 @@
       "translate": "adv.kleispack.obtain_electrum"
     },
     "hidden": false,
-		"frame": "goal"
+    "frame": "goal"
   },
   "requirements": [
     [
       "get_electrum"
     ]
   ],
-	"rewards": {
-		"function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
-	}
+  "rewards": {
+    "function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
+  }
 }

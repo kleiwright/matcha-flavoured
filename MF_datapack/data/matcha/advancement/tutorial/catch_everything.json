@@ -475,7 +475,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "10 \uE00F ",
+				"text": "10\u00A0\uE00F\u00A0",
 				"color": "#ac7b5c"
 			},
 			{

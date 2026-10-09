@@ -11,7 +11,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "\uE010 ",
+				"text": "\uE010\u00A0",
 				"color": "red"
 			},
 			{

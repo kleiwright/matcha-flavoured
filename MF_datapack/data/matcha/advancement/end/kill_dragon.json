@@ -4,27 +4,27 @@
         "killed_dragon": {
             "conditions": {
                 "entity": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:entity_type": "minecraft:ender_dragon"
-					}
-				}
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:ender_dragon"
+                    }
+                }
             },
             "trigger": "minecraft:player_killed_entity"
         }
     },
     "display": {
         "description": [
-			{
-				"text": "\uE00F\uE00F\uE00F ",
-				"color": "#ac7b5c"
-			},
-			{
-				"translate": "adv.kleispack.end.kill_dragon.desc",
-				"color": "gray"
-			}
-		],
+            {
+                "text": "\uE00F\uE00F\uE00F\u00A0",
+                "color": "#ac7b5c"
+            },
+            {
+                "translate": "adv.kleispack.end.kill_dragon.desc",
+                "color": "gray"
+            }
+        ],
         "frame": "challenge",
         "icon": {
             "count": 1,
@@ -41,8 +41,8 @@
     ],
     "rewards": {
         "loot": [
-			"matcha:advancement/obol_3"
-		],
+            "matcha:advancement/obol_3"
+        ],
         "function": "matcha:mechanics/first_dragon_killed_reward"
     }
 }

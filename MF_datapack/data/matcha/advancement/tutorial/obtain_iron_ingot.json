@@ -15,7 +15,7 @@
   "display": {
     "description": [
       {
-        "text":"\uE010 ",
+        "text": "\uE010\u00A0",
         "color": "red"
       },
       {
@@ -37,7 +37,7 @@
       "get_iron"
     ]
   ],
-	"rewards": {
-		"function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
-	}
+  "rewards": {
+    "function": "matcha:mechanics/heart_container/decrease_minimum_hearts"
+  }
 }

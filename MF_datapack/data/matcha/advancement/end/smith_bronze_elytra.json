@@ -11,7 +11,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "\uE00F\uE00F\uE00F\uE00F ",
+				"text": "\uE00F\uE00F\uE00F\uE00F\u00A0",
 				"color": "#ac7b5c"
 			},
 			{
@@ -37,9 +37,9 @@
 			"hepatizon_elytra"
 		]
 	],
-    "rewards": {
-        "loot": [
+	"rewards": {
+		"loot": [
 			"matcha:advancement/obol_4"
 		]
-    }
+	}
 }

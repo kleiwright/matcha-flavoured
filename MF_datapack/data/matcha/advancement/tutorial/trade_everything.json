@@ -149,7 +149,7 @@
 	"display": {
 		"description": [
 			{
-				"text": "5 \uE00F ",
+				"text": "5\u00A0\uE00F\u00A0",
 				"color": "#ac7b5c"
 			},
 			{
