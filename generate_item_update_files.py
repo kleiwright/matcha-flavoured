@@ -682,7 +682,7 @@ class item_predicate():
     def __init__(self, predicate, slots):
         self.createDict = []
         for slot in slots:
-            self.createDict.append({"condition": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:slots": {slot: predicate}}})
+            self.createDict.append({"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:slots": {slot: predicate}}})
     def __len__(self):
         return len(self.createDict)
     def __getitem__(self, index):
@@ -769,7 +769,7 @@ def creationHelper(obj, item):
         relevant_electrum = DB["files"]["electrum_"+diamond.search(item).group(2)]
         relevant_names = relevant_electrum["names"]
         relevant_models = relevant_electrum["models"]
-        working_diamond_predicates = [{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}},{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}}]
+        working_diamond_predicates = [{"type": "minecraft:inverted", "term": {"type": "minecraft:any_of", "terms": []}},{"type": "minecraft:inverted", "term": {"type": "minecraft:any_of", "terms": []}}]
         for relevant_name in relevant_names:
             relevant_name_predicates = item_predicate({"components": {"minecraft:item_name": relevant_name}},slots).createDict
             for i in range(len(relevant_name_predicates)):
@@ -788,7 +788,7 @@ def creationHelper(obj, item):
                 for relevant_model in DB["files"][item_]["models"]:
                     relevant_models.append(relevant_model)
             else: pass
-        baked_apple_predicates = [{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}},{"condition": "minecraft:inverted", "term": {"condition": "minecraft:any_of", "terms": []}}]
+        baked_apple_predicates = [{"type": "minecraft:inverted", "term": {"type": "minecraft:any_of", "terms": []}},{"type": "minecraft:inverted", "term": {"type": "minecraft:any_of", "terms": []}}]
         for relevant_name in relevant_names:
             relevant_name_predicates = item_predicate({"components": {"minecraft:item_name": relevant_name}},slots).createDict
             for i in range(len(relevant_name_predicates)):
@@ -801,8 +801,8 @@ def creationHelper(obj, item):
         pass
 # defining main predicates
     if len(slots) == 2:
-        mainhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
-        offhand_predicate = {"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": {}}]}
+        mainhand_predicate = {"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": {}}]}
+        offhand_predicate = {"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": {}}]}
         if usenames:
             for i in range(len(names_predicates)):
                 if (i % 2) == 0:
@@ -842,11 +842,11 @@ def creationHelper(obj, item):
 # defining trigger advancement
     match type_:
         case "generic" | "enchanted" | "trim_materials" | "mineral" | "baked_apple" | "diamond":
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"type": "minecraft:any_of", "terms": []}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(mainhand_predicate)
             trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"].append(offhand_predicate)
         case _:
-            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"condition": "minecraft:all_of", "terms": [{"condition": "minecraft:any_of", "terms": []}, {"condition": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
+            trigger_advancement = {"criteria": {item: {"conditions": {"player": [{"type": "minecraft:all_of", "terms": [{"type": "minecraft:any_of", "terms": []}, {"type": "minecraft:inverted", "term": []}]}]}, "trigger": "minecraft:inventory_changed"}}, "requirements": [[item]],"rewards": {"function": "matcha_item:update/"+item}}
             if usenames:
                 for i in range(len(names_predicates)):
                     trigger_advancement["criteria"][item]["conditions"]["player"][0]["terms"][0]["terms"].append(names_predicates[i])
