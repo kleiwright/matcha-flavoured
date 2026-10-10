@@ -324,7 +324,7 @@ def discover(override):
         useid = use[0]
         usenames = use[1]
         usemodels = use[2]
-        if DB["files"]["options"]["excludedIds"] in DB["files"][item]["id"]:
+        if DB["files"][item]["id"] in DB["options"]["excludedIds"]:
             id_i = 2
         else:
             for item_id in item_ids:
