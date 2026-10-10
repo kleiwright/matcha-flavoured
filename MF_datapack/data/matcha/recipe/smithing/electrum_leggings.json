@@ -9,13 +9,21 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": [{"text": "6"}],
+					"with": [
+						{
+							"text": "6"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.armour_toughness",
-					"with": [{"text": "3"}],
+					"with": [
+						{
+							"text": "3"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -78,7 +86,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"matcha:electrum_armour": 1

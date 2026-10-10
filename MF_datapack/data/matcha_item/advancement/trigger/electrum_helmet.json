@@ -1,0 +1,78 @@
+{
+	"criteria": {
+		"electrum_helmet": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.electrum_helmet",
+															"color": "yellow"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": "matcha:electrum_helmet"
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"electrum_helmet"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/electrum_helmet"
+	}
+}

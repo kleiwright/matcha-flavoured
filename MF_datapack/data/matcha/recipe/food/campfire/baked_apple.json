@@ -9,13 +9,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030",
+					"text": "\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.regeneration",
-					"with": ["0:10"],
+					"with": [
+						"0:10"
+					],
 					"color": "#e85e8f",
 					"italic": false
 				}
@@ -45,6 +47,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

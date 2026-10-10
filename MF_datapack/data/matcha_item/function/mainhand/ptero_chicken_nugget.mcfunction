@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand matcha_item:modify/ptero_chicken_nugget

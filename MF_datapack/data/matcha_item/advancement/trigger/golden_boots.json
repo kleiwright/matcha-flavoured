@@ -1,0 +1,76 @@
+{
+	"criteria": {
+		"golden_boots": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.feet": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.minecraft.golden_boots",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.feet": {
+													"items": "minecraft:golden_boots"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.feet": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"golden_boots"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/golden_boots"
+	}
+}

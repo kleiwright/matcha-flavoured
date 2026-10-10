@@ -1,0 +1,76 @@
+{
+	"criteria": {
+		"chainmail_helmet": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.minecraft.chainmail_helmet",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"items": "minecraft:chainmail_helmet"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"chainmail_helmet"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/chainmail_helmet"
+	}
+}

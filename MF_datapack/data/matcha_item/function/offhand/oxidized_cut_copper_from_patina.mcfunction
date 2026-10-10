@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matcha_item:modify/oxidized_cut_copper_from_patina

@@ -1,0 +1,78 @@
+{
+	"criteria": {
+		"ruby_circlet": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.kleispack.ruby_circlet",
+															"color": "#e63d5f"
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": "matcha:ruby_circlet"
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"ruby_circlet"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/ruby_circlet"
+	}
+}

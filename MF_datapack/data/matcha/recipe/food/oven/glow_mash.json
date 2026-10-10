@@ -9,13 +9,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE030",
+					"text": "\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.aura",
-					"with": ["0:03"],
+					"with": [
+						"0:03"
+					],
 					"color": "#0fffa3",
 					"italic": false
 				}
@@ -40,7 +42,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-				"matcha:aura_3s": {}
+				"matcha:aura_3s": {},
+				"version": 1
 			}
 		}
 	}

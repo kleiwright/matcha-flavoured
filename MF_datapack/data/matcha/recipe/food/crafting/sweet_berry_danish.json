@@ -16,12 +16,12 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030",
+					"text": "\ue030\ue030\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "\uE030\uE030\uE030\uE030 (8:00)",
+					"text": "\ue030\ue030\ue030\ue030 (8:00)",
 					"color": "gray",
 					"italic": false
 				}
@@ -51,6 +51,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

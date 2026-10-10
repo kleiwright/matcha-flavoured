@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:any_of",
+			"terms": [
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.sweet_berry_toast",
+										"color": "#e85e8f"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": "matcha:sweet_berry_toast"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

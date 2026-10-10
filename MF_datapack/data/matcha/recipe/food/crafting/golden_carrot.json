@@ -14,13 +14,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE030",
+					"text": "\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.night_vision",
-					"with": ["0:30"],
+					"with": [
+						"0:30"
+					],
 					"color": "green",
 					"italic": false
 				}
@@ -50,6 +52,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

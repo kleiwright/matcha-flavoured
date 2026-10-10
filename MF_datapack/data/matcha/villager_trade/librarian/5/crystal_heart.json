@@ -6,7 +6,10 @@
 		"id": "minecraft:turtle_scute",
 		"components": {
 			"minecraft:enchantment_glint_override": true,
-			"minecraft:rarity": "rare"
+			"minecraft:rarity": "rare",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"max_uses": 999,

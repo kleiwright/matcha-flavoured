@@ -13,7 +13,10 @@
 	],
 	"result": {
 		"components": {
-			"!minecraft:entity_data": {}
+			"!minecraft:entity_data": {},
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 4,
 		"id": "minecraft:shulker_spawn_egg"

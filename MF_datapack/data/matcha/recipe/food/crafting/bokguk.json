@@ -21,13 +21,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030\uE030\uE030",
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.conduit_power",
-					"with": ["8:00"],
+					"with": [
+						"8:00"
+					],
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -61,6 +63,9 @@
 			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:bowl"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

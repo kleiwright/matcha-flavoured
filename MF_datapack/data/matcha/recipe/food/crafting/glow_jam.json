@@ -15,13 +15,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030",
+					"text": "\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.aura",
-					"with": ["0:30"],
+					"with": [
+						"0:30"
+					],
 					"color": "#0fffa3",
 					"italic": false
 				}
@@ -48,7 +50,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-				"matcha:aura_30s": {}
+				"matcha:aura_30s": {},
+				"version": 1
 			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"

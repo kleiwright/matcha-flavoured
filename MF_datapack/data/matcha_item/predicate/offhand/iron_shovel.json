@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:any_of",
+			"terms": []
+		},
+		{
+			"type": "minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

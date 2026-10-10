@@ -17,6 +17,9 @@
 				"minecraft:loyalty": 3,
 				"matcha:traversal": 3,
 				"minecraft:power": 2
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	},
@@ -40,7 +43,7 @@
 				}
 			]
 		}
-	},	
+	},
 	"additional_wants": {
 		"count": 1,
 		"id": "minecraft:poisonous_potato",

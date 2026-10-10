@@ -23,7 +23,9 @@
 				},
 				{
 					"translate": "effect.kleispack.invisibility",
-					"with": ["5:00"],
+					"with": [
+						"5:00"
+					],
 					"color": "#92b7ce",
 					"italic": false
 				}
@@ -45,6 +47,9 @@
 				"hidden_components": [
 					"minecraft:potion_contents"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

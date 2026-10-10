@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:any_of",
+			"terms": [
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.bundle.lava_kit"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"items": "minecraft:red_bundle"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

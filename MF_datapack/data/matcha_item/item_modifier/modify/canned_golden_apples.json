@@ -1,0 +1,66 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:canned_golden_apples",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.canned_golden_apples",
+			"color": "yellow"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"text": "\ue030\ue030\ue030\ue030 (2:00)",
+				"color": "aqua",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.regeneration_2",
+				"with": [
+					"0:20"
+				],
+				"color": "#e85e8f",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"has_consume_particles": false,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 96,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:absorption",
+							"amplifier": 1,
+							"duration": 2400,
+							"show_particles": false,
+							"show_icon": true
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 1,
+							"duration": 400,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		},
+		"minecraft:use_remainder": {
+			"id": "minecraft:glass_bottle"
+		}
+	}
+}

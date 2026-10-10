@@ -1,0 +1,16 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_name": {
+			"translate": "item.kleispack.ofuda"
+		},
+		"minecraft:lore": [
+			{
+				"translate": "item.kleispack.blessing.belial",
+				"color": "dark_gray",
+				"italic": false
+			}
+		],
+		"minecraft:item_model": "matcha:ofuda"
+	}
+}

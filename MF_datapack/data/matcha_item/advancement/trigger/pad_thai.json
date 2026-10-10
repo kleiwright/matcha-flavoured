@@ -1,0 +1,136 @@
+{
+	"criteria": {
+		"pad_thai": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:any_of",
+						"terms": [
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.pad_thai"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:pad_thai"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.pad_thai"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:pad_thai"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"pad_thai"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/pad_thai"
+	}
+}

@@ -14,13 +14,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.armour_toughness",
-					"with": ["2"],
+					"with": [
+						"2"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -30,7 +34,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 800
+			"minecraft:max_damage": 800,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:diamond_chestplate"

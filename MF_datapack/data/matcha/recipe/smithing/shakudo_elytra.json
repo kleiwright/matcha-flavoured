@@ -9,7 +9,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -58,12 +60,13 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"matcha:max_magic_protection": 1,
 				"matcha:cleanse_armor_maleffect": 1,
-				"matcha:shakudo_armour" : 1
+				"matcha:shakudo_armour": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "matcha:shakudo_elytra",

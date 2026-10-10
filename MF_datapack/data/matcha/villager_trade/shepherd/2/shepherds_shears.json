@@ -9,7 +9,7 @@
 			"minecraft:max_damage": 3000,
 			"minecraft:repairable": {
 				"items": [
-				  "minecraft:copper_block"
+					"minecraft:copper_block"
 				]
 			},
 			"minecraft:enchantments": {
@@ -27,7 +27,10 @@
 					"color": "dark_gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"max_uses": 999,

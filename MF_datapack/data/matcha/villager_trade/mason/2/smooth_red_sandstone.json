@@ -35,6 +35,9 @@
 			"use_remainder": {
 				"id": "minecraft:smooth_red_sandstone",
 				"count": 64
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

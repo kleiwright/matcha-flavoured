@@ -20,19 +20,31 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": [{"text": "12"}],
+					"with": [
+						{
+							"text": "12"
+						}
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": [{"text": "9"}],
+					"with": [
+						{
+							"text": "9"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [{"text": "1.2"}],
+					"with": [
+						{
+							"text": "1.2"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -74,7 +86,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"matcha:electrum_tool": 3,

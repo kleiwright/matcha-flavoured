@@ -15,13 +15,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030",
+					"text": "\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.resistance",
-					"with": ["3:00"],
+					"with": [
+						"3:00"
+					],
 					"color": "blue",
 					"italic": false
 				}
@@ -56,6 +58,9 @@
 			},
 			"minecraft:use_remainder": {
 				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

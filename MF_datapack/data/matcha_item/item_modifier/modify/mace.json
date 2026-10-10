@@ -1,0 +1,26 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\ud83d\udde1 6",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udd52 0.6",
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:max_damage": 800,
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		},
+		"minecraft:repairable": {
+			"items": "minecraft:iron_ingot"
+		}
+	}
+}

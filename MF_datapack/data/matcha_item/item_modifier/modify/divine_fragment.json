@@ -1,0 +1,7 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:enchantment_glint_override": true,
+		"minecraft:rarity": "rare"
+	}
+}

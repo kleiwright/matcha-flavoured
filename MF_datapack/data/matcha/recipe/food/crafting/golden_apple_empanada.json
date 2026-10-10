@@ -17,18 +17,20 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030",
+					"text": "\ue030\ue030\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
-					"text": "\uE030\uE030\uE030\uE030",
+					"text": "\ue030\ue030\ue030\ue030",
 					"color": "aqua",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.regeneration_2",
-					"with": ["0:45"],
+					"with": [
+						"0:45"
+					],
 					"color": "#e85e8f",
 					"italic": false
 				}
@@ -65,6 +67,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

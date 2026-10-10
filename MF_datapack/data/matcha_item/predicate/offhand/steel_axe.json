@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:any_of",
+			"terms": [
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.steel_axe"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": "matcha:steel_axe"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

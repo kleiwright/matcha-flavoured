@@ -1,0 +1,6 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:abbey_map"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:pickled_tomatoes",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.pickled_tomatoes"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.strength",
+				"with": [
+					"5:00"
+				],
+				"color": "#e65f33",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"has_consume_particles": false,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 72,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:strength",
+							"amplifier": 0,
+							"duration": 6000,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		},
+		"minecraft:use_remainder": {
+			"id": "minecraft:glass_bottle"
+		}
+	}
+}

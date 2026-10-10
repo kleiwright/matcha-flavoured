@@ -22,7 +22,9 @@
 				},
 				{
 					"translate": "effect.kleispack.poison_2",
-					"with": ["1:00"],
+					"with": [
+						"1:00"
+					],
 					"color": "#48a53b",
 					"italic": false
 				}
@@ -43,6 +45,9 @@
 				"hidden_components": [
 					"minecraft:potion_contents"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

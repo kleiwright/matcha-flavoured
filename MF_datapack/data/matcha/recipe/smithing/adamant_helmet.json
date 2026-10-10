@@ -7,7 +7,8 @@
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"matcha:adamant_armour": 1,
@@ -17,19 +18,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.armour_toughness",
-					"with": ["3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.knockback_resistance",
-					"with": ["1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				},

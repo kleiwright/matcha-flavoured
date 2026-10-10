@@ -52,31 +52,41 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["5"],
+					"with": [
+						"5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": ["4"],
+					"with": [
+						"4"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"translate": "\uE028 %s",
-					"with": ["3"],
+					"translate": "\ue028 %s",
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"translate": "\uE027 %s",
-					"with": ["1"],
+					"translate": "\ue027 %s",
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -106,6 +116,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	},

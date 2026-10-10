@@ -1,0 +1,116 @@
+{
+	"criteria": {
+		"baked_apple": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:any_of",
+						"terms": [
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"items": "minecraft:fermented_spider_eye"
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:any_of",
+											"terms": []
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"items": "minecraft:fermented_spider_eye"
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:any_of",
+											"terms": []
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"baked_apple"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/baked_apple"
+	}
+}

@@ -14,19 +14,31 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": [{"text": "2"}],
+					"with": [
+						{
+							"text": "2"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.fall_height_attribute",
-					"with": [{"text": "2"}],
+					"with": [
+						{
+							"text": "2"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.step_height",
-					"with": [{"text": "1"}],
+					"with": [
+						{
+							"text": "1"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -86,6 +98,9 @@
 			},
 			"minecraft:repairable": {
 				"items": "minecraft:rabbit_hide"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

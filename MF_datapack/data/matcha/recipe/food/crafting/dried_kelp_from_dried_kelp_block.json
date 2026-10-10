@@ -9,13 +9,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE032",
+					"text": "\ue032",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.water_breathing",
-					"with": ["0:10"],
+					"with": [
+						"0:10"
+					],
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -45,6 +47,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 9

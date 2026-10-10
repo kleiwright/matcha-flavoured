@@ -9,19 +9,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": [ "7"],
+					"with": [
+						"7"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.armour_toughness",
-					"with": [ "1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.knockback_resistance",
-					"with": ["2"],
+					"with": [
+						"2"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -69,7 +75,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:blast_protection": 4

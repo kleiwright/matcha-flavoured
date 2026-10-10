@@ -1,0 +1,65 @@
+{
+	"criteria": {
+		"leather_helmet": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"components": {
+														"minecraft:item_name": {
+															"translate": "item.minecraft.leather_helmet",
+															"color": "white"
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"leather_helmet"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/leather_helmet"
+	}
+}

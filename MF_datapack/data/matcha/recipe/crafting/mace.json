@@ -15,12 +15,12 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "🗡 6",
+					"text": "\ud83d\udde1 6",
 					"color": "dark_green",
 					"italic": false
 				},
 				{
-					"text": "🕒 0.6",
+					"text": "\ud83d\udd52 0.6",
 					"color": "dark_green",
 					"italic": false
 				}
@@ -33,6 +33,9 @@
 			},
 			"minecraft:repairable": {
 				"items": "minecraft:iron_ingot"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

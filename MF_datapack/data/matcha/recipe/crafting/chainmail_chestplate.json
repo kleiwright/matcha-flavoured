@@ -15,7 +15,9 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["6"],
+					"with": [
+						"6"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -41,6 +43,9 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.chainmail_chestplate",
 				"color": "white"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

@@ -9,13 +9,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.armour",
-					"with": ["6"],
+					"with": [
+						"6"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.speed_attribute",
-					"with": ["+0.01"],
+					"with": [
+						"+0.01"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -65,6 +69,9 @@
 				"items": [
 					"minecraft:copper_block"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

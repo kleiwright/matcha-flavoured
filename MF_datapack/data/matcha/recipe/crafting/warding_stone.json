@@ -28,7 +28,10 @@
 				"translate": "item.kleispack.warding_stone",
 				"color": "aqua"
 			},
-			"minecraft:item_model": "matcha:warding_stone"
+			"minecraft:item_model": "matcha:warding_stone",
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:chicken_spawn_egg"

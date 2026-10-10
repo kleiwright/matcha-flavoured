@@ -1,0 +1,54 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:paneer_makhani",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.paneer_makhani"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.regeneration",
+				"with": [
+					"10:00"
+				],
+				"color": "#e85e8f",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 3.0,
+			"animation": "drink",
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 240,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 0,
+							"duration": 12000,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		},
+		"minecraft:use_remainder": {
+			"id": "minecraft:bowl"
+		}
+	}
+}

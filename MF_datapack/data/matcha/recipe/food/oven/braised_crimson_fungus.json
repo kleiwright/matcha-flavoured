@@ -14,13 +14,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030",
+					"text": "\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.weakness",
-					"with": ["0:30"],
+					"with": [
+						"0:30"
+					],
 					"color": "#b6a09a",
 					"italic": false
 				}
@@ -50,6 +52,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

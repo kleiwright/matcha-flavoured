@@ -35,6 +35,9 @@
 			"use_remainder": {
 				"id": "minecraft:prismarine",
 				"count": 64
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

@@ -1,0 +1,97 @@
+{
+	"criteria": {
+		"diamond_helmet": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:all_of",
+						"terms": [
+							{
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"items": "minecraft:diamond_helmet"
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"armor.head": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:inverted",
+								"term": {
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"armor.head": {
+														"components": {
+															"minecraft:item_name": {
+																"translate": "item.kleispack.electrum_helmet",
+																"color": "yellow"
+															}
+														}
+													}
+												}
+											}
+										},
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"armor.head": {
+														"components": {
+															"minecraft:item_model": "matcha:electrum_helmet"
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"diamond_helmet"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/diamond_helmet"
+	}
+}

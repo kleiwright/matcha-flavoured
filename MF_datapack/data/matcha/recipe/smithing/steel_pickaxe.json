@@ -24,19 +24,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["4"],
+					"with": [
+						"4"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1.2"],
+					"with": [
+						"1.2"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -60,6 +66,9 @@
 				"items": [
 					"minecraft:iron_ingot"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

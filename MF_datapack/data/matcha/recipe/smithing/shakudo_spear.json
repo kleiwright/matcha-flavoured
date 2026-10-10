@@ -30,13 +30,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": ["1.18"],
+					"with": [
+						"1.18"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -62,7 +66,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"matcha:shakudo_weapon": 1

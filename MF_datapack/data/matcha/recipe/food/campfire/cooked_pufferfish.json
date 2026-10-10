@@ -13,13 +13,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030",
+					"text": "\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.conduit_power",
-					"with": ["0:30"],
+					"with": [
+						"0:30"
+					],
 					"color": "#7ec9e7",
 					"italic": false
 				}
@@ -49,6 +51,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

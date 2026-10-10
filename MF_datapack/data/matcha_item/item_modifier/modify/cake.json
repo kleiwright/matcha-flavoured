@@ -1,0 +1,17 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"text": "\ue030\ue030\ue030\ue030 (3:00)",
+				"color": "gray",
+				"italic": false
+			}
+		]
+	}
+}

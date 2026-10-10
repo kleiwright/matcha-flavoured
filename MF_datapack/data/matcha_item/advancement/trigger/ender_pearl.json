@@ -1,0 +1,102 @@
+{
+	"criteria": {
+		"ender_pearl": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:any_of",
+						"terms": [
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"items": "minecraft:ender_pearl"
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"items": "minecraft:ender_pearl"
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"ender_pearl"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/ender_pearl"
+	}
+}

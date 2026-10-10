@@ -9,13 +9,15 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE030",
+					"text": "\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.levitation_3",
-					"with": ["0:03"],
+					"with": [
+						"0:03"
+					],
 					"color": "#ae6cbc",
 					"italic": false
 				}
@@ -45,6 +47,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

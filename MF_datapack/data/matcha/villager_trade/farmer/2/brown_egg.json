@@ -10,6 +10,9 @@
 			},
 			"minecraft:item_name": {
 				"translate": "item.kleispack.fertilised_brown_egg"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1

@@ -1,19 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "minecart",
-  "category": "misc",
-  "key": {
-    "#": "minecraft:resin_brick"
-  },
-  "pattern": [
-    "# #",
-    "###"
-  ],
-  "result": {
-    "components": {
-      "minecraft:max_stack_size": 2
-    },
-    "count": 2,
-    "id": "minecraft:minecart"
-  }
+	"type": "minecraft:crafting_shaped",
+	"group": "minecart",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:resin_brick"
+	},
+	"pattern": [
+		"# #",
+		"###"
+	],
+	"result": {
+		"components": {
+			"minecraft:max_stack_size": 2,
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 2,
+		"id": "minecraft:minecart"
+	}
 }

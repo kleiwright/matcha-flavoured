@@ -15,13 +15,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1.05"],
+					"with": [
+						"1.05"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -31,7 +35,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 500
+			"minecraft:max_damage": 500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_spear"

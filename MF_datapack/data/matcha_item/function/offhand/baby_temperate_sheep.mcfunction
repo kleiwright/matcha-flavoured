@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matcha_item:modify/baby_temperate_sheep

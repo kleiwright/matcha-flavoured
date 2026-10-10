@@ -17,6 +17,9 @@
 			"minecraft:item_model": "matcha:copper_shears",
 			"minecraft:repairable": {
 				"items": "minecraft:copper_ingot"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

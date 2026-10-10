@@ -17,13 +17,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["5"],
+					"with": [
+						"5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1.6"],
+					"with": [
+						"1.6"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -32,6 +36,9 @@
 				"hidden_components": [
 					"minecraft:attribute_modifiers"
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

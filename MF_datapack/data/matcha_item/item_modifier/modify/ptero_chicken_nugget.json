@@ -1,0 +1,35 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:ptero_chicken_nugget",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.ptero_chicken_nugget"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 0.8,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 24,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		}
+	}
+}

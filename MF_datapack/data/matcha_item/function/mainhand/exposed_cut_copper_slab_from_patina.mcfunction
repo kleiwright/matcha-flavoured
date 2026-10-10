@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand matcha_item:modify/exposed_cut_copper_slab_from_patina

@@ -30,24 +30,33 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["7"],
+					"with": [
+						"7"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["9"],
+					"with": [
+						"9"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "0.9"],
+					"with": [
+						"0.9"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
 			],
-			"minecraft:max_damage": 500
+			"minecraft:max_damage": 500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_axe"

@@ -15,13 +15,17 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1.05"],
+					"with": [
+						"1.05"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -39,6 +43,9 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.golden_spear",
 				"color": "white"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

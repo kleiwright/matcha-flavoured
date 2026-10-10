@@ -13,7 +13,7 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE032",
+					"text": "\ue032",
 					"color": "red",
 					"italic": false
 				}
@@ -36,6 +36,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

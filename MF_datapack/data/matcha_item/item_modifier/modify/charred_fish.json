@@ -1,0 +1,35 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:charred_fish",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.charred_fish"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030",
+				"color": "red",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 3,
+							"duration": 15,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		}
+	}
+}

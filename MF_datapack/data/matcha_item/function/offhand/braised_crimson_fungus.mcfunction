@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matcha_item:modify/braised_crimson_fungus

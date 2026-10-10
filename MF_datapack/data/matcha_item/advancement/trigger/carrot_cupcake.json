@@ -1,0 +1,136 @@
+{
+	"criteria": {
+		"carrot_cupcake": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:any_of",
+						"terms": [
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.carrot_cupcake"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:carrot_cupcake"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.carrot_cupcake"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:carrot_cupcake"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"carrot_cupcake"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/carrot_cupcake"
+	}
+}

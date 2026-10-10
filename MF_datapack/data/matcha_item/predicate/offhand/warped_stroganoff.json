@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:all_of",
+	"terms": [
+		{
+			"type": "minecraft:any_of",
+			"terms": [
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": {
+										"translate": "item.kleispack.warped_stroganoff",
+										"color": "#3cc6c8"
+									}
+								}
+							}
+						}
+					}
+				},
+				{
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:slots": {
+							"weapon.offhand": {
+								"components": {
+									"minecraft:item_name": "matcha:warped_stroganoff"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"type": "minecraft:inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:slots": {
+						"weapon.offhand": {
+							"predicates": {
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

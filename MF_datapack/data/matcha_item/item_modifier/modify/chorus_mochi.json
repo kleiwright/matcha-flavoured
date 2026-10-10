@@ -1,0 +1,51 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:chorus_mochi",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.chorus_mochi",
+			"color": "#ae6cbc"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.levitation_30",
+				"with": [
+					"0:01"
+				],
+				"color": "#ae6cbc",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 0.8,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 48,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:levitation",
+							"amplifier": 29,
+							"duration": 20,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		}
+	}
+}

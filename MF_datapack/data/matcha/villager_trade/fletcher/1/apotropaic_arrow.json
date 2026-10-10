@@ -6,6 +6,9 @@
 			"minecraft:potion_contents": {
 				"potion": "minecraft:strong_healing",
 				"custom_name": "apotropaic_arrow"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 64

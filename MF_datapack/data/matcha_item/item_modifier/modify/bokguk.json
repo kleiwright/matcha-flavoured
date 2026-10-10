@@ -1,0 +1,54 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:bokguk",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.bokguk"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.conduit_power",
+				"with": [
+					"8:00"
+				],
+				"color": "#7ec9e7",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"sound": "minecraft:entity.generic.drink",
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 144,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:conduit_power",
+							"amplifier": 0,
+							"duration": 9600,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		},
+		"minecraft:use_remainder": {
+			"id": "minecraft:bowl"
+		}
+	}
+}

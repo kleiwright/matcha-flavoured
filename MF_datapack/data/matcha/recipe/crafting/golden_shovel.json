@@ -19,19 +19,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["12"],
+					"with": [
+						"12"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["2.5"],
+					"with": [
+						"2.5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -56,6 +62,9 @@
 			"minecraft:item_name": {
 				"translate": "item.minecraft.golden_shovel",
 				"color": "white"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 1,

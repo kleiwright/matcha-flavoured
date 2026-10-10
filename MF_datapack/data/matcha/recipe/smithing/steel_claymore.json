@@ -13,19 +13,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "0.7"],
+					"with": [
+						"0.7"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.knockback_attribute",
-					"with": [ "2"],
+					"with": [
+						"2"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -60,7 +66,6 @@
 					"color": "dark_gray",
 					"italic": false
 				}
-				
 			],
 			"minecraft:blocks_attacks": {
 				"disable_cooldown_scale": 2,
@@ -122,7 +127,10 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		}
 	},
 	"template": "minecraft:netherite_upgrade_smithing_template"

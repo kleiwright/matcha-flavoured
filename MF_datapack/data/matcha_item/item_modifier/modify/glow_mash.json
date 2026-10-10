@@ -1,0 +1,42 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:lore": [
+			{
+				"text": "\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.aura",
+				"with": [
+					"0:03"
+				],
+				"color": "#0fffa3",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 0.8,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 24,
+							"show_particles": false,
+							"show_icon": false
+						}
+					]
+				}
+			]
+		},
+		"minecraft:custom_data": {
+			"matcha:aura_3s": {}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:honied_french_toast",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.honied_french_toast"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.speed_2",
+				"with": [
+					"3:00"
+				],
+				"color": "#37cafb",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.8,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 120,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:speed",
+							"amplifier": 1,
+							"duration": 3600,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		}
+	}
+}

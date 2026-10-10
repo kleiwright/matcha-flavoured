@@ -1,22 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "campfire",
-  "category": "misc",
-  "key": {
-    "L": "#minecraft:logs",
-    "S": "minecraft:stick"
-  },
-  "pattern": [
-    "SS",
-    "LL"
-  ],
-  "result": {
-    "components": {
-      "minecraft:block_state": {
-        "lit": "false"
-      }
-    },
-    "count": 1,
-    "id": "minecraft:campfire"
-  }
+	"type": "minecraft:crafting_shaped",
+	"group": "campfire",
+	"category": "misc",
+	"key": {
+		"L": "#minecraft:logs",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"SS",
+		"LL"
+	],
+	"result": {
+		"components": {
+			"minecraft:block_state": {
+				"lit": "false"
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:campfire"
+	}
 }

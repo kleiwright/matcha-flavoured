@@ -1,0 +1,136 @@
+{
+	"criteria": {
+		"calcite": {
+			"conditions": {
+				"player": [
+					{
+						"type": "minecraft:any_of",
+						"terms": [
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.trade.bulk_calcite"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.mainhand": {
+															"components": {
+																"minecraft:item_name": "matcha:bulk_calcite"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							},
+							{
+								"type": "minecraft:all_of",
+								"terms": [
+									{
+										"type": "minecraft:any_of",
+										"terms": [
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": {
+																	"translate": "item.kleispack.trade.bulk_calcite"
+																}
+															}
+														}
+													}
+												}
+											},
+											{
+												"type": "minecraft:entity_properties",
+												"entity": "this",
+												"predicate": {
+													"minecraft:slots": {
+														"weapon.offhand": {
+															"components": {
+																"minecraft:item_name": "matcha:bulk_calcite"
+															}
+														}
+													}
+												}
+											}
+										]
+									},
+									{
+										"type": "minecraft:inverted",
+										"term": {
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"version": 1
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"calcite"
+		]
+	],
+	"rewards": {
+		"function": "matcha_item:update/calcite"
+	}
+}

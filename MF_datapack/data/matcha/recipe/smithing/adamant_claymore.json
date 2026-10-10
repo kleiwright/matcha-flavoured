@@ -12,7 +12,8 @@
 			},
 			"minecraft:item_model": "matcha:adamant_claymore",
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:unbreaking": 2,
@@ -22,13 +23,21 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": [{"text": "9"}],
+					"with": [
+						{
+							"text": "9"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [{"text": "1"}],
+					"with": [
+						{
+							"text": "1"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -39,13 +48,17 @@
 				},
 				{
 					"translate": "desc.kleispack.melee_blocking",
-					"with": ["80"],
+					"with": [
+						"80"
+					],
 					"color": "dark_gray",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.projectile_blocking",
-					"with": ["70"],
+					"with": [
+						"70"
+					],
 					"color": "dark_gray",
 					"italic": false
 				},
@@ -64,7 +77,6 @@
 					"color": "dark_gray",
 					"italic": false
 				}
-				
 			],
 			"minecraft:blocks_attacks": {
 				"disable_cooldown_scale": 1,

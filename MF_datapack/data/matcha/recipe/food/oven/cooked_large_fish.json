@@ -9,7 +9,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE032",
+					"text": "\ue030\ue030\ue032",
 					"color": "red",
 					"italic": false
 				}
@@ -32,6 +32,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}

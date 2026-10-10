@@ -9,13 +9,21 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": [{"text": "7"}],
+					"with": [
+						{
+							"text": "7"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [{"text": "1.9"}],
+					"with": [
+						{
+							"text": "1.9"
+						}
+					],
 					"color": "dark_green",
 					"italic": false
 				},
@@ -56,7 +64,8 @@
 				]
 			},
 			"minecraft:custom_data": {
-                "has_intrinsic_enchants": 1
+				"has_intrinsic_enchants": 1,
+				"version": 1
 			},
 			"minecraft:stored_enchantments": {
 				"minecraft:looting": 2,

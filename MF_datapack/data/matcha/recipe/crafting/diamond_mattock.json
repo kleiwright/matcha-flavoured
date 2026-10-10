@@ -36,19 +36,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["4"],
+					"with": [
+						"4"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "3"],
+					"with": [
+						"3"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -73,7 +79,10 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:diamond_hoe"

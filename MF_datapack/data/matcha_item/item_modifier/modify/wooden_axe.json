@@ -1,0 +1,28 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:max_damage": 200,
+		"minecraft:lore": [
+			{
+				"text": "\u26cf 2",
+				"color": "blue",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udde1 7",
+				"color": "dark_green",
+				"italic": false
+			},
+			{
+				"text": "\ud83d\udd52 0.8",
+				"color": "dark_green",
+				"italic": false
+			}
+		],
+		"minecraft:tooltip_display": {
+			"hidden_components": [
+				"minecraft:attribute_modifiers"
+			]
+		}
+	}
+}

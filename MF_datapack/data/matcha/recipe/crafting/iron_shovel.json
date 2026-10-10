@@ -26,19 +26,25 @@
 			"minecraft:lore": [
 				{
 					"translate": "desc.kleispack.mining_speed",
-					"with": ["8"],
+					"with": [
+						"8"
+					],
 					"color": "blue",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.attack_damage",
-					"with": ["4.5"],
+					"with": [
+						"4.5"
+					],
 					"color": "dark_green",
 					"italic": false
 				},
 				{
 					"translate": "desc.kleispack.cooldown",
-					"with": [ "1"],
+					"with": [
+						"1"
+					],
 					"color": "dark_green",
 					"italic": false
 				}
@@ -48,7 +54,10 @@
 					"minecraft:attribute_modifiers"
 				]
 			},
-			"minecraft:max_damage": 500
+			"minecraft:max_damage": 500,
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:iron_shovel"

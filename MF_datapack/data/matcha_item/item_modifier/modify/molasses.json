@@ -1,0 +1,6 @@
+{
+	"type": "set_components",
+	"components": {
+		"!minecraft:entity_data": {}
+	}
+}

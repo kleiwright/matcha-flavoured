@@ -1,0 +1,6 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:max_stack_size": 64
+	}
+}

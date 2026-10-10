@@ -1,38 +1,41 @@
 {
-  "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 100,
-  "experience": 0.35,
-  "ingredient": "minecraft:potato",
-  "result": {
-    "id": "minecraft:baked_potato",
-    "components": {
-      "minecraft:lore": [
-        {
-          "text": "\uE030\uE030\uE032",
-          "color": "red",
-          "italic": false
-        }
-      ],
-      "!minecraft:food": {},
-      "minecraft:consumable": {
-        "consume_seconds": 1.6,
-        "has_consume_particles": true,
-        "on_consume_effects": [
-          {
-            "type": "minecraft:apply_effects",
-            "effects": [
-              {
-                "id": "minecraft:regeneration",
-                "amplifier": 2,
-                "duration": 60,
-                "show_particles": false,
-                "show_icon": false
-              }
-            ]
-          }
-        ]
-      }
-    }
-  }
+	"type": "minecraft:smelting",
+	"category": "food",
+	"cookingtime": 100,
+	"experience": 0.35,
+	"ingredient": "minecraft:potato",
+	"result": {
+		"id": "minecraft:baked_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 60,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
 }

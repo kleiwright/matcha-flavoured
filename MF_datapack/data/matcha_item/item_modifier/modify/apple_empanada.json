@@ -1,0 +1,50 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:item_model": "matcha:apple_empanada",
+		"minecraft:item_name": {
+			"translate": "item.kleispack.apple_empanada"
+		},
+		"minecraft:lore": [
+			{
+				"text": "\ue030\ue030\ue030\ue030",
+				"color": "red",
+				"italic": false
+			},
+			{
+				"translate": "effect.kleispack.regeneration",
+				"with": [
+					"3:00"
+				],
+				"color": "#e85e8f",
+				"italic": false
+			}
+		],
+		"!minecraft:food": {},
+		"minecraft:consumable": {
+			"consume_seconds": 1.6,
+			"has_consume_particles": true,
+			"on_consume_effects": [
+				{
+					"type": "minecraft:apply_effects",
+					"effects": [
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 2,
+							"duration": 96,
+							"show_particles": false,
+							"show_icon": false
+						},
+						{
+							"id": "minecraft:regeneration",
+							"amplifier": 0,
+							"duration": 3600,
+							"show_particles": false,
+							"show_icon": true
+						}
+					]
+				}
+			]
+		}
+	}
+}

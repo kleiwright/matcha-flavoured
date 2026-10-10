@@ -1,0 +1,17 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:entity_data": {
+			"id": "minecraft:marker",
+			"NoGravity": true,
+			"Invulnerable": true,
+			"Tags": [
+				"beacon_kindling"
+			]
+		},
+		"minecraft:item_name": {
+			"translate": "item.kleispack.beacon_kindling"
+		},
+		"minecraft:item_model": "matcha:beacon_kindling"
+	}
+}

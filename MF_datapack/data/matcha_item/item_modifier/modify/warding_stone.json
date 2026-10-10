@@ -1,0 +1,21 @@
+{
+	"type": "set_components",
+	"components": {
+		"minecraft:entity_data": {
+			"id": "minecraft:armor_stand",
+			"NoGravity": true,
+			"Invulnerable": true,
+			"Tags": [
+				"WardingStone"
+			],
+			"Invisible": true,
+			"Small": true,
+			"DisabledSlots": 4144959
+		},
+		"minecraft:item_name": {
+			"translate": "item.kleispack.warding_stone",
+			"color": "aqua"
+		},
+		"minecraft:item_model": "matcha:warding_stone"
+	}
+}

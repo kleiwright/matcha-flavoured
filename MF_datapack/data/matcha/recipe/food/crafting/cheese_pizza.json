@@ -21,13 +21,15 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030\uE030\uE032",
+					"text": "\ue030\ue030\ue030\ue030\ue032",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.strength",
-					"with": ["3:00"],
+					"with": [
+						"3:00"
+					],
 					"color": "#e65f33",
 					"italic": false
 				}
@@ -57,6 +59,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 4

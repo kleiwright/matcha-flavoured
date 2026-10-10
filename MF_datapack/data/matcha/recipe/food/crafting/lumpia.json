@@ -20,19 +20,23 @@
 			},
 			"minecraft:lore": [
 				{
-					"text": "\uE030\uE030\uE030",
+					"text": "\ue030\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.water_breathing",
-					"with": ["5:00"],
+					"with": [
+						"5:00"
+					],
 					"color": "#7ec9e7",
 					"italic": false
 				},
 				{
 					"translate": "effect.kleispack.night_vision",
-					"with": ["5:00"],
+					"with": [
+						"5:00"
+					],
 					"color": "green",
 					"italic": false
 				}
@@ -69,6 +73,9 @@
 						]
 					}
 				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		},
 		"count": 2

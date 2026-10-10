@@ -12,7 +12,11 @@
 		"S": "#minecraft:soul_fire_base_blocks"
 	},
 	"result": {
-		"components": {},
+		"components": {
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
 		"count": 8,
 		"id": "minecraft:soul_torch"
 	}

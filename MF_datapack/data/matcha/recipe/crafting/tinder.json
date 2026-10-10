@@ -17,6 +17,9 @@
 			"minecraft:item_model": "matcha:tinder",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.tinder"
+			},
+			"minecraft:custom_data": {
+				"version": 1
 			}
 		}
 	}
