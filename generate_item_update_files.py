@@ -324,11 +324,14 @@ def discover(override):
         useid = use[0]
         usenames = use[1]
         usemodels = use[2]
-        for item_id in item_ids:
-            if DB["files"][item]["id"] == item_id:
-                id_i += 1
-            else:
-                pass
+        if DB["files"]["options"]["excludedIds"] in DB["files"][item]["id"]:
+            id_i = 2
+        else:
+            for item_id in item_ids:
+                if DB["files"][item]["id"] == item_id:
+                    id_i += 1
+                else:
+                    pass
         for item_name in item_names:
             if item_name in DB["files"][item]["names"]:
                 names_i += 1
@@ -394,7 +397,7 @@ def destructive():
                     has_set_components_function = False
                     set_components_function = 0
                     for i in range(len(functions)):
-                        if functions[i].get("function") == "minecraft:set_components":
+                        if functions[i].get("type") == "minecraft:set_components":
                             has_set_components_function = True
                             set_components_function = i
                         else:
@@ -420,7 +423,7 @@ def destructive():
                     has_set_components_function = False
                     set_components_function = 0
                     for i in range(len(functions)):
-                        if functions[i].get("function") == "minecraft:set_components":
+                        if functions[i].get("type") == "minecraft:set_components":
                             has_set_components_function = True
                             set_components_function = i
                         else:
@@ -498,7 +501,7 @@ def update(item):
                     has_set_components_function = False
                     set_components_function = 0
                     for i in range(len(functions)):
-                        if functions[i].get("function") == "minecraft:set_components":
+                        if functions[i].get("type") == "minecraft:set_components":
                             has_set_components_function = True
                             set_components_function = i
                         else:
@@ -524,7 +527,7 @@ def update(item):
                     has_set_components_function = False
                     set_components_function = 0
                     for i in range(len(functions)):
-                        if functions[i].get("function") == "minecraft:set_components":
+                        if functions[i].get("type") == "minecraft:set_components":
                             has_set_components_function = True
                             set_components_function = i
                         else:
@@ -585,7 +588,7 @@ def update(item):
                         has_set_components_function = False
                         set_components_function = 0
                         for i in range(len(functions)):
-                            if functions[i].get("function") == "minecraft:set_components":
+                            if functions[i].get("type") == "minecraft:set_components":
                                 has_set_components_function = True
                                 set_components_function = i
                             else:
@@ -611,7 +614,7 @@ def update(item):
                         has_set_components_function = False
                         set_components_function = 0
                         for i in range(len(functions)):
-                            if functions[i].get("function") == "minecraft:set_components":
+                            if functions[i].get("type") == "minecraft:set_components":
                                 has_set_components_function = True
                                 set_components_function = i
                             else:
@@ -743,7 +746,7 @@ def creationHelper(obj, item):
         case _:
             raise ValueError("So there isn't supposed to be this many item types...")
 # defining item modifier
-    item_modifier = {"function": "set_components", "components": components.copy()}
+    item_modifier = {"type": "set_components", "components": components.copy()}
     enchantments = item_modifier["components"].pop("minecraft:stored_enchantments", {})
     enchantments.update(item_modifier["components"].pop("minecraft:enchantments", {}))
 # defining item predicates
