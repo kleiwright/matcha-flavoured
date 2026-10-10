@@ -24,6 +24,7 @@
 				"has_consume_particles": false,
 				"on_consume_effects": []
 			},
+			"!minecraft:food": {},
 			"minecraft:death_protection": {
 				"death_effects": [
 					{
