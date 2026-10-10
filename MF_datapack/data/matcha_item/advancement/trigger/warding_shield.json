@@ -26,17 +26,6 @@
 														}
 													}
 												}
-											},
-											{
-												"condition": "minecraft:entity_properties",
-												"entity": "this",
-												"predicate": {
-													"minecraft:slots": {
-														"weapon.mainhand": {
-															"items": "minecraft:shield"
-														}
-													}
-												}
 											}
 										]
 									},

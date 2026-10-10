@@ -1,3 +1,16 @@
+Quick bug fix patch...again. This will be the last update for 26.2, unless there is some major game-breaking bug, I don't want to touch it. I want to work on 26.3 and if a few minor bugs are left behind on this version its fine. 
+
+If you want to help build structures for the new update come check out the Github "Builders wanted!" Issue. I look forward to seeing you
+
+### Bugs
+- Ramen and Curries can no longer cooked on campfires
+- Fishing Junk LT Fixed
+- Various earring bugs patched (Im not telling you what they were)
+- Glow Berry Jam and Mash fixed
+- Books no longer turn into angler's almanacs
+- Shields no longer turn into fake warding shields
+- Bows no longer turn into Compound Bow
+
 #### Credits
 - Hashiru: Optimisations
 - NamlessJU: Various coding things, translations
@@ -19,15 +32,6 @@
 - All of the translation volunteers
 - Thank you so much everyone!
 
-
-This symbol (👥) means the feature was changed/added per community feedback, or brought to attention by community bug reporters.
-
-This symbol (💻) means the feature was changed/added by community code contributors.
-
-This symbol (🖌️) means the art was added by community artists (music is art)
-
-### Bugs
-- Ramen and Curries could be cooked on campfires
 
 
 
