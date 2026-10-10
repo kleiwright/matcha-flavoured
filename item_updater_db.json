@@ -105,6 +105,11 @@
 	"options": {
 		"createHelpDiag": "False",
 		"askForConfirmation": "False",
-		"assumeNamesArePopulated": "True"
+		"assumeNamesArePopulated": "True",
+		"excludedIds": [
+			"minecraft:book",
+			"minecraft:bow",
+			"minecraft:shield"
+		]
 	}
 }
