@@ -64,6 +64,7 @@ scoreboard objectives add adamant_armour dummy
 # Shakudo
 scoreboard objectives add shakudo_regen dummy
 scoreboard objectives add ShakudoRegenCooldown dummy
+scoreboard objectives add shakudo_wither_resistance dummy
 
 # Divinity. Used for Adamant and Electrum Armour
 scoreboard objectives add DivinityCooldown dummy
