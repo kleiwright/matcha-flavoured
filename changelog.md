@@ -3,6 +3,12 @@
     * Damage reduced from 5 hearts to 3 (In normal)
     * Hunger does something now (Not in easy)
     * Cleanse Maleffect now removes hunger
+- Wither
+    * Normal Hearbreaker timer is much longer than in hard now
+    * Shakudo provides wither resistance, but not cleansing
+    * One piece of shakudo is now enough to prevent heatbreaker from a wither skeleton hit (in normal), but if you are hit more than once while withered, it will not save you
+    * Full shakudo is almost required in Hard now
+    * Shakudo Elytra provides full wither resistance
 - Textures for Shipwreck, Trail ruin, papal outpost, and Abbey maps all updated
 #### Small Tweaks
 - Removed Advancment revokations on update, this was only needed for 1.12.3+4 so it has been removed

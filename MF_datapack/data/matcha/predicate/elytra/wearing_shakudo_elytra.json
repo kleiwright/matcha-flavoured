@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"minecraft:slots": {
+			"armor.chest": {
+				"items": "minecraft:elytra",
+				"components": {
+					"minecraft:item_model": "matcha:shakudo_elytra"
+				}
+			}
+		}
+	}
+}
