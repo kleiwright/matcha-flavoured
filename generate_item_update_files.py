@@ -778,7 +778,7 @@ def creationHelper(obj, item):
             for i in range(len(relevant_name_predicates)):
                 working_diamond_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
         for relevant_model in relevant_models:
-            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots).createDict
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_model": relevant_model}},slots).createDict
             for i in range(len(relevant_model_predicates)):
                 working_diamond_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
     elif type_ == "baked_apple":
@@ -797,7 +797,7 @@ def creationHelper(obj, item):
             for i in range(len(relevant_name_predicates)):
                 baked_apple_predicates[i]["term"]["terms"].append(relevant_name_predicates[i])
         for relevant_model in relevant_models:
-            relevant_model_predicates = item_predicate({"components": {"minecraft:item_name": relevant_model}},slots)
+            relevant_model_predicates = item_predicate({"components": {"minecraft:item_model": relevant_model}},slots)
             for i in range(len(relevant_model_predicates)):
                 baked_apple_predicates[i]["term"]["terms"].append(relevant_model_predicates[i])
     else:
