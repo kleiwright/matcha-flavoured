@@ -3,6 +3,17 @@
     * Damage reduced from 5 hearts to 3 (In normal)
     * Hunger does something now (Not in easy)
     * Cleanse Maleffect now removes hunger
+- Textures for Shipwreck, Trail ruin, papal outpost, and Abbey maps all updated
+#### Small Tweaks
+- Removed Advancment revokations on update, this was only needed for 1.12.3+4 so it has been removed
+
+### Bugs
+- Straw Beds now work
+- Ramen and curries can no longer be cooked on campfires
+- Treasure maps now work
+- Chocolate now stacks
+
+
 
 
 #### Credits
