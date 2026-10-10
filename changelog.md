@@ -4,12 +4,16 @@ If you want to help build structures for the new update come check out the Githu
 
 ### Bugs
 - Ramen and Curries can no longer cooked on campfires
-- Fishing Junk LT Fixed
+- Fishing Junk LT Fixed (Not for modded biomes)
 - Various earring bugs patched (Im not telling you what they were)
 - Glow Berry Jam and Mash fixed
 - Books no longer turn into angler's almanacs
 - Shields no longer turn into fake warding shields
 - Bows no longer turn into Compound Bow
+- Fox Pelts actually fixed
+
+When you update you will NOT get a message saying "New player has been updated"
+This is intentional don't worry
 
 #### Credits
 - Hashiru: Optimisations
