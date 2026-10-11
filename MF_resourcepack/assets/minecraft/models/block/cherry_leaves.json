@@ -2,7 +2,6 @@
     "parent":"block/cross_leaves",
     "textures": {
         "all":"block/cherry_leaves",
-        "outer_top": "block/cherry_leaves_outer_top",
-        "outer_bottom": "block/cherry_leaves_outer_bottom"
+        "bushy": "block/cherry_leaves_bush"
     }
 }

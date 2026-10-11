@@ -2,7 +2,6 @@
     "parent":"block/cross_leaves",
     "textures": {
         "all":"block/red_poplar_leaves",
-        "outer_top": "block/red_poplar_leaves_outer_top",
-        "outer_bottom": "block/red_poplar_leaves_outer_bottom"
+        "bushy": "block/red_poplar_leaves_bush"
     }
 }

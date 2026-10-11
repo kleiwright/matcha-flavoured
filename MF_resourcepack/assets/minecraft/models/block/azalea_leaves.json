@@ -2,7 +2,6 @@
     "parent":"block/cross_leaves",
     "textures": {
         "all":"block/azalea_leaves",
-        "outer_top": "block/azalea_leaves_outer_top",
-        "outer_bottom": "block/azalea_leaves_outer_bottom"
+        "bushy": "block/azalea_leaves_bush"
     }
 }
