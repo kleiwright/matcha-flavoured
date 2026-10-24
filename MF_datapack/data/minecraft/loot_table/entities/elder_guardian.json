@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing"
+					"value": "minecraft:gameplay/fishing/biomes"
 				}
 			],
 			"rolls": 3

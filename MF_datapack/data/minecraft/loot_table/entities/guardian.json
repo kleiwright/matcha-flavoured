@@ -42,7 +42,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "minecraft:gameplay/fishing",
+					"value": "minecraft:gameplay/fishing/biomes",
 					"weight": 2,
 					"modifier": {
 						"type": "minecraft:sequence",
