@@ -1,4 +1,5 @@
-tellraw @a {translate:"error.kleispack.wither_spawn_invalid",color:"red"}
-execute as @e[type=wither] if predicate matcha:wither/invalid_wither_spawn run execute as @s run schedule function matcha:mechanics/wither/kill_star 1t
-#This was done so that I could have player-only nether star drops, but the wither LT doens't allow that. Are nether star drops hard coded?
-execute as @e[type=wither] if predicate matcha:wither/invalid_wither_spawn run kill @s
+# Only broadcast message to players near an invalid wither spawn
+execute as @a at @s if entity @n[type=minecraft:wither,distance=..100,predicate=matcha:wither/invalid_wither_spawn,nbt=!{Invul:0}] run tellraw @s {translate:"error.kleispack.wither_spawn_invalid",color:"red"}
+
+# `nbt=!{Invul:0}` ensures that the wither has just been summoned
+execute as @e[type=wither,nbt=!{Invul:0}] if predicate matcha:wither/invalid_wither_spawn at @s run function matcha:mechanics/wither/kill_wither
