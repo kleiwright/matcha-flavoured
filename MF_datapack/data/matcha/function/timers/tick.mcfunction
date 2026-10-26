@@ -5,7 +5,6 @@ function matcha:environmental/nether_water
 function matcha:environmental/village_eerie_sound
 
 function matcha:mechanics/anvil_xp/remove_xp
-function matcha:mechanics/cake_eaten
 function matcha:mechanics/heart_container/detect_death
 function matcha:mechanics/manage_hunger
 function matcha:mechanics/sleeping/tick
