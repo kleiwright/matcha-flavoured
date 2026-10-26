@@ -1,0 +1,17 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"eat_cake_slice": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_block",
+					"blocks": "#matcha:cakes"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:mechanics/cake_eaten"
+	}
+}
