@@ -4,10 +4,16 @@
 		"eat_cake_slice": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": {
-					"type": "minecraft:match_block",
-					"blocks": "#matcha:cakes"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "#matcha:cakes"
+							}
+						}
+					}
+				]
 			}
 		}
 	},
