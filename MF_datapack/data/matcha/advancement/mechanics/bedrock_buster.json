@@ -1,7 +1,7 @@
 {
 	"parent": "matcha:imm_revoke",
 	"criteria": {
-		"eat_glow_jam": {
+		"use_bedrock_buster": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": {
@@ -17,7 +17,7 @@
 	},
 	"requirements": [
 		[
-			"eat_glow_jam"
+			"use_bedrock_buster"
 		]
 	],
 	"rewards": {
