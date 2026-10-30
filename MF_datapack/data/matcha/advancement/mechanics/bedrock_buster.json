@@ -21,6 +21,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:mechanics/bedrock_buster"
+		"function": "matcha:mechanics/bedrock_buster/bedrock_buster"
 	}
 }

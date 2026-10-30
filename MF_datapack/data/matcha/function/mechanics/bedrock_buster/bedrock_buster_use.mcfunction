@@ -1,0 +1,1 @@
+execute at @e[type=tnt,nbt={Glowing:1b, fuse:2s}] run function matcha:mechanics/bedrock_buster/bedrock_buster_effects
