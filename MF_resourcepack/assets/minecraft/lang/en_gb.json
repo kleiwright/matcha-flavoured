@@ -881,6 +881,8 @@
   "adv.kleispack.fishing.rarity.3": "§b⭐⭐⭐§8☆",
   "adv.kleispack.fishing.rarity.4": "§d⭐⭐⭐⭐",
   "block.minecraft.redstone_ore": "Fossil",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "adv.kleispack.adventure.root": "With Songs",
   "adv.kleispack.adventure.trade_with_cartographer": "Forgotten Rumours",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",

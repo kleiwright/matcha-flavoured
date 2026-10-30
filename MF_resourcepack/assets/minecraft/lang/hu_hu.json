@@ -1086,6 +1086,8 @@
   "adv.kleispack.anglers_almanac.bluegill.desc": "Egy kis aranyos naphal - egészen addig, amíg el nem lopja a csalidat és lelép vele.",
   "adv.kleispack.anglers_almanac.carp.desc": "Egy kifejezetten édesvízkedvelő, aki a túlélés mestere.",
   "block.minecraft.redstone_ore": "Kénes kvarctelep",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "Csípős-mézes szárny",
   "item.kleispack.cinnamon_ice_cream": "Fahéjas fagyi",
   "item.kleispack.curry_ice_cream": "Currys fagyi",

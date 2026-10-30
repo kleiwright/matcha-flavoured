@@ -1218,6 +1218,8 @@
   "item.kleispack.latte": "Caffè latte",
   "item.kleispack.cappuccino": "Cappuccino",
   "block.minecraft.redstone_ore": "Svovlholdigt kvartsdepot",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.kombucha": "Kombucha",
   "item.kleispack.beer": "Øl",
   "item.kleispack.whiskey": "Whisky",

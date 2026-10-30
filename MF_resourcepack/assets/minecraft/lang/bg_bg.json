@@ -1208,6 +1208,8 @@
   "item.kleispack.latte": "Лате",
   "item.kleispack.cappuccino": "Капучино",
   "block.minecraft.redstone_ore": "Находище на сярен кварц",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.kombucha": "Комбуча",
   "item.kleispack.sparkling_kombucha": "Газирана комбуча",
   "item.kleispack.beer": "Бира",

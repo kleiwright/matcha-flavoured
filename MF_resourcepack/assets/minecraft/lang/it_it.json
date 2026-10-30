@@ -844,5 +844,7 @@
   "adv.kleispack.fishing.rarity.2": "§a⭐⭐§8☆☆",
   "adv.kleispack.fishing.rarity.3": "§b⭐⭐⭐§8☆",
   "adv.kleispack.fishing.rarity.4": "§d⭐⭐⭐⭐",
-  "block.minecraft.redstone_ore": "Deposito di Zolfo in Quarzo"
+  "block.minecraft.redstone_ore": "Deposito di Zolfo in Quarzo",
+  "gui.experience.level": "",
+  "container.repair.cost": ""
 }

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "cobbled_deepslate",
+	"category": "building",
+	"ingredients": [
+		"minecraft:cobbled_deepslate_slab",
+		"minecraft:cobbled_deepslate_slab"
+	],
+	"result": {
+		"id": "minecraft:cobbled_deepslate",
+		"count": 1
+	}
+}

@@ -1250,6 +1250,8 @@
   "item.kleispack.latte": "Latte",
   "item.kleispack.cappuccino": "Cappuccino",
   "block.minecraft.redstone_ore": "Schwefelhaltiges Quartzvorkumme",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "Hot Honey Wings",
   "item.kleispack.cinnamon_ice_cream": "Zimt Glace",
   "item.kleispack.curry_ice_cream": "Curry Glace",

@@ -1251,6 +1251,8 @@
   "item.kleispack.cappuccino": "Cappuccino",
   "item.kleispack.concha": "Concha",
   "block.minecraft.redstone_ore": "Gisement de quartz soufré",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.beoseot_cha": "Thé aux champignons",
   "item.kleispack.kombucha": "Kombucha",
   "item.kleispack.sparkling_kombucha": "Kombucha gazéifié",

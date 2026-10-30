@@ -1303,6 +1303,8 @@
   "enchantment.kleispack.adamant_tool.desc": "Автоматично переплавляє предмети, що випадають з блоків.",
   "enchantment.kleispack.adamant_armour.desc": "Завдає шкоди мобам під ефектом Слабкості і знімає з них цей ефект.",
   "enchantment.kleispack.adamant_weapon.desc": "Послаблює мобів під час атаки.",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.beoseot_cha": "Грибний чай",
   "item.kleispack.kombucha": "Комбуча",
   "item.kleispack.sparkling_kombucha": "Ігриста комбуча",

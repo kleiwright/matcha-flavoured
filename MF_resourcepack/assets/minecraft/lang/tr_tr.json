@@ -1136,6 +1136,8 @@
   "adv.kleispack.anglers_almanac.sulfur_chunk.desc": "Ya patlatıldığın ya da gayzer tarafından fışkırtıldığın anlamına gelen bir parça. Ya da yeşil boya yapmaya doğru bir adım daha. Belli olmaz.",
   "adv.kleispack.anglers_almanac.goat_horn.desc": "Çünkü balık tutarken ilk lazım olan şey, yine yanlış balığı tuttuğunu herkese bildirmenin yüksek sesli bir yoludur.",
   "block.minecraft.redstone_ore": "Kükürtlü Kuvars Yatağı",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "Acılı Ballı Kanat",
   "item.kleispack.cinnamon_ice_cream": "Tarçınlı Dondurma",
   "item.kleispack.curry_ice_cream": "Körili Dondurma",

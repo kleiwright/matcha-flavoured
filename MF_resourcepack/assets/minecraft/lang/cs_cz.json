@@ -856,6 +856,8 @@
   "adv.kleispack.fishing.rarity.3": "§b⭐⭐⭐§8☆",
   "adv.kleispack.fishing.rarity.4": "§d⭐⭐⭐⭐",
   "block.minecraft.redstone_ore": "Sirné ložisko křemene",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "adv.kleispack.adventure.root": "S písněmi",
   "adv.kleispack.adventure.trade_with_cartographer": "Zapomenuté fámy",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Kup mapu od archeologa"

@@ -65,5 +65,7 @@
   "entity.minecraft.villager.cleric": "Químic",
   "entity.minecraft.villager.toolsmith": "Joier",
   "entity.minecraft.villager.butcher": "Cuiner",
-  "entity.minecraft.villager.librarian": "Portaveu"
+  "entity.minecraft.villager.librarian": "Portaveu",
+  "gui.experience.level": "",
+  "container.repair.cost": ""
 }

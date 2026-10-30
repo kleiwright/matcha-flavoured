@@ -19,7 +19,9 @@
 	],
 	"rewards": {
 		"recipes": [
-			"matcha:kiln/deepslate"
+			"matcha:kiln/deepslate",
+			"matcha:kiln/polished_deepslate",
+			"matcha:crafting/cobbled_deepslate_from_slabs"
 		]
 	}
 }

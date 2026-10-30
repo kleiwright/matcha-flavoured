@@ -1251,6 +1251,8 @@
   "item.kleispack.latte": "Latte",
   "item.kleispack.cappuccino": "Cappuccino",
   "block.minecraft.redstone_ore": "Svavelhaltig kvartsfyndighet",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.kombucha": "Kombucha",
   "item.kleispack.wort": "Vört",
   "item.kleispack.beer": "Öl",

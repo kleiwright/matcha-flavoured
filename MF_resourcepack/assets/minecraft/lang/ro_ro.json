@@ -1102,6 +1102,8 @@
   "adv.kleispack.anglers_almanac.sulfur_chunk.desc": "O bucată care prefigurează o explozie sau o erupție dintr-un geyser. Sau colorant verde. Nu se știe.",
   "adv.kleispack.anglers_almanac.goat_horn.desc": "deoarece, când pescuiești, cel mai important lucru este o metodă de a informa toată lumea că nu ai prins peștele potrivit.",
   "block.minecraft.redstone_ore": "Zăcământ de cuarț sulfuros",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.chocolate_ice_cream": "Înghețată de ciocolată",
   "item.kleispack.sweet_berry_ice_cream": "Înghețată de zmeură",
   "item.kleispack.sweet_berry_oatmeal": "Terci de ovăz cu zmeură",

@@ -1303,13 +1303,13 @@
   "enchantment.kleispack.adamant_tool.desc": "Automatically smelt dropped items.",
   "enchantment.kleispack.adamant_armour.desc": "Damages mobs with Weakness effect and cleanse it.",
   "enchantment.kleispack.adamant_weapon.desc": "Weaken mobs when you attack them.",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "Hot Honey Wings",
   "item.kleispack.sweet_berry_oatmeal": "Sweet Berry Oatmeal",
   "adv.kleispack.adventure.root": "With Songs",
   "adv.kleispack.adventure.trade_with_cartographer": "Forgotten Rumours",
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
-  "filled_map.house_of_wisdom": "Archive Map",
-  "container.repair.cost": "",
-  "gui.experience.level": ""
+  "filled_map.house_of_wisdom": "Archive Map"
 }

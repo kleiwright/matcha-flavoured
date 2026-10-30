@@ -81,5 +81,7 @@
   "adv.kleispack.fishing.rarity.1": "§7⭐§8☆☆☆",
   "adv.kleispack.fishing.rarity.2": "§a⭐⭐§8☆☆",
   "adv.kleispack.fishing.rarity.3": "§b⭐⭐⭐§8☆",
-  "adv.kleispack.fishing.rarity.4": "§d⭐⭐⭐⭐"
+  "adv.kleispack.fishing.rarity.4": "§d⭐⭐⭐⭐",
+  "gui.experience.level": "",
+  "container.repair.cost": ""
 }

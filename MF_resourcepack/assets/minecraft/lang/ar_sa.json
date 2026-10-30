@@ -1186,6 +1186,8 @@
   "desc.kleispack.chicken_type.normal": "عادي",
   "desc.kleispack.chicken_type.nest_maker": "بنّاء البيوت",
   "block.minecraft.redstone_ore": "رواسب كوارتز كبريتية",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "أجنحة دجاج بالعسل الحار",
   "item.kleispack.cinnamon_ice_cream": "آيس كريم بالقرفة",
   "item.kleispack.curry_ice_cream": "آيس كريم بالكاري",

@@ -1188,6 +1188,8 @@
   "effect.kleispack.jump_boost_2": " 跳躍提升 II (%s)",
   "effect.kleispack.jump_boost_3": " 跳躍提升 II (%s)",
   "block.minecraft.redstone_ore": "硫化石英礦脈",
+  "gui.experience.level": "",
+  "container.repair.cost": "",
   "item.kleispack.hot_honey_wings": "辣蜂蜜雞翅",
   "item.kleispack.cinnamon_ice_cream": "肉桂霜淇淋",
   "item.kleispack.curry_ice_cream": "咖哩霜淇淋",
