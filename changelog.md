@@ -27,6 +27,7 @@ Don't worry too much, Ill make a new video when more stuff is being added, so yo
 - Invalid wither spawn updated a bit (HapppySpud)
 - Wither effect functions cleaned up and organised (HapppySpud)
 - Removed a splash (Im gen z, turn out)
+- Bedrock Busters improved and cleanup up (HapppySpud)
 
 #### What the hell is up with your versioning?
 - I'm not using semantic versioning, sorry
