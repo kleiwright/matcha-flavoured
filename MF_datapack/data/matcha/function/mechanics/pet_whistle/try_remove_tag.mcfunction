@@ -1,1 +1,0 @@
-return run function matcha:mechanics/pet_whistle/remove_tag with entity @s SelectedItem.components.minecraft:custom_data

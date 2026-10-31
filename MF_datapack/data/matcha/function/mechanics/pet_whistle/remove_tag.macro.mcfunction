@@ -1,0 +1,1 @@
+$return run tag @n[type=#matcha:pet_whistle_summons] remove whistle$(whistleId)

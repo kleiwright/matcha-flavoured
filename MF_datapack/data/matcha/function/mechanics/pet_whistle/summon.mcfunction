@@ -5,4 +5,3 @@ execute unless predicate matcha:items/is_pet_whistle run return fail
 
 # Summon bound pets
 execute at @s run function matcha:mechanics/pet_whistle/summon_from_tag with entity @s SelectedItem.components.minecraft:custom_data
-particle minecraft:instant_effect ~ ~ ~ 1 1 1 0.1 32

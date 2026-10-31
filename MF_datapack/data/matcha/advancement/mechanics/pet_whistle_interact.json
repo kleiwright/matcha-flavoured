@@ -21,6 +21,6 @@
 	],
 	"rewards": {
 		"recipes": [],
-		"function": "matcha:mechanics/pet_whistle/bind"
+		"function": "matcha:mechanics/pet_whistle/interact"
 	}
 }
