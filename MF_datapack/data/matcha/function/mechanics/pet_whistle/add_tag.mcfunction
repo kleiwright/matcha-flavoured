@@ -1,1 +1,1 @@
-$return run tag @n[type=#matcha:pet_whistle_summons] add whistle$(whistleId)
+return run function matcha:mechanics/pet_whistle/add_tag.macro with entity @s SelectedItem.components.minecraft:custom_data

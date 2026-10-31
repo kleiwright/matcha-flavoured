@@ -1,1 +1,1 @@
-$return run tag @n[type=#matcha:pet_whistle_summons] remove whistle$(whistleId)
+return run function matcha:mechanics/pet_whistle/remove_tag.macro with entity @s SelectedItem.components.minecraft:custom_data
