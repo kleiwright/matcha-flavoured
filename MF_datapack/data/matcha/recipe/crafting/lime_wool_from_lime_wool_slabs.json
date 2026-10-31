@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "category": "building",
+  "ingredients": [
+    "minecraft:lime_wool_slab",
+    "minecraft:lime_wool_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lime_wool"
+  }
+}

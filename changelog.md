@@ -1,14 +1,17 @@
 Matcha is on break! Thank you everyone for playing, and thank you for everyone whos been helping on the github and submitting feedback. I will not add anymore features to matcha for some time. I do want to port when the new drop comes out, and when it does I'm going to re-do the frozen water effect since we now have access to the freezing effect. But that should be the only real change until I'm ready to add more stuff.
 Don't worry too much, Ill make a new video when more stuff is being added, so you'll know
 
+If you want a full review of all the changes, take a look through the prev alphas. For future versions I wil have a big "recap" changelog with everything added since the last release. But I'm lazy, so.
+
 ### EXPECTED ISSUES
 - Cake can sometimes not be eaten (A future fix will address this)
 
 #### Small Tweaks and Additions
 - Fishing LTs tweaked a little bit, quality for fish increased, treasure weights adjusted to compensate for quality
 - Camel Husks no longer spawn outside of deserts
-- Slab to Block recipes added (Cobbled Deepslate, Poplar Wood)
 - Polished deepslate added to kilning (You can still craft it the normal way)
+- Being naughty no longer kills you, because of a contingency I found
+- Bedrock busters can now bust Trial Spawners and vault (In case you want to live in an Abbey's basement)
 
 ### Bugs & Technical Improvements
 - Gaurdians now only drop fish (HapppySpud)
@@ -28,6 +31,10 @@ Don't worry too much, Ill make a new video when more stuff is being added, so yo
 - Wither effect functions cleaned up and organised (HapppySpud)
 - Removed a splash (Im gen z, turn out)
 - Bedrock Busters improved and cleanup up (HapppySpud)
+- Slab to Block recipes added (UncoiledYew19)
+    - Cobbled Deepslate, Poplar Wood, All Wools, All concretes 
+- Poplar Logs could not be stonecut into stripped variants (UncoiledYew19)
+- All Matcha Concrete Stonecutting recipes removed (I didn't think Mojang would let you so I added them before the release)
 
 #### What the hell is up with your versioning?
 - I'm not using semantic versioning, sorry

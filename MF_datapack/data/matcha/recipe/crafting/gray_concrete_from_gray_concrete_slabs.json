@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "concrete",
+  "category": "building",
+  "ingredients": [
+    "minecraft:gray_concrete_slab",
+    "minecraft:gray_concrete_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:gray_concrete"
+  }
+}

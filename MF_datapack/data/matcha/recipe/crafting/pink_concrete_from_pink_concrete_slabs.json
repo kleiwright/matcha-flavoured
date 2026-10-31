@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "concrete",
+  "category": "building",
+  "ingredients": [
+    "minecraft:pink_concrete_slab",
+    "minecraft:pink_concrete_slab"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pink_concrete"
+  }
+}
