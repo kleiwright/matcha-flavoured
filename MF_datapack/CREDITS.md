@@ -21,6 +21,7 @@
 - milo256: Dyanmic Multiplayer Sleep
 - fautore: Toggable Heart Container Loss
 - Movpasd: Biome and Foliage Colour Maps (Gradated) 
+- UncoiledYew19: Added some forgotten recipes for Wool, Concrete, and Poplar Logs
 - All of the translation volunteers
 - Thank you so much everyone!
 #### Assets
