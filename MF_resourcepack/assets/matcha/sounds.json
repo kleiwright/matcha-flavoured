@@ -71,6 +71,15 @@
 			}
 		]
 	},
+	"gudi.labyrinthine": {
+		"sounds": [
+			{
+				"name": "matcha:custom/gudi/labyrinthine",
+				"volume": 1,
+				"stream": true
+			}
+		]
+	},
 	"fishing.1_star": {
 		"subtitle": "subtitles.kleispack.fishing.1_star",
 		"sounds": [
