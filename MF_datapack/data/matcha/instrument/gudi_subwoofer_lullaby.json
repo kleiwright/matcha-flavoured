@@ -1,0 +1,8 @@
+{
+	"sound_event": "minecraft:block.bone_block.step",
+	"range": 1,
+	"use_duration": 5,
+	"description": {
+		"translate": "item.kleispack.gudi.subwoofer_lullaby"
+	}
+}

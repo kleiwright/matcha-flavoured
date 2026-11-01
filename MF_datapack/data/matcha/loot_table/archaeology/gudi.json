@@ -10,6 +10,22 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_orange"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_yellow"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_green"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_blue"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"value": "matcha:archaeology/gudi_purple"
 				}
 			],

@@ -20,16 +20,59 @@
 					}
 				}
 			}
+		},
+		"gudi_os_piano": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_os_piano"
+					}
+				}
+			}
+		},
+		"gudi_labyrinthine": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_labyrinthine"
+					}
+				}
+			}
+		},
+		"gudi_sweden": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_sweden"
+					}
+				}
+			}
+		},
+		"gudi_subwoofer_lullaby": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_subwoofer_lullaby"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
 		[
 			"gudi_endless",
-			"gudi_infinite_amethyst"
+			"gudi_infinite_amethyst",
+			"gudi_os_piano",
+			"gudi_labyrinthine",
+			"gudi_sweden",
+			"gudi_subwoofer_lullaby"
 		]
 	],
 	"rewards": {
-		"recipes": [],
 		"function": "matcha:mechanics/gudi/summon"
 	}
 }

@@ -21,6 +21,58 @@
 				"minecraft:equipment": {
 					"mainhand": {
 						"components": {
+							"minecraft:item_model": "matcha:gudi_orange"
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:item_model": "matcha:gudi_yellow"
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:item_model": "matcha:gudi_green"
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:item_model": "matcha:gudi_blue"
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
 							"minecraft:item_model": "matcha:gudi_purple"
 						}
 					}

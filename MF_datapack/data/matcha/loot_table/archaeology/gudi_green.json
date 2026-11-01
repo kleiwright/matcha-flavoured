@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:gudi_green",
+							"minecraft:item_name": {
+								"translate": "item.kleispack.gudi"
+							},
+							"minecraft:instrument": "matcha:gudi_labyrinthine"
+						}
+					},
+					"name": "minecraft:goat_horn"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "matcha:archaelogy/pet_whistle"
+}
