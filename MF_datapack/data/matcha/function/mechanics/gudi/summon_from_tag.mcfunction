@@ -1,0 +1,2 @@
+# If successful, particles are used as an indicator
+$execute as @e[type=#matcha:gudi_summons, tag=whistle$(whistleId)] if function matcha:mechanics/gudi/summon_and_stand run particle minecraft:note ^ ^1.5 ^1 .3 .5 .3 0.1 2

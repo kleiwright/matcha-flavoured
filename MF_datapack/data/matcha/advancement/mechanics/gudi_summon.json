@@ -1,0 +1,35 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"gudi_endless": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_endless"
+					}
+				}
+			}
+		},
+		"gudi_infinite_amethyst": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"components": {
+						"minecraft:instrument": "matcha:gudi_infinite_amethyst"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"gudi_endless",
+			"gudi_infinite_amethyst"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:mechanics/gudi/summon"
+	}
+}

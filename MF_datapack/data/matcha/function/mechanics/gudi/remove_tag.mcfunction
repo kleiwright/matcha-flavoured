@@ -1,0 +1,1 @@
+return run function matcha:mechanics/gudi/remove_tag.macro with entity @s SelectedItem.components.minecraft:custom_data

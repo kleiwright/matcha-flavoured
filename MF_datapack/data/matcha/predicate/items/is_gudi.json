@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:any_of",
+	"terms": [
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:item_model": "matcha:gudi_red"
+						}
+					}
+				}
+			}
+		},
+		{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"minecraft:equipment": {
+					"mainhand": {
+						"components": {
+							"minecraft:item_model": "matcha:gudi_purple"
+						}
+					}
+				}
+			}
+		}
+	]
+}

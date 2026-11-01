@@ -50,7 +50,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:archaeology/pet_whistle",
+					"value": "matcha:archaeology/gudi",
 					"quality": 1
 				}
 			],

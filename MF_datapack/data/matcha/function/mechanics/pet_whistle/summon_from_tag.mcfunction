@@ -1,2 +1,0 @@
-# If successful, particles are used as an indicator
-$execute as @e[type=#matcha:pet_whistle_summons, tag=whistle$(whistleId)] if function matcha:mechanics/pet_whistle/summon_and_stand run particle minecraft:instant_effect ~ ~ ~ 1 1 1 0.1 32

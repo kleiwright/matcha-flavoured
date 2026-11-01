@@ -53,6 +53,24 @@
 			}
 		]
 	},
+	"gudi.endless": {
+		"sounds": [
+			{
+				"name": "matcha:custom/gudi/endless",
+				"volume": 1,
+				"stream": true
+			}
+		]
+	},
+	"gudi.infinite_amethyst": {
+		"sounds": [
+			{
+				"name": "matcha:custom/gudi/infinite_amethyst",
+				"volume": 1,
+				"stream": true
+			}
+		]
+	},
 	"fishing.1_star": {
 		"subtitle": "subtitles.kleispack.fishing.1_star",
 		"sounds": [

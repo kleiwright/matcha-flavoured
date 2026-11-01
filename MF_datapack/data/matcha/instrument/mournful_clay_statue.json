@@ -1,8 +1,0 @@
-{
-	"sound_event": "minecraft:item.totem.use",
-	"range": 16,
-	"use_duration": 30,
-	"description": {
-		"translate": "item.kleispack.mournful_clay_statue.desc"
-	}
-}

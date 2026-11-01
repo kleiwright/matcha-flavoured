@@ -1,1 +1,0 @@
-$return run tag @n[type=#matcha:pet_whistle_summons] add whistle$(whistleId)

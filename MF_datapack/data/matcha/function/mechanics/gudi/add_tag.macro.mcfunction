@@ -1,0 +1,1 @@
+$return run tag @n[type=#matcha:gudi_summons] add whistle$(whistleId)

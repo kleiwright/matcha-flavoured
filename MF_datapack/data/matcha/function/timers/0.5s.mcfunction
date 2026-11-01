@@ -5,5 +5,5 @@ schedule function matcha:timers/0.5s 0.5s replace
 #// say Clock 0.5s
 
 # Functions
-execute as @e[type=!minecraft:ender_pearl, tag=chunkloader] at @s run function matcha:mechanics/pet_whistle/update_chunkloader with entity @s
-execute as @e[type=minecraft:ender_pearl, tag=chunkloader] run function matcha:mechanics/pet_whistle/update_chunkloader_pearl with entity @s
+execute as @e[type=!minecraft:ender_pearl, tag=chunkloader] at @s run function matcha:mechanics/gudi/update_chunkloader with entity @s
+execute as @e[type=minecraft:ender_pearl, tag=chunkloader] run function matcha:mechanics/gudi/update_chunkloader_pearl with entity @s

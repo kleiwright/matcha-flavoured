@@ -1,0 +1,1 @@
+advancement revoke @a only matcha:mechanics/gudi_summon

@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"used_whistle": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "#matcha:gudi_summons"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"used_whistle"
+		]
+	],
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:mechanics/gudi/interact"
+	}
+}

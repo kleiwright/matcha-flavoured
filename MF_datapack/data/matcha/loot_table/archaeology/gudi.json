@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_red"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:archaeology/gudi_purple"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "matcha:archaelogy/pet_whistle"
+}

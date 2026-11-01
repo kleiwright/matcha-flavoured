@@ -1310,13 +1310,5 @@
   "adv.kleispack.adventure.trade_with_cartographer.desc": "Buy a map from an Archaeologist",
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
   "filled_map.house_of_wisdom": "Archive Map",
-  "item.kleispack.pet_whistle": "Pet whistle",
-  "item.kleispack.pet_whistle.desc": "Call your pets to your side",
-  "log.kleispack.pet_whistle.already_bound": "%s is already bound to this whistle",
-  "log.kleispack.pet_whistle.bind_success": "%s is now bound to this whistle",
-  "log.kleispack.pet_whistle.unbind_success": "%s is no longer bound to this whistle",
-  "log.kleispack.pet_whistle.bind_fail_not_owner": "You must be the owner to bind %s to a whistle",
-  "log.kleispack.pet_whistle.not_bound": "%s is not bound to this whistle",
-  "log.kleispack.pet_whistle.summon_success": "Your whistle has been heard",
-  "log.kleispack.pet_whistle.summon_fail": "No pets heard your whistle"
+  "item.kleispack.gudi": "Gudi"
 }

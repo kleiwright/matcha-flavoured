@@ -1,0 +1,2 @@
+execute if predicate matcha:items/is_gudi_purple run playsound matcha:gudi.infinite_amethyst record @a[distance=..12] ~ ~ ~ 1
+execute if predicate matcha:items/is_gudi_red run playsound matcha:gudi.endless record @a[distance=..12] ~ ~ ~ 1
