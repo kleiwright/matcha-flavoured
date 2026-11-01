@@ -12,11 +12,35 @@
 		}
 	},
 	"on_pass": {
-		"enchantments": {
-			"matcha:traversal": 1,
-			"main:traversal": -1
+		"type": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [
+					{
+						"enchantments": [
+							"matcha:traversal"
+						],
+						"levels": {
+							"min": 3
+						}
+					}
+				]
+			}
 		},
-		"add": true,
-		"type": "minecraft:set_enchantments"
+		"on_pass": {
+			"enchantments": {
+				"main:traversal": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		},
+		"on_fail": {
+			"enchantments": {
+				"matcha:traversal": 1,
+				"main:traversal": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		}
 	}
 }

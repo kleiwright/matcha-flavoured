@@ -12,11 +12,35 @@
 		}
 	},
 	"on_pass": {
-		"enchantments": {
-			"matcha:reach": 1,
-			"main:reach": -1
+		"type": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [
+					{
+						"enchantments": [
+							"matcha:reach"
+						],
+						"levels": {
+							"min": 3
+						}
+					}
+				]
+			}
 		},
-		"add": true,
-		"type": "minecraft:set_enchantments"
+		"on_pass": {
+			"enchantments": {
+				"main:reach": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		},
+		"on_fail": {
+			"enchantments": {
+				"matcha:reach": 1,
+				"main:reach": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		}
 	}
 }
