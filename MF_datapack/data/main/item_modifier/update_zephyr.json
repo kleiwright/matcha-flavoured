@@ -12,11 +12,32 @@
 		}
 	},
 	"on_pass": {
-		"enchantments": {
-			"matcha:zephyr": 1,
-			"main:zephyr": -1
+		"type": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [
+					{
+						"enchantments": [
+							"matcha:zephyr"
+						]
+					}
+				]
+			}
 		},
-		"add": true,
-		"type": "minecraft:set_enchantments"
+		"on_pass": {
+			"enchantments": {
+				"main:zephyr": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		},
+		"on_fail": {
+			"enchantments": {
+				"matcha:zephyr": 1,
+				"main:zephyr": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		}
 	}
 }

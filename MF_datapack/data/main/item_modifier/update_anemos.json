@@ -12,11 +12,32 @@
 		}
 	},
 	"on_pass": {
-		"enchantments": {
-			"matcha:anemos": 1,
-			"main:anemos": -1
+		"type": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [
+					{
+						"enchantments": [
+							"matcha:anemos"
+						]
+					}
+				]
+			}
 		},
-		"add": true,
-		"type": "minecraft:set_enchantments"
+		"on_pass": {
+			"enchantments": {
+				"main:anemos": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		},
+		"on_fail": {
+			"enchantments": {
+				"matcha:anemos": 1,
+				"main:anemos": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		}
 	}
 }

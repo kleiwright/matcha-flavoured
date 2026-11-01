@@ -12,11 +12,35 @@
 		}
 	},
 	"on_pass": {
-		"enchantments": {
-			"matcha:freezing_protection": 1,
-			"main:freezing_protection": -1
+		"type": "minecraft:filtered",
+		"item_filter": {
+			"predicates": {
+				"minecraft:enchantments": [
+					{
+						"enchantments": [
+							"matcha:freezing_protection"
+						],
+						"levels": {
+							"min": 3
+						}
+					}
+				]
+			}
 		},
-		"add": true,
-		"type": "minecraft:set_enchantments"
+		"on_pass": {
+			"enchantments": {
+				"main:freezing_protection": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		},
+		"on_fail": {
+			"enchantments": {
+				"matcha:freezing_protection": 1,
+				"main:freezing_protection": -1
+			},
+			"add": true,
+			"type": "minecraft:set_enchantments"
+		}
 	}
 }
