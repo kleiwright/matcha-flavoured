@@ -20,6 +20,8 @@ Update Ecologic
     - Shelf Mushroom is now an ingredient
 - Kettles! With around 53 new drinks, what lovely teas, coffees, and wines will you concot?
     - Kettles can't be fully automated due to how their heating mechanic works
+- Gudis (HapppySpud + Me)
+    - Can be found via archaeology in places people often visited or lived
 
 
 **--- SPOILERS FROM HERE ON ---**
@@ -50,7 +52,13 @@ Update Ecologic
         - Think about drinks you would make in real life, and what would you add to zest them up?
     - I want to expand them so you can make more coffees and teas, with variants of each (Earl grey v London Fog) || (Green Tea, Green Milk Tea, Green Boba Milk Tea)
         - But thats a lot of texture work, if you are good with textures and want to help out, go to the github and send in your tea-lightful submissions
-
+- Gudis
+    - Bound per pet per Gudi, AKA regardless of colour, a specific gudi item will bind with a specific pet
+    - Unbind by shift clicking with the Gudi
+    - Bound pets will become chunk loaders
+    - Unbinding a pet will remove its chunkloading
+    - Amnestics now work on pets and will cause them to forget their owners and unbind from any gudis (DOUBLE CHECK THE CODE WITH HAPPPY)
+    - You may only bind a pet if you own it
 
 
 ### Tweaks and Small Additions
@@ -104,8 +112,13 @@ Update Ecologic
 - TankyAibem: Chicken roosts
 - Grim-O: Plains Village, Desert Village
 
+If there isn't a name on a feature, I probably did it
 
-### For the Devs
+
+## For the Devs
+### Gudis
+
+### Animals
 Each animal affect was designed with three things in mind:
 - Sympathy
     - Does the Environmental Actor (EA) reflect what they do in real life? 
