@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/smith_silver_sword",
+	"parent": "matcha:with_songs/smith_silver_sword",
 	"criteria": {
 		"craft_primary_material": {
 			"trigger": "minecraft:recipe_crafted",

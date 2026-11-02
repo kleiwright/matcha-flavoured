@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_estus",
+	"parent": "matcha:with_songs/craft_cross",
 	"criteria": {
 		"get_nazar": {
 			"trigger": "minecraft:recipe_crafted",

@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_ruby",
+	"parent": "matcha:with_songs/obtain_amber",
 	"criteria": {
 		"get_item": {
 			"trigger": "minecraft:inventory_changed",
@@ -7,7 +7,7 @@
 				"items": [
 					{
 						"components": {
-							"minecraft:item_model": "matcha:amber"
+							"minecraft:item_model": "matcha:topaz"
 						}
 					}
 				]
@@ -17,23 +17,23 @@
 	"display": {
 		"description": [
 			{
-				"text": "❤\u00A0",
+				"text": "❤❤\u00A0",
 				"color": "aqua"
 			},
 			{
-				"translate": "adv.kleispack.obtain_amber.desc",
+				"translate": "adv.kleispack.obtain_topaz.desc",
 				"color": "gray"
 			}
 		],
 		"icon": {
 			"components": {
-				"minecraft:item_model": "matcha:amber"
+				"minecraft:item_model": "matcha:topaz"
 			},
 			"count": 1,
 			"id": "minecraft:emerald"
 		},
 		"title": {
-			"translate": "adv.kleispack.obtain_amber"
+			"translate": "adv.kleispack.obtain_topaz"
 		}
 	},
 	"requirements": [
@@ -43,7 +43,7 @@
 	],
 	"rewards": {
 		"loot": [
-			"matcha:advancement/crystal_heart_1"
+			"matcha:advancement/crystal_heart_2"
 		]
 	}
 }

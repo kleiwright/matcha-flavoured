@@ -1,0 +1,29 @@
+{
+	"parent": "matcha:with_songs/find_seminary",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.with_songs.obtain_tanakh.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:tanakh"
+			},
+			"count": 1,
+			"id": "minecraft:book"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.obtain_tanakh"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

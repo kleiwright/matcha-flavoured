@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"get_ash": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:glowstone_dust"
+					}
+				]
+			}
+		}
+	},
+  "display": {
+		"icon": {
+			"id": "minecraft:mossy_cobblestone"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.root"
+		},
+		"description": {
+			"text": ""
+		},
+		"background": "matcha:block/mossy_deepslate_bricks",
+		"show_toast": false,
+		"announce_to_chat": false
+	}
+}

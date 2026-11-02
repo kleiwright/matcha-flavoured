@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/craft_brush",
+	"parent": "matcha:with_songs/craft_brush",
 	"criteria": {
 		"cheerful_clay_statue": {
 			"trigger": "minecraft:inventory_changed",
