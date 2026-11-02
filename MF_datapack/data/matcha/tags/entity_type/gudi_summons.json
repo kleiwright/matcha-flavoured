@@ -13,6 +13,8 @@
 		"minecraft:nautilus",
 		"minecraft:camel",
 		"minecraft:camel_husk",
-		"minecraft:zombie_nautilus"
+		"minecraft:zombie_nautilus",
+		"minecraft:strider",
+		"minecraft:pig"
 	]
 }
