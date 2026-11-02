@@ -1,7 +1,7 @@
 # Reset trigger
 advancement revoke @s only matcha:mechanics/gudi_interact
 # Retrieve from entity equipment
-execute anchored eyes positioned ^ ^ ^1.5 if entity @n[type=#matcha:gudi_summons, distance=..5, predicate=matcha:mob_checks/equipped_gudi] run function matcha:mechanics/gudi/retrieve_from_head
+execute unless items entity @s weapon.mainhand * anchored eyes positioned ^ ^ ^1.5 if entity @n[type=#matcha:gudi_summons, distance=..5, predicate=matcha:mob_checks/equipped_gudi] run function matcha:mechanics/gudi/retrieve_from_head
 # Return if not holding whistle
 execute unless predicate matcha:items/is_gudi run return fail
 
