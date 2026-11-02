@@ -20,6 +20,10 @@
 								"description": {
 									"translate": "item.kleispack.cheerful_clay_statue.desc"
 								}
+							},
+							"minecraft:use_cooldown": {
+								"seconds": 30,
+								"cooldown_group":"matcha:statues"
 							}
 						}
 					},
@@ -41,6 +45,10 @@
 								"description": {
 									"translate": "item.kleispack.mournful_clay_statue.desc"
 								}
+							},
+							"minecraft:use_cooldown": {
+								"seconds": 30,
+								"cooldown_group":"matcha:statues"
 							}
 						}
 					},
