@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_estus",
+	"parent": "matcha:with_songs/obtain_estus",
 	"criteria": {
 		"get_item": {
 			"trigger": "minecraft:inventory_changed",

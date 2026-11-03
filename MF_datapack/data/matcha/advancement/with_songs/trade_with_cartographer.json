@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:with_songs/root",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.with_songs.trade_with_cartographer.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.trade_with_cartographer"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

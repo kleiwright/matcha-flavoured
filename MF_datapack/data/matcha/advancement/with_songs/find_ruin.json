@@ -1,0 +1,25 @@
+{
+	"parent": "matcha:with_songs/trade_with_cartographer",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.find_ruin.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"id": "minecraft:mossy_stone_bricks"
+		},
+		"title": {
+			"translate": "adv.kleispack.find_ruin"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

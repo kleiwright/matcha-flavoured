@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_copper",
+	"parent": "matcha:with_songs/trade_with_cartographer",
 	"criteria": {
 		"has_primary_material": {
 			"trigger": "minecraft:recipe_crafted",

@@ -1,5 +1,5 @@
 {
-  "parent": "matcha:tutorial/root",
+  "parent": "matcha:tutorial/light_campfire",
   "criteria": {
     "get_ash": {
       "trigger": "minecraft:inventory_changed",

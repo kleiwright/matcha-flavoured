@@ -1,0 +1,25 @@
+{
+	"parent": "matcha:with_songs/obtain_divine_comedy",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.with_songs.find_abbey.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"id": "minecraft:mossy_stone_bricks"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.find_abbey"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

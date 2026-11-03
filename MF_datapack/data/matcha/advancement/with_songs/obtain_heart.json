@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_divine_fragment",
+	"parent": "matcha:with_songs/obtain_divine_fragment",
 	"criteria": {
 		"get_heart": {
 			"trigger": "minecraft:inventory_changed",

@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_diamond",
+	"parent": "matcha:with_songs/obtain_enoch",
 	"criteria": {
 		"entered_nether": {
 			"conditions": {

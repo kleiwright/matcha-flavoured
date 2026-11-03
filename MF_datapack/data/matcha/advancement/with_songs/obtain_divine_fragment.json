@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_estus",
+	"parent": "matcha:with_songs/obtain_estus",
 	"criteria": {
 		"get_fragment": {
 			"trigger": "minecraft:inventory_changed",
@@ -35,11 +35,6 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"requirements": [
-		[
-			"get_fragment"
-		]
-	],
 	"rewards": {
 		"loot": [
 			"matcha:advancement/obol_2"

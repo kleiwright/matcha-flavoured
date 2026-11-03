@@ -1,0 +1,29 @@
+{
+	"parent": "matcha:with_songs/obtain_estus",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.craft_cross.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:wooden_cross"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"translate": "adv.kleispack.craft_cross"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

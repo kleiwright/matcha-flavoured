@@ -13,7 +13,17 @@
 							"minecraft:item_name": {
 								"translate": "item.kleispack.gudi"
 							},
-							"minecraft:instrument": "matcha:gudi_endless"
+							"minecraft:instrument": "matcha:gudi_endless",
+							"minecraft:equippable": {
+								"slot": "head",
+								"allowed_entities": "#matcha:gudi_summons",
+								"equip_on_interact": true,
+								"dispensable":false
+							},
+							"minecraft:use_cooldown": {
+								"seconds": 5,
+								"cooldown_group":"matcha:gudi"
+							}
 						}
 					},
 					"name": "minecraft:goat_horn"

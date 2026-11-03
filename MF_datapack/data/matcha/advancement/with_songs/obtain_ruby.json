@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/obtain_opal",
+	"parent": "matcha:with_songs/obtain_opal",
 	"criteria": {
 		"get_item": {
 			"trigger": "minecraft:inventory_changed",

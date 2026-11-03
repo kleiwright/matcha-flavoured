@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:tutorial/smith_warding_sword",
+	"parent": "matcha:with_songs/smith_warding_sword",
 	"criteria": {
 		"craft_primary_material": {
 			"trigger": "minecraft:recipe_crafted",

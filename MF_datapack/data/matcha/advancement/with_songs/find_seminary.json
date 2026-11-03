@@ -1,0 +1,25 @@
+{
+	"parent": "matcha:with_songs/obtain_paradise_lost",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.with_songs.find_seminary.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"id": "minecraft:mossy_stone_bricks"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.find_seminary"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}
