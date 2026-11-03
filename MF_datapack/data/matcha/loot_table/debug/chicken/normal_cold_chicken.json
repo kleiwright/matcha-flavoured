@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:cold_chicken_spawn_egg",
+							"minecraft:item_name": "Normal Cold Chicken",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"variant": "minecraft:cold",
+								"sound_variant": "minecraft:picky"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/chicken_lay"
+}

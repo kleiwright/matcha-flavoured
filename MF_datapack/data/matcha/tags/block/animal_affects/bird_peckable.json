@@ -1,10 +1,6 @@
 {
     "values": [
-        "minecraft:grass_block",
-        "minecraft:farmland",
-        "#matcha:animal_affects/dirts",
-        "#matcha:animal_affects/gravels",
-        "#matcha:animal_affects/mycelia",
-        "#matcha:animal_affects/sands"
+        "#matcha:animal_affects/chicken_peckable",
+        "#matcha:animal_affects/seagull_peckable"
     ]
 }

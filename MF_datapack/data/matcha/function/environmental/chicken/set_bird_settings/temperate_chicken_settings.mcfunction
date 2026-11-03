@@ -1,0 +1,1 @@
+data merge entity @s {sound_variant:"minecraft:classic"}

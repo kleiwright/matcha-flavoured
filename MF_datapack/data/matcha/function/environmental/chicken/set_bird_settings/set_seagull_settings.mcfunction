@@ -1,1 +1,0 @@
-data merge entity @s {sound_variant:"matcha:seagull"}

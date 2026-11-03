@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:gravel",
-        "minecraft:sand"
+        "minecraft:sand",
+        "minecraft:red_sand"
     ]
 }

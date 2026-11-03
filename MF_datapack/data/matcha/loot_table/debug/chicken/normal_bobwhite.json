@@ -14,16 +14,6 @@
 							"minecraft:item_name": "Normal Bobwhite",
 							"minecraft:entity_data": {
 								"id": "minecraft:chicken",
-								"Tags": [
-									"wild"
-								],
-								"attributes": [
-									{
-										"id": "minecraft:scale",
-										"base": 0.8,
-										"modifiers": []
-									}
-								],
 								"variant": "matcha:bobwhite",
 								"sound_variant": "matcha:bobwhite"
 							}
