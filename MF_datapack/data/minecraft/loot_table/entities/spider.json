@@ -1,11 +1,11 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
-        {
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "modifier": {
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
 						"type": "minecraft:sequence",
 						"functions": [
 							{
@@ -27,46 +27,19 @@
 							}
 						]
 					},
-                    "name": "minecraft:string"
-                }
-            ],
-            "condition": {
-				"type": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-					"entity_tags": {
-						"none_of": [
-							"NoDrops"
-						]
-					}
+					"name": "minecraft:string"
 				}
+			],
+			"rolls": 1
+		},
+		{
+			"condition": {
+				"type": "minecraft:killed_by_player"
 			},
-            "rolls": 1
-        },
-        {
-            "condition": {
-				"type": "minecraft:all_of",
-				"terms": [
-					{
-						"type": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"entity_tags": {
-								"none_of": [
-									"NoDrops"
-								]
-							}
-						}
-					},
-					{
-						"type": "minecraft:killed_by_player"
-				  }
-			  ]
-		  },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "modifier": {
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"modifier": {
 						"type": "minecraft:sequence",
 						"functions": [
 							{
@@ -88,11 +61,11 @@
 							}
 						]
 					},
-                    "name": "minecraft:spider_eye"
-                }
-            ],
-            "rolls": 1
-        }
-    ],
-    "random_sequence": "minecraft:entities/spider"
+					"name": "minecraft:spider_eye"
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:entities/spider"
 }
