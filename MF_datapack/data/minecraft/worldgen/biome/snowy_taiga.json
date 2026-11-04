@@ -245,6 +245,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
+      "matcha:chicken_roosts/snowy_taiga",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:trees_taiga",

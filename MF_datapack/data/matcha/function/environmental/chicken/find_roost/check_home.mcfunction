@@ -12,4 +12,5 @@ execute as @e[type=chicken,tag=curious,tag=!has_home] run function matcha:enviro
 execute as @e[type=chicken,tag=nest_maker,tag=!has_home] run function matcha:environmental/chicken/find_roost/set_my_nest_maker_home
 execute as @e[type=chicken,tag=!has_home] run function matcha:environmental/chicken/find_roost/set_my_home
 
-advancement revoke @s only matcha:mechanics/chicken/scan_wild_chickens_without_home
+# DEBUG: DO not scan whilst making roots, that way the home is never set
+# advancement revoke @s only matcha:mechanics/chicken/scan_wild_chickens_without_home

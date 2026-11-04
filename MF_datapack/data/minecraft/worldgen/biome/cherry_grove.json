@@ -172,6 +172,7 @@
     [],
     [],
     [
+      "matcha:chicken_roosts/cherry_grove",
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",

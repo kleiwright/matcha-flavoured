@@ -1,0 +1,78 @@
+{
+	"type": "minecraft:weighted_random_selector",
+	"features": [
+		{
+			"data": {
+				"feature": {
+					"type": "minecraft:sequence",
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:template",
+								"templates": [
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/1"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/2"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/3"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/4"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/5"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/6"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/7"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/8"
+										},
+										"weight": 1
+									},
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/plains/9"
+										},
+										"weight": 1
+									}
+								]
+							},
+							"placement": []
+						}
+					]
+				},
+				"placement": []
+			},
+			"weight": 200
+		}
+	]
+}

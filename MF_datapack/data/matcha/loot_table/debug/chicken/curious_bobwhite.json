@@ -11,11 +11,11 @@
 						"type": "minecraft:set_components",
 						"components": {
 							"minecraft:item_model": "matcha:bobwhite_spawn_egg",
-							"minecraft:item_name": "Mama Bobwhite",
+							"minecraft:item_name": "Curious Bobwhite",
 							"minecraft:entity_data": {
 								"id": "minecraft:chicken",
 								"Tags": [
-									"mama"
+									"curious"
 								],
 								"variant": "matcha:bobwhite",
 								"sound_variant": "matcha:bobwhite"

@@ -214,6 +214,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
+      "matcha:chicken_roosts/dark_oak_forest",
       "minecraft:glow_lichen",
       "minecraft:dark_forest_vegetation",
       "minecraft:forest_flowers",

@@ -182,6 +182,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
+      "matcha:chicken_roosts/beach",
       "minecraft:glow_lichen",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",

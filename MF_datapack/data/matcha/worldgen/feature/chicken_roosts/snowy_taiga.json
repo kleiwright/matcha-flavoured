@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:weighted_random_selector",
+	"features": [
+		{
+			"data": {
+				"feature": {
+					"type": "minecraft:sequence",
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:template",
+								"templates": [
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/1"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/2"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/3"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/4"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/5"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/snowy_taiga/6"
+										},
+										"weight": 1
+									}
+								]
+							},
+							"placement": []
+						}
+					]
+				},
+				"placement": []
+			},
+			"weight": 200
+		}
+	]
+}

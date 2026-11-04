@@ -240,6 +240,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
+      "matcha:chicken_roosts/old_growth_spruce_taiga",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:trees_old_growth_pine_taiga",

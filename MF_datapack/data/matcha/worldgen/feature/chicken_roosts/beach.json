@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:weighted_random_selector",
+	"features": [
+		{
+			"data": {
+				"feature": {
+					"type": "minecraft:sequence",
+					"features": [
+						{
+							"feature": {
+								"type": "minecraft:template",
+								"templates": [
+									{
+										"data": {
+											"id": "matcha:chicken_roosts/beach/1"
+										},
+										"weight": 1
+									},
+                                    {
+										"data": {
+											"id": "matcha:chicken_roosts/beach/3"
+										},
+										"weight": 1
+									}
+								]
+							},
+							"placement": []
+						}
+					]
+				},
+				"placement": []
+			},
+			"weight": 200
+		}
+	]
+}

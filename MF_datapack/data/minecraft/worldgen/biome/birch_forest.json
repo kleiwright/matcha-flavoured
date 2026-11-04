@@ -213,6 +213,7 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
+      "matcha:chicken_roosts/birch_forest",
       "minecraft:glow_lichen",
       "minecraft:forest_flowers",
       "minecraft:wildflowers_birch_forest",
