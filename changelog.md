@@ -27,7 +27,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Shelf Mushroom is now an ingredient
 - Kettles! With around 53 new drinks, what lovely teas, coffees, and wines will you concot?
     - Kettles can't be fully automated due to how their heating mechanic works
-- Gudis (HapppySpud + Me)
+- [Gudis](https://en.wikipedia.org/wiki/Gudi_%28instrument%29) (HapppySpud + Me)
     - Can be found via archaeology in places people often visited or lived
 
 
