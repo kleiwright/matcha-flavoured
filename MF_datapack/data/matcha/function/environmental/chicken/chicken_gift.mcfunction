@@ -20,6 +20,11 @@ execute if block ~ ~-0.5 ~ #matcha:animal_affects/seagull_peckable \
     if predicate matcha:mob_checks/is_seagull \
     run function matcha:environmental/chicken/peck/animation
 
+execute if block ~ ~ ~ #matcha:animal_affects/duck_divable \
+    unless block ~ ~0.5 ~ #matcha:animal_affects/chicken_edible \
+    if predicate matcha:mob_checks/is_duck \
+    run function matcha:environmental/chicken/dive/animation
+
 execute if block ~ ~-0.5 ~ #matcha:animal_affects/chicken_peckable \
     unless block ~ ~0.5 ~ #matcha:animal_affects/chicken_edible \
     unless predicate matcha:mob_checks/is_seagull \
@@ -29,6 +34,7 @@ execute if block ~ ~-0.5 ~ #matcha:animal_affects/chicken_peckable \
 execute if block ~ ~-0.5 ~ #matcha:animal_affects/chicken_peckable \
     if block ~ ~0.5 ~ #matcha:animal_affects/chicken_edible \
     unless predicate matcha:mob_checks/is_seagull \
+    unless predicate matcha:mob_checks/is_duck \
     unless predicate matcha:mob_checks/is_baby \
     unless entity @s[tag=mama] \
     run function matcha:environmental/chicken/eat/animation

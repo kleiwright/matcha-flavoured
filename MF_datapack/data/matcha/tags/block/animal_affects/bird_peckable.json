@@ -1,6 +1,7 @@
 {
     "values": [
         "#matcha:animal_affects/chicken_peckable",
-        "#matcha:animal_affects/seagull_peckable"
+        "#matcha:animal_affects/seagull_peckable",
+        "#matcha:animal_affects/duck_divable"
     ]
 }

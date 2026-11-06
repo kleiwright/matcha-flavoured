@@ -137,6 +137,7 @@ scoreboard objectives add matcha.chicken_planting_cooldown dummy
 scoreboard objectives add matcha.pecking_animation dummy
 scoreboard objectives add matcha.chicken_nesting_countdown dummy
 scoreboard objectives add matcha.nesting_animation dummy
+scoreboard objectives add matcha.diving_animation dummy
 # Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy
 scoreboard objectives add matcha.pig_play_animation dummy

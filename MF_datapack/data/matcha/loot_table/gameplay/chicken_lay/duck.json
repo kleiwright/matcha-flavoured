@@ -9,6 +9,52 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/duck_diving_seagrass",
+							"weight": 5,
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"all_of": [
+											"diving",
+											"seagrass"
+										]
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"value": "matcha:gameplay/chicken_lay/duck_diving_water",
+							"weight": 5,
+							"condition": {
+								"type": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"minecraft:entity_tags": {
+										"any_of": [
+											"diving"
+										],
+										"none_of": [
+											"seagrass"
+										]
+									}
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
 							"value": "matcha:materials/green_egg",
 							"weight": 5,
 							"modifier": {
@@ -26,6 +72,10 @@
 									"minecraft:entity_tags": {
 										"any_of": [
 											"mama"
+										],
+										"none_of": [
+											"diving",
+											"seagrass"
 										]
 									}
 								}
@@ -36,12 +86,38 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:materials/green_egg",
-					"weight": 1
+					"weight": 1,
+					"condition": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_tags": {
+								"none_of": [
+									"seagrass",
+									"mama",
+									"diving"
+								]
+							}
+						}
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:feather",
-					"weight": 1
+					"weight": 1,
+					"condition": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_tags": {
+								"none_of": [
+									"seagrass",
+									"mama",
+									"diving"
+								]
+							}
+						}
+					}
 				}
 			]
 		}

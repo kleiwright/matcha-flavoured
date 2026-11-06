@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/fish_bones",
+					"weight": 2
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:gameplay/chicken_lay/green_egg"
+}
