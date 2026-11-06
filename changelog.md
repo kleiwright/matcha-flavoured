@@ -41,7 +41,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Birds bred by the player will inherit no special personality types, but changing their environment can affect their personalites and change them
     - Some personalities cannot be taught, and only found by visiting different roosts
     - Birds are important for supporting the local ecosystem, and can causes grasses to grow.
-    - You should know, ducks have special interactions in the water, but MC makes chickens path to grass, so it may only happen rarely unless you rig it
+    - You should know, one of the species has special interactions in the water, but MC makes chickens path to grass, so it may only happen rarely unless you rig it
     - Don't let a chicken into your wheat field!!
 - Pig Overhaul
     - Pigs are now useful for vegetarian players <3
