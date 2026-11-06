@@ -1,12 +1,12 @@
 {
-	"asset_id": "matcha:entity/chicken/bobwhite",
-	"baby_asset_id": "matcha:entity/chicken/bobwhite_baby",
+	"asset_id": "matcha:entity/chicken/duck",
+	"baby_asset_id": "matcha:entity/chicken/duck_baby",
 	"model": "normal",
 	"spawn_conditions": [
 		{
 			"condition": {
 				"type": "minecraft:biome",
-				"biomes": "#matcha:is_bobwhite_habitat"
+				"biomes": "#matcha:habitat/duck"
 			},
 			"priority": 2
 		}

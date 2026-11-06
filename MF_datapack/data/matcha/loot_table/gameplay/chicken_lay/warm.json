@@ -8,8 +8,8 @@
                     "type": "minecraft:alternatives",
                     "children": [
                         {
-                            "type": "minecraft:item",
-                            "name": "minecraft:brown_egg",
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/brown_egg",
                             "weight": 5,
                             "modifier": {
                                 "type": "minecraft:set_count",
@@ -34,8 +34,8 @@
                     ]
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brown_egg",
+                    "type": "minecraft:loot_table",
+                    "value": "matcha:materials/brown_egg",
                     "weight": 1
                 },
                 {

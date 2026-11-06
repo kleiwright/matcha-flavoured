@@ -34,15 +34,6 @@
             "weight": 10
           },
           {
-            "type": "minecraft:chicken",
-            "count": {
-              "type": "uniform",
-              "max_inclusive": 4,
-              "min_inclusive": 4
-            },
-            "weight": 10
-          },
-          {
             "type": "minecraft:cow",
             "count": {
               "type": "uniform",
@@ -214,7 +205,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/dark_oak_forest",
       "minecraft:glow_lichen",
       "minecraft:dark_forest_vegetation",
       "minecraft:forest_flowers",

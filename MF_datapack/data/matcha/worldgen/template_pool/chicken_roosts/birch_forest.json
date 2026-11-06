@@ -1,0 +1,107 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/1",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/2",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/3",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/4",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/5",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/birch_forest/6",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty"
+}

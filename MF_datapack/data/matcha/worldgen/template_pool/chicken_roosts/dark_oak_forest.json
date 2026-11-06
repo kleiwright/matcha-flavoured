@@ -3,9 +3,15 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:seagull_roost/small_1",
+				"location": "matcha:chicken_roosts/dark_oak_forest/1",
 				"processors": {
-					"processors": []
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
 				},
 				"projection": "rigid"
 			},

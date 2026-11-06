@@ -1,12 +1,12 @@
 {
 	"asset_id": "matcha:entity/chicken/bobwhite",
 	"baby_asset_id": "matcha:entity/chicken/bobwhite_baby",
-	"model": "normal",
+	"model": "cold",
 	"spawn_conditions": [
 		{
 			"condition": {
 				"type": "minecraft:biome",
-				"biomes": "#matcha:is_bobwhite_habitat"
+				"biomes": "#matcha:habitat/bobwhite"
 			},
 			"priority": 2
 		}

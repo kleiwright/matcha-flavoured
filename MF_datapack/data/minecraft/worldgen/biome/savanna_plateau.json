@@ -16,25 +16,7 @@
         "axolotls": [],
         "creature": [
           {
-            "type": "minecraft:sheep",
-            "count": {
-              "type": "uniform",
-              "max_inclusive": 4,
-              "min_inclusive": 4
-            },
-            "weight": 12
-          },
-          {
             "type": "minecraft:pig",
-            "count": {
-              "type": "uniform",
-              "max_inclusive": 4,
-              "min_inclusive": 4
-            },
-            "weight": 10
-          },
-          {
-            "type": "minecraft:chicken",
             "count": {
               "type": "uniform",
               "max_inclusive": 4,
@@ -260,7 +242,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/savanna",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
       "minecraft:trees_savanna",

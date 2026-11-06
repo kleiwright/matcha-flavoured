@@ -8,8 +8,8 @@
 					"type": "minecraft:alternatives",
 					"children": [
 						{
-							"type": "minecraft:item",
-							"name": "minecraft:blue_egg",
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/blue_egg",
 							"weight": 5,
 							"modifier": {
 								"type": "minecraft:set_count",
@@ -34,9 +34,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:blue_egg",
-					"weight": 1
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/blue_egg",
+					"weight":1
 				},
 				{
 					"type": "minecraft:item",

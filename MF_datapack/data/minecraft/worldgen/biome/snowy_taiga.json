@@ -34,15 +34,6 @@
             "weight": 10
           },
           {
-            "type": "minecraft:chicken",
-            "count": {
-              "type": "uniform",
-              "max_inclusive": 4,
-              "min_inclusive": 4
-            },
-            "weight": 10
-          },
-          {
             "type": "minecraft:cow",
             "count": {
               "type": "uniform",
@@ -245,7 +236,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/snowy_taiga",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:trees_taiga",

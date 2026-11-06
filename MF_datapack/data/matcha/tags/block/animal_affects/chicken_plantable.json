@@ -2,6 +2,7 @@
     "values": [
         "minecraft:grass_block",
         "minecraft:farmland",
+        "minecraft:mud",
         "minecraft:moss_block",
         "minecraft:dirt"
     ]

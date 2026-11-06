@@ -1,12 +1,9 @@
 {
+	"model": "cold",
 	"asset_id": "minecraft:entity/chicken/chicken_temperate",
 	"baby_asset_id": "minecraft:entity/chicken/chicken_temperate_baby",
 	"spawn_conditions": [
 		{
-			"condition": {
-				"type": "minecraft:biome",
-				"biomes": "#minecraft:is_end"
-			},
 			"priority": -1
 		}
 	]

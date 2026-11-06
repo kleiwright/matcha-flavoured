@@ -1,0 +1,58 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 91231127,
+		"separation": 5,
+		"spacing": 11
+	},
+	"structures": [
+		{
+			"structure": "matcha:chicken_roosts/beach",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/plains",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/cherry_grove",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/birch_forest",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/dappled_forest",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/dark_oak_forest",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/forest",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/meadow",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/old_growth_spruce_taiga",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/savanna",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/snowy_taiga",
+			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/taiga",
+			"weight": 1
+		}
+	]
+}

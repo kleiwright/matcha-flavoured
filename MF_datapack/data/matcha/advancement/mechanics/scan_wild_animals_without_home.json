@@ -14,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:environmental/chicken/find_roost/check_home"
+		"function": "matcha:environmental/animal/scan_wild_animals_without_home"
 	}
 }

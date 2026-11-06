@@ -19,12 +19,15 @@ execute if score @s matcha.pecking_animation matches 1 run execute at @s run eff
 
 
 # Unlike every other passive animal, we don't care if the chickens are on the same block, because chickens do NOT modify the block when pecking
-execute if score @s matcha.pecking_animation matches 1 run data merge entity @s {EggLayTime:0}
+# execute if score @s matcha.pecking_animation matches 1 run data merge entity @s {EggLayTime:0}
+execute if score @s matcha.pecking_animation matches 1 run execute at @s run execute as @s run function matcha:environmental/chicken/peck/peck_block
 
 # Remove animation tags and scores
 execute if score @s matcha.pecking_animation matches ..0 run tag @s remove playing_pecking_animation
-execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_grasses
-execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_dirts
-execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_mycelia
-execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_sands
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_grass
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_dirt
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_mycelium
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_sand
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_gravel
+execute if score @s matcha.pecking_animation matches ..0 run tag @s remove pecking_red_sand
 execute if score @s matcha.pecking_animation matches ..0 run scoreboard players reset @s matcha.pecking_animation

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "scaffolding",
+	"key": {
+		"I": "minecraft:bamboo",
+		"~": "minecraft:string"
+	},
+	"pattern": [
+		"I~I",
+		"I I",
+		"I I"
+	],
+	"result": {
+		"count": 8,
+		"id": "minecraft:scaffolding"
+	}
+}

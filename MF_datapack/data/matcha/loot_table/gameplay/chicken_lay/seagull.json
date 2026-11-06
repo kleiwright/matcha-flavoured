@@ -9,7 +9,7 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"value": "matcha:materials/green_egg",
+							"value": "matcha:materials/speckled_green_egg",
 							"weight": 5,
 							"modifier": {
 								"type": "minecraft:set_count",
@@ -76,7 +76,7 @@
 							"children": [
 								{
 									"type": "minecraft:loot_table",
-									"value": "matcha:materials/green_egg",
+									"value": "matcha:materials/speckled_green_egg",
 									"weight": 1
 								},
 								{
@@ -104,5 +104,5 @@
 			]
 		}
 	],
-	"random_sequence": "matcha:gameplay/chicken_lay/green_egg"
+	"random_sequence": "matcha:gameplay/chicken_lay/seagull"
 }

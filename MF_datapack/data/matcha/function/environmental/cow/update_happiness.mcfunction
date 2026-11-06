@@ -22,4 +22,4 @@ execute unless score @s[tag=sad] matcha.milk_reserve matches 1.. run scoreboard 
 
 
 #debug
-tellraw @a ["Milk Reserve: ",{"score":{"name":"@s","objective":"matcha.milk_reserve"}}]
+# tellraw @a ["Milk Reserve: ",{"score":{"name":"@s","objective":"matcha.milk_reserve"}}]

@@ -9,7 +9,7 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"value": "matcha:materials/teal_egg",
+							"value": "matcha:materials/green_egg",
 							"weight": 5,
 							"modifier": {
 								"type": "minecraft:set_count",
@@ -35,7 +35,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:materials/teal_egg",
+					"value": "matcha:materials/green_egg",
 					"weight": 1
 				},
 				{

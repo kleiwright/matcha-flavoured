@@ -3,7 +3,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/tree_1",
+				"location": "matcha:chicken_roosts/plains/1",
 				"processors": {
 					"processors": [
 						{
@@ -20,7 +20,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/tree_2",
+				"location": "matcha:chicken_roosts/plains/2",
 				"processors": {
 					"processors": [
 						{
@@ -37,7 +37,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/tree_3",
+				"location": "matcha:chicken_roosts/plains/3",
 				"processors": {
 					"processors": [
 						{
@@ -54,7 +54,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/tree_4",
+				"location": "matcha:chicken_roosts/plains/4",
 				"processors": {
 					"processors": [
 						{
@@ -71,7 +71,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/log_1",
+				"location": "matcha:chicken_roosts/plains/5",
 				"processors": {
 					"processors": [
 						{
@@ -88,7 +88,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/log_2",
+				"location": "matcha:chicken_roosts/plains/6",
 				"processors": {
 					"processors": [
 						{
@@ -105,7 +105,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/bush_1",
+				"location": "matcha:chicken_roosts/plains/7",
 				"processors": {
 					"processors": [
 						{
@@ -122,7 +122,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/bush_2",
+				"location": "matcha:chicken_roosts/plains/8",
 				"processors": {
 					"processors": [
 						{
@@ -139,7 +139,7 @@
 		{
 			"element": {
 				"element_type": "minecraft:legacy_single_pool_element",
-				"location": "matcha:chicken_roosts/plains/bush_3",
+				"location": "matcha:chicken_roosts/plains/9",
 				"processors": {
 					"processors": [
 						{

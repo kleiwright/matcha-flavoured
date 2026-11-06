@@ -1,16 +1,23 @@
 
 Update Ecologic
 
+### What I want from you
+Let me know if the new animal systems are fun/engaging! I've had a blast playing with them in my world, but I'm very biased. If you have ideas for sheep, let me know, I kind of left them untouched (Just like the spring drop :c ) If you have more ideas for ways that the mobs can play and interact with the player let me know. Datapacks are very limited but I managed to get away with quite a bit, I'm sure theres more we can do!
+
 ### Major Additions and Changes (Spoiler Free)
 - Update Ecologic
-    - Farm animals have been reworked to reward players for taking care of their animals, and punish players for slaughtering animals on-sight
+    - Farm animals have been reworked to reward players for taking care of their animals
     - Cows, Chickens, and Pigs have special requirements, when these are met, they will become "Happy"
     - Happy animals drop unique loot, more of it, and perform useful tasks more often. Some animals can also become sad, pay attention to their needs and act accordingly
     - Each animal's requirements are hinted in the advancements
     - I encourage you to pay attention to animal behaviours and environments, there are other factors not outlined in the advancements that can affect loot
 - Animal Spawning and Breeding Changes
-    - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have as many unique behavious as newly-generated wild ones.
+    - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have unique behavious like newly-generated wild ones.
     - Pigs and Cows are unaffected, pre-existing ones will be given all unique behaviours
+- Animal behaviour changes
+    - Farm Animals tend not to wander far from where they were born
+    - Animals tend to stick around where they were last fed
+    - All animals tempt ranges increased (To be less frustrating to lead them back home)
 - Be Aware
     - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
@@ -24,25 +31,33 @@ Update Ecologic
     - Can be found via archaeology in places people often visited or lived
 
 
-**--- SPOILERS FROM HERE ON ---**
+
 - Chicken Overhaul
-    - More "chickens" have been added, and spawn only in their corresponding home. Chickens no longer spawn naturally on grass
+    - More "chickens" have been added, and spawn only in their corresponding home. Birds no longer spawn naturally, only in their roosts. (Some exceptions)
     - Chickens no longer give live birth, but its still good to feed them
     - Pay attention not only to the plumage and species of "chicken" but also **their behaviour**, this will affect their drops
+    - 3 New species have been added (Play to find out what they are)
     - There are 4 different behaviours right now, each give different loot, so pay attention to your birds and see which ones would be worth taking back to your base.
-    - Chickens bred by the player will inherit no special personality types
+    - Birds bred by the player will inherit no special personality types, but changing their environment can affect their personalites and change them
+    - Some personalities cannot be taught, and only found by visiting different roosts
+    - Birds are important for supporting the local ecosystem, and can causes grasses to grow.
+    - Don't let a chicken into your wheat field!!
 - Pig Overhaul
+    - Pigs are now useful for vegetarian players <3
+    - Pigs can now play in Mud! Make your pigs happy, they'll pay you back ten-fold
     - Pigs can now only be bred with golden carrots or golden apples, but its still a good idea to feed them
+    - Pigs are curious and playful, give them plenty of materials to root around in, you'll be suprised by what they can dig up
     - Pigs can now eat almost everything, just like real life! (even each other)
-    - Pigs can eat certain blocks, I wonder what'll happen?
+    - Don't let pigs into your carrot/potato fields!!
 - Cows
     - Can now be milked with glass bottles, but not after breeding (ironic ik)
     - Cows can now be milked DRY, if you want to keep milking them, they have to be kept happy
     - Cows graze much more often than chickens and pigs, when they feed, they will gain an additional Milk reserve (+1)
-    - If they feed on a haybale or wheat they will gain many milk reserves (+8)
+    - Make sure they don't graze everything! Otherwise theyll have nothing to eat (Maybe someone else could help with that?)
+    - If they feed on a haybale or wheat they will gain many milk reserves (+9 / +3)
     - This cannot be forced by the player, rather, feeding a cow a hay bale directly will not increase milk reserves, only on their own terms will this happen
     - But feeding them will speed the process up
-    - Cows who are kept too close to their trough after eating
+    - Cows who are kept too close to their trough after eating will become sad
 - Kettles & Tea
     - Teas focus on effects, Foods focus on health recovery
     - So if you need health, opt for food, if you need effect, opt for tea
@@ -66,6 +81,10 @@ Update Ecologic
 - Horse, Nautilus, Beacon, and Crafter UI Textures added
 - Heart Container loss can now be toggled by running:
     - `/function matcha:config/heart_container_loss_on_death/toggle` (fautore)
+- Chickens no longer drop feathers on death
+- Scaffolding can now also be made from sticks, bamboo scaffolding buffed
+- Nerfed Fossil Ore, appears less often and drops less bones (I want it to be worth mining, there was too much and it was too easily ignored)
+
 #### Food
 - Added Conchas
 - Im not telling you what drinks were added you gotta go experiment and explore it on your own
@@ -102,7 +121,7 @@ Update Ecologic
 - All of the translation volunteers
 - Thank you so much everyone!
 #### Assets
-- ToastNeko: Copper Knife, Wither Tabula Base,
+- ToastNeko: Copper Knife, Wither Tabula Base
 - TheGenderGoblin: 3D Fish models
 - LambS0up: Withered Heart (Heatbreaker) Asset
 - Bobot-Dev: All the 3D food models
@@ -116,8 +135,6 @@ If there isn't a name on a feature, I probably did it
 
 
 ## For the Devs
-### Gudis
-
 ### Animals
 Each animal affect was designed with three things in mind:
 - Sympathy
@@ -167,15 +184,14 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
     - *Its not that bad honestly, due to the chicken home radius and stuff this is unlikley to occur, really I think, this would mostly happen from pranks or something
     - Further unlikley to get out of hand bc of the new awful passive mob pathing behaviours mojang recently implemented >:c
     - After testing this in my world, yes it makes a million chickens but the spread is really slow and pretty contained
-
-
-##### TBI
 - Chickes have diff personality types which influence their drops and behaviours
     - Mama - Makes a ton of eggs, stays in the nest
     - Mundane - A normal chicken, makes some eggs, some feathers, stays near home
     - Curious - Digs up trinkets and shiny things, wanders pretty far
     - Nest-maker - Wanders far from home and makes a new one! After they make a nest they turn into a mama and make 2 babies
     - Rascal - A type of seagull which only makes bonemeal
+
+##### TBI
 - GMOS
     - A special villager will trade select cultivars of chickens (for animals a cultivar is called a breed, but I dont like that term, it doesn't sound as exciting)
     - The cultivars are the different personalities of chicken!
@@ -184,7 +200,6 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
     - Mamas never get upset if too close to home, nor babies
     - I dont know to implement this yet, i want it to curb hopper chickens farms, but people would just move the chickens away from their home and in a little box, that doesn't seem very nice
     - BUT also, cows are the fickle ones, pigs are the ones who change based on enviro, chickens are the ones who have special unique behaviours. So honestly, seems pretty balanced. I dont want to have players have to pay attention to chicken behaviours AND ALSO manage their emotions, each animal should have one unique thing, and we permutate on that as much as possible. Im hoping the unique interactions and cute factor will make most players think twice before doing it.
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -202,24 +217,8 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 - Happy cow LT
 - When breeding cows, adv triggers that makes the child set its home to the parent's home (trough)
 
-- Pig LT
-    - Podzol
-        - Leaf litter?
-        - Stick
-        - Shrooms
-    - Grass Block
-        - Defaults
-    - Mycelium
-        - No root veg, only shrooms, but a lot of them
-    - Gravel
-        - Flint
-        - Some precious stones
-    - Coarse Dirt
-        - Maybe make it the same as gravel
-    - Rooted Dirt
-        - More tubers
-        - Roots
-
+- Sheep fed home system + SHeep breeding to be the same as everyone else
+- Update cow and pig fed effects to be the same file structure
 
 - When done with brewing
 - Update all brewing LTs

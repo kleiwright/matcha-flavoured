@@ -223,7 +223,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/plains",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_sunflower",

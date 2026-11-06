@@ -205,7 +205,6 @@
     ["minecraft:ore_infested"],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/meadow",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_meadow",

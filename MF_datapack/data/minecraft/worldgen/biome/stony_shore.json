@@ -14,7 +14,13 @@
           }
         ],
         "axolotls": [],
-        "creature": [],
+        "creature": [
+          {
+            "weight": 10,
+            "type": "minecraft:chicken",
+            "count": 4
+          }
+        ],
         "misc": [],
         "monster": [
           {
@@ -168,7 +174,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/beach",
       "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",

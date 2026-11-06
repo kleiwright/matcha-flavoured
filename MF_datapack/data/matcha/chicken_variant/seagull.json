@@ -6,7 +6,7 @@
 		{
 			"condition": {
 				"type": "minecraft:biome",
-				"biomes": "minecraft:beach"
+				"biomes": "#matcha:habitat/seagull"
 			},
 			"priority": 2
 		}

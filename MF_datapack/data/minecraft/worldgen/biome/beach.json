@@ -25,7 +25,7 @@
             "weight": 5
           },
           {
-            "weight": 20,
+            "weight": 10,
             "type": "minecraft:chicken",
             "count": 4
           }
@@ -182,7 +182,6 @@
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
-      "matcha:chicken_roosts/beach",
       "minecraft:glow_lichen",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
