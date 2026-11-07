@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:duck_spawn_egg",
+							"minecraft:item_name": "Curious Duck",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"Tags": [
+									"curious"
+								],
+								"variant": "matcha:duck",
+								"sound_variant": "matcha:duck"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/chicken_lay"
+}

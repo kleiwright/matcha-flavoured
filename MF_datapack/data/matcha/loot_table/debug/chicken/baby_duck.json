@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_model": "matcha:duck_spawn_egg",
+							"minecraft:item_name": "Baby Duck",
+							"minecraft:entity_data": {
+								"id": "minecraft:chicken",
+								"Tags": [
+									"wild"
+								],
+								"Age": -6000,
+								"AgeLocked": true,
+								"variant": "matcha:duck",
+								"sound_variant": "matcha:duck"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/chicken_lay"
+}

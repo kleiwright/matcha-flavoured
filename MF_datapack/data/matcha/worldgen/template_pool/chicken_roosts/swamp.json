@@ -8,7 +8,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
@@ -25,7 +25,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
@@ -42,7 +42,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
@@ -59,7 +59,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
@@ -76,7 +76,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
@@ -93,7 +93,7 @@
 					"processors": [
 						{
 							"processor_type": "minecraft:gravity",
-							"heightmap": "MOTION_BLOCKING",
+							"heightmap": "MOTION_BLOCKING_NO_LEAVES",
 							"offset": -3
 						}
 					]
