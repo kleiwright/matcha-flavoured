@@ -221,6 +221,8 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 - Sheep fed home system + SHeep breeding to be the same as everyone else
 - Update cow and pig fed effects to be the same file structure
 
+- Allow seagulls to peck Basalt and Diorite
+
 - When done with brewing
 - Update all brewing LTs
 - Update Rind Jam, Melon sorbet, Brownie, Chocolate Chip Cookie
