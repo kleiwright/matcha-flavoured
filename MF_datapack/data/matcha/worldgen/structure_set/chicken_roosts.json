@@ -53,6 +53,10 @@
         {
 			"structure": "matcha:chicken_roosts/taiga",
 			"weight": 1
+		},
+        {
+			"structure": "matcha:chicken_roosts/swamp",
+			"weight": 1
 		}
 	]
 }
