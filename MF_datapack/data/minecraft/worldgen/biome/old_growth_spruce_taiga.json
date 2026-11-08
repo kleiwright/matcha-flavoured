@@ -226,7 +226,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "matcha:ore_emerald_deep"
+      "matcha:ore_emerald_deep",
+      "matcha:cave_mushrooms"
     ],
     [],
     ["minecraft:spring_water", "minecraft:spring_lava"],

@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:tree",
+	"below_trunk_provider": {
+		"type": "rule_based",
+		"fallback": {
+			"type": "simple",
+			"state": {
+				"id": "minecraft:mycelium"
+			}
+		},
+		"rules": []
+	},
+	"trunk_provider": {
+		"type": "minecraft:random_block",
+		"blocks": [
+			"minecraft:brown_mushroom",
+			"minecraft:red_mushroom",
+			"minecraft:air"
+		]
+	},
+	"foliage_provider": {
+		"type": "rule_based",
+		"rules": []
+	},
+	"minimum_size": {
+		"type": "two_layers_feature_size"
+	},
+	"trunk_placer": {
+		"type": "straight_trunk_placer",
+		"base_height": 1,
+		"height_rand_a": 0,
+		"height_rand_b": 0
+	},
+	"foliage_placer": {
+		"type": "blob_foliage_placer",
+		"radius": 1,
+		"offset": 0,
+		"height": 0
+	},
+	"decorators": []
+}

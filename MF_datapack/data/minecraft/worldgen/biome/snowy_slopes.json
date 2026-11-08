@@ -204,7 +204,8 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
-      "matcha:ore_emerald_deep_mountain"
+      "matcha:ore_emerald_deep_mountain",
+      "matcha:cave_mushrooms"
     ],
     ["minecraft:ore_infested"],
     [

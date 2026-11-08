@@ -1,0 +1,10 @@
+{
+	"asset_id": "matcha:entity/chicken/black",
+	"baby_asset_id": "matcha:entity/chicken/black_baby",
+	"model": "cold",
+	"spawn_conditions": [
+		{
+			"priority": 0
+		}
+	]
+}
