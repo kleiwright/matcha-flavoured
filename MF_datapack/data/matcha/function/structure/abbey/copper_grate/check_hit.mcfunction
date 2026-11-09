@@ -16,6 +16,7 @@ execute as @e[type=minecraft:marker,distance=..25,tag=grate] at @s if block ~ ~ 
 
 # Check Every Copper Eye's Power Level, if it is >= 1, check its integrity
 execute as @e[type=minecraft:marker,distance=..25,tag=grate.vertical_NS] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_vertical_ns/determine_extension
+execute as @e[type=minecraft:marker,distance=..25,tag=grate.horizontal_NS] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_horizontal_ns/determine_extension
 
 
 advancement revoke @a only matcha:mechanics/hit_copper_eye_1
