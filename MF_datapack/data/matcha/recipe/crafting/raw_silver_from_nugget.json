@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "raw_silver",
+	"key": {
+		"#": "minecraft:pillager_spawn_egg"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:prismarine_shard"
+	}
+}

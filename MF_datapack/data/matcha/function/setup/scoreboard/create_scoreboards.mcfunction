@@ -151,5 +151,9 @@ scoreboard objectives add matcha.cow_grazing_cooldown dummy
 scoreboard objectives add matcha.cow_happy_cooldown dummy
 scoreboard objectives add matcha.milk_reserve dummy
 
+# Structures -----
+# Used for loot summon animation on altars
+scoreboard objectives add matcha.playing_altar_animation dummy
+
 # Used to keep track of pet whistle ids
 scoreboard objectives add whistleId dummy

@@ -1,0 +1,29 @@
+{
+	"parent": "matcha:with_songs/find_abbey",
+	"criteria": {
+		"craft_cross": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:crafting/wooden_cross"
+			}
+		}
+	},
+	"display": {
+		"description": {
+			"translate": "adv.kleispack.with_songs.obtain_solomon.desc",
+			"color": "gray"
+		},
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:solomon"
+			},
+			"count": 1,
+			"id": "minecraft:book"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.obtain_solomon"
+		},
+		"frame": "task",
+		"hidden": false
+	}
+}

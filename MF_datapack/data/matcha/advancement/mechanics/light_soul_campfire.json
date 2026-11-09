@@ -1,0 +1,35 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"light_campfire": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"block": {
+									"blocks": "minecraft:soul_campfire"
+								}
+							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:flint_and_steel",
+									"minecraft:fire_charge"
+								]
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:structure/altar/soul_campfire_lit"
+	}
+}

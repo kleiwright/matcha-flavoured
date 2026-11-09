@@ -31,7 +31,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Can be found via archaeology in places people often visited or lived
 
 
-
+#### Spoilers from here on (have fun puzzling this stuff out on your own!)
 - Chicken Overhaul
     - More "chickens" have been added, and spawn only in their corresponding home. Birds no longer spawn naturally, only in their roosts. (Some exceptions)
     - Chickens no longer give live birth, but its still good to feed them
@@ -201,6 +201,34 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
     - Mamas never get upset if too close to home, nor babies
     - I dont know to implement this yet, i want it to curb hopper chickens farms, but people would just move the chickens away from their home and in a little box, that doesn't seem very nice
     - BUT also, cows are the fickle ones, pigs are the ones who change based on enviro, chickens are the ones who have special unique behaviours. So honestly, seems pretty balanced. I dont want to have players have to pay attention to chicken behaviours AND ALSO manage their emotions, each animal should have one unique thing, and we permutate on that as much as possible. Im hoping the unique interactions and cute factor will make most players think twice before doing it.
+
+
+
+
+
+
+
+
+
+
+Update Adventure
+
+#
+### Major Additions and Changes (Spoiler Free)
+- Abandoned Camps have been given the Matcha treatment
+- Raw Silver Nuggets can now be found
+
+#### Spoilers from here on (have fun puzzling this stuff out on your own!)
+- Abandoned Camps
+    - Abandoned Camps are there for a reason, beucase something much more important, and much older was there first
+    - Each Camp will bless only the first player to visit them
+- Raw Silver Nuggets (Mid-Level Loot)
+    - I wanted a more mid-level loot, not something crazy, but still felt good when you got it. That way when you loot a structure, it won't be insane or trash, but can be just "good"
+    - I hope to expand this idea into more aspects of adventuring
+
+### Nerfed
+- Shipwrecks are now more rare
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------

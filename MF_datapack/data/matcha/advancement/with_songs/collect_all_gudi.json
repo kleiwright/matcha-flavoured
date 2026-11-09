@@ -1,0 +1,105 @@
+{
+	"parent": "matcha:with_songs/craft_brush",
+	"criteria": {
+		"gudi_red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_red"
+						}
+					}
+				]
+			}
+		},
+		"gudi_orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_orange"
+						}
+					}
+				]
+			}
+		},
+		"gudi_yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_yellow"
+						}
+					}
+				]
+			}
+		},
+		"gudi_green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_green"
+						}
+					}
+				]
+			}
+		},
+		"gudi_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_blue"
+						}
+					}
+				]
+			}
+		},
+		"gudi_purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:gudi_purple"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "10\u00A0\uE00F\u00A0",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.with_songs.collect_all_gudi.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:gudi_red"
+			},
+			"count": 1,
+			"id": "minecraft:bone"
+		},
+		"title": {
+			"translate": "adv.kleispack.with_songs.collect_all_gudi"
+		},
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_3"
+		]
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/raw_silver_nugget",
+					"weight": 90
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/crystal_heart",
+					"weight": 9
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/divine_fragment",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:chests/common/ores"
+}

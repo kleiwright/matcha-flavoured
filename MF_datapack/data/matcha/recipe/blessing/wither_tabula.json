@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"b",
+		"E",
+		"B"
+	],
+	"key": {
+		"B": "minecraft:vex_spawn_egg",
+		"E": "minecraft:blaze_rod",
+		"b": "minecraft:dragon_breath"
+	},
+	"result": {
+		"components": {
+			"!minecraft:entity_data": {},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:ravager_spawn_egg"
+	}
+}

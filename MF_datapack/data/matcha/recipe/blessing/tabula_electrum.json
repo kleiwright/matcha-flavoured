@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"MAM",
+		"MTM",
+		"BBB"
+	],
+	"key": {
+		"B": "minecraft:blackstone",
+		"T": "minecraft:ravager_spawn_egg",
+		"M": "minecraft:heart_of_the_sea",
+		"A": "minecraft:nether_star"
+	},
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.minecraft.ravager_spawn_egg",
+				"color": "yellow"
+			},
+			"minecraft:item_model": "matcha:wither_tabula_electrum",
+			"minecraft:stored_enchantments": {
+				"matcha:electrum_tool": 3
+			},
+			"minecraft:max_stack_size": 1,
+			"!minecraft:entity_data": {},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		},
+		"count": 1,
+		"id": "minecraft:enchanted_book"
+	}
+}
