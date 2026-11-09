@@ -1,0 +1,23 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"hit_target": {
+			"conditions": {
+				"projectile": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {}
+				},
+				"signal_strength": {
+					"min": 1,
+					"max": 15
+				}
+			},
+			"trigger": "minecraft:target_hit"
+		}
+	},
+	"rewards": {
+		"recipes": [],
+		"function": "matcha:structure/abbey/copper_grate/check_hit"
+	}
+}
