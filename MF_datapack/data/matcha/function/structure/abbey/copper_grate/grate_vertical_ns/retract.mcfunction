@@ -1,3 +1,3 @@
 say Retract
-fill ~ ~ ~-1 ~ ~-1 ~1 air
-setblock ~ ~-2 ~ target[power=5]
+fill ~ ~ ~-1 ~ ~-2 ~1 air
+setblock ~ ~-3 ~ target[power=5]

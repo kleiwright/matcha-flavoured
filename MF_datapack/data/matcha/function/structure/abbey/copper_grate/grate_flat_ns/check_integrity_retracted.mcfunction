@@ -13,6 +13,6 @@ say HIT
 function matcha:structure/abbey/copper_grate/hit_particles
 
 # Retract the grate
-function matcha:structure/abbey/copper_grate/grate_horizontal_ns/extend
-tp @s ~ ~ ~2
+function matcha:structure/abbey/copper_grate/grate_flat_ns/extend
+tp @s ~ ~ ~3
 tag @s add grate.extended

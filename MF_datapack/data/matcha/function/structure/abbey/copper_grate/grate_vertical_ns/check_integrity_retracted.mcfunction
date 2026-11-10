@@ -14,5 +14,5 @@ function matcha:structure/abbey/copper_grate/hit_particles
 
 # Retract the grate
 function matcha:structure/abbey/copper_grate/grate_vertical_ns/extend
-tp @s ~ ~2 ~
+tp @s ~ ~3 ~
 tag @s add grate.extended
