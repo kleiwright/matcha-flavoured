@@ -1,0 +1,1 @@
+execute store result score @s InLove run data get entity @s InLove
