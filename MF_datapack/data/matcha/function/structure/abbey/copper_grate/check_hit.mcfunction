@@ -16,6 +16,11 @@ execute as @e[type=minecraft:marker,distance=..25,tag=grate] at @s if block ~ ~ 
 
 # Check Every Copper Eye's Power Level, if it is >= 1, check its integrity
 execute as @e[type=minecraft:marker,distance=..25,tag=grate.vertical_ns] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_vertical_ns/determine_extension
+execute as @e[type=minecraft:marker,distance=..25,tag=grate.vertical_ew] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_vertical_ew/determine_extension
+
+execute as @e[type=minecraft:marker,distance=..25,tag=grate.down_ns] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_down_ns/determine_extension
+execute as @e[type=minecraft:marker,distance=..25,tag=grate.down_ew] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_down_ew/determine_extension
+
 execute as @e[type=minecraft:marker,distance=..25,tag=grate.flat_ns] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_flat_ns/determine_extension
 execute as @e[type=minecraft:marker,distance=..25,tag=grate.flat_sn] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_flat_sn/determine_extension
 execute as @e[type=minecraft:marker,distance=..25,tag=grate.flat_ew] at @s unless block ~ ~ ~ target[power=0] run function matcha:structure/abbey/copper_grate/grate_flat_ew/determine_extension
