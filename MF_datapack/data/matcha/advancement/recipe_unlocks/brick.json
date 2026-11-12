@@ -28,7 +28,9 @@
 		"recipes": [
 			"matcha:crafting/bowl",
 			"matcha:crafting/oven",
-			"matcha:crafting/bricks"
+			"matcha:crafting/bricks",
+			"matcha:oven/brown_dye",
+			"matcha:kiln/brown_dye"
 		]
 	}
 }
