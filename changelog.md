@@ -86,6 +86,8 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Scaffolding can now also be made from sticks, bamboo scaffolding buffed
 - Nerfed Fossil Ore, appears less often and drops less bones (I want it to be worth mining, there was too much and it was too easily ignored)
 - Sugar Cane made to look like Sugar Cane instead of Bamboo
+- Sguar cane can now grow on mud, clay, and muddy mangrove roots
+- Poppies now have variants
 - Added all pickle and jam models and tweaked them to my taste
 - Removed Apple, Golden Apple, Golden carrot 3D models (I only want models for matcha foods and a couple other exceptions)
 
