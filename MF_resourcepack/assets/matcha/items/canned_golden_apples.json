@@ -1,6 +1,21 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "matcha:item/canned_golden_apples"
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/canned_golden_apples"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "matcha:item/canned_golden_apples"
+		},
+		"property": "minecraft:display_context"
 	}
 }

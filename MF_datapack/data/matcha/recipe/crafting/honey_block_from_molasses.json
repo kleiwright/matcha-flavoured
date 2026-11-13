@@ -6,8 +6,9 @@
 		"#": "minecraft:piglin_spawn_egg"
 	},
 	"pattern": [
-		"##",
-		"##"
+		"###",
+		"###",
+		"###"
 	],
 	"result": {
 		"id": "minecraft:honey_block"

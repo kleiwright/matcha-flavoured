@@ -3,6 +3,6 @@
 	"textures": {
 		"0": "matcha:item/models/jar",
 		"1": "matcha:item/models/honey",
-		"particle": "item/honey_bottle"
+		"particle": "matcha:item/models/honey"
 	}
 }

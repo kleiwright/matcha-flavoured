@@ -1,7 +1,91 @@
 {
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
 	"parent": "matcha:block/food/template/baked_apple",
+	"texture_size": [32, 32],
 	"textures": {
-		"0": "matcha:item/models/golden_apple",
-		"particle": "matcha:item/baked_golden_apple"
-	}
+		"0": "matcha:item/models/apple",
+		"particle": "matcha:item/baked_apple"
+	},
+	"elements": [
+		{
+			"name": "stem",
+			"from": [6, 7, 6],
+			"to": [10, 9, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 7, 9]},
+			"faces": {
+				"north": {"uv": [2, 5, 4, 6], "texture": "#0"},
+				"east": {"uv": [0, 5, 2, 6], "texture": "#0"},
+				"south": {"uv": [6, 5, 8, 6], "texture": "#0"},
+				"west": {"uv": [4, 5, 6, 6], "texture": "#0"},
+				"up": {"uv": [4, 5, 2, 3], "texture": "#0"},
+				"down": {"uv": [6, 3, 4, 5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "apple",
+			"from": [6.5, 13, 10.5],
+			"to": [8.5, 17, 10.5],
+			"rotation": {"x": -90, "y": 0, "z": 45, "origin": [8, 8.5, 10.5]},
+			"faces": {
+				"north": {"uv": [0, 3, 1, 5], "texture": "#0"},
+				"south": {"uv": [1, 0, 0, 2], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0.5, 1],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 135, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"translation": [0, 1, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [13, 117, 0],
+			"translation": [0, -3, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"translation": [0, 7.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 0, -2],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0],
+			"scale": [2, 2, 2]
+		}
+	},
+	"name": "apple",
+	"java_block_version": "1.21.11",
+	"front_gui_light": false,
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"multi_file_ruleset": "",
+	"variable_placeholder_buttons": [],
+	"unhandled_root_fields": {},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"outliner": ["84296eb7-713d-6d81-804f-e5385459e8bd"]
 }

@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:block/food/template/glow_jam",
+	"parent": "matcha:block/food/template/jar_emissive",
 	"textures": {
 		"0": "matcha:item/models/jar",
 		"1": "matcha:item/models/glow_jam"

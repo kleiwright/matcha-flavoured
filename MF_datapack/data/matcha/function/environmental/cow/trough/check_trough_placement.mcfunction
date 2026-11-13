@@ -1,5 +1,6 @@
 # If its in air, set the block to a cauldron
 execute if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:cauldron
+execute if block ~ ~ ~ cauldron run summon item_display ~ ~0.5 ~ {item:{id:"minecraft:hay_block",count:1,components:{"minecraft:item_model":"matcha:trough_hay"}}}
 # If it set proper, add placed
 execute if block ~ ~ ~ minecraft:cauldron run tag @s add placed
 # On first place, make all the cows come near me

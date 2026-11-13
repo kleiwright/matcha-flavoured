@@ -1,6 +1,21 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "matcha:item/pickled_crimson_fungus"
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/pickled_crimson_fungus"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "matcha:item/pickled_crimson_fungus"
+		},
+		"property": "minecraft:display_context"
 	}
 }

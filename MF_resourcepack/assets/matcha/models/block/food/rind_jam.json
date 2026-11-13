@@ -1,0 +1,8 @@
+{
+	"parent": "matcha:block/food/template/jar",
+	"textures": {
+		"0": "matcha:item/models/jar",
+		"1": "matcha:item/models/rind_jam",
+		"particle": "matcha:item/rind_jam"
+	}
+}

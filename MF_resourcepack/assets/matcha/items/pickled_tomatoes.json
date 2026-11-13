@@ -1,6 +1,21 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "matcha:item/pickled_tomatoes"
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/pickled_tomatoes"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "matcha:item/pickled_tomatoes"
+		},
+		"property": "minecraft:display_context"
 	}
 }

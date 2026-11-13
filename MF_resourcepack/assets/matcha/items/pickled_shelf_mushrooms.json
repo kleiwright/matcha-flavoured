@@ -1,6 +1,21 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "matcha:item/pickled_shelf_mushrooms"
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/pickled_shelf_mushrooms"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "matcha:item/pickled_shelf_mushrooms"
+		},
+		"property": "minecraft:display_context"
 	}
 }

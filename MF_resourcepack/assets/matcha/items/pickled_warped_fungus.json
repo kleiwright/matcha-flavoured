@@ -1,6 +1,21 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "matcha:item/pickled_warped_fungus"
+		"type": "minecraft:select",
+		"cases": [
+			{
+				"model": {
+					"type": "minecraft:model",
+					"model": "matcha:block/food/pickled_warped_fungus"
+				},
+				"when": [
+					"fixed"
+				]
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "matcha:item/pickled_warped_fungus"
+		},
+		"property": "minecraft:display_context"
 	}
 }

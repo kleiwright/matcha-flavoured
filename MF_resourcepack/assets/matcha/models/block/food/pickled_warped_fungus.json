@@ -1,0 +1,8 @@
+{
+	"parent": "matcha:block/food/template/jar",
+	"textures": {
+		"0": "matcha:item/models/jar",
+		"1": "matcha:item/models/pickled_warped_fungus",
+		"particle": "matcha:item/pickled_warped_fungus"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/hay_block_top",
+		"particle": "block/hay_block_top"
+	},
+	"elements": [
+		{
+			"from": [2, 4, 2],
+			"to": [14, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 4, 2]},
+			"faces": {
+				"up": {"uv": [2, 1, 14, 13], "texture": "#0"}
+			}
+		}
+	]
+}
