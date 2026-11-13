@@ -4,6 +4,7 @@
         "#matcha:animal_affects/pig_rooted_dirt",
         "#matcha:animal_affects/pig_gravel",
         "#matcha:animal_affects/pig_podzol",
-        "#matcha:animal_affects/pig_mycelium"
+        "#matcha:animal_affects/pig_mycelium",
+        "#matcha:animal_affects/pig_soul_sand"
     ]
 }

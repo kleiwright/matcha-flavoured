@@ -164,6 +164,21 @@
                                     }
                                 }
                             }
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "value": "matcha:gameplay/pig_gift/soul_sand",
+                            "condition": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:entity_tags": {
+                                        "any_of": [
+                                            "soul_sand"
+                                        ]
+                                    }
+                                }
+                            }
                         }
                     ]
                 }

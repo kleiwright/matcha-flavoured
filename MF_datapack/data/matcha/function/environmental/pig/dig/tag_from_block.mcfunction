@@ -12,3 +12,6 @@ execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_podzol run tag @s add podz
 execute if entity @s[tag=podzol] run return fail
 
 execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_mycelium run tag @s add mycelium
+execute if entity @s[tag=mycelium] run return fail
+
+execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_soul_sand run tag @s add soul_sand
