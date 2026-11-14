@@ -90,6 +90,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Poppies now have variants
 - Added all pickle and jam models and tweaked them to my taste
 - Removed Apple, Golden Apple, Golden carrot 3D models (I only want models for matcha foods and a couple other exceptions)
+- Husks now spawn underground
 
 #### Food
 - Added Conchas
