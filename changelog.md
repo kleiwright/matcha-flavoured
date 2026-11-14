@@ -239,6 +239,14 @@ Update Adventure
 - Shipwrecks are now more rare
 
 
+
+
+
+
+For the Winter Drop
+- Move over the new cobbled deepslate recipe
+- move over the Husk underground spawning bug
+- Move over the Copper Buckets
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
