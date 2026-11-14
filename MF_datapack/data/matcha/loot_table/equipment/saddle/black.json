@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_name": {
+								"translate": "item.kleispack.black_saddle"
+							},
+							"minecraft:item_model": "matcha:black_saddle",
+							"minecraft:equippable": {
+								"slot": "saddle",
+								"asset_id": "matcha:black_saddle"
+							},
+							"minecraft:attribute_modifiers": [
+								{
+									"type": "minecraft:max_health",
+									"id": "horse_max_health",
+									"amount": 6,
+									"operation": "add_value",
+									"slot": "saddle"
+								},
+								{
+									"type": "minecraft:armor",
+									"id": "armor.body",
+									"amount": 4,
+									"operation": "add_value"
+								}
+							],
+							"minecraft:lore": [
+								{
+									"translate": "desc.kleispack.armour",
+									"with": ["4"],
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": "\uE030\uE030\uE030",
+									"color": "gray",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

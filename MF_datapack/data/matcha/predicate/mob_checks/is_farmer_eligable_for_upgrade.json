@@ -1,0 +1,7 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"minecraft:nbt": "{VillagerData:{profession:\"minecraft:farmer\",level:4}}"
+	}
+}

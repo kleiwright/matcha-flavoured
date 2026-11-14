@@ -1,0 +1,21 @@
+{
+	"additional_wants": {
+		"id": "minecraft:saddle"
+	},
+	"gives": {
+		"id": "minecraft:emerald",
+		"count": 2
+	},
+	"max_uses": 1,
+	"wants": {
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.crate.horse"
+			},
+			"minecraft:item_model": "matcha:crate_horse"
+		}
+	},
+	"reputation_discount": 0,
+	"xp": 0
+}

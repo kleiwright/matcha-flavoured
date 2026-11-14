@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"minecraft:entity_tags": {
+			"any_of": [
+				"stable_master"
+			]
+		}
+	}
+}

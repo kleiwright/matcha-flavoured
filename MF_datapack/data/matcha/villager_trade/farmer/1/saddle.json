@@ -1,0 +1,75 @@
+{
+	"gives": {
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.saddle_caparison_red"
+			},
+			"minecraft:item_model": "matcha:saddle_caparison_red",
+			"minecraft:equippable": {
+				"slot": "saddle",
+				"asset_id": "matcha:caparison_red"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "horse_movement_speed",
+					"amount": 0.01,
+					"operation": "add_value",
+					"slot": "saddle"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "armor.body",
+					"amount": 2,
+					"operation": "add_value"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"translate": "desc.kleispack.armour",
+					"with": ["2"],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.01"],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.reinforced_saddle"
+			},
+			"minecraft:item_model": "matcha:reinforced_saddle"
+		}
+	},
+	"xp": 10,
+	"merchant_predicate": {
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:entity_tags": {
+				"any_of": [
+					"stable_master"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,2 @@
+execute as @n[type=villager] at @s if predicate matcha:mob_checks/is_farmer_eligable_for_upgrade run function matcha:mechanics/villager_upgrade/stable_master/upgrade_to_stable_master
+advancement revoke @s only matcha:mechanics/traded_for_stable_master

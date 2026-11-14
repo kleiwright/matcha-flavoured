@@ -90,7 +90,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Poppies now have variants
 - Added all pickle and jam models and tweaked them to my taste
 - Removed Apple, Golden Apple, Golden carrot 3D models (I only want models for matcha foods and a couple other exceptions)
-- Husks now spawn underground
+- Farmer no longer sells bonemeal
 
 #### Food
 - Added Conchas
@@ -104,6 +104,8 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Rind Jam, Melon Sorbet
 - Honey from Molasses recipe
 
+### Bug Fixes
+- Husks now spawn underground
 
 ### Credits
 - Internet-Hyena: Established the new pig and chicken stuff! Amazing

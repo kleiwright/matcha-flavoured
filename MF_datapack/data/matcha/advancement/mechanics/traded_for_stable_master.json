@@ -1,0 +1,24 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"traded": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:nbt": "{VillagerData:{profession:\"minecraft:farmer\",level:4}}"
+					}
+				},
+				"item": {
+					"items": "minecraft:emerald",
+					"count": 2
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:mechanics/villager_upgrade/stable_master/traded_for_stable_master"
+	}
+}

@@ -62,5 +62,16 @@
 		"count": 1,
 		"id": "minecraft:emerald"
 	},
-	"xp": 10
+	"xp": 10,
+	"merchant_predicate": {
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:entity_tags": {
+				"none_of": [
+					"stable_master"
+				]
+			}
+		}
+	}
 }

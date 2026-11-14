@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_name": {
+								"translate": "item.kleispack.crate.horse"
+							},
+							"minecraft:item_model": "matcha:crate_horse",
+                            "minecraft:entity_data": {
+								"id": "minecraft:horse",
+								"Age": -6000
+							},
+							"minecraft:max_stack_size": 1,
+                            "minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

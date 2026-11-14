@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:saddle",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:item_name": {
+								"translate": "item.kleispack.blue_saddle"
+							},
+							"minecraft:item_model": "matcha:blue_saddle",
+							"minecraft:equippable": {
+								"slot": "saddle",
+								"asset_id": "matcha:blue_saddle"
+							},
+							"minecraft:attribute_modifiers": [
+								{
+									"type": "minecraft:safe_fall_distance",
+									"id": "horse_safe_fall_distance",
+									"amount": 6,
+									"operation": "add_value",
+									"slot": "saddle"
+								},
+								{
+									"type": "minecraft:jump_strength",
+									"id": "horse_jump_strength",
+									"amount": 0.2,
+									"operation": "add_value",
+									"slot": "saddle"
+								},
+								{
+									"type": "minecraft:armor",
+									"id": "armor.body",
+									"amount": 2,
+									"operation": "add_value"
+								}
+							],
+							"minecraft:lore": [
+								{
+									"translate": "desc.kleispack.armour",
+									"with": ["2"],
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.fall_height_attribute",
+									"with": ["6"],
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.jump_strength_attribute",
+									"with": ["0.2"],
+									"color": "dark_green",
+									"italic": false
+								}
+							],
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

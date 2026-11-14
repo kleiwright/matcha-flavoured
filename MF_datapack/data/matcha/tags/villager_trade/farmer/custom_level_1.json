@@ -1,9 +1,9 @@
 {
   "values": [
-    "matcha:farmer/1/bonemeal",
     "matcha:farmer/1/exotic_seed_bundle",
     "matcha:farmer/1/floral_bundle",
     "matcha:farmer/1/mushy_bundle",
-    "matcha:farmer/1/seed_bundle"
+    "matcha:farmer/1/seed_bundle",
+    "matcha:farmer/1/saddle"
   ]
 }
