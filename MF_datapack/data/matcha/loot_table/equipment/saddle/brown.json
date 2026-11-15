@@ -20,6 +20,13 @@
 							},
 							"minecraft:attribute_modifiers": [
 								{
+									"type": "minecraft:movement_speed",
+									"id": "horse_movement_speed",
+									"amount": 0.005,
+									"operation": "add_value",
+									"slot": "saddle"
+								},
+								{
 									"type": "minecraft:step_height",
 									"id": "horse_step_height",
 									"amount": 1,
@@ -37,6 +44,12 @@
 								{
 									"translate": "desc.kleispack.armour",
 									"with": ["2"],
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.speed_attribute",
+									"with": ["+0.005"],
 									"color": "dark_green",
 									"italic": false
 								},
