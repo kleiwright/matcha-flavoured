@@ -265,7 +265,13 @@ For the Winter Drop
 - Sheep fed home system + SHeep breeding to be the same as everyone else
 - Update cow and pig fed effects to be the same file structure
 
+- Nerf Pig potato, carrot, and beetroot stuff
+
 - Allow seagulls to peck Basalt and Diorite
+
+- Add Saddles to Dungeon LT
+- Add Cocoa beans to Dungeon LT
+- Enchanted Sugar Cubes
 
 - When done with brewing
 - Update all brewing LTs
