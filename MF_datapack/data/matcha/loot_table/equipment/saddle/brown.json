@@ -37,10 +37,16 @@
 									"type": "minecraft:armor",
 									"id": "armor.body",
 									"amount": 2,
-									"operation": "add_value"
+									"operation": "add_value",
+									"slot": "saddle"
 								}
 							],
 							"minecraft:lore": [
+								{
+									"translate": "item.kleispack.reinforced_saddle.brown",
+									"color": "gray",
+									"italic": false
+								},
 								{
 									"translate": "desc.kleispack.armour",
 									"with": ["2"],

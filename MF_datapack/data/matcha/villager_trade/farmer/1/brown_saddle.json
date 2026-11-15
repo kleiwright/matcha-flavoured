@@ -1,0 +1,110 @@
+{
+	"additional_wants": {
+		"id": "minecraft:brown_banner",
+		"components": {
+			"minecraft:banner_patterns": [
+				{
+					"color": "cyan",
+					"pattern": "minecraft:small_stripes"
+				},
+				{
+					"color": "light_gray",
+					"pattern": "minecraft:border"
+				}
+			]
+		},
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.reinforced_saddle"
+			},
+			"minecraft:item_model": "matcha:brown_saddle",
+			"minecraft:equippable": {
+				"slot": "saddle",
+				"asset_id": "matcha:brown_saddle"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:movement_speed",
+					"id": "horse_movement_speed",
+					"amount": 0.005,
+					"operation": "add_value",
+					"slot": "saddle"
+				},
+				{
+					"type": "minecraft:step_height",
+					"id": "horse_step_height",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "saddle"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "armor.body",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "saddle"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.reinforced_saddle.brown",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.armour",
+					"with": ["2"],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.speed_attribute",
+					"with": ["+0.005"],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.step_height",
+					"with": ["1"],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.reinforced_saddle"
+			},
+			"minecraft:item_model": "matcha:reinforced_saddle"
+		}
+	},
+	"xp": 10,
+	"merchant_predicate": {
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:entity_tags": {
+				"any_of": [
+					"stable_master"
+				]
+			}
+		}
+	}
+}

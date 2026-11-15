@@ -11,11 +11,22 @@
 		"id": "minecraft:chicken_spawn_egg",
 		"components": {
 			"minecraft:item_name": {
-				"translate": "item.kleispack.crate.horse"
+				"translate": "item.kleispack.baby_horse"
 			},
 			"minecraft:item_model": "matcha:crate_horse"
 		}
 	},
 	"reputation_discount": 0,
-	"xp": 0
+	"xp": 0,
+	"merchant_predicate": {
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:entity_tags": {
+				"none_of": [
+					"stable_master"
+				]
+			}
+		}
+	}
 }

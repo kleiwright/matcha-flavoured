@@ -1,0 +1,100 @@
+{
+	"additional_wants": {
+		"id": "minecraft:gray_banner",
+		"components": {
+			"minecraft:banner_patterns": [
+				{
+					"color": "light_gray",
+					"pattern": "minecraft:rhombus"
+				},
+				{
+					"color": "gray",
+					"pattern": "minecraft:cross"
+				},
+				{
+					"color": "yellow",
+					"pattern": "minecraft:border"
+				}
+			]
+		},
+		"count": 1
+	},
+	"gives": {
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.reinforced_saddle"
+			},
+			"minecraft:item_model": "matcha:grey_saddle",
+			"minecraft:equippable": {
+				"slot": "saddle",
+				"asset_id": "matcha:grey_saddle"
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:max_health",
+					"id": "horse_max_health",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "saddle"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "armor.body",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "saddle"
+				}
+			],
+			"minecraft:lore": [
+				{
+					"translate": "item.kleispack.reinforced_saddle.grey",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.armour",
+					"with": ["4"],
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"text": "\uE030\uE030\uE030",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"max_uses": 999,
+	"wants": {
+		"count": 1,
+		"id": "minecraft:saddle",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.reinforced_saddle"
+			},
+			"minecraft:item_model": "matcha:reinforced_saddle"
+		}
+	},
+	"xp": 10,
+	"merchant_predicate": {
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"minecraft:entity_tags": {
+				"any_of": [
+					"stable_master"
+				]
+			}
+		}
+	}
+}

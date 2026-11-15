@@ -1,5 +1,5 @@
 {
-  "amount": 6.0,
+  "amount": 4.0,
   "random_sequence": "minecraft:trade_set/wandering_trader/common",
-  "trades": "#matcha:wandering_trader/buying_discs"
+  "trades": "#matcha:wandering_trader/knickknacks"
 }

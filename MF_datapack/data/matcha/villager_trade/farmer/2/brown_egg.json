@@ -24,9 +24,25 @@
 	},
 	"xp": 30,
 	"merchant_predicate": {
-		"type": "minecraft:location_check",
-		"predicate": {
-			"biomes": "#minecraft:spawns_warm_variant_farm_animals"
-		}
+		"type": "minecraft:all_of",
+		"terms": [
+			{
+				"type": "minecraft:location_check",
+				"predicate": {
+					"biomes": "#minecraft:spawns_warm_variant_farm_animals"
+				}
+			},
+			{
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"none_of": [
+							"stable_master"
+						]
+					}
+				}
+			}
+		]
 	}
 }

@@ -1,0 +1,27 @@
+{
+	"gives": {
+		"count": 1,
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:item_name": {
+				"translate": "item.kleispack.baby_camel"
+			},
+			"minecraft:item_model": "matcha:crate_camel",
+			"minecraft:entity_data": {
+				"id": "minecraft:camel",
+				"Age": -6000
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"max_uses": 1,
+	"wants": {
+		"id": "minecraft:emerald",
+		"count": 2
+	},
+	"reputation_discount": 0,
+	"xp": 0
+}

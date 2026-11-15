@@ -1311,5 +1311,7 @@
   "adv.kleispack.with_songs.obtain_tanakh.desc": "Desecrate an Abbey",
   "filled_map.house_of_wisdom": "Archive Map",
   "item.kleispack.gudi": "Gudi",
-  "item.minecraft.ravager_spawn_egg": "Wither Tabula"
+  "item.minecraft.ravager_spawn_egg": "Wither Tabula",
+  "entity.kleispack.villager.stable_master": "Stable Master",
+  "desc.kleispack.use_effects_speed_multiplier":"\uE01E %s"
 }

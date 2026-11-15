@@ -1,1 +1,0 @@
-data remove entity @n[type=villager] Offers
