@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:rarity": "uncommon",
+							"!minecraft:entity_data": {},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

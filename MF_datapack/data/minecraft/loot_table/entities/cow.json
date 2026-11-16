@@ -1,0 +1,204 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:food/matcha/wagyu_beef",
+					"modifier": [
+						{
+							"type": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							}
+						},
+						{
+							"type": "minecraft:furnace_smelt",
+							"condition": {
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:flags": {
+												"is_on_fire": true
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "direct_attacker",
+										"predicate": {
+											"minecraft:equipment": {
+												"mainhand": {
+													"predicates": {
+														"minecraft:enchantments": [
+															{
+																"enchantments": "#minecraft:smelts_loot"
+															}
+														]
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+				}
+			],
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"any_of": [
+							"happy"
+						]
+					}
+				}
+			}
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+					"modifier": [
+						{
+							"type": "minecraft:set_count",
+							"count": 2
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+				}
+			],
+			"condition": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"minecraft:entity_tags": {
+						"any_of": [
+							"happy"
+						]
+					}
+				}
+			}
+		},
+        {
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+					"modifier": [
+						{
+							"type": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 0
+							}
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:item",
+                    "name": "minecraft:beef",
+                    "modifier": [
+						{
+							"type": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 3,
+								"min": 1
+							}
+						},
+						{
+							"type": "minecraft:furnace_smelt",
+							"condition": {
+								"type": "minecraft:any_of",
+								"terms": [
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:flags": {
+												"is_on_fire": true
+											}
+										}
+									},
+									{
+										"type": "minecraft:entity_properties",
+										"entity": "direct_attacker",
+										"predicate": {
+											"minecraft:equipment": {
+												"mainhand": {
+													"predicates": {
+														"minecraft:enchantments": [
+															{
+																"enchantments": "#minecraft:smelts_loot"
+															}
+														]
+													}
+												}
+											}
+										}
+									}
+								]
+							}
+						},
+						{
+							"type": "minecraft:enchanted_count_increase",
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 1,
+								"min": 0
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+                }
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:entities/cow"
+}

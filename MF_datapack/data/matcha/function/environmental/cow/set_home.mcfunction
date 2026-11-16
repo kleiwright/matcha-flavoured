@@ -1,4 +1,4 @@
-data merge entity @s {attributes:[{id:"minecraft:tempt_range",base:20}]}
+data merge entity @s {attributes:[{id:"minecraft:tempt_range",base:15}]}
 # Cows tend to wander far from their home
 data merge entity @s {home_radius:21}
 # Sets Home position to current position

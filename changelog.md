@@ -94,6 +94,8 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 
 #### Food
 - Added Conchas
+- Added two ingredients, Truffles and Wagyu
+    - They are not proper ingredients, aka, they do not have as many permutations as shelf mushrooms for example, but they are potent
 - Im not telling you what drinks were added you gotta go experiment and explore it on your own
 
 ### Removed
@@ -259,9 +261,6 @@ For the Winter Drop
 
 
 # DOCKET 
-- Happy cow LT
-- When breeding cows, adv triggers that makes the child set its home to the parent's home (trough)
-
 - Sheep fed home system + SHeep breeding to be the same as everyone else
 - Update cow and pig fed effects to be the same file structure
 

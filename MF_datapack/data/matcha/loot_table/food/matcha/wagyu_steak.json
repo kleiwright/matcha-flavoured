@@ -1,0 +1,65 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato",
+					"modifier": [
+						{
+							"type": "minecraft:set_components",
+							"components": {
+								"minecraft:item_model": "matcha:wagyu_steak",
+								"minecraft:item_name": {
+									"translate": "item.kleispack.wagyu_steak"
+								},
+								"minecraft:lore": [
+									{
+										"text": "\uE030\uE030",
+										"extra": [
+											{
+												"text": "\uE030\uE030\uE030",
+												"color": "red"
+											}
+										],
+										"color": "yellow",
+										"italic": false
+									}
+								],
+								"minecraft:rarity": "uncommon",
+								"!minecraft:food": {},
+								"minecraft:consumable": {
+									"consume_seconds": 0.8,
+									"has_consume_particles": true,
+									"on_consume_effects": [
+										{
+											"type": "minecraft:apply_effects",
+											"effects": [
+												{
+													"id": "minecraft:regeneration",
+													"amplifier": 2,
+													"duration": 72,
+													"show_particles": false,
+													"show_icon": false
+												},
+												{
+													"id": "minecraft:instant_health",
+													"amplifier": 0,
+													"duration": 1,
+													"show_particles": false,
+													"show_icon": false
+												}
+											]
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

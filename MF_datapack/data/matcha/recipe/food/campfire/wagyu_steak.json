@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:campfire_cooking",
+	"category": "food",
+	"cookingtime": 200,
+	"experience": 0.35,
+	"ingredient": "minecraft:warden_spawn_egg",
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "matcha:wagyu_steak",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.wagyu_steak"
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:lore": [
+				{
+					"text": "\uE030\uE030",
+					"extra": [
+						{
+							"text": "\uE030\uE030\uE030",
+							"color": "red"
+						}
+					],
+					"color": "yellow",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 0.8,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 72,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:instant_health",
+								"amplifier": 0,
+								"duration": 1,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"eTe",
+		"ddd"
+	],
+	"key": {
+		"C": "minecraft:cookie",
+		"e": "#minecraft:eggs",
+		"T": "minecraft:witch_spawn_egg",
+		"d": "minecraft:shulker_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"count": 6,
+		"components": {
+			"minecraft:item_model": "matcha:truffle_quiche",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.truffle_quiche"
+			},
+			"minecraft:lore": [
+				{
+					"text": "\uE030\uE030",
+					"color": "yellow",
+					"italic": false
+				}
+			],
+			"minecraft:rarity": "uncommon",
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 0.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:instant_health",
+								"amplifier": 0,
+								"duration": 1,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			}
+		},
+		"minecraft:custom_data": {
+			"version": 1
+		}
+	}
+}

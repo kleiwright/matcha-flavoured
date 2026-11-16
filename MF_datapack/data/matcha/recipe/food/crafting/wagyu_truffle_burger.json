@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:bread",
+		"minecraft:beetroot",
+		"minecraft:witch_spawn_egg",
+		"minecraft:warden_spawn_egg",
+		"minecraft:cookie",
+		"minecraft:bread"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"count": 2,
+		"components": {
+			"minecraft:item_model": "matcha:wagyu_truffle_burger",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.wagyu_truffle_burger"
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:lore": [
+				{
+					"text": "\uE030\uE030\uE030\uE030",
+					"extra": [
+						{
+							"text": "\uE030\uE030\uE030\uE030\uE030\uE030",
+							"color": "red"
+						}
+					],
+					"color": "yellow",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.strength",
+					"with": ["5:00"],
+					"color": "#e65f33",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.0,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 144,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:instant_health",
+								"amplifier": 1,
+								"duration": 1,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:strength",
+								"amplifier": 0,
+								"duration": 6000,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

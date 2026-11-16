@@ -1313,5 +1313,10 @@
   "item.kleispack.gudi": "Gudi",
   "item.minecraft.ravager_spawn_egg": "Wither Tabula",
   "entity.kleispack.villager.stable_master": "Stable Master",
-  "desc.kleispack.use_effects_speed_multiplier":"\uE01E %s"
+  "desc.kleispack.use_effects_speed_multiplier":"\uE01E %s",
+  "item.minecraft.witch_spawn_egg":"Truffle",
+  "item.minecraft.warden_spawn_egg":"Wagyu Beef",
+  "item.kleispack.truffle_quiche":"Truffle Quiche",
+  "item.kleispack.wagyu_steak":"Wagyu Steak",
+  "item.kleispack.wagyu_truffle_burger":"Wagyu Truffle Burger"
 }
