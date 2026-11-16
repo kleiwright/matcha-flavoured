@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:witch_spawn_egg"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"matcha:food/crafting/truffle_quiche",
+			"matcha:food/crafting/truffle_poutine"
+		]
+	}
+}

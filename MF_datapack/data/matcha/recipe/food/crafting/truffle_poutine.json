@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:baked_potato",
+		"minecraft:happy_ghast_spawn_egg",
+		[
+			"minecraft:cooked_beef",
+			"minecraft:bone"
+		],
+		"minecraft:enderman_spawn_egg",
+		"minecraft:witch_spawn_egg",
+		"minecraft:cookie",
+		"minecraft:bowl"
+	],
+	"result": {
+		"id": "minecraft:poisonous_potato",
+		"count": 1,
+		"components": {
+			"minecraft:item_model": "matcha:truffle_poutine",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.truffle_poutine"
+			},
+			"minecraft:rarity": "uncommon",
+			"minecraft:lore": [
+				{
+					"text": "\uE030\uE030\uE030\uE030\uE030\uE030\uE030\uE030",
+					"extra": [
+						{
+							"text": "\uE030\uE030",
+							"color": "red"
+						}
+					],
+					"color": "yellow",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.2,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 144,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:instant_health",
+								"amplifier": 2,
+								"duration": 1,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:bowl"
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

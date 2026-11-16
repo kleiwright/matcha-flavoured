@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:warden_spawn_egg"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"matcha:food/crafting/wagyu_truffle_burger",
+			"matcha:food/oven/wagyu_steak"
+		]
+	}
+}

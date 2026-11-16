@@ -8,12 +8,12 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Update Ecologic
     - Farm animals have been reworked to reward players for taking care of their animals
     - Cows, Chickens, and Pigs have special requirements, when these are met, they will become "Happy"
-    - Happy animals drop unique loot, more of it, and perform useful tasks more often. Some animals can also become sad, pay attention to their needs and act accordingly
+    - Happy animals drop unique loot, more of it, or perform useful tasks more often. Some animals can also become sad, pay attention to their needs and act accordingly
     - Each animal's requirements are hinted in the advancements
     - I encourage you to pay attention to animal behaviours and environments, there are other factors not outlined in the advancements that can affect loot
 - Animal Spawning and Breeding Changes
     - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have unique behavious like newly-generated wild ones.
-    - Pigs and Cows are unaffected, pre-existing ones will be given all unique behaviours
+    - Pigs and Cows are unaffected, pre-existing ones will be given unique behaviours
 - Animal behaviour changes
     - Farm Animals tend not to wander far from where they were born
     - Animals tend to stick around where they were last fed
@@ -87,14 +87,14 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Nerfed Fossil Ore, appears less often and drops less bones (I want it to be worth mining, there was too much and it was too easily ignored)
 - Sugar Cane made to look like Sugar Cane instead of Bamboo
 - Sguar cane can now grow on mud, clay, and muddy mangrove roots
-- Poppies now have variants
+- Poppies now have texture variants
 - Added all pickle and jam models and tweaked them to my taste
 - Removed Apple, Golden Apple, Golden carrot 3D models (I only want models for matcha foods and a couple other exceptions)
 - Farmer no longer sells bonemeal
 
 #### Food
-- Added Conchas
-- Added two ingredients, Truffles and Wagyu
+- Added Conchas, Matzah Ball Soup
+- Added two ingredients, Truffles and Wagyu Beef and their foods
     - They are not proper ingredients, aka, they do not have as many permutations as shelf mushrooms for example, but they are potent
 - Im not telling you what drinks were added you gotta go experiment and explore it on your own
 

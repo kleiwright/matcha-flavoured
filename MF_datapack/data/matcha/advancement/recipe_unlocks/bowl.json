@@ -12,11 +12,6 @@
 			"trigger": "minecraft:inventory_changed"
 		}
 	},
-	"requirements": [
-		[
-			"has_primary_material"
-		]
-	],
 	"rewards": {
 		"recipes": [
 			"matcha:food/crafting/uncooked_ramen",
@@ -25,7 +20,8 @@
 			"matcha:food/crafting/uncooked_curry",
 			"matcha:food/crafting/uncooked_pumpkin_curry",
 			"matcha:food/crafting/kontomire_stew",
-			"matcha:food/crafting/oatmeal"
+			"matcha:food/crafting/oatmeal",
+			"matcha:food/crafting/matzah_ball_soup"
 		]
 	}
 }
