@@ -627,6 +627,12 @@
 			"conditions": {
 				"recipes": "matcha:food/crafting/ice_cream"
 			}
+		},
+		"matzah_ball_soup": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/crafting/matzah_ball_soup"
+			}
 		}
 	},
 	"requirements": [
@@ -722,7 +728,8 @@
 			"fish_and_chips",
 			"oatmeal",
 			"clone_lily_pad",
-			"ice_cream"
+			"ice_cream",
+			"matzah_ball_soup"
 		]
 	],
 	"rewards": {
