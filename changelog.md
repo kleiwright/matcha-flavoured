@@ -3,7 +3,8 @@
 - 
 
 #### Small Tweaks and Additions
-- Buckets are now made from copper (lessen the need to rush to iron)
+- Buckets are now copper instead of Iron (Internet-Hyena + Me)
+  - People still felt they needed to rush iron, I want to give them as little excuse as possible to do that (except shields maybe)
 - Hunger being cleansed UI is less intrusive
 
 ### Bugs & Technical Improvements
