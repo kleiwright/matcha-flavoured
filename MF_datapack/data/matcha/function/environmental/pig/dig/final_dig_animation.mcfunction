@@ -4,4 +4,5 @@ execute if entity @s[tag=podzol] run particle block{block_state:"minecraft:podzo
 execute if entity @s[tag=mycelium] run particle block{block_state:"minecraft:mycelium"} ^ ^ ^0.5 .1 .1 .1 0.1 50 normal
 execute if entity @s[tag=rooted_dirt] run particle block{block_state:"minecraft:rooted_dirt"} ^ ^ ^0.5 .1 .1 .1 0.1 50 normal
 execute if entity @s[tag=soul_sand] run particle block{block_state:"minecraft:soul_sand"} ^ ^ ^0.5 .1 .1 .1 0.1 50 normal
+execute if entity @s[tag=sand] run particle block{block_state:"minecraft:sand"} ^ ^ ^0.5 .1 .1 .1 0.1 50 normal
 playsound minecraft:block.crop.break neutral @a
