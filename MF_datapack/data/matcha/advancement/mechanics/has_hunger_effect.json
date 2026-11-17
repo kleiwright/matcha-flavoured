@@ -5,7 +5,9 @@
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
 				"effects": {
-					"minecraft:hunger": {}
+					"minecraft:hunger": {
+						"amplifier": 0
+					}
 				}
 			}
 		}
