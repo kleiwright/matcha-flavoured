@@ -86,6 +86,10 @@ execute if data storage minecraft:intrinsic_enchants item.components.minecraft:s
 execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.minecraft:smite run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:sharpness
 execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.minecraft:silk_touch run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:fortune
 execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:electrum_tool run data remove storage minecraft:intrinsic_enchants enchantments.minecraft:fortune
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:adamant_weapon run data remove storage minecraft:intrinsic_enchants enchantments.matcha:warding_1
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:adamant_weapon run data remove storage minecraft:intrinsic_enchants enchantments.matcha:warding_2
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:adamant_weapon run data remove storage minecraft:intrinsic_enchants enchantments.matcha:warding_3
+execute if data storage minecraft:intrinsic_enchants item.components.minecraft:stored_enchantments.matcha:adamant_weapon run data remove storage minecraft:intrinsic_enchants enchantments.matcha:warding_4
 
 scoreboard players reset current intrinsic_enchants_levels
 scoreboard players reset intrinsic intrinsic_enchants_levels
