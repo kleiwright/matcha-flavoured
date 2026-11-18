@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_horse_armor",
+					"weight": 35,
+                    "quality": -1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_horse_armor",
+					"weight": 25
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:golden_horse_armor",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_horse_armor",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/saddle/reinforced_jump_strength",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/saddle/reinforced_movement_speed",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/saddle/reinforced_step_height",
+					"weight": 5
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:chests/common/horse_items"
+}

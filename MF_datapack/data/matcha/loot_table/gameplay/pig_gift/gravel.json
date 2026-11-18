@@ -68,6 +68,22 @@
 							"max": 3
 						}
 					}
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/raw_silver_nugget",
+					"weight": 1,
+					"condition": {
+						"type": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_tags": {
+								"any_of": [
+									"muddy"
+								]
+							}
+						}
+					}
 				}
 			]
 		}

@@ -7,56 +7,56 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:brown_mushroom",
-					"weight": 40,
+					"weight": 45,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": {
 							"type": "minecraft:uniform",
 							"min": 1,
-							"max": 3
+							"max": 2
 						}
 					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:red_mushroom",
-					"weight": 12,
+					"weight": 15,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": {
 							"type": "minecraft:uniform",
 							"min": 1,
-							"max": 3
+							"max": 2
 						}
 					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:shelf_mushroom",
-					"weight": 20,
+					"weight": 25,
 					"modifier": {
 						"type": "minecraft:set_count",
 						"count": {
 							"type": "minecraft:uniform",
 							"min": 1,
-							"max": 3
+							"max": 2
 						}
 					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potato",
-					"weight": 4
+					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:food/minecraft/carrot",
-					"weight": 4
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:beetroot_seeds",
-					"weight": 4
+					"weight": 3
 				},
 				{
 					"type": "minecraft:loot_table",

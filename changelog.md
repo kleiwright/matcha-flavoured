@@ -22,7 +22,6 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
     - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
-- Buckets are now copper instead of Iron (Internet-Hyena + Me)
 - Food
     - Shelf Mushroom is now an ingredient
 - Kettles! With around 53 new drinks, what lovely teas, coffees, and wines will you concot?
@@ -143,7 +142,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - TankyAibem: Chicken roosts
 - Grim-O: Plains Village, Desert Village
 
-If there isn't a name on a feature, I probably did it
+If there isn't a credit to a feature, I probably did it
 
 
 ## For the Devs
@@ -263,8 +262,6 @@ For the Winter Drop
 # DOCKET 
 - Sheep fed home system + SHeep breeding to be the same as everyone else
 - Update cow and pig fed effects to be the same file structure
-
-- Nerf Pig potato, carrot, and beetroot stuff
 
 - Allow seagulls to peck Basalt and Diorite
 

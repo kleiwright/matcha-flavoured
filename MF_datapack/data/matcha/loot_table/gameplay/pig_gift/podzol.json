@@ -71,12 +71,12 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potato",
-					"weight": 12
+					"weight": 6
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "matcha:food/minecraft/carrot",
-					"weight": 12
+					"weight": 6
 				},
 				{
 					"type": "minecraft:loot_table",
