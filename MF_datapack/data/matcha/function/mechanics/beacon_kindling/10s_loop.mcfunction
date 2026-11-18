@@ -4,7 +4,7 @@
 execute as @e[type=marker,tag=beacon_kindling] at @s unless block ~ ~ ~ minecraft:campfire[lit=true] run function matcha:mechanics/beacon_kindling/kill_wandering_trader_early
 
 # Check if the 10 min have passed (90 - 60), and the beacon has NOT already summoned a trader, if true, summon him
-execute as @e[type=marker,tag=beacon_kindling,tag=!summoned_trader] if score @s Lifetime matches ..30 at @s run function matcha:mechanics/beacon_kindling/summon_wandering_trader
+execute as @e[type=marker,tag=beacon_kindling,tag=!summoned_trader,scores={Lifetime=..30}] at @s run function matcha:mechanics/beacon_kindling/summon_wandering_trader
 
 
 # Check if Beacon Kindling should be extinguished
@@ -14,10 +14,10 @@ execute as @e[type=marker,tag=beacon_kindling,scores={Lifetime=..0}] at @s run f
 execute as @e[type=wandering_trader,tag=summoned_by_beacon,scores={Lifetime=..0}] at @s run function matcha:mechanics/beacon_kindling/kill_wandering_trader
 
 # Check if Players should be allowed to place another Beacon Kindling
-execute as @a[scores={BeaconKindlingCooldown=..0}] run scoreboard players reset @s BeaconKindlingCooldown
+scoreboard players reset @a[scores={BeaconKindlingCooldown=..0}] BeaconKindlingCooldown
 
 
 # Reduce durations by 1 (10s)
-execute as @e[type=marker,tag=beacon_kindling] run scoreboard players remove @s Lifetime 1
-execute as @e[type=wandering_trader,tag=summoned_by_beacon,scores={Lifetime=1..}] run scoreboard players remove @s Lifetime 1
-execute as @a[scores={BeaconKindlingCooldown=1..}] run scoreboard players remove @s BeaconKindlingCooldown 1
+scoreboard players remove @e[type=marker,tag=beacon_kindling] Lifetime 1
+scoreboard players remove @e[type=wandering_trader,tag=summoned_by_beacon,scores={Lifetime=1..}] Lifetime 1
+scoreboard players remove @a[scores={BeaconKindlingCooldown=1..}] BeaconKindlingCooldown 1

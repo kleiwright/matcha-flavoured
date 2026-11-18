@@ -22,12 +22,12 @@ function matcha:stopwatches
 function matcha:update_old_items/check_trigger
 
 # Reduce cooldowns by one tick
-execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remove @s AnemosCooldown 1
-execute as @a if score @s CrystalHeartCooldown matches 1.. run scoreboard players remove @s CrystalHeartCooldown 1
-execute as @a if score @s AuraWindup matches 0.. run scoreboard players remove @s AuraWindup 1
-execute as @a if score @s ShakudoRegenCooldown matches 0.. run scoreboard players remove @s ShakudoRegenCooldown 1
-execute as @a if score @s DivinityCooldown matches 0.. run scoreboard players remove @s DivinityCooldown 1
-execute as @a if score @s TraversalBuffer matches 1.. run scoreboard players remove @s TraversalBuffer 1
+scoreboard players remove @a[scores={AnemosCooldown=1..}] AnemosCooldown 1
+scoreboard players remove @a[scores={CrystalHeartCooldown=1..}] CrystalHeartCooldown 1
+scoreboard players remove @a[scores={AuraWindup=0..}] AuraWindup 1
+scoreboard players remove @a[scores={ShakudoRegenCooldown=0..}] ShakudoRegenCooldown 1
+scoreboard players remove @a[scores={DivinityCooldown=0..}] DivinityCooldown 1
+scoreboard players remove @a[scores={TraversalBuffer=1..}] TraversalBuffer 1
 
 # Reset counts
 # * empties the entire scoreboard
