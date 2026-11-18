@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Coral Blocks",
+  "category": "building",
+  "key": {
+    "#": "minecraft:tube_coral"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:tube_coral_block",
+    "count": 4
+  }
+}

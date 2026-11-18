@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Coral Blocks",
+  "category": "building",
+  "key": {
+    "#": "minecraft:bubble_coral"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:bubble_coral_block",
+    "count": 4
+  }
+}

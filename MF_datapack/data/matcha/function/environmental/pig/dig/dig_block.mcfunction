@@ -17,3 +17,4 @@ tag @s remove rooted_dirt
 tag @s remove mycelium
 tag @s remove podzol
 tag @s remove soul_sand
+tag @s remove sand
