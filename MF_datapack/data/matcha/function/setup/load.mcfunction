@@ -1,13 +1,15 @@
 # Set up Scoreboards
 function matcha:setup/scoreboard/create_scoreboards
 
-# Start Clock functions
-schedule function matcha:timers/0.5s 0.5s replace
+# Clear retired clocks that may still be queued in existing worlds
+schedule clear matcha:timers/0.5s
+schedule clear matcha:timers/2s
+schedule clear matcha:timers/3s
+schedule clear matcha:timers/60s
+
+# Start scheduled gameplay functions
 schedule function matcha:timers/1s 1s replace
-schedule function matcha:timers/2s 2s replace
-schedule function matcha:timers/3s 3s replace
 schedule function matcha:timers/10s 10s replace
-schedule function matcha:timers/60s 60s replace
 
 # Print information to players
 tellraw @a {"bold":false,"color":"#65E082","translate":"log.kleispack.now_loaded","with":["1.12.9"]}

@@ -73,7 +73,6 @@ scoreboard objectives add ZephyrCharge dummy
 
 # Used mostly for particles
 stopwatch create 3s
-stopwatch create 2s
 stopwatch create 1s
 stopwatch create 0.5s
 
