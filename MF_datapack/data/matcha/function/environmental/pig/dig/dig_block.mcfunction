@@ -2,9 +2,8 @@
 # We run this again, in case the pig was moved whilst digging
 execute as @s run function matcha:environmental/pig/dig/tag_from_block
 
-execute unless block ~ ~-0.8 ~ #matcha:animal_affects/pig_soul_sand | #matcha:animal_affects/pig_sand run setblock ~ ~-.8 ~ dirt
+execute unless block ~ ~-0.8 ~ #matcha:animal_affects/pig_soul_sand run setblock ~ ~-.8 ~ dirt
 execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_soul_sand run setblock ~ ~-.8 ~ soul_soil
-execute if block ~ ~-0.8 ~ #matcha:animal_affects/pig_sand run setblock ~ ~-.8 ~ smooth_sandstone
 
 # spawn this pig's Gift Loot, tags will be determined there (MUST use kill, because that allows us to check the current entities tags using /loot)
 # We can also check the block the mob is on with this LT, so for ex. Each block type can have a different LT
