@@ -13,7 +13,6 @@ function matcha:mechanics/sleeping/tick
 function matcha:mechanics/spawn_mechanic/ticking
 execute as @e[type=minecraft:armor_stand,tag=WardingStone] at @s run function matcha:mechanics/warding_stone/tick
 
-function matcha:particle/beacon_kindling
 function matcha:particle/item_particles
 function matcha:particle/riding_boat
 
