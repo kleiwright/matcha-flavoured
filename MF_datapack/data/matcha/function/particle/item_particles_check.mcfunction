@@ -8,7 +8,6 @@ execute if predicate matcha:items/is_crystal_heart run tag @s add particle_cryst
 execute if predicate matcha:items/is_nether_star run tag @s add particle_nether_star
 execute if predicate matcha:items/is_blaze_powder run tag @s add particle_blaze_powder
 
-# Also apply no grav
-# I could have made "item_particle_apply_ender_eye" to comgine no grav with the tag adding, but these dont run every tick so we can be a bit lazy here
-execute if predicate matcha:items/is_ender_eye run function matcha:particle/apply_no_grav
-execute if predicate matcha:items/is_nether_star run function matcha:particle/apply_no_grav
+# Only the floating item types need the gravity override.
+execute if entity @s[tag=particle_ender_eye] run function matcha:particle/apply_no_grav
+execute if entity @s[tag=particle_nether_star] run function matcha:particle/apply_no_grav
