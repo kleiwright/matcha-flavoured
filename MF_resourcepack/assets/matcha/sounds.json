@@ -29,7 +29,7 @@
 	"custom.background.abbey": {
 		"sounds": [
 			{
-				"name": "matcha:custom/background/abbey",
+				"name": "minecraft:music/game/abbey",
 				"volume": 0.7,
 				"stream": true
 			}
