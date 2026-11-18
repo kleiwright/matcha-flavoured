@@ -9,5 +9,7 @@ execute as @n[type=marker,tag=jukebox] at @s run function matcha:environmental/v
 # Kills any playing music
 stopsound @s music
 
-# Play eerie sounds
-function matcha:environmental/village/eerie_sound
+# Only inspect the ground around the two sound windows. The sound functions
+# still test their exact playback times.
+execute if stopwatch eerie 0.9..1.9 run function matcha:environmental/village/eerie_sound
+execute if stopwatch eerie 99.9..100.1 run function matcha:environmental/village/eerie_sound

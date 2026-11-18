@@ -1,3 +1,4 @@
+# Keep new playback times inside the windows in village/tick.
 execute if block ~ ~-.5 ~ minecraft:coarse_dirt run function matcha:environmental/village/eerie/coarse_dirt
 
 execute if block ~ ~-.5 ~ minecraft:oak_planks run function matcha:environmental/village/eerie/oak_planks
