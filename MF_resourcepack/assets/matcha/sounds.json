@@ -245,6 +245,40 @@
 				"volume": 1.0
 			}
 		],
-		"subtitle": "subtitles.kleispack.bobwhite"
+		"subtitle": "subtitles.kleispack.bobwhit_hurt"
+	},
+	"entity.duck.ambient": {
+		"sounds": [
+			{
+				"name": "matcha:custom/mob/chicken/duck/say1",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/duck/say2",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/duck/say3",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/duck/say4",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/duck/say5",
+				"volume": 0.6
+			}
+		],
+		"subtitle": "subtitles.kleispack.duck"
+	},
+	"entity.duck.hurt": {
+		"sounds": [
+			{
+				"name": "matcha:custom/mob/chicken/duck/hurt",
+				"volume": 1.0
+			}
+		],
+		"subtitle": "subtitles.kleispack.duck_hurt"
 	}
 }

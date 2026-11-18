@@ -75,5 +75,8 @@ alexin1337 for providing a framework for us to use shaders to hide the XP number
 Their RP: https://modrinth.com/resourcepack/no-xp-numbers
 Implementation done by HapppySpud
 
+Aqural for providing a framework for macros and how to use them
+Their DP: https://modrinth.com/datapack/random-world-spawn-point?version=26.3&loader=datapack
+I had a really hard time understanding macros and how to use them, this pack give me insight on how you would use random numbers and push them into a setblock command
 
 *NO ONE MENTIONED KNOWS OF ME OR CONDONES MY WORK. I just wanted to cite where my inspirations came from.

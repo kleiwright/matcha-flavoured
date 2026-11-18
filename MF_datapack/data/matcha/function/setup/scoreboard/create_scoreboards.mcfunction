@@ -132,6 +132,8 @@ scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
 scoreboard objectives add InLove dummy
 # Cooldown for pigs dropping mushrooms
 scoreboard objectives add matcha.pig_gifting_cooldown dummy
+# Cooldown before muddy pigs become clean again
+scoreboard objectives add matcha.muddy_cooldown dummy
 # Cooldown for chickens giving gifts
 scoreboard objectives add matcha.chicken_gifting_cooldown dummy
 scoreboard objectives add matcha.chicken_planting_cooldown dummy
@@ -139,12 +141,12 @@ scoreboard objectives add matcha.pecking_animation dummy
 scoreboard objectives add matcha.chicken_nesting_countdown dummy
 scoreboard objectives add matcha.nesting_animation dummy
 scoreboard objectives add matcha.diving_animation dummy
+scoreboard objectives add matcha.chicken_random_grass.x dummy
+scoreboard objectives add matcha.chicken_random_grass.z dummy
 # Used to play digging/play/pecking animations
 scoreboard objectives add matcha.digging_animation dummy
 scoreboard objectives add matcha.pig_play_animation dummy
 scoreboard objectives add matcha.eating_animation dummy
-# Cooldown before muddy pigs become clean again
-scoreboard objectives add matcha.muddy_cooldown dummy
 # Timer before infant turns into a baby
 scoreboard objectives add matcha.infant_age dummy
 # Cooldown for cows eating grass and Milk Cooldown
@@ -152,9 +154,11 @@ scoreboard objectives add matcha.cow_grazing_cooldown dummy
 scoreboard objectives add matcha.cow_happy_cooldown dummy
 scoreboard objectives add matcha.milk_reserve dummy
 
+# Used to keep track of pet whistle ids
+scoreboard objectives add whistleId dummy
+
+
 # Structures -----
 # Used for loot summon animation on altars
 scoreboard objectives add matcha.playing_altar_animation dummy
 
-# Used to keep track of pet whistle ids
-scoreboard objectives add whistleId dummy
