@@ -8,7 +8,7 @@
 				"type": "minecraft:biome",
 				"biomes": "#minecraft:spawns_cold_variant_farm_animals"
 			},
-			"priority": -1
+			"priority": 1
 		}
 	]
 }

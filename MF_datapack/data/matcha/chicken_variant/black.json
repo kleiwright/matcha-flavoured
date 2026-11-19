@@ -4,7 +4,7 @@
 	"model": "cold",
 	"spawn_conditions": [
 		{
-			"priority": 0
+			"priority": -5
 		}
 	]
 }
