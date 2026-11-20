@@ -285,23 +285,19 @@
 		"sounds": [
 			{
 				"name": "matcha:custom/mob/chicken/seagull/say1",
-				"volume": 0.6
+				"volume": 0.4
 			},
 			{
 				"name": "matcha:custom/mob/chicken/seagull/say2",
-				"volume": 0.6
+				"volume": 0.4
 			},
 			{
 				"name": "matcha:custom/mob/chicken/seagull/say3",
-				"volume": 0.6
-			},
-			{
-				"name": "matcha:custom/mob/chicken/seagull/say4",
-				"volume": 0.6
+				"volume": 0.4
 			},
 			{
 				"name": "matcha:custom/mob/chicken/seagull/say5",
-				"volume": 0.6
+				"volume": 0.4
 			}
 		],
 		"subtitle": "subtitles.kleispack.seagull"

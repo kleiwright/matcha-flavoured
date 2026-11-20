@@ -1,5 +1,5 @@
 #Every 10 seconds, (called in timers) the trough scans nearby cows, if they have been fed, it asks them to leave to go graze
-execute at @s as @e[type=cow,distance=..8,tag=fed,tag=!leaving] run data merge entity @s {home_radius:48}
+execute at @s as @e[type=cow,distance=..8,tag=fed,tag=!leaving] run data merge entity @s {home_radius:25}
 execute at @s as @e[type=cow,distance=..8,tag=fed,tag=!leaving] run tag @s add leaving
 execute at @s as @e[type=cow,distance=..8,tag=fed,tag=!leaving] run say leaving
 execute at @s as @e[type=cow,distance=..8,tag=fed,tag=leaving] run tag @s remove returning
@@ -11,4 +11,4 @@ execute at @s as @e[type=cow,distance=..8,tag=!fed,tag=!hungry] run tag @s add h
 
 
 #Debug
-execute at @s run effect give @n[type=cow,distance=..8,tag=fed] minecraft:glowing 2 0 true
+# execute at @s run effect give @n[type=cow,distance=..8,tag=fed] minecraft:glowing 2 0 true

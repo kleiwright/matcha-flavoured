@@ -2,6 +2,9 @@
     "values": [
         "minecraft:gravel",
         "minecraft:sand",
-        "minecraft:red_sand"
+        "minecraft:red_sand",
+        "minecraft:smooth_basalt",
+        "minecraft:basalt",
+        "minecraft:diorite"
     ]
 }

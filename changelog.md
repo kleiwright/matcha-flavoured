@@ -90,6 +90,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Added all pickle and jam models and tweaked them to my taste
 - Removed Apple, Golden Apple, Golden carrot 3D models (I only want models for matcha foods and a couple other exceptions)
 - Farmer no longer sells bonemeal
+- Coarse dirt and Gravel textures made more distinct
 
 #### Food
 - Added Conchas, Matzah Ball Soup
@@ -260,10 +261,7 @@ For the Winter Drop
 
 
 # DOCKET 
-- Sheep fed home system + SHeep breeding to be the same as everyone else
 - Update cow and pig fed effects to be the same file structure
-
-- Allow seagulls to peck Basalt and Diorite
 
 - Add Saddles to Dungeon LT
 - Add Cocoa beans to Dungeon LT

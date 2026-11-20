@@ -31,3 +31,6 @@ execute as @e[type=minecraft:marker,tag=kettle,tag=placed] run function matcha:m
 
 #Hunger
 execute as @a[scores={hunger_timer=0..}] at @s run function matcha:effects/hunger/effect
+
+# Chicken
+execute as @e[type=sheep] at @s run function matcha:environmental/sheep/sheep_trample
