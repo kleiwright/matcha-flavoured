@@ -280,5 +280,39 @@
 			}
 		],
 		"subtitle": "subtitles.kleispack.duck_hurt"
+	},
+	"entity.seagull.ambient": {
+		"sounds": [
+			{
+				"name": "matcha:custom/mob/chicken/seagull/say1",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/seagull/say2",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/seagull/say3",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/seagull/say4",
+				"volume": 0.6
+			},
+			{
+				"name": "matcha:custom/mob/chicken/seagull/say5",
+				"volume": 0.6
+			}
+		],
+		"subtitle": "subtitles.kleispack.seagull"
+	},
+	"entity.seagull.hurt": {
+		"sounds": [
+			{
+				"name": "matcha:custom/mob/chicken/seagull/hurt",
+				"volume": 1.0
+			}
+		],
+		"subtitle": "subtitles.kleispack.seagull_hurt"
 	}
 }
