@@ -7,39 +7,55 @@
 		"minecraft:glass_bottle"
 	],
 	"result": {
-		"id": "minecraft:splash_potion",
+		"id": "minecraft:poisonous_potato",
 		"components": {
 			"minecraft:item_model": "matcha:pickled_red_mushrooms",
-			"minecraft:custom_name": {
-				"translate": "item.kleispack.pickled_red_mushrooms",
-				"italic": false
+			"minecraft:item_name": {
+				"translate": "item.kleispack.pickled_red_mushrooms"
 			},
 			"minecraft:lore": [
 				{
-					"translate": "desc.kleispack.throwable",
-					"color": "gray",
+					"text": "\uE030\uE032",
+					"color": "red",
 					"italic": false
 				},
 				{
-					"translate": "effect.kleispack.poison_2",
-					"with": [
-						"1:00"
-					],
-					"color": "#48a53b",
+					"translate": "effect.kleispack.poison",
+					"with": ["2:00"],
+					"color": "dark_green",
 					"italic": false
 				}
 			],
-			"minecraft:max_stack_size": 64,
-			"minecraft:potion_contents": {
-				"custom_color": 4760891,
-				"custom_effects": [
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"animation": "drink",
+				"sound": "minecraft:entity.generic.eat",
+				"has_consume_particles": false,
+				"on_consume_effects": [
 					{
-						"id": "minecraft:poison",
-						"amplifier": 1,
-						"duration": 1200,
-						"show_icon": true
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 36,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:poison",
+								"amplifier": 0,
+								"duration": 2400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
 					}
 				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
 			},
 			"minecraft:tooltip_display": {
 				"hidden_components": [

@@ -13,7 +13,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - I encourage you to pay attention to animal behaviours and environments, there are other factors not outlined in the advancements that can affect loot
 - Animal Spawning and Breeding Changes
     - Animal spawning and breeding has been changed. If you have pre-existing chickens. They will not have unique behavious like newly-generated wild ones.
-    - Pigs and Cows are unaffected, pre-existing ones will be given unique behaviours
+    - Pigs, Sheep, and Cows are unaffected, pre-existing ones will be given unique behaviours
 - Animal behaviour changes
     - Farm Animals tend not to wander far from where they were born
     - Animals tend to stick around where they were last fed
@@ -22,13 +22,13 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
     - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
-- Food
-    - Shelf Mushroom is now an ingredient
-- Kettles! With around 53 new drinks, what lovely teas, coffees, and wines will you concot?
+- Kettles! 
+    - With around 100 new drinks, what lovely teas, coffees, and wines will you concot?
     - Kettles can't be fully automated due to how their heating mechanic works
+    - Yes, making every texture and recipe sucked, and no im not going to add loot tables for them, thats CRAZY
+    - (Ill probably do it eventually)
 - [Gudis](https://en.wikipedia.org/wiki/Gudi_%28instrument%29) (HapppySpud + Me)
     - Can be found via archaeology in places people often visited or lived
-
 
 #### Spoilers from here on (have fun puzzling this stuff out on your own!)
 - Chicken Overhaul
@@ -58,6 +58,11 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - This cannot be forced by the player, rather, feeding a cow a hay bale directly will not increase milk reserves, only on their own terms will this happen
     - But feeding them will speed the process up
     - Cows who are kept too close to their trough after eating will become sad
+- Sheep Tweaks
+    - Sheep can now overgraze, and cause their grass to become ruined!
+    - Its a good idea to give them more space and make sure they aren't overcrowded, this will reduce any maleffects
+    - Sheep must be bred with hay bales, but its still a good idea to feed them, it may cause them to overgraze less often
+    - Remember that coarse dirt can be tilled into regular dirt
 - Kettles & Tea
     - Teas focus on effects, Foods focus on health recovery
     - So if you need health, opt for food, if you need effect, opt for tea
@@ -97,9 +102,11 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
 - Added two ingredients, Truffles and Wagyu Beef and their foods
     - They are not proper ingredients, aka, they do not have as many permutations as shelf mushrooms for example, but they are potent
 - Im not telling you what drinks were added you gotta go experiment and explore it on your own
+- Pickled Toadstools and Pickled Crimson Fungus are no longer throwable
+- Honey Ginger Tea can no longer be made by cooking honey
+- Mead and Bubbling mead can no longer be *crafted*
 
 ### Removed
-- Honey Ginger Tea (Oven crafting)
 - Mead, Bubbling Mead (Crafting)
 
 ### Nerfed
@@ -207,13 +214,6 @@ Cows can be fed wheat to speed up their grazing cooldown, and are bred with hay 
 - GMOS
     - A special villager will trade select cultivars of chickens (for animals a cultivar is called a breed, but I dont like that term, it doesn't sound as exciting)
     - The cultivars are the different personalities of chicken!
-- Hapiness
-    - Like cows, if kept too close to home, most chickens get upset, they want freedom!
-    - Mamas never get upset if too close to home, nor babies
-    - I dont know to implement this yet, i want it to curb hopper chickens farms, but people would just move the chickens away from their home and in a little box, that doesn't seem very nice
-    - BUT also, cows are the fickle ones, pigs are the ones who change based on enviro, chickens are the ones who have special unique behaviours. So honestly, seems pretty balanced. I dont want to have players have to pay attention to chicken behaviours AND ALSO manage their emotions, each animal should have one unique thing, and we permutate on that as much as possible. Im hoping the unique interactions and cute factor will make most players think twice before doing it.
-
-
 
 
 
@@ -246,9 +246,8 @@ Update Adventure
 
 
 For the Winter Drop
-- Move over the new cobbled deepslate recipe
-- move over the Husk underground spawning bug
-- Move over the Copper Buckets
+-
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -268,7 +267,7 @@ For the Winter Drop
 - Enchanted Sugar Cubes
 
 - When done with brewing
-- Update all brewing LTs
+- Update Iglu potion with a sparkling Crimson Kombucha
 - Update Rind Jam, Melon sorbet, Brownie, Chocolate Chip Cookie
 
 
