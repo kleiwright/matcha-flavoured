@@ -84,13 +84,6 @@
 							"on_fail": {
 								"type": "minecraft:discard"
 							}
-						},
-						{
-							"type": "minecraft:set_name",
-							"name": {
-								"translate": "filled_map.buried_treasure"
-							},
-							"target": "item_name"
 						}
 					],
 					"name": "minecraft:buried_treasure_map",
