@@ -15,3 +15,7 @@
 - Some foods could sometimes not be eaten, this has been fixed
 - Removed unused hunger predicates
 - Warding stones can no longer be placed on (and therefore delete) non-full blocks
+- Deepslate Iron did not drop double iron
+- Gold Ores could not have fortune applied to them
+- Fixed confusing Warding Sword and Shield Recipes (not-manu)
+- Fixed errant incorrect map translation keys (not-manu)
