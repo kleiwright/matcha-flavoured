@@ -10,3 +10,4 @@ execute \
     run random value 900..1200
 #Adding a tag so we don't have to check nbt later
 tag @s add muddy
+execute if entity @s[tag=muddy] run advancement grant @p only matcha:tutorial/pig_play_in_mud

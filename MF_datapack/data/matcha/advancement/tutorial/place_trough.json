@@ -1,0 +1,38 @@
+{
+	"parent": "matcha:tutorial/breed_animals",
+	"criteria": {
+		"placed_trough": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"components": {
+							"minecraft:item_model": "matcha:trough"
+						}
+					}
+				}
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"translate": "adv.kleispack.place_trough.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:trough"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"translate": "adv.kleispack.place_trough"
+		},
+		"hidden": false,
+		"frame": "task"
+	}
+}

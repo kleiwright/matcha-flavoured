@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:jump_boost": {
+							"amplifier": 1,
+							"duration": 3600
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "matcha:shelf_mushroom_kombucha",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.shelf_mushroom_kombucha"
+			},
+			"minecraft:lore": [
+				{
+					"text": "\uE030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.jump_boost_2",
+					"with": ["8:00"],
+					"color": "#ece85f",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"animation": "drink",
+				"sound": "minecraft:item.honey_bottle.drink",
+				"has_consume_particles": false,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 24,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+            "minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:jump_boost",
+						"amplifier": 1,
+						"duration": 9600,
+						"show_particles": false,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:brown_mushroom"
+	}
+}

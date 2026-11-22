@@ -1,0 +1,63 @@
+{
+	"parent": "matcha:tutorial/cook_any_curry",
+	"criteria": {
+		"pumpkin_curry": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/oven/pumpkin_curry"
+			}
+		},
+		"green_curry": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/oven/green_curry"
+			}
+		},
+		"japanese_curry": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/oven/japanese_curry"
+			}
+		},
+		"paneer_makhani": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/oven/paneer_makhani"
+			}
+		},
+		"ramen": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipes": "matcha:food/oven/ramen"
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "5 \uE00F\u00A0",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.cook_all_curries.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:all_curry"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"translate": "adv.kleispack.cook_all_curries"
+		},
+		"hidden": false
+	},
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_5"
+		]
+	}
+}

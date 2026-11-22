@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:poisonous_potato",
+		"potion_contents": {
+			"potions": "minecraft:awkward",
+			"effects": {
+				"contains": [
+					{
+						"minecraft:strength": {
+							"amplifier": 0,
+							"duration": 9600
+						}
+					}
+				]
+			}
+		}
+	},
+	"output": {
+		"id": "minecraft:splash_potion",
+		"components": {
+			"minecraft:item_model": "matcha:sparkling_bloody_mary",
+			"minecraft:custom_name": {
+				"translate": "item.kleispack.sparkling_bloody_mary",
+				"italic": false
+			},
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.strength",
+					"with": ["12:00"],
+					"color": "#e65f33",
+					"italic": false
+				}
+			],
+			"minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_color": 13386296,
+				"custom_effects": [
+					{
+						"id": "minecraft:strength",
+						"amplifier": 0,
+						"duration": 14400,
+						"show_particles": true,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:sugar"
+	}
+}

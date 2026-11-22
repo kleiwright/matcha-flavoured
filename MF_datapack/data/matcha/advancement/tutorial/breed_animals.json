@@ -1,0 +1,65 @@
+{
+	"parent": "matcha:tutorial/cook_food",
+	"criteria": {
+		"cow": {
+			"conditions": {
+				"child": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:cow"
+					}
+				}
+			},
+			"trigger": "minecraft:bred_animals"
+		},
+		"sheep": {
+			"conditions": {
+				"child": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:sheep"
+					}
+				}
+			},
+			"trigger": "minecraft:bred_animals"
+		},
+		"pig": {
+			"conditions": {
+				"child": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:pig"
+					}
+				}
+			},
+			"trigger": "minecraft:bred_animals"
+		}
+	},
+	"requirements": [
+		[
+			"cow",
+			"sheep",
+			"pig"
+		]
+	],
+	"display": {
+		"description": [
+			{
+				"translate": "adv.kleispack.breed_animals.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:hay_block"
+		},
+		"title": {
+			"translate": "adv.kleispack.breed_animals"
+		},
+		"hidden": false,
+		"frame": "task"
+	}
+}

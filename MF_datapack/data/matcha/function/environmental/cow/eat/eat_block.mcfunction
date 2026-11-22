@@ -19,3 +19,6 @@ execute if block ^ ^0.5 ^1 minecraft:hay_block run setblock ^ ^0.5 ^1 minecraft:
 
 # If the eating animation failed (Was pushed away from target block, or something), then re-add hungry, so it can keep trying
 tag @s[tag=!fed] add hungry
+
+# On success give the closest player the cow eating adv
+execute if entity @s[tag=fed] run advancement grant @p only matcha:tutorial/cow_eats_block

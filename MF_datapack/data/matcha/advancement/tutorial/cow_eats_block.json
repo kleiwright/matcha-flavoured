@@ -1,0 +1,34 @@
+{
+	"parent": "matcha:tutorial/place_trough",
+	"criteria": {
+		"placed_trough": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\u00A0",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.cow_eats_block.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:hay_block"
+		},
+		"title": {
+			"translate": "adv.kleispack.cow_eats_block"
+		},
+		"hidden": false,
+		"frame": "goal"
+	},
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_1"
+		]
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:blaze_spawn_egg",
+	"addition": "minecraft:prismarine_crystals",
 	"base": "minecraft:shield",
 	"result": {
 		"id": "minecraft:shield",
@@ -71,5 +71,5 @@
 			}
 		}
 	},
-	"template": "minecraft:prismarine_crystals"
+	"template": "minecraft:blaze_spawn_egg"
 }

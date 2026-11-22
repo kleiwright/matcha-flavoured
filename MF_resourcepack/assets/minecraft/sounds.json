@@ -25,5 +25,13 @@
 				"stream": true
 			}
 		]
-	}
+	},
+  	"entity.minecart.inside": {
+    	"sounds": [
+			{
+				"name":"minecart/inside",
+				"volume": 0.1
+			}
+    	]
+  	}
 }

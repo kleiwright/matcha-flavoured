@@ -1,0 +1,106 @@
+{
+	"parent": "matcha:tutorial/place_trough",
+	"criteria": {
+		"green_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:green_egg"
+						}
+					}
+				]
+			}
+		},
+		"speckled_green_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:speckled_green_egg"
+						}
+					}
+				]
+			}
+		},
+		"small_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "matcha:small_egg"
+						}
+					}
+				]
+			}
+		},
+		"brown_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:brown_egg"
+						}
+					}
+				]
+			}
+		},
+		"blue_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:blue_egg"
+						}
+					}
+				]
+			}
+		},
+		"egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"components": {
+							"minecraft:item_model": "minecraft:egg"
+						}
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\uE00F\u00A0",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.collect_all_eggs.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "matcha:all_eggs"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"translate": "adv.kleispack.collect_all_eggs"
+		},
+		"hidden": false,
+		"frame": "goal"
+	},
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_2"
+		]
+	}
+}

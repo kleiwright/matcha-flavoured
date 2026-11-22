@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:brewing",
+	"input": {
+		"item": "minecraft:potion",
+		"potion_contents": {
+			"potions": "minecraft:water",
+			"effects": {}
+		}
+	},
+	"output": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+			"minecraft:item_model": "matcha:toadstool_beoseot_cha",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.toadstool_beoseot_cha"
+			},
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.poison",
+					"with": ["1:00"],
+					"color": "dark_green",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 0.8,
+				"animation": "drink",
+				"sound": "minecraft:entity.generic.drink",
+				"has_consume_particles": false
+			},
+            "minecraft:potion_contents": {
+				"potion": "minecraft:awkward",
+				"custom_effects": [
+					{
+						"id": "minecraft:poison",
+						"amplifier": 0,
+						"duration": 1200,
+						"show_particles": false,
+						"show_icon": true
+					}
+				]
+			},
+			"minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:potion_contents"
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+	"reagent": {
+		"item": "minecraft:red_mushroom"
+	}
+}

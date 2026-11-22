@@ -1,4 +1,4 @@
-data merge entity @s {attributes:[{id:"minecraft:tempt_range",base:20}]}
+data merge entity @s {attributes:[{id:"minecraft:tempt_range",base:15}]}
 data merge entity @s {home_radius:13}
 # Sets Home position to current position
 data modify entity @s home_pos set from entity @s Pos

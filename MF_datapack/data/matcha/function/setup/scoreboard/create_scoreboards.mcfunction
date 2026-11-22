@@ -153,6 +153,8 @@ scoreboard objectives add matcha.infant_age dummy
 scoreboard objectives add matcha.cow_grazing_cooldown dummy
 scoreboard objectives add matcha.cow_happy_cooldown dummy
 scoreboard objectives add matcha.milk_reserve dummy
+# Cooldown for cows eating grass and Milk Cooldown
+scoreboard objectives add matcha.sheep_trample_cooldown dummy
 
 # Used to keep track of pet whistle ids
 scoreboard objectives add whistleId dummy
