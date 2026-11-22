@@ -1222,6 +1222,9 @@
 			"path": "recipe/clock.json"
 		},{
 			"namespace": "minecraft",
+			"path": "recipe/rabbit_stew_from_shelf_mushroom.json"
+		},{
+			"namespace": "minecraft",
 			"path": "advancement/recipes/.*/mace.json"
 		},{
 			"namespace": "minecraft",
@@ -2408,6 +2411,9 @@
 		},{
 			"namespace": "minecraft",
 			"path": "advancement/recipes/.*/clock.json"
+		},{
+			"namespace": "minecraft",
+			"path": "advancement/recipes/.*/rabbit_stew_from_shelf_mushroom.json"
 		}]
 	}
 }

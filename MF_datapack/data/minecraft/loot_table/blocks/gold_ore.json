@@ -27,6 +27,19 @@
 						},
 						{
 							"type": "minecraft:item",
+							"name": "minecraft:gold_ingot",
+							"modifier": [
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops"
+								},
+								{
+									"type": "minecraft:apply_bonus",
+									"enchantment": "matcha:electrum_tool",
+									"formula": "minecraft:ore_drops"
+								}
+							],
 							"condition": {
 								"type": "minecraft:match_tool",
 								"predicate": {
@@ -38,39 +51,23 @@
 										]
 									}
 								}
-							},
-							"modifier": {
-								"type": "minecraft:sequence",
-								"functions": [
-									{
-										"enchantment": "minecraft:fortune",
-										"formula": "minecraft:ore_drops",
-										"type": "minecraft:apply_bonus"
-									},
-									{
-										"type": "minecraft:apply_bonus",
-										"enchantment": "matcha:electrum_tool",
-										"formula": "minecraft:ore_drops"
-									}
-								]
-							},
-							"name": "minecraft:gold_ingot"
+							}
 						},
 						{
 							"type": "minecraft:item",
-							"functions": [
+							"name": "minecraft:raw_gold",
+							"modifier": [
 								{
+									"type": "minecraft:apply_bonus",
 									"enchantment": "minecraft:fortune",
-									"formula": "minecraft:ore_drops",
-									"function": "minecraft:apply_bonus"
+									"formula": "minecraft:ore_drops"
 								},
 								{
-									"function": "minecraft:apply_bonus",
+									"type": "minecraft:apply_bonus",
 									"enchantment": "matcha:electrum_tool",
 									"formula": "minecraft:ore_drops"
 								}
-							],
-							"name": "minecraft:raw_gold"
+							]
 						}
 					]
 				}
