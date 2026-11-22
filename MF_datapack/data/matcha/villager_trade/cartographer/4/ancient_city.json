@@ -16,13 +16,6 @@
 			"on_fail": {
 				"type": "minecraft:discard"
 			}
-		},
-		{
-			"type": "minecraft:set_name",
-			"name": {
-				"translate": "item.minecraft.ancient_city_map"
-			},
-			"target": "item_name"
 		}
 	],
 	"gives": {
