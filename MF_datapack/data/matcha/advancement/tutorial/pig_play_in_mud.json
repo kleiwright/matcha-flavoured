@@ -1,0 +1,25 @@
+{
+	"parent": "matcha:tutorial/place_trough",
+	"criteria": {
+		"placed_trough": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"translate": "adv.kleispack.pig_play_in_mud.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"count": 1,
+			"id": "minecraft:mud"
+		},
+		"title": {
+			"translate": "adv.kleispack.pig_play_in_mud"
+		},
+		"hidden": false,
+		"frame": "task"
+	}
+}

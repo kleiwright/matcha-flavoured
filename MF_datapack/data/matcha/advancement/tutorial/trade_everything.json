@@ -144,6 +144,18 @@
 					}
 				}
 			}
+		},
+		"weaponsmith": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+					}
+				}
+			}
 		}
 	},
 	"display": {

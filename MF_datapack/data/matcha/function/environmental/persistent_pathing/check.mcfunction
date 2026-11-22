@@ -1,0 +1,2 @@
+execute if entity @p[distance=33..] at @s run function matcha:environmental/persistent_pathing/enable_persistence
+execute if entity @p[distance=..32] if entity @s[tag=persistence_enabled] at @s run function matcha:environmental/persistent_pathing/disable_persistence

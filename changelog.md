@@ -508,17 +508,24 @@ But if we let them do that, they shouldn't also be able to eat grasses
 - Restore their memory, of what they used to be (Echoes: Restore an Echo Shard's memory)
 - Child of Moros: Smith Full Adamant Set 
 - Harbinger of Fate: Smith Adamant Elytra 
+
+
 - Dressed to Impress: Make a Straw Hat
-- [Golden Carrot] Stockman: Breed a pair of pigs with Golden Carrots
-- [Haybale] ???: Breed a pair of cows with Hay Bales
-- [Trough] Stockman: Use a Cow Trough to compell nearby cattle to visit it for food
-- [Straw] Happy Cows: Let a cow eat a placed Hay Bale or planted Wheat near a Trough
+
+- [Haybale] Stockman: Animals love to snack on their favourite Foods, but only particularly heafty Foods will encourage them to reproduce
+
+Use a Trough to compell nearby Animals to stick around
+Picky Cattle : Unlike other animals, Cattle are only sated on their own terms. Placing edible blocks near a trough, or growing their favourite crop might encourage them to take a bite.
+
 - [Angry Villager particle] ???: Make a Cow sad by keeping it in too confied a space
 - [Straw] Roosters : Birds stay near their Roosts in the wild. A newly-hatched Chick always stays close to its birth place
 - [Egg] Birdwatcher: Collect an Egg from every Bird species
 - [???] Genetic Engineering: Obtain a specific animal breed
 - [???] Playful Pigs: Let a pig play in mud
-- [Truffle] Truffle!: Have a happy Pig dig up a Truffle for you
+- [Truffle] Truffle!: Have a Happy Pig dig up a Truffle for you
+- [Pumpkin Curry] Curry Curious : Prepare and cook a Stock into a overpowered Curry 
+- [Gay Ramen] Master Chef : Cook every Curry
+
 
 - [Stonecutter] XXX: Stonecutters cut more than stone, and produce Blocks more efficiently than a Crafting Bench otherwise would
 - [Pan Dulce] Panaderia: Make Puerquitos, Conchas, Bunelos, Apple and Pumpkin Empanadas

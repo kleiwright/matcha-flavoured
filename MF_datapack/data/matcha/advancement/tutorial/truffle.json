@@ -1,0 +1,44 @@
+{
+	"parent": "matcha:tutorial/pig_play_in_mud",
+	"criteria": {
+		"get_primary_material": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:witch_spawn_egg"
+					}
+				]
+			}
+		}
+	},
+	"display": {
+		"description": [
+			{
+				"text": "\uE00F\uE00F\uE00F\u00A0",
+				"color": "#ac7b5c"
+			},
+			{
+				"translate": "adv.kleispack.truffle.desc",
+				"color": "gray"
+			}
+		],
+		"icon": {
+			"components": {
+				"minecraft:item_model": "minecraft:witch_spawn_egg"
+			},
+			"count": 1,
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": {
+			"translate": "adv.kleispack.truffle"
+		},
+		"hidden": false,
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"matcha:advancement/obol_3"
+		]
+	}
+}
