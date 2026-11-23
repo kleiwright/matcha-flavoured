@@ -2,7 +2,7 @@
 
 # IF they no longer have hunger, remove them from the scoreboard and cancel the rest of this function
 execute unless predicate matcha:effects/has_hunger run title @s actionbar [{text:" ",color:"white"}]
-execute unless predicate matcha:effects/has_hunger run execute at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.5
+execute unless predicate matcha:effects/has_hunger run execute at @s run playsound matcha:entity.experience_orb.pickup player @s ~ ~ ~ 0.5
 execute unless predicate matcha:effects/has_hunger run return run scoreboard players reset @s hunger_timer
 
 
