@@ -1,0 +1,40 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"roost_hay": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"components": {
+							"minecraft:item_model": "matcha:roost_hay"
+						}
+					}
+				}
+			}
+		},
+		"roost_twig": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"components": {
+							"minecraft:item_model": "matcha:roost_twig"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"roost_hay",
+			"roost_twig"
+		]
+	],
+	"rewards": {
+		"function": "matcha:environmental/chicken/roost/init"
+	}
+}

@@ -19,12 +19,14 @@ execute as @e[type=cow,tag=hungry] at @s run function matcha:environmental/cow/c
 execute as @e[type=cow] at @s run function matcha:environmental/cow/cow_graze
 execute as @e[type=cow,tag=happy] at @s run function matcha:environmental/cow/cow_happy
 # Troughs
-execute as @e[type=minecraft:marker,tag=trough,tag=placed] run function matcha:environmental/cow/trough/update_trough
+execute as @e[type=minecraft:marker,tag=trough] run function matcha:environmental/cow/trough/update
 
 # Chicken
 execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_gift
 execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_plant
 execute as @e[type=chicken,tag=nest_maker] at @s run function matcha:environmental/chicken/chicken_nest
+# Roosts
+execute as @e[type=minecraft:marker,tag=roost] run function matcha:environmental/chicken/roost/update
 
 # Kettles
 execute as @e[type=minecraft:marker,tag=kettle,tag=placed] run function matcha:mechanics/kettle/update_kettle

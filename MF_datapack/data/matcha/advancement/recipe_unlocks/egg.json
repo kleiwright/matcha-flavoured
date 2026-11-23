@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "#minecraft:eggs"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/roost_hay",
+			"matcha:crafting/roost_twig"
+		]
+	}
+}

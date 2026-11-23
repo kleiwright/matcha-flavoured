@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "roost",
+	"pattern": [
+		"X X",
+		"XXX",
+		"LLL"
+	],
+	"key": {
+		"X": "minecraft:wheat",
+		"L": "minecraft:leaf_litter"
+	},
+	"result": {
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:item_model": "matcha:roost_hay",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.roost_hay"
+			},
+			"minecraft:entity_data": {
+				"id": "minecraft:marker",
+				"Tags": [
+					"roost",
+					"hay"
+				]
+			}
+		}
+	}
+}

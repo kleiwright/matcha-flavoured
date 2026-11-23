@@ -13,3 +13,7 @@ execute as @e[type=marker,tag=trough] run function matcha:environmental/cow/trou
 execute as @e[tag=has_trough] at @s run function matcha:environmental/persistent_pathing/check
 # Kill any unused persistence markers
 execute as @e[tag=persistence] at @s unless predicate matcha:mob_checks/has_vehicle run tp @s ~ ~-1000 ~
+
+# Roosts
+# Check every roosted animal (chicken), and see if they should have peristence enabled
+execute as @e[tag=has_roost] at @s run function matcha:environmental/persistent_pathing/check

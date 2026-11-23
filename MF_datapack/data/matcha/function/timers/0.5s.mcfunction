@@ -12,3 +12,6 @@ execute as @e[type=minecraft:ender_pearl, tag=chunkloader] run function matcha:m
 # Spawn particles
 execute at @e[type=minecraft:armor_stand, tag=WardingStoneSetup] run particle minecraft:soul_fire_flame ~ ~0.5 ~ .5 .5 .5 0 2
 execute at @e[type=item,tag=particle_blaze_powder] run particle minecraft:smoke ~ ~.75 ~ .05 .05 .05 0 1 normal
+
+# Persistence
+function matcha:environmental/persistent_pathing/queue

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 5
+					}
+				}
+			]
+		}
+	]
+}

@@ -21,6 +21,6 @@
 		]
 	],
 	"rewards": {
-		"function": "matcha:environmental/cow/trough/place_trough"
+		"function": "matcha:environmental/cow/trough/init"
 	}
 }

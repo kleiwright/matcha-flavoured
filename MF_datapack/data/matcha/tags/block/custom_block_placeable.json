@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:air",
+		"minecraft:snow",
+		"minecraft:leaf_litter",
+		"minecraft:short_grass",
+		"minecraft:tall_grass",
+		"minecraft:short_dry_grass",
+		"minecraft:tall_dry_grass",
+		"minecraft:sculk_vein"
+	]
+}

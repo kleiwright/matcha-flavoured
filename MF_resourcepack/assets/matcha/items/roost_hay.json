@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "matcha:block/roosts/roost_hay"
+	}
+}

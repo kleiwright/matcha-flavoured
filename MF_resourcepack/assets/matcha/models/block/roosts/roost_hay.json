@@ -1,0 +1,8 @@
+{
+	"parent": "matcha:block/roosts/roost_template",
+	"textures": {
+		"nest": "matcha:block/roost_hay",
+		"inlay": "matcha:block/roost_hay_inlay",
+		"particle": "matcha:block/roost_hay"
+	}
+}

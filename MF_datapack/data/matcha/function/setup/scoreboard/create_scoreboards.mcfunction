@@ -155,6 +155,9 @@ scoreboard objectives add matcha.cow_happy_cooldown dummy
 scoreboard objectives add matcha.milk_reserve dummy
 # Cooldown for cows eating grass and Milk Cooldown
 scoreboard objectives add matcha.sheep_trample_cooldown dummy
+# Persistent Pathing
+scoreboard objectives add matcha.persistence_queue dummy
+scoreboard players set persistance_current_queue matcha.persistence_queue 0
 
 # Used to keep track of pet whistle ids
 scoreboard objectives add whistleId dummy
