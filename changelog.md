@@ -18,10 +18,6 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - Farm Animals tend not to wander far from where they were born
     - Animals tend to stick around where they were last fed
     - All animals tempt ranges increased (To be less frustrating to lead them back home)
-- Be Aware
-    - Mojang recently made a terrible decision to limit animal pathing if they are a certain distance away from the player. I can't find a way around this. This works fine for vanilla, animals in vanilla don't do much of anything, but it can be a problem for this pack. If you think something funky is going on, make sure you stay by your animals a bit to let their path-finding fix itsself.
-    - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
-    - Mojang why?? LET ME CHANGE IT PLEASE (at least with mob follow distance attribute to override it?)
 - Kettles! 
     - With around 100 new drinks, what lovely teas, coffees, and wines will you concot?
     - Kettles can't be fully automated due to how their heating mechanic works
@@ -29,6 +25,16 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - (Ill probably do it eventually)
 - [Gudis](https://en.wikipedia.org/wiki/Gudi_%28instrument%29) (HapppySpud + Me)
     - Can be found via archaeology in places people often visited or lived
+- Be Aware + Persistent Pathing (TB-0411 + Me)
+    - Mojang recently made the decision to limit animal pathing if they are a certain distance away from the player.
+    - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
+    - Go look at my suggestion c: [Minecraft Suggestions Page](https://feedback.minecraft.net/hc/en-us/community/posts/50589049376909-follow-range-Attribute-should-modify-persistent-mobs-pathing-range)
+    - Either way, we have found a work around solution. Placing Troughs or roosts near your animals WILL MAKE THEM PERSISTENT
+    - This means they will continue to path, even if you are not near them, if they are within render/sim distance.
+    - If you are having major performance concerns (esp on a server) this may a big reason.
+        - The major performance cost is only when you move out of their range, ie more than 32 blocks away. You may notice some sputtering. But otherwise the performance is the same as before the 26.3 update in terms of pathing, that hasn't changed
+        - We worked hard to optimise this, but I can see someone who has a million cows being confused why all the sudden their TPS went crazy when they left the farm
+
 
 #### Spoilers from here on (have fun puzzling this stuff out on your own!)
 - Chicken Overhaul
