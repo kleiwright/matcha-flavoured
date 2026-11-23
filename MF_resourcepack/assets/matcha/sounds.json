@@ -192,5 +192,11 @@
 			}
 		],
 		"subtitle": "subtitles.kleispack.bobwhite"
+	},
+	"entity.experience_orb.pickup": {
+		"sounds": [
+			"random/orb"
+		],
+		"subtitle": "subtitles.entity.experience_orb.pickup"
 	}
 }

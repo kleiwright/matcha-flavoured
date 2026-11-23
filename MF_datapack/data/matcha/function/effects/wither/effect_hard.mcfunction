@@ -1,7 +1,7 @@
 # Sound effects and visual indicator
 execute if score @s wither_timer matches 10..13 run playsound minecraft:item.lodestone_compass.lock player @s ~ ~ ~ 0.5 2
 execute if score @s wither_timer matches 9 run playsound minecraft:item.shield.break player @s ~ ~ ~ 1 2
-execute if score @s wither_timer matches 4..8 run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.5
+execute if score @s wither_timer matches 4..8 run playsound matcha:entity.experience_orb.pickup player @s ~ ~ ~ 0.5
 
 # Sound Effect and UI display (Shakudo Wither Resistance)
 execute if score @s wither_timer matches 13 run return run title @s actionbar [{text:"\uE010",color:"red"},{text:" \uE048\uE046\uE047",color:"white"},{text:" \uE04F\uE044\uE049",color:"aqua"}]
