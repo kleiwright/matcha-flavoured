@@ -162,6 +162,8 @@ scoreboard players set persistance_current_queue matcha.persistence_queue 0
 # Used to keep track of pet whistle ids
 scoreboard objectives add whistleId dummy
 
+# Used for raycasting
+scoreboard objectives add matcha.raydist dummy
 
 # Structures -----
 # Used for loot summon animation on altars
