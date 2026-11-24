@@ -7,11 +7,6 @@
 		"minecraft:potion"
 	],
 	"result": {
-		"components": {
-			"minecraft:custom_data": {
-				"version": 1
-			}
-		},
 		"count": 1,
 		"id": "minecraft:exposed_cut_copper_slab"
 	}

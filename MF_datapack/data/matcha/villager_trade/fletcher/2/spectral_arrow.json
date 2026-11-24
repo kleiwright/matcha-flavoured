@@ -1,11 +1,6 @@
 {
 	"gives": {
 		"id": "minecraft:spectral_arrow",
-		"components": {
-			"minecraft:custom_data": {
-				"version": 1
-			}
-		},
 		"count": 64
 	},
 	"max_uses": 999,

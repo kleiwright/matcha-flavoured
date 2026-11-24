@@ -1,8 +1,0 @@
-{
-	"type": "set_components",
-	"components": {
-		"minecraft:custom_data": {
-			"version": 1
-		}
-	}
-}

@@ -57,6 +57,9 @@
 								},
 								"minecraft:use_remainder": {
 									"id": "minecraft:glass_bottle"
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

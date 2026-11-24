@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand matcha_item:modify/exposed_chiseled_copper_from_patina
