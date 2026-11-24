@@ -6,7 +6,13 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:turtle_helmet"
+					"name": "minecraft:turtle_helmet",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"!minecraft:repairable": {}
+						}
+					}
 				}
 			],
 			"rolls": 1
