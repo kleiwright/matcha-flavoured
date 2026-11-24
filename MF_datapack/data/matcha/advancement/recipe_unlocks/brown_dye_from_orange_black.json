@@ -1,43 +1,36 @@
 {
-  "parent": "minecraft:recipes/root",
-  "criteria": {
-    "has_the_recipe": {
-      "conditions": {
-        "recipes": "matcha:crafting/brown_dye_from_orange_black"
-      },
-      "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_orange_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:orange_dye"
-          }
-        ]
-      }
-    },
-    "has_black_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:black_dye"
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "has_the_recipe",
-      "has_orange_dye",
-      "has_black_dye"
-    ]
-  ],
-  "rewards": {
-    "recipes": [
-      "matcha:crafting/brown_dye_from_orange_black"
-    ]
-  }
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"1": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:black_dye"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		},
+		"2": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:orange_dye"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"1",
+			"2"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/brown_dye_from_orange_black"
+		]
+	}
 }
