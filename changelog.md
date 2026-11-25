@@ -26,3 +26,6 @@
 - Fixed errant incorrect map translation keys (not-manu)
 - Turtle Shellmets can no longer be repaired with piths (HapppySpud)
 - Horse UI Fixed
+- ""Removed"" Xp (ThePinkPotato)
+  - Its invisible and makes no sound now...but you can still see the shadows
+- Removed main/* namespace and the old functions that were in it
