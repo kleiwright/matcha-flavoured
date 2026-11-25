@@ -18,6 +18,8 @@
 - Some foods could sometimes not be eaten, this has been fixed
 - Removed unused hunger predicates
 - Warding stones can no longer be placed on (and therefore delete) non-full blocks
+- Added '/trigger undo_heartbreaker', which will revert the "Minimum Hearts is now set to x" and increment it by 1
+  - AKA if something bugged out, and you're getting double minimum hearts messages, you can use this
 - Deepslate Iron did not drop double iron
 - Gold Ores could not have fortune applied to them
 - Fixed confusing Warding Sword and Shield Recipes (not-manu)

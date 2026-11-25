@@ -23,5 +23,8 @@ function matcha:setup/player_update_check_loop
 # This is a safety net in case a reward function bug failed to revoke the advancement
 advancement revoke @a from matcha:imm_revoke
 
+# Enable Heartbreaker trigger command
+scoreboard players enable @a undo_heartbreaker
+
 # Start favorite food setup
 function matcha:favorite_food/favorite_food_setup
