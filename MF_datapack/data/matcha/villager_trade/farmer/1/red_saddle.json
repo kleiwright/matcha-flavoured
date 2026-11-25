@@ -38,7 +38,7 @@
 				{
 					"type": "minecraft:movement_speed",
 					"id": "horse_movement_speed",
-					"amount": 0.01,
+					"amount": 0.02,
 					"operation": "add_value",
 					"slot": "saddle"
 				},
@@ -64,7 +64,7 @@
 				},
 				{
 					"translate": "desc.kleispack.speed_attribute",
-					"with": ["+0.01"],
+					"with": ["+0.02"],
 					"color": "dark_green",
 					"italic": false
 				}
