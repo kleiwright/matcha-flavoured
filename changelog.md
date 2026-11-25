@@ -29,3 +29,4 @@
 - ""Removed"" Xp (ThePinkPotato)
   - Its invisible and makes no sound now...but you can still see the shadows
 - Removed main/* namespace and the old functions that were in it
+- Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)
