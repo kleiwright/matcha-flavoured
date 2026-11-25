@@ -7,6 +7,8 @@
   - People still felt they needed to rush iron, I want to give them as little excuse as possible to do that (except shields maybe)
 - Hunger being cleansed UI is less intrusive
 - Brown Dye and Green Dye are now craftable via other dyes (Kadincool)
+- Scaffold can now be made with sticks, bamboo-derived scaffold buffed
+- Saddles can now be made with copper
 
 ### Bugs & Technical Improvements
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
@@ -21,3 +23,4 @@
 - Fixed confusing Warding Sword and Shield Recipes (not-manu)
 - Fixed errant incorrect map translation keys (not-manu)
 - Turtle Shellmets can no longer be repaired with piths (HapppySpud)
+- Horse UI Fixed
