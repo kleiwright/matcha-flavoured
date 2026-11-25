@@ -2,6 +2,13 @@
 ### EXPECTED ISSUES
 - 
 
+#### Ice Cave Small Additions and Tweaks
+- Frostbite texture added
+  - I modelled this off of Ötzi, so the frostbite looks super gross and twisted
+- Packed Ice Bricks textures made to match matcha packed ice
+- Ice Ball stupid, Ice Cube instead
+- Packed, Blue and Normal ice, all drop ice cubes when you break them without silk touch
+
 #### Small Tweaks and Additions
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
   - People still felt they needed to rush iron, I want to give them as little excuse as possible to do that (except shields maybe)
