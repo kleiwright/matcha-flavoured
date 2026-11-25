@@ -25,9 +25,15 @@
 - Some foods could sometimes not be eaten, this has been fixed
 - Removed unused hunger predicates
 - Warding stones can no longer be placed on (and therefore delete) non-full blocks
+- Added '/trigger undo_heartbreaker', which will revert the "Minimum Hearts is now set to x" and increment it by 1
+  - AKA if something bugged out, and you're getting double minimum hearts messages, you can use this
 - Deepslate Iron did not drop double iron
 - Gold Ores could not have fortune applied to them
 - Fixed confusing Warding Sword and Shield Recipes (not-manu)
 - Fixed errant incorrect map translation keys (not-manu)
 - Turtle Shellmets can no longer be repaired with piths (HapppySpud)
 - Horse UI Fixed
+- ""Removed"" Xp (ThePinkPotato)
+  - Its invisible and makes no sound now...but you can still see the shadows
+- Removed main/* namespace and the old functions that were in it
+- Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)

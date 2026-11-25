@@ -19,7 +19,9 @@ function matcha:particle/riding_boat
 
 function matcha:stopwatches
 
-function matcha:update_old_items/check_trigger
+# function matcha:update_old_items/check_trigger
+
+execute as @a if score @s undo_heartbreaker matches 1.. run function matcha:mechanics/heart_container/check_trigger
 
 # Reduce cooldowns by one tick
 execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remove @s AnemosCooldown 1
