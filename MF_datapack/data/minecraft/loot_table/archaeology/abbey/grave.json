@@ -37,7 +37,10 @@
 							"minecraft:enchantments": {
 								"matcha:warding_1": 1
 							},
-							"minecraft:enchantment_glint_override": false
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:custom_data": {
+								"version": 1
+							}
 						}
 					},
 					"name": "minecraft:poisonous_potato",

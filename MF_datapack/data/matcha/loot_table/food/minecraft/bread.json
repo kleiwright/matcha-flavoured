@@ -45,6 +45,9 @@
 											"effects": "#matcha:harmful"
 										}
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

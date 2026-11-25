@@ -47,6 +47,9 @@
 									"hidden_components": [
 										"minecraft:potion_contents"
 									]
+								},
+								"minecraft:custom_data": {
+									"version": 1
 								}
 							}
 						}

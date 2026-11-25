@@ -49,7 +49,10 @@
 					"color": "gray",
 					"italic": false
 				}
-			]
+			],
+			"minecraft:custom_data": {
+				"version": 1
+			}
 		},
 		"count": 1,
 		"id": "minecraft:book"
