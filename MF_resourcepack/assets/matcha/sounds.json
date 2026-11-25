@@ -197,6 +197,6 @@
 		"sounds": [
 			"random/orb"
 		],
-		"subtitle": "subtitles.entity.experience_orb.pickup"
+		"subtitle": "subtitles.kleispack.experience_orb.pickup"
 	}
 }

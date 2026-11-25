@@ -1,1 +1,0 @@
-item modify entity @s armor.chest main:update_reach

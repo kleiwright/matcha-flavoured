@@ -1,1 +1,0 @@
-item modify entity @s armor.feet main:update_zephyr
