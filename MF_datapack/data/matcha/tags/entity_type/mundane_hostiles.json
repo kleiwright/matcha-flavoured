@@ -14,6 +14,7 @@
         "minecraft:enderman",
         "minecraft:witch",
         "minecraft:zombie_villager",
-        "minecraft:silverfish"
+        "minecraft:silverfish",
+        "minecraft:frostbite"
     ]
 }

@@ -12,7 +12,8 @@
 							"name": "minecraft:packed_ice"
 						},
 						{
-							"type": "minecraft:item",
+							"type": "minecraft:loot_table",
+							"value": "matcha:materials/ice_ball",
 							"modifier": [
 								{
 									"type": "minecraft:set_count",
@@ -40,8 +41,7 @@
 								{
 									"type": "minecraft:explosion_decay"
 								}
-							],
-							"name": "minecraft:ice_ball"
+							]
 						}
 					]
 				}

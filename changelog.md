@@ -1,13 +1,18 @@
+### What I want from you
+- I want a cute panorama for the new ice update. If you have a very cosy, very matcha, small build, send it to the github!
+- I'd love to use it for the new panorama (I don't have any good build ideas for the new ice blocks)
+- Bonus points if you have the new Frostbite in frame c: (You don't have to do this in survival)
 
-### EXPECTED ISSUES
-- 
 
 #### Ice Cave Small Additions and Tweaks
 - Frostbite texture added
-  - I modelled this off of Ötzi, so the frostbite looks super gross and twisted
-- Packed Ice Bricks textures made to match matcha packed ice
+  - I modelled this off of [Ötzi](https://en.wikipedia.org/wiki/%C3%96tzi), so the frostbite looks super gross and twisted
+- All the other new textures made to taste like matcha (nothing crazy, i love the new jukebox JAPPA texture)
 - Ice Ball stupid, Ice Cube instead
 - Packed, Blue and Normal ice, all drop ice cubes when you break them without silk touch
+- Ice Cubes stack to 64 instead of 16 because I dont hate your inventory
+- Freezing water has been reworked to use the freezing effect (yay!)
+  - And no, I can't tell if you're in surface water or cave water, sky light level goes below max when in water so I can't use that (if you know how lmk on the github!)
 
 #### Small Tweaks and Additions
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
@@ -16,6 +21,8 @@
 - Brown Dye and Green Dye are now craftable via other dyes (Kadincool)
 - Scaffold can now be made with sticks, bamboo-derived scaffold buffed
 - Saddles can now be made with copper
+- The Nether has Gravel again
+  - I like the nether having gravel, I know it looks like soulsand, idk, Its chthonic to me
 
 ### Bugs & Technical Improvements
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
@@ -37,3 +44,6 @@
   - Its invisible and makes no sound now...but you can still see the shadows
 - Removed main/* namespace and the old functions that were in it
 - Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)
+
+### Adding soon but not yet
+- Early game frost prot armour (Still working it out, I don't want wool armour, but we might end up doing that)

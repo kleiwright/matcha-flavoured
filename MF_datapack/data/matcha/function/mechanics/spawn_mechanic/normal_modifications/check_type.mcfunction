@@ -16,3 +16,6 @@ execute as @s if predicate matcha:mob_checks/is_husk unless predicate matcha:mob
 execute as @s if predicate matcha:mob_checks/is_silverfish run function matcha:mechanics/spawn_mechanic/normal_and_easy_modifications/modify_silverfish
 #Jumping Spiders
 execute as @s if predicate matcha:mob_checks/is_spider run function matcha:mechanics/spawn_mechanic/normal_modifications/modify_spider
+#Weak, Fast/Slow Frostbite
+execute as @s if predicate matcha:mob_checks/is_frostbite unless predicate matcha:mob_checks/is_baby if predicate matcha:mob_checks/is_holding_ice_ball run function matcha:mechanics/spawn_mechanic/normal_modifications/modify_ice_ball_frostbite
+execute as @s if predicate matcha:mob_checks/is_frostbite unless predicate matcha:mob_checks/is_baby unless predicate matcha:mob_checks/is_holding_ice_ball run function matcha:mechanics/spawn_mechanic/normal_modifications/modify_zombie

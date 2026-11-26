@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "ice",
+	"category": "building",
+	"pattern": [
+		"XX",
+		"XX"
+	],
+	"key": {
+		"X": [
+			"minecraft:ice_ball"
+		]
+	},
+	"result": {
+		"count": 1,
+		"id": "minecraft:ice"
+	}
+}

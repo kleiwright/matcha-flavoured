@@ -111,7 +111,8 @@
 		{
 			"entries": [
 				{
-					"type": "minecraft:item",
+					"type": "minecraft:loot_table",
+					"value": "matcha:materials/ice_ball",
 					"modifier": [
 						{
 							"type": "minecraft:set_count",
@@ -131,7 +132,6 @@
 							"enchantment": "minecraft:looting"
 						}
 					],
-					"name": "minecraft:ice_ball",
 					"condition": {
 						"type": "minecraft:killed_by_player"
 					}

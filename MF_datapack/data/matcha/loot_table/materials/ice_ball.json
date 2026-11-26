@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ice_ball",
+					"modifier": {
+						"type": "minecraft:set_components",
+						"components": {
+							"minecraft:custom_data": {
+								"version": 1
+							},
+							"minecraft:max_stack_size": 64
+						}
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:materials/ice_ball"
+}
