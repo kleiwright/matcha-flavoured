@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "matcha:environmental/cow/milk_cow_with_bucket"
+		"function": "matcha:environmental/cow/raycast/start"
 	}
 }
