@@ -1,5 +1,6 @@
 ### What I want from you
-- I want a cute panorama for the new ice update. If you have a very cosy, very matcha, small build, send it to the github!
+- FIRST. Should the step height intrincis that is on sturdy leather boots be decreased from 1.5m to 1m? That way you can't step up fences? (lmk on github)
+- SECOND. I want a cute panorama for the new ice update. If you have a very cosy, very matcha, small build, send it to the github!
 - I'd love to use it for the new panorama (I don't have any good build ideas for the new ice blocks)
 - Bonus points if you have the new Frostbite in frame c: (You don't have to do this in survival)
 
