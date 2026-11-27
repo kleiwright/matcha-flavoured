@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Cufăr de Ender",
   "container.barrel": "§f\uE101\uE103\uE102§0Butoi",
   "container.hopper": "§0Pâlnie",
+  "container.dispenser": "§0Distribuitor",
+  "container.dropper": "§0Aruncător",
   "container.crafting": "",
   "container.furnace": "Cuptor",
   "container.smoker": "Cuptor din lut",

@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0エンダーチェスト",
   "container.barrel": "§f\uE101\uE103\uE102§0樽",
   "container.hopper": "§0ホッパー",
+  "container.dispenser": "§0ディスペンサー",
+  "container.dropper": "§0ドロッパー",
   "container.crafting": "",
   "container.furnace": "オーブン",
   "container.smoker": "土窯",

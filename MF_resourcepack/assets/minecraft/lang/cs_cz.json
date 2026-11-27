@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Enderitová truhla",
   "container.barrel": "§f\uE101\uE103\uE102§0Sud",
   "container.hopper": "§0Násypka",
+  "container.dispenser": "§0Dávkovač",
+  "container.dropper": "§0Podavač",
   "container.crafting": "",
   "container.furnace": "Pec",
   "container.smoker": "Hliněná pec",

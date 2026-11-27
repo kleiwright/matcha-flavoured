@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Skrzynia Endu",
   "container.barrel": "§f\uE101\uE103\uE102§0Beczka",
   "container.hopper": "§0Lej",
+  "container.dispenser": "§0Dozownik",
+  "container.dropper": "§0Podajnik",
   "container.crafting": "",
   "container.furnace": "Piekarnik",
   "container.smoker": "Piec z gliny",

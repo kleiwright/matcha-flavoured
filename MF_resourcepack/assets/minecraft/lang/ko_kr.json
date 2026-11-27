@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0엔더 상자",
   "container.barrel": "§f\uE101\uE103\uE102§0통",
   "container.hopper": "§0아이템 호퍼",
+  "container.dispenser": "§0발사기",
+  "container.dropper": "§0공급기",
   "container.crafting": "",
   "container.furnace": "오븐",
   "container.smoker": "진흙 가마",

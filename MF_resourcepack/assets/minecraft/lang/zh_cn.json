@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0末影箱",
   "container.barrel": "§f\uE101\uE103\uE102§0木桶",
   "container.hopper": "§0漏斗",
+  "container.dispenser": "§0发射器",
+  "container.dropper": "§0投掷器",
   "container.crafting": "",
   "container.furnace": "烤炉",
   "container.smoker": "泥窑",

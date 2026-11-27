@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Ender coffer",
   "container.barrel": "§f\uE101\uE103\uE102§0Barrrel",
   "container.hopper": "§0Item suckin' device",
+  "container.dispenser": "§0Cannon",
+  "container.dropper": "§0Broken cannon",
   "container.crafting": "",
   "container.furnace": "Galley oven",
   "container.smoker": "Oven o' mud",

@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Enderkist",
   "container.barrel": "§f\uE101\uE103\uE102§0Vat",
   "container.hopper": "§0Voorwerptrechter",
+  "container.dispenser": "§0Dispenser",
+  "container.dropper": "§0Dropper",
   "container.crafting": "",
   "container.furnace": "Oven",
   "container.smoker": "Kleioven",

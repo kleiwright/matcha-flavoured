@@ -27,6 +27,8 @@
   "container.enderchest": "§f\uE101\uE100\uE102§0Enderláda",
   "container.barrel": "§f\uE101\uE103\uE102§0Hordó",
   "container.hopper": "§0Tölcsér",
+  "container.dispenser": "§0Adagoló",
+  "container.dropper": "§0Kidobó",
   "container.crafting": "Barkácsolás",
   "container.furnace": "Sütő",
   "container.smoker": "Sárkemence",
