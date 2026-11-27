@@ -47,7 +47,8 @@
 			"matcha:crafting/packed_mud_from_dirt",
 			"matcha:crafting/hay_block",
 			"matcha:crafting/tall_dry_grass_from_wheat",
-            "matcha:crafting/wheat_from_hay_block"
+            "matcha:crafting/wheat_from_hay_block",
+            "matcha:crafting/wheat_from_tall_dry_grass"
 		]
 	}
 }
