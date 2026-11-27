@@ -95,8 +95,8 @@ scoreboard objectives add BeaconKindlingCooldown dummy
 scoreboard objectives add Lifetime dummy
 
 scoreboard objectives add version_number dummy
-# EX. 104 is 1.04, it represents the current version, 1211 1.12.1
-scoreboard players set current_version version_number 1129
+# EX. 104 is 1.04, it represents the current version, 11211 1.12.11 KLEI PLEASE REMEBER YOU"VE ADDED ANOTHER SIG FIG!!!!!
+scoreboard players set current_version version_number 11211
 scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy
