@@ -27,6 +27,20 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:font/chest_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE104"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/large_chest_menu.png",
+            "height": 133,
+            "ascent": 13,
+            "chars": ["\uE105"]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:font/custom_emojis.png",
             "ascent": 7,
             "chars": [
