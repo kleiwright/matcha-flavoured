@@ -10,25 +10,21 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:max_damage": 350,
+							"minecraft:item_name": {
+								"translate": "item.kleispack.sturdy_leather_leggings",
+								"color": "white"
+							},
+							"minecraft:item_model": "matcha:sturdy_leather_leggings",
 							"minecraft:lore": [
 								{
 									"translate": "desc.kleispack.armour",
-									"with": [
-										{
-											"text": "3"
-										}
-									],
+									"with": [3],
 									"color": "dark_green",
 									"italic": false
 								},
 								{
 									"translate": "desc.kleispack.fall_height_attribute",
-									"with": [
-										{
-											"text": "2"
-										}
-									],
+									"with": [2],
 									"color": "dark_green",
 									"italic": false
 								},
@@ -66,17 +62,14 @@
 								}
 							],
 							"minecraft:enchantments": {
-								"minecraft:projectile_protection": 3
+								"minecraft:projectile_protection": 3,
+								"matcha:step_height": 1
 							},
-							"minecraft:item_model": "matcha:sturdy_leather_leggings",
 							"minecraft:equippable": {
 								"slot": "legs",
 								"asset_id": "matcha:sturdy_leather"
 							},
-							"minecraft:item_name": {
-								"translate": "item.kleispack.sturdy_leather_leggings",
-								"color": "white"
-							},
+							"minecraft:max_damage": 350,
 							"minecraft:repairable": {
 								"items": "minecraft:rabbit_hide"
 							},

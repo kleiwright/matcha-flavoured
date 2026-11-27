@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/sturdy_leather/leggings",
+					"weight": 80,
+					"quality": 0
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/sturdy_leather/uncommon_leggings",
+					"weight": 15,
+					"quality": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:equipment/sturdy_leather/rare_leggings",
+					"weight": 5,
+					"quality": 2
+				}
+			]
+		}
+	]
+}
