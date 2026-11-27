@@ -24,6 +24,7 @@
   "container.chest": "§0Chest",
   "container.loom": "§0Loom",
   "container.enderchest": "§f\uE101\uE100\uE102§0Ender Chest",
+  "container.barrel": "§f\uE101\uE103\uE102§0Hogshead",
   "container.crafting": "",
   "container.furnace": "Oven",
   "container.smoker": "Mudkiln",
