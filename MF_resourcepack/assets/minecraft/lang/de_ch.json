@@ -33,6 +33,7 @@
   "container.crafting": "",
   "container.furnace": "§0Ofe",
   "container.smoker": "§0Lähmofe",
+  "container.blast_furnace": "§0Schmelzofe",
   "block.minecraft.brewing_stand": "Kessel",
   "container.brewing": "",
   "item.minecraft.brewing_stand": "Kessel",

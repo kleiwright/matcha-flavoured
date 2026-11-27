@@ -32,6 +32,7 @@
   "container.crafting": "",
   "container.furnace": "§0Bakoond",
   "container.smoker": "§0Modderoond",
+  "container.blast_furnace": "§0Hoogoond",
   "block.minecraft.brewing_stand": "Chemiesestander",
   "container.brewing": "§0Chemiesestander",
   "item.minecraft.brewing_stand": "Chemiesestander",

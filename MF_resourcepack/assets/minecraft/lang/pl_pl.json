@@ -33,6 +33,7 @@
   "container.crafting": "",
   "container.furnace": "§0Piekarnik",
   "container.smoker": "§0Piec z gliny",
+  "container.blast_furnace": "§0Piec hutniczy",
   "block.minecraft.brewing_stand": "Stojak chemiczny",
   "container.brewing": "",
   "item.minecraft.brewing_stand": "Stojak chemiczny",

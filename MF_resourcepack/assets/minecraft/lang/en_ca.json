@@ -33,6 +33,7 @@
   "container.crafting": "",
   "container.furnace": "§0Oven",
   "container.smoker": "§0Mud Kiln",
+  "container.blast_furnace": "§0Blast Furnace",
   "block.minecraft.brewing_stand": "Kettle",
   "container.brewing": "",
   "item.minecraft.brewing_stand": "Kettle",

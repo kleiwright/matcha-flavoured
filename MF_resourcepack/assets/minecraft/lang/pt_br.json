@@ -33,6 +33,7 @@
   "container.crafting": "",
   "container.furnace": "§0Fogão",
   "container.smoker": "§0Forno de Barro",
+  "container.blast_furnace": "§0Alto-Forno",
   "block.minecraft.brewing_stand": "Chaleira",
   "container.brewing": "",
   "item.minecraft.brewing_stand": "Chaleira",
