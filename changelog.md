@@ -1,7 +1,3 @@
-
-### EXPECTED ISSUES
-- 
-
 #### Small Tweaks and Additions
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
   - People still felt they needed to rush iron, I want to give them as little excuse as possible to do that (except shields maybe)
@@ -9,6 +5,12 @@
 - Brown Dye and Green Dye are now craftable via other dyes (Kadincool)
 - Scaffold can now be made with sticks, bamboo-derived scaffold buffed
 - Saddles can now be made with copper
+- Step Height Intrinsic has been changed from +1m to +0.5m 
+  - The player default step height is 0.5, so the new total step height is 1m, instead of the old, 1.5m
+  - The "Step Icon 1" number will still be 1, and will now represent the total step height, instead of the additional step height
+  - This intrinic was moved from the sturdy leather boots, to the pants
+  - This means you can't walk over fences anymore
+  - If you want a step height total of >1m, you'll have to find them in structures
 
 ### Bugs & Technical Improvements
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
@@ -30,3 +32,12 @@
   - Its invisible and makes no sound now...but you can still see the shadows
 - Removed main/* namespace and the old functions that were in it
 - Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)
+- Errant structures still had ingots as loot instead of raw materials, this has been fixed
+- Ghasts added to warding and warding stone targets
+- Ghast no longer drop loot unless killed by players
+- Step height intrinsic has been changed from a attribute modifier to a enchantment attribute modifier
+  - I hope to convert all attributes to enchants as well
+  - This was done for the future **Vermeil Alloy**, Im still working on the specifics, if you want to help out let me give you a short pitch
+  - I need to be able to smith equipment with something else and have it only apply an enchant, and nothing else.
+  - Because I need to detect when a recipe is crafted to add and potentially remove enchants, thus, the smithing transform
+  - If you want more info, and you're good at DPs, lmk on the github and I'll divulge more info (gotta keep it secret ;) )
