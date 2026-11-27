@@ -14,7 +14,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "matcha:equipment/sturdy_leather/leggings"
+					"value": "matcha:equipment/sturdy_leather/leggings_all_weighted"
 				},
 				{
 					"type": "minecraft:loot_table",

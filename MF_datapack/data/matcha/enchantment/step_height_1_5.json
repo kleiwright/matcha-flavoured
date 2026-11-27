@@ -1,0 +1,32 @@
+{
+	"max_level": 1,
+	"description": {
+		"translate": "desc.kleispack.step_height",
+		"with": [1.5],
+		"color": "dark_green"
+	},
+	"supported_items": "minecraft:leather_leggings",
+	"slots": [
+		"legs"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:step_height",
+				"id": "step_height_intrinsic",
+				"amount": 1,
+				"operation": "add_value"
+			}
+		]
+	},
+	"max_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"weight": 1
+}
