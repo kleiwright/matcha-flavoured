@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Coffre",
   "container.loom": "§0Métier à tisser",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Coffre de l'Ender",
   "container.crafting": "",
   "container.furnace": "Four",
   "container.smoker": "Four en terre cuite",

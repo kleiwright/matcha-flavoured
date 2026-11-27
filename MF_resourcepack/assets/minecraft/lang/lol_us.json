@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Chezt",
   "container.loom": "§0Weavy Bluk",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Ender Cat Box",
   "container.crafting": "",
   "container.furnace": "HOT box",
   "container.smoker": "HOT mud box",

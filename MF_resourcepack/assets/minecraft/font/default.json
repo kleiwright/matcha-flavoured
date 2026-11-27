@@ -5,6 +5,20 @@
             "id": "minecraft:include/space"
         },
         {
+            "type": "space",
+            "advances": {
+                "\uE101": -8,
+                "\uE102": -169
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/ender_chest_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE100"]
+        },
+        {
             "type": "bitmap",
             "file": "minecraft:font/custom_emojis.png",
             "ascent": 7,

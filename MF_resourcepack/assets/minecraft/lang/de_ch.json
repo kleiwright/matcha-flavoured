@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Chiste",
   "container.loom": "§0Webstuel",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Enderchiste",
   "container.crafting": "",
   "container.furnace": "Ofe",
   "container.smoker": "Lähmofe",

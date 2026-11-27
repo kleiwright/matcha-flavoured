@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Truhe",
   "container.loom": "§0Webstuhl",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Endertruhe",
   "container.crafting": "",
   "container.furnace": "Ofen",
   "container.smoker": "Lehmofen",

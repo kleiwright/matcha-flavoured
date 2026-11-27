@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Сундук",
   "container.loom": "§0Ткацкий станок",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Эндер-сундук",
   "container.crafting": "",
   "container.furnace": "Духовка",
   "container.smoker": "Саманная печь",

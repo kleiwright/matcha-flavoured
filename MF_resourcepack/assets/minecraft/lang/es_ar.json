@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Cofre",
   "container.loom": "§0Máquina de telar",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Cofre de ender",
   "container.crafting": "",
   "container.furnace": "Horno",
   "container.smoker": "Horno de barro",

@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Cist",
   "container.loom": "§0gwŷdd",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Cist Ender",
   "container.crafting": "",
   "container.furnace": "Popty",
   "container.smoker": "Oden Llaid",

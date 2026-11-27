@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Kista",
   "container.loom": "§0Vävstol",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Enderkista",
   "container.crafting": "",
   "container.furnace": "Ugn",
   "container.smoker": "Lerugn",

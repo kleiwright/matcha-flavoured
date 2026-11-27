@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Sandık",
   "container.loom": "§0Dokuma Tezgahı",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Ender Sandığı",
   "container.crafting": "",
   "container.furnace": "Fırın",
   "container.smoker": "Kerpiç Ocak",

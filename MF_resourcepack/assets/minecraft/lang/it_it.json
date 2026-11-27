@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Baule",
   "container.loom": "§0Telaio",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Baule di ender",
   "container.crafting": "",
   "container.furnace": "Fornace",
   "container.smoker": "Fornace in Fango",

@@ -23,6 +23,7 @@
   "container.inventory": "",
   "container.chest": "§0Skrzynka",
   "container.loom": "§0",
+  "container.enderchest": "§f\uE101\uE100\uE102§0Skrzynia Endu",
   "container.crafting": "",
   "container.furnace": "Piekarnik",
   "container.smoker": "Piec z gliny",
