@@ -13,6 +13,7 @@
 		"minecraft:wither_skeleton",
 		"minecraft:bogged",
 		"minecraft:parched",
-		"minecraft:frostbite"
+		"minecraft:frostbite",
+		"minecraft:ghast"
 	]
 }

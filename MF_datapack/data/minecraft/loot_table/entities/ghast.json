@@ -17,7 +17,10 @@
 					"name": "minecraft:ghast_tear"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"condition": {
+				"type": "minecraft:killed_by_player"
+			}
 		},
 		{
 			"entries": [
@@ -48,7 +51,10 @@
 					"name": "minecraft:gunpowder"
 				}
 			],
-			"rolls": 1
+			"rolls": 1,
+			"condition": {
+				"type": "minecraft:killed_by_player"
+			}
 		},
 		{
 			"condition": {

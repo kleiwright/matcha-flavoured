@@ -14,21 +14,13 @@
 							"minecraft:lore": [
 								{
 									"translate": "desc.kleispack.armour",
-									"with": [
-										{
-											"text": "2"
-										}
-									],
+									"with": [2],
 									"color": "dark_green",
 									"italic": false
 								},
 								{
 									"translate": "desc.kleispack.fall_height_attribute",
-									"with": [
-										{
-											"text": "2"
-										}
-									],
+									"with": [2],
 									"color": "dark_green",
 									"italic": false
 								},

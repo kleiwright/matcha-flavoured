@@ -52,6 +52,9 @@
   - Its invisible and makes no sound now...but you can still see the shadows
 - Removed main/* namespace and the old functions that were in it
 - Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)
+- Errant structures still had ingots as loot instead of raw materials, this has been fixed
+- Ghasts added to warding and warding stone targets
+- Ghast no longer drop loot unless killed by players
 - Step height intrinsic has been changed from a attribute modifier to a enchantment attribute modifier
   - I hope to convert all attributes to enchants as well
   - This was done for the future **Vermeil Alloy**, Im still working on the specifics, if you want to help out let me give you a short pitch
