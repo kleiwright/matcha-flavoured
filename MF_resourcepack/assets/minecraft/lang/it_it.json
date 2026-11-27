@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Alambicco",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Sacca",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Sacca",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Aggiungi Lega",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Equipaggiamento in Metallo Comune",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Aggiungi armatura arma o strumento",

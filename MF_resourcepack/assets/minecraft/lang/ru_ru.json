@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Чайник",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Сумка",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Сумка",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Поместите сплав",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Снаряжению из базового металла",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Поместите броню, оружие или инструмент",

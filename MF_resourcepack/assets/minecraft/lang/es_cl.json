@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Tetera",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Saco",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Saco",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Pon una aleación",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Equipamiento de metal base",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Pon una armadura, arma o herramienta",

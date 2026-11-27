@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Brygdställ",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Säck",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Säck",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Lägg till legering",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Basmetall utrustning",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Lägg till en utrustning, vapen eller verktyg",

@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Kimya Tezgahı",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Çuval",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Çuval",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Alaşım ekle",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Temel Metal Ekipmanları",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Zırh, silah veya alet ekle",

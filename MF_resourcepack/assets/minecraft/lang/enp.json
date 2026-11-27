@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Brewing Stand",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Bag",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Bag",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Eke Mix",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Gear of Foundational Ore",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Eke harweed, weapon or tool",

@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Chemický stojan",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Vak",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Vak",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Přidej slitinu",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Náčiní ze základních kovů",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Přidej zbroj, zbraň nebo nástroj",

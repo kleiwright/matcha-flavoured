@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Alambic",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Sac",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Sac",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Adaugă aliaj",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Echipament din materialul de bază",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Adaugă armă, armură sau unealtă",

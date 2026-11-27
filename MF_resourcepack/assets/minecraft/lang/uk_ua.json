@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Лабораторна стійка",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Мішок",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Мішок",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Додайте сплав",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Спорядження з основного металу",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Додайте обладунки, зброю або інструмент",

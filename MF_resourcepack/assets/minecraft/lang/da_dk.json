@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Kedel",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "sæk",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0sæk",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Tilføj legering",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Grundmetal udstyr",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Tilføg rustning, våben eller redskaber",

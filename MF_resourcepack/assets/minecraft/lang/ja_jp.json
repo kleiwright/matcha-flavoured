@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "やかん",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "袋",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0袋",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "合金を追加",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "ベースメタルの装備品",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "防具、武器、または道具を追加する",

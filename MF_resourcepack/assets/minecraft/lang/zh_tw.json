@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "化學反應台",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "皮袋",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0皮袋",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "放入合金錠",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "基礎金屬裝備",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "放入盔甲、武器或工具",

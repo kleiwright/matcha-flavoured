@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Mixin' station",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Sack",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Sack",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Add alloy",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Equipment o' base metal",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add armour, cutlass, o' tool",

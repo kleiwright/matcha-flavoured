@@ -34,7 +34,7 @@
   "item.minecraft.brewing_stand": "Stojak chemiczny",
   "container.cartography_table": "",
   "container.upgrade": "",
-  "container.shulkerBox": "Worek",
+  "container.shulkerBox": "§f\uE101\uE106\uE102§0Worek",
   "item.minecraft.smithing_template.netherite_upgrade.additions_slot_description": "Dodaj stop",
   "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Sprzęt z metali nieszlachetnych",
   "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Dodaj armor, broń lub narzędzie",
