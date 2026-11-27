@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand matcha_item:modify/sweet_berry_danish

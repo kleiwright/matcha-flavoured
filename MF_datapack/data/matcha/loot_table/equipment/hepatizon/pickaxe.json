@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stone_pickaxe",
+					"name": "minecraft:copper_pickaxe",
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {

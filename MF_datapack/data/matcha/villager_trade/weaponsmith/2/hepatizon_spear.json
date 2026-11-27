@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:stone_spear",
+		"id": "minecraft:copper_spear",
 		"components": {
 			"minecraft:item_model": "matcha:hepatizon_spear"
 		},

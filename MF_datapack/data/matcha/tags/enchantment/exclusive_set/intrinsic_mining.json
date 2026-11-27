@@ -1,6 +1,7 @@
 {
 	"values": [
 		"minecraft:silk_touch",
-		"matcha:adamant_tool"
+		"matcha:adamant_tool",
+		"matcha:electrum_tool"
 	]
 }

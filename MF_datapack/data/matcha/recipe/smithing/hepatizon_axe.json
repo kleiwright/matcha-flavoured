@@ -3,7 +3,7 @@
 	"addition": "minecraft:phantom_membrane",
 	"base": "minecraft:copper_axe",
 	"result": {
-		"id": "minecraft:stone_axe",
+		"id": "minecraft:copper_axe",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:tool": {

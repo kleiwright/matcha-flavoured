@@ -3,7 +3,7 @@
 	"addition": "minecraft:phantom_membrane",
 	"base": "minecraft:copper_shovel",
 	"result": {
-		"id": "minecraft:stone_shovel",
+		"id": "minecraft:copper_shovel",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:tool": {

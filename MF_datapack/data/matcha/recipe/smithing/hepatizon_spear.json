@@ -3,7 +3,7 @@
 	"addition": "minecraft:phantom_membrane",
 	"base": "minecraft:copper_spear",
 	"result": {
-		"id": "minecraft:stone_spear",
+		"id": "minecraft:copper_spear",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {

@@ -3,7 +3,7 @@
 	"addition": "minecraft:shulker_shell",
 	"base": "minecraft:copper_hoe",
 	"result": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:copper_hoe",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:tool": {

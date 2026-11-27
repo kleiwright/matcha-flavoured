@@ -10,7 +10,13 @@
 		"X X"
 	],
 	"result": {
+		"id": "minecraft:iron_leggings",
 		"components": {
+			"minecraft:item_model": "minecraft:chainmail_leggings",
+			"minecraft:item_name": {
+				"translate": "item.minecraft.chainmail_leggings",
+				"color": "white"
+			},
 			"minecraft:max_damage": 300,
 			"minecraft:lore": [
 				{
@@ -40,15 +46,13 @@
 			"minecraft:enchantments": {
 				"minecraft:thorns": 3
 			},
-			"minecraft:item_name": {
-				"translate": "item.minecraft.chainmail_leggings",
-				"color": "white"
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "minecraft:chainmail"
 			},
 			"minecraft:custom_data": {
 				"version": 1
 			}
-		},
-		"count": 1,
-		"id": "minecraft:chainmail_leggings"
+		}
 	}
 }

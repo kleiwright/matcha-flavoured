@@ -1,0 +1,33 @@
+{
+	"max_level": 1,
+	"description": {
+		"translate": "enchantment.kleispack.vermeil",
+		"color": "#b3d2df"
+	},
+	"supported_items": [
+		"minecraft:stone_pickaxe",
+		"minecraft:stone_axe",
+		"minecraft:stone_hoe",
+		"minecraft:stone_sword",
+		"minecraft:stone_spear",
+		"minecraft:stone_shovel",
+		"minecraft:chainmail_boots",
+		"minecraft:chainmail_leggings",
+		"minecraft:chainmail_chestplate",
+		"minecraft:chainmail_helmet"
+	],
+	"slots": [
+		"hand",
+		"armor"
+	],
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"weight": 1
+}

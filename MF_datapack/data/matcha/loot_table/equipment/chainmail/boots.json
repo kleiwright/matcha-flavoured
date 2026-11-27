@@ -6,17 +6,20 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chainmail_boots",
+					"name": "minecraft:iron_boots",
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
+							"minecraft:item_model": "minecraft:chainmail_boots",
+							"minecraft:item_name": {
+								"translate": "item.minecraft.chainmail_boots",
+								"color": "white"
+							},
 							"minecraft:max_damage": 300,
 							"minecraft:lore": [
 								{
 									"translate": "desc.kleispack.armour",
-									"with": [
-										"2"
-									],
+									"with": [2],
 									"color": "dark_green",
 									"italic": false
 								}
@@ -39,9 +42,9 @@
 							"minecraft:enchantments": {
 								"minecraft:thorns": 3
 							},
-							"minecraft:item_name": {
-								"translate": "item.minecraft.chainmail_boots",
-								"color": "white"
+							"minecraft:equippable": {
+								"slot": "feet",
+								"asset_id": "minecraft:chainmail"
 							},
 							"minecraft:custom_data": {
 								"version": 1

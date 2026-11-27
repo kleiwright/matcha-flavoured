@@ -1,3 +1,0 @@
-execute as @s if predicate matcha_item:mainhand/abbey run function matcha_item:mainhand/abbey
-execute as @s if predicate matcha_item:offhand/abbey run function matcha_item:offhand/abbey
-advancement revoke @s only matcha_item:trigger/abbey

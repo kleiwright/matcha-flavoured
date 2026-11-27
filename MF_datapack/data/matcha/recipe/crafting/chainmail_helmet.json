@@ -9,7 +9,13 @@
 		"X X"
 	],
 	"result": {
+		"id": "minecraft:iron_helmet",
 		"components": {
+			"minecraft:item_model": "minecraft:chainmail_helmet",
+			"minecraft:item_name": {
+				"translate": "item.minecraft.chainmail_helmet",
+				"color": "white"
+			},
 			"minecraft:max_damage": 300,
 			"minecraft:lore": [
 				{
@@ -39,15 +45,13 @@
 			"minecraft:enchantments": {
 				"minecraft:thorns": 3
 			},
-			"minecraft:item_name": {
-				"translate": "item.minecraft.chainmail_helmet",
-				"color": "white"
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "minecraft:chainmail"
 			},
 			"minecraft:custom_data": {
 				"version": 1
 			}
-		},
-		"count": 1,
-		"id": "minecraft:chainmail_helmet"
+		}
 	}
 }

@@ -3,7 +3,7 @@
 	"addition": "minecraft:shulker_shell",
 	"base": "minecraft:copper_sword",
 	"result": {
-		"id": "minecraft:stone_sword",
+		"id": "minecraft:copper_sword",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:item_name": {

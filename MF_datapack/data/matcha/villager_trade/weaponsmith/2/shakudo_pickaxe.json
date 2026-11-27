@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:stone_pickaxe",
+		"id": "minecraft:copper_pickaxe",
 		"components": {
 			"minecraft:item_model": "matcha:shakudo_pickaxe"
 		},

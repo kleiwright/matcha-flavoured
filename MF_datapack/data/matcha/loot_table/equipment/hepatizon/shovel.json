@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stone_shovel",
+					"name": "minecraft:copper_shovel",
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {

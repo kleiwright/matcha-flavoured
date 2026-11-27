@@ -3,7 +3,7 @@
 	"addition": "minecraft:shulker_shell",
 	"base": "minecraft:copper_pickaxe",
 	"result": {
-		"id": "minecraft:stone_pickaxe",
+		"id": "minecraft:copper_pickaxe",
 		"components": {
 			"minecraft:max_damage": 1000,
 			"minecraft:tool": {

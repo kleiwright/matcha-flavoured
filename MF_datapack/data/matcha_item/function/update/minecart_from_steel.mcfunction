@@ -1,3 +1,0 @@
-execute as @s if predicate matcha_item:mainhand/minecart_from_steel run function matcha_item:mainhand/minecart_from_steel
-execute as @s if predicate matcha_item:offhand/minecart_from_steel run function matcha_item:offhand/minecart_from_steel
-advancement revoke @s only matcha_item:trigger/minecart_from_steel

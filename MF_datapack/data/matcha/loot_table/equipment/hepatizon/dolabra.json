@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:stone_axe",
+					"name": "minecraft:copper_axe",
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {

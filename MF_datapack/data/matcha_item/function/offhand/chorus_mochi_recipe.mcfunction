@@ -1,1 +1,0 @@
-item modify entity @s weapon.offhand matcha_item:modify/chorus_mochi_recipe

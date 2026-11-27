@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:copper_hoe",
 		"components": {
 			"minecraft:item_model": "matcha:hepatizon_mattock"
 		},

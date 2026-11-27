@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:stone_axe",
+		"id": "minecraft:copper_axe",
 		"components": {
 			"minecraft:item_model": "matcha:shakudo_axe"
 		},

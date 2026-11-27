@@ -1,6 +1,6 @@
 {
 	"wants": {
-		"id": "minecraft:stone_shovel",
+		"id": "minecraft:copper_shovel",
 		"components": {
 			"minecraft:item_model": "matcha:shakudo_shovel"
 		},

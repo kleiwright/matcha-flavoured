@@ -14,17 +14,13 @@
 							"minecraft:lore": [
 								{
 									"translate": "desc.kleispack.armour",
-									"with": [
-										"1"
-									],
+									"with": [1],
 									"color": "dark_green",
 									"italic": false
 								},
 								{
 									"translate": "desc.kleispack.speed_attribute",
-									"with": [
-										"+0.1"
-									],
+									"with": ["+0.1"],
 									"color": "dark_green",
 									"italic": false
 								}

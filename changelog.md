@@ -3,6 +3,14 @@
 - I'd love to use it for the new panorama (I don't have any good build ideas for the new ice blocks)
 - Bonus points if you have the new Frostbite in frame c: (You don't have to do this in survival)
 
+### BE AWARE
+- Do not update from a release before 1.12.9 directly to this version
+- 1.12.9 (Poplar Drop) had a lot of item update infrastucture which I've removed in this version
+- So if you update from before the Poplar drop, go to 1.12.9 first, fix your things (Check prev changelogs) and then go ahead and continue
+
+### Expected Issues
+- Old Hepatizon and Shakudo tools will not be able to be broken down by new Grindstone villagers
+- If you need to break something down, do it before updating, or do it with a Grindstone Villager before you amnestisise them
 
 #### Deep Freeze Small Additions and Tweaks
 - Frostbite texture added
@@ -31,7 +39,7 @@
   - This means you can't walk over fences anymore
   - If you want a step height total of >1m, you'll have to find them in structures
   
-### Bugs & Technical Improvements
+### Bug Fixes
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
 - Warding can no longer be smithed on to adamant
 - Husks now Spawn underground
@@ -49,18 +57,29 @@
 - Horse UI Fixed
 - ""Removed"" Xp (ThePinkPotato)
   - Its invisible and makes no sound now...but you can still see the shadows
-- Removed main/* namespace and the old functions that were in it
 - Crafted vs Looted items would sometimes not stack, this has been fixed (not-manu)
 - Errant structures still had ingots as loot instead of raw materials, this has been fixed
 - Ghasts added to warding and warding stone targets
 - Ghast no longer drop loot unless killed by players
-- Step height intrinsic has been changed from a attribute modifier to a enchantment attribute modifier
-  - I hope to convert all attributes to enchants as well
-  - This was done for the future **Vermeil Alloy**, Im still working on the specifics, if you want to help out let me give you a short pitch
-  - I need to be able to smith equipment with something else and have it only apply an enchant, and nothing else.
-  - Because I need to detect when a recipe is crafted to add and potentially remove enchants, thus, the smithing transform
-  - If you want more info, and you're good at DPs, lmk on the github and I'll divulge more info (gotta keep it secret ;) )
+- Electrum and Adamant Tool intrinsics are now MutX
+  - I didn't want to do this, but this is the only way around busted anvils (Until we get component inputs for crafting)
 
+### Technical Improvements & Changes
+- Removed main/* namespace and the old functions that were in it
+- Removed matcha_item/* namespace and the functions that were in it (FOR NOW)
+  - This means automatic item updates will no longer happen
+  - This will make your experience better if you're playing with matcha a few mods (like me)
+  - This will make your experience worse if you're playing with many structure, item, or large content mods
+  - This was our attempt at mod compatibility and making sure old matcha player didn't have everything too messed up
+  - I decided the kinks were too much to deal with, and the system was too complex for me to fix
+  - Im going to try and make a better system, that focuses less on mod compat, and more on the matcha experience
+  - I will talk with the OG dev when they are free (we've all been very busy) and see if we can release it as a seperate DP that is marketed as a mod-compat thing
+- Hepatizon and Shakudo are now copper instead of stone, its not important to update these tools, I will take care of that in the future automatically WHEN IT BECOMES RELEVANT
+- Chainmail is now technically iron, again I will take care of this when it becomes relevant
+- Step height intrinsic has been changed from an attribute modifier to a enchantment attribute modifier
+  - I hope to convert all attributes to enchants as well
+- The Hepatizon, Shakudo, Chainmail, and Leather changes, all of these were done for the future Vermeil Alloy.
+  - Im still working on the specifics. But this will be for the sweats/extrinsically motivated players who want to min-max to god gear. I want to give them a fun, non-cheaty route to do that.
 
 ### Adding soon but not yet
 - Early game frost prot armour (Still working it out, I don't want wool armour, but we might end up doing that)
