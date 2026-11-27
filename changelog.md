@@ -1,6 +1,5 @@
 ### What I want from you
-- FIRST. Should the step height intrincis that is on sturdy leather boots be decreased from 1.5m to 1m? That way you can't step up fences? (lmk on github)
-- SECOND. I want a cute panorama for the new ice update. If you have a very cosy, very matcha, small build, send it to the github!
+- I want a cute panorama for the new ice update. If you have a very cosy, very matcha, small build, send it to the github!
 - I'd love to use it for the new panorama (I don't have any good build ideas for the new ice blocks)
 - Bonus points if you have the new Frostbite in frame c: (You don't have to do this in survival)
 
@@ -15,12 +14,8 @@
 - Ice Cubes can be used to craft Ice
 - Freezing water has been reworked to use the freezing effect (yay!)
   - And no, I can't tell if you're in surface water or cave water, sky light level goes below max when in water so I can't use that (if you know how lmk on the github!)
-- Step Height Intrinsic has been changed from +1m to +0.5m 
-  - The player default step height is 0.5, so the new total step height is 1m, instead of the old, 1.5m
-  - The "Step Icon 1" number will still be 1, and will now represent the total step height, instead of the additional step height
-  - This intrinic was moved from the sturdy leather boots, to the pants
-  - This means you can't walk over fences anymore
-  - If you want a step height total of >1m, you'll have to find them in structures
+- The Nether has Gravel again
+  - I like the nether having gravel, I know it looks like soulsand, idk, Its chthonic to me
 
 #### Small Tweaks and Additions
 - Buckets are now copper instead of Iron (Internet-Hyena + Me)
@@ -29,9 +24,13 @@
 - Brown Dye and Green Dye are now craftable via other dyes (Kadincool)
 - Scaffold can now be made with sticks, bamboo-derived scaffold buffed
 - Saddles can now be made with copper
-- The Nether has Gravel again
-  - I like the nether having gravel, I know it looks like soulsand, idk, Its chthonic to me
-
+- Step Height Intrinsic has been changed from +1m to +0.5m 
+  - The player default step height is 0.5, so the new total step height is 1m, instead of the old, 1.5m
+  - The "Step Icon 1" number will still be 1, and will now represent the total step height, instead of the additional step height
+  - This intrinic was moved from the sturdy leather boots, to the pants
+  - This means you can't walk over fences anymore
+  - If you want a step height total of >1m, you'll have to find them in structures
+  
 ### Bugs & Technical Improvements
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
 - Warding can no longer be smithed on to adamant
