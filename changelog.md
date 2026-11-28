@@ -63,9 +63,11 @@
 - Ghast no longer drop loot unless killed by players
 - Electrum and Adamant Tool intrinsics are now MutX
   - I didn't want to do this, but this is the only way around busted anvils (Until we get component inputs for crafting)
+- Straw recipe now unlocks proper
 
 ### Technical Improvements & Changes
 - Removed main/* namespace and the old functions that were in it
+- Fixed some synatax in errant files and removed unused redstone ore texture
 - Removed matcha_item/* namespace and the functions that were in it (FOR NOW)
   - This means automatic item updates will no longer happen
   - This will make your experience better if you're playing with matcha a few mods (like me)
