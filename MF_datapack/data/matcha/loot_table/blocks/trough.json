@@ -9,7 +9,7 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:item_model": "matcha:trough",
+							"minecraft:item_model": "matcha:trough_item",
 							"minecraft:item_name": {
 								"translate": "item.kleispack.trough"
 							},

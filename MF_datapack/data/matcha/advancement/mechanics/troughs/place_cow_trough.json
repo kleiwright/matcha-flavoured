@@ -8,7 +8,7 @@
 					"type": "minecraft:match_tool",
 					"predicate": {
 						"components": {
-							"minecraft:item_model": "matcha:trough"
+							"minecraft:item_model": "matcha:trough_item"
 						}
 					}
 				}

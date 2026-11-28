@@ -45,6 +45,7 @@
 					}
 				]
 			},
+			"minecraft:potion_duration_scale": 1,
 			"minecraft:tooltip_display": {
 				"hidden_components": [
 					"minecraft:potion_contents"

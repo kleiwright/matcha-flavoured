@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "minecraft:item/cauldron"
+		"model": "matcha:block/trough"
 	}
 }

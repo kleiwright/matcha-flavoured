@@ -1,18 +1,14 @@
 {
-	"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shapeless",
 	"category": "misc",
-	"key": {
-		"#": "minecraft:hay_block",
-		"C": "minecraft:cauldron"
-	},
-	"pattern": [
-		"#",
-		"C"
+	"ingredients": [
+		"minecraft:hay_block",
+		"minecraft:cauldron"
 	],
 	"result": {
 		"id": "minecraft:chicken_spawn_egg",
 		"components": {
-			"minecraft:item_model": "matcha:trough",
+			"minecraft:item_model": "matcha:trough_item",
 			"minecraft:item_name": {
 				"translate": "item.kleispack.trough"
 			},

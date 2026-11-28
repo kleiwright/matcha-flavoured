@@ -1,6 +1,26 @@
 {
 	"layers": {
+		"nautilus_saddle": [
+			{
+				"texture": "minecraft:saddle"
+			}
+		],
+		"pig_saddle": [
+			{
+				"texture": "minecraft:saddle"
+			}
+		],
 		"horse_saddle": [
+			{
+				"texture": "matcha:brown"
+			}
+		],
+		"donkey_saddle": [
+			{
+				"texture": "matcha:brown"
+			}
+		],
+		"mule_saddle": [
 			{
 				"texture": "matcha:brown"
 			}

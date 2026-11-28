@@ -1,0 +1,21 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_primary_material": {
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cauldron"
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"matcha:crafting/trough",
+			"matcha:crafting/pig_trough"
+		]
+	}
+}

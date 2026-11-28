@@ -2,8 +2,8 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/hay_block_top",
-		"particle": "block/hay_block_top"
+		"0": "matcha:block/pig_trough",
+		"particle": "matcha:block/pig_trough"
 	},
 	"elements": [
 		{

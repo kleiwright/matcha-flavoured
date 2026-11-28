@@ -1,0 +1,26 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"use_item": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_tool",
+					"predicate": {
+						"components": {
+							"minecraft:item_model": "matcha:pig_trough_item"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"use_item"
+		]
+	],
+	"rewards": {
+		"function": "matcha:environmental/pig/trough/init"
+	}
+}

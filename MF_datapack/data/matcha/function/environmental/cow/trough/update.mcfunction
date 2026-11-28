@@ -2,7 +2,7 @@
 execute at @s if block ~ ~ ~ cauldron run return fail
 
 # If it failed to place, give back the trough
-execute unless entity @s[tag=placed] at @s run loot spawn ~ ~ ~ loot matcha:blocks/cow_trough
+execute unless entity @s[tag=placed] at @s run loot spawn ~ ~ ~ loot matcha:blocks/trough
 # If it did place, only give back the hay
 execute if entity @s[tag=placed] at @s run loot spawn ~ ~ ~ loot minecraft:blocks/hay_block
 

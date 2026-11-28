@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:carrot",
+		"minecraft:potato",
+		"minecraft:beetroot",
+		"minecraft:cauldron"
+	],
+	"result": {
+		"id": "minecraft:chicken_spawn_egg",
+		"components": {
+			"minecraft:item_model": "matcha:pig_trough_item",
+			"minecraft:item_name": {
+				"translate": "item.kleispack.pig_trough"
+			},
+			"minecraft:entity_data": {
+				"id": "minecraft:marker",
+				"Tags": [
+					"pig_trough"
+				]
+			}
+		}
+	}
+}

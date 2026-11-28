@@ -31,7 +31,8 @@
 			"matcha:food/oven/grilled_tomatoes",
 			"matcha:food/crafting/kontomire_stew",
 			"matcha:food/crafting/pickled_tomatoes",
-			"matcha:food/crafting/bruschetta"
+			"matcha:food/crafting/bruschetta",
+			"matcha:crafting/pig_trough"
 		]
 	}
 }

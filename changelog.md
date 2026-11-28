@@ -25,7 +25,7 @@ Let me know if the new animal systems are fun/engaging! I've had a blast playing
     - (Ill probably do it eventually)
 - [Gudis](https://en.wikipedia.org/wiki/Gudi_%28instrument%29) (HapppySpud + Me)
     - Can be found via archaeology in places people often visited or lived
-- Be Aware + Persistent Pathing (TB-0411 + Me)
+- Troughs/Roosts + Persistent Pathing (TB-0411 + Me)
     - Mojang recently made the decision to limit animal pathing if they are a certain distance away from the player.
     - "Persistent mobs' random walk/swim behaviors will now deactivate when players are not nearby, in the same way as non-persistent mobs."
     - Go look at my suggestion c: [Minecraft Suggestions Page](https://feedback.minecraft.net/hc/en-us/community/posts/50589049376909-follow-range-Attribute-should-modify-persistent-mobs-pathing-range)

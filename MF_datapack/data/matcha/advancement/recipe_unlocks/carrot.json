@@ -22,7 +22,8 @@
 			"matcha:food/oven/steamed_carrots",
 			"matcha:food/crafting/pad_thai",
 			"matcha:food/crafting/pickled_carrots",
-			"matcha:food/crafting/carrot_cupcake"
+			"matcha:food/crafting/carrot_cupcake",
+			"matcha:crafting/pig_trough"
 		]
 	}
 }

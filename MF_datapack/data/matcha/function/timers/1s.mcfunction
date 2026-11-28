@@ -20,6 +20,7 @@ execute as @e[type=cow] at @s run function matcha:environmental/cow/cow_graze
 execute as @e[type=cow,tag=happy] at @s run function matcha:environmental/cow/cow_happy
 # Troughs
 execute as @e[type=minecraft:marker,tag=trough] run function matcha:environmental/cow/trough/update
+execute as @e[type=minecraft:marker,tag=pig_trough] run function matcha:environmental/pig/trough/update
 
 # Chicken
 execute as @e[type=chicken] at @s run function matcha:environmental/chicken/chicken_gift
