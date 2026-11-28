@@ -1,83 +1,107 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:heart_of_the_sea",
-	"base": "minecraft:diamond_sword",
-	"result": {
-		"id": "minecraft:netherite_sword",
-		"components": {
-			"minecraft:max_damage": 3000,
-			"minecraft:lore": [
-				{
-					"translate": "desc.kleispack.attack_damage",
-					"with": [
-						{
-							"text": "7"
-						}
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.cooldown",
-					"with": [
-						{
-							"text": "1.9"
-						}
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.repaired_with",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "block.minecraft.diamond_block",
-					"color": "dark_gray",
-					"italic": false
-				}
-			],
-			"minecraft:item_name": {
-				"translate": "item.kleispack.electrum_sword",
-				"color": "yellow"
-			},
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:attack_damage",
-					"id": "attack_damage",
-					"amount": 6,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
-					"type": "minecraft:attack_speed",
-					"id": "attack_speed",
-					"amount": -2.1,
-					"operation": "add_value",
-					"slot": "mainhand"
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:custom_data": {
-				"has_intrinsic_enchants": 1,
-				"version": 1
-			},
-			"minecraft:stored_enchantments": {
-				"minecraft:looting": 2,
-				"minecraft:smite": 3,
-				"matcha:warding_3": 1
-			},
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:diamond_block"
-				]
-			},
-			"minecraft:item_model": "matcha:electrum_sword"
-		}
-	}
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:heart_of_the_sea",
+    "base": "minecraft:diamond_sword",
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "components": {
+            "minecraft:max_damage": 3000,
+            "minecraft:lore": [
+                {
+                    "translate": "enchantment.minecraft.looting_workaround",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "text": "II"
+                        }
+                    ]
+                },
+                {
+                    "translate": "enchantment.minecraft.smite_workaround",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "text": "III"
+                        }
+                    ]
+                },
+                {
+                    "translate": "enchantment.kleispack.warding_3",
+                    "color": "yellow",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.attack_damage",
+                    "with": [
+                        {
+                            "text": "7"
+                        }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.cooldown",
+                    "with": [
+                        {
+                            "text": "1.9"
+                        }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.repaired_with",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "block.minecraft.diamond_block",
+                    "color": "dark_gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:item_name": {
+                "translate": "item.kleispack.electrum_sword",
+                "color": "yellow"
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "attack_damage",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -2.1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                ]
+            },
+            "minecraft:custom_data": {
+                "has_intrinsic_enchants": 1,
+                "version": 1,
+                "run_item_modify_str": 1,
+                "lore_length": 3,
+                "item_modify_str": "{\"type\":\"set_enchantments\",\"enchantments\":{\"minecraft:looting\":2,\"minecraft:smite\":3,\"matcha:warding_3\":1},\"add\":true}"
+            },
+            "minecraft:repairable": {
+                "items": [
+                    "minecraft:diamond_block"
+                ]
+            },
+            "minecraft:item_model": "matcha:electrum_sword",
+            "minecraft:enchantment_glint_override": true
+        }
+    }
 }

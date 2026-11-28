@@ -1,73 +1,96 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:netherite_ingot",
-	"base": "minecraft:diamond_spear",
-	"result": {
-		"id": "minecraft:netherite_spear",
-		"components": {
-			"minecraft:max_damage": 5000,
-			"minecraft:item_name": {
-				"translate": "item.minecraft.netherite_spear",
-				"color": "gold"
-			},
-			"minecraft:lore": [
-				{
-					"translate": "desc.kleispack.attack_damage",
-					"with": [
-						{
-							"text": "4"
-						}
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.cooldown",
-					"with": [
-						{
-							"text": "0.95"
-						}
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.repaired_with",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "block.minecraft.diamond_block",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"translate": "item.minecraft.netherite_scrap",
-					"color": "dark_gray",
-					"italic": false
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:diamond_block",
-					"minecraft:netherite_scrap"
-				]
-			},
-			"minecraft:enchantment_glint_override": false,
-			"minecraft:custom_data": {
-				"has_intrinsic_enchants": 1,
-				"version": 1
-			},
-			"minecraft:stored_enchantments": {
-				"minecraft:sharpness": 1,
-				"minecraft:unbreaking": 2,
-				"matcha:adamant_weapon": 1
-			}
-		}
-	}
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:netherite_ingot",
+    "base": "minecraft:diamond_spear",
+    "result": {
+        "id": "minecraft:netherite_spear",
+        "components": {
+            "minecraft:max_damage": 5000,
+            "minecraft:item_name": {
+                "translate": "item.minecraft.netherite_spear",
+                "color": "gold"
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "enchantment.minecraft.sharpness_workaround",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "text": "I"
+                        }
+                    ]
+                },
+                {
+                    "translate": "enchantment.minecraft.unbreaking_workaround",
+                    "color": "gray",
+                    "italic": false,
+                    "with": [
+                        {
+                            "text": "II"
+                        }
+                    ]
+                },
+                {
+                    "translate": "enchantment.kleispack.adamant_weapon",
+                    "color": "#b6a09a",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.attack_damage",
+                    "with": [
+                        {
+                            "text": "4"
+                        }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.cooldown",
+                    "with": [
+                        {
+                            "text": "0.95"
+                        }
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.repaired_with",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "block.minecraft.diamond_block",
+                    "color": "dark_gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.minecraft.netherite_scrap",
+                    "color": "dark_gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                ]
+            },
+            "minecraft:repairable": {
+                "items": [
+                    "minecraft:diamond_block",
+                    "minecraft:netherite_scrap"
+                ]
+            },
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "has_intrinsic_enchants": 1,
+                "version": 1,
+                "run_item_modify_str": 1,
+                "lore_length": 3,
+                "item_modify_str": "{\"type\":\"set_enchantments\",\"enchantments\":{\"minecraft:sharpness\":1,\"minecraft:unbreaking\":2,\"matcha:adamant_weapon\":1},\"add\":true}"
+            }
+        }
+    }
 }

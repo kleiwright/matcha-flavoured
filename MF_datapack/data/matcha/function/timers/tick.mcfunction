@@ -23,6 +23,9 @@ function matcha:stopwatches
 
 execute as @a if score @s undo_heartbreaker matches 1.. run function matcha:mechanics/heart_container/check_trigger
 
+#enchantment updates
+function matcha:workarounds/run_item_modify_str
+
 # Reduce cooldowns by one tick
 execute as @a if score @s AnemosCooldown matches 1.. run scoreboard players remove @s AnemosCooldown 1
 execute as @a if score @s CrystalHeartCooldown matches 1.. run scoreboard players remove @s CrystalHeartCooldown 1

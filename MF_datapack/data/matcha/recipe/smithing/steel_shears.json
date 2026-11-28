@@ -1,35 +1,35 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:resin_brick",
-	"base": "minecraft:shears",
-	"result": {
-		"id": "minecraft:shears",
-		"components": {
-			"minecraft:item_name": {
-				"translate": "item.kleispack.steel_shears"
-			},
-			"minecraft:max_damage": 3000,
-			"minecraft:item_model": "matcha:steel_shears",
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:iron_ingot"
-				]
-			},
-			"minecraft:lore": [
-				{
-					"translate": "desc.kleispack.repaired_with",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "item.minecraft.iron_ingot",
-					"color": "dark_gray",
-					"italic": false
-				}
-			],
-			"minecraft:custom_data": {
-				"version": 1
-			}
-		}
-	}
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:resin_brick",
+    "base": "minecraft:shears",
+    "result": {
+        "id": "minecraft:shears",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "item.kleispack.steel_shears"
+            },
+            "minecraft:max_damage": 3000,
+            "minecraft:item_model": "matcha:steel_shears",
+            "minecraft:repairable": {
+                "items": [
+                    "minecraft:iron_ingot"
+                ]
+            },
+            "minecraft:lore": [
+                {
+                    "translate": "desc.kleispack.repaired_with",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "item.minecraft.iron_ingot",
+                    "color": "dark_gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:custom_data": {
+                "version": 1
+            }
+        }
+    }
 }

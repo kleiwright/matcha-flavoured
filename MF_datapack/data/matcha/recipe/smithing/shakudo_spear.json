@@ -1,78 +1,83 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:shulker_shell",
-	"base": "minecraft:copper_spear",
-	"result": {
-		"id": "minecraft:stone_spear",
-		"components": {
-			"minecraft:max_damage": 1000,
-			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_spear",
-				"color": "#c96691"
-			},
-			"minecraft:item_model": "matcha:shakudo_spear",
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:attack_damage",
-					"id": "damage",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},
-				{
-					"type": "minecraft:attack_speed",
-					"id": "attack_speed",
-					"amount": -2.82,
-					"operation": "add_value",
-					"slot": "mainhand"
-				}
-			],
-			"minecraft:lore": [
-				{
-					"translate": "desc.kleispack.attack_damage",
-					"with": [
-						"3"
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.cooldown",
-					"with": [
-						"1.18"
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.repaired_with",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "block.minecraft.copper_block",
-					"color": "dark_gray",
-					"italic": false
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:copper_block"
-				]
-			},
-			"minecraft:custom_data": {
-				"has_intrinsic_enchants": 1,
-				"version": 1
-			},
-			"minecraft:stored_enchantments": {
-				"matcha:shakudo_weapon": 1
-			},
-			"minecraft:enchantment_glint_override": false
-		}
-	}
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:shulker_shell",
+    "base": "minecraft:copper_spear",
+    "result": {
+        "id": "minecraft:stone_spear",
+        "components": {
+            "minecraft:max_damage": 1000,
+            "minecraft:item_name": {
+                "translate": "item.kleispack.shakudo_spear",
+                "color": "#c96691"
+            },
+            "minecraft:item_model": "matcha:shakudo_spear",
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:attack_damage",
+                    "id": "damage",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "minecraft:attack_speed",
+                    "id": "attack_speed",
+                    "amount": -2.82,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:lore": [
+                {
+                    "translate": "enchantment.kleispack.shakudo_weapon",
+                    "color": "#c96691",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.attack_damage",
+                    "with": [
+                        "3"
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.cooldown",
+                    "with": [
+                        "1.18"
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.repaired_with",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "block.minecraft.copper_block",
+                    "color": "dark_gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                ]
+            },
+            "minecraft:repairable": {
+                "items": [
+                    "minecraft:copper_block"
+                ]
+            },
+            "minecraft:custom_data": {
+                "has_intrinsic_enchants": 1,
+                "version": 1,
+                "run_item_modify_str": 1,
+                "lore_length": 1,
+                "item_modify_str": "{\"type\":\"set_enchantments\",\"enchantments\":{\"matcha:shakudo_weapon\":1},\"add\":true}"
+            },
+            "minecraft:enchantment_glint_override": true
+        }
+    }
 }

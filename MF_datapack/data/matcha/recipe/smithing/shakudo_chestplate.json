@@ -1,87 +1,100 @@
 {
-	"type": "minecraft:smithing_transform",
-	"addition": "minecraft:shulker_shell",
-	"base": "minecraft:copper_chestplate",
-	"result": {
-		"id": "minecraft:copper_chestplate",
-		"components": {
-			"minecraft:max_damage": 500,
-			"minecraft:lore": [
-				{
-					"translate": "enchantment.kleispack.shakudo_wither_resistance",
-					"with": [
-						"1"
-					],
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.armour",
-					"with": [
-						"8"
-					],
-					"color": "dark_green",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.per_equipment_bonus",
-					"color": "dark_gray",
-					"italic": false
-				},
-				{
-					"translate": "enchantment.kleispack.shakudo_armour.set_bonus",
-					"color": "#e85e8f",
-					"italic": false
-				},
-				{
-					"translate": "desc.kleispack.repaired_with",
-					"color": "gray",
-					"italic": false
-				},
-				{
-					"translate": "block.minecraft.copper_block",
-					"color": "dark_gray",
-					"italic": false
-				}
-			],
-			"minecraft:item_name": {
-				"translate": "item.kleispack.shakudo_chestplate",
-				"color": "#c96691"
-			},
-			"minecraft:attribute_modifiers": [
-				{
-					"type": "minecraft:armor",
-					"id": "minecraft:armor.chestplate",
-					"amount": 8,
-					"operation": "add_value",
-					"slot": "chest"
-				}
-			],
-			"minecraft:tooltip_display": {
-				"hidden_components": [
-					"minecraft:attribute_modifiers"
-				]
-			},
-			"minecraft:custom_data": {
-				"has_intrinsic_enchants": 1,
-				"version": 1
-			},
-			"minecraft:stored_enchantments": {
-				"matcha:cleanse_armor_chest": 1,
-				"matcha:magic_protection": 1,
-				"matcha:shakudo_armour": 1
-			},
-			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_model": "matcha:shakudo_chestplate",
-			"minecraft:equippable": {
-				"slot": "chest",
-				"asset_id": "matcha:shakudo"
-			},
-			"minecraft:repairable": {
-				"items": [
-					"minecraft:copper_block"
-				]
-			}
-		}
-	}
+    "type": "minecraft:smithing_transform",
+    "addition": "minecraft:shulker_shell",
+    "base": "minecraft:copper_chestplate",
+    "result": {
+        "id": "minecraft:copper_chestplate",
+        "components": {
+            "minecraft:max_damage": 500,
+            "minecraft:lore": [
+                {
+                    "translate": "enchantment.kleispack.cleanses_chest",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "enchantment.kleispack.magic_protection",
+                    "color": "#c96691",
+                    "italic": false
+                },
+                {
+                    "translate": "enchantment.kleispack.shakudo_armour",
+                    "color": "#e85e8f",
+                    "italic": false
+                },
+                {
+                    "translate": "enchantment.kleispack.shakudo_wither_resistance",
+                    "with": [
+                        "1"
+                    ],
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.armour",
+                    "with": [
+                        "8"
+                    ],
+                    "color": "dark_green",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.per_equipment_bonus",
+                    "color": "dark_gray",
+                    "italic": false
+                },
+                {
+                    "translate": "enchantment.kleispack.shakudo_armour.set_bonus",
+                    "color": "#e85e8f",
+                    "italic": false
+                },
+                {
+                    "translate": "desc.kleispack.repaired_with",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "translate": "block.minecraft.copper_block",
+                    "color": "dark_gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:item_name": {
+                "translate": "item.kleispack.shakudo_chestplate",
+                "color": "#c96691"
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "minecraft:armor",
+                    "id": "minecraft:armor.chestplate",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "chest"
+                }
+            ],
+            "minecraft:tooltip_display": {
+                "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                ]
+            },
+            "minecraft:custom_data": {
+                "has_intrinsic_enchants": 1,
+                "version": 1,
+                "run_item_modify_str": 1,
+                "lore_length": 3,
+                "item_modify_str": "{\"type\":\"set_enchantments\",\"enchantments\":{\"matcha:cleanse_armor_chest\":1,\"matcha:magic_protection\":1,\"matcha:shakudo_armour\":1},\"add\":true}"
+            },
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_model": "matcha:shakudo_chestplate",
+            "minecraft:equippable": {
+                "slot": "chest",
+                "asset_id": "matcha:shakudo"
+            },
+            "minecraft:repairable": {
+                "items": [
+                    "minecraft:copper_block"
+                ]
+            }
+        }
+    }
 }
