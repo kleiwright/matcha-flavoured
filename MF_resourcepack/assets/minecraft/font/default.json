@@ -5,6 +5,48 @@
             "id": "minecraft:include/space"
         },
         {
+            "type": "space",
+            "advances": {
+                "\uE101": -8,
+                "\uE102": -169
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/ender_chest_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/barrel_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE103"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/chest_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE104"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/large_chest_menu.png",
+            "height": 133,
+            "ascent": 13,
+            "chars": ["\uE105"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/sack_menu.png",
+            "height": 79,
+            "ascent": 13,
+            "chars": ["\uE106"]
+        },
+        {
             "type": "bitmap",
             "file": "minecraft:font/custom_emojis.png",
             "ascent": 7,
