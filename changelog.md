@@ -11,6 +11,10 @@
   - This intrinic was moved from the sturdy leather boots, to the pants
   - This means you can't walk over fences anymore
   - If you want a step height total of >1m, you'll have to find them in structures
+- Dogs can now eat plants
+    - Baked Potatoes, Sweet Berries, Berry Mash, Baked Apples, Apples, Baked Pumpkin, Golden carrots, and Carrots (Dakota's favourite veg c:)
+    - Tomatoes were not added because they are toxic to dogs (dont give your dogs nightshades or alliums!)
+
 
 ### Bugs & Technical Improvements
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
@@ -39,7 +43,4 @@
 - Fixed some synatax in errant files and removed unused redstone ore texture
 - Step height intrinsic has been changed from a attribute modifier to a enchantment attribute modifier
   - I hope to convert all attributes to enchants as well
-  - This was done for the future **Vermeil Alloy**, Im still working on the specifics, if you want to help out let me give you a short pitch
-  - I need to be able to smith equipment with something else and have it only apply an enchant, and nothing else.
-  - Because I need to detect when a recipe is crafted to add and potentially remove enchants, thus, the smithing transform
-  - If you want more info, and you're good at DPs, lmk on the github and I'll divulge more info (gotta keep it secret ;) )
+  - This was done for the future Vermeil Alloy
