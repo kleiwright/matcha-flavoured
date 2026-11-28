@@ -38,6 +38,9 @@
   - This intrinic was moved from the sturdy leather boots, to the pants
   - This means you can't walk over fences anymore
   - If you want a step height total of >1m, you'll have to find them in structures
+- Dogs can now eat plants
+    - Baked Potatoes, Sweet Berries, Berry Mash, Baked Apples, Apples, Baked Pumpkin, Golden carrots, and Carrots (Dakota's favourite veg c:)
+    - Tomatoes were not added because they are toxic to dogs (dont give your dogs nightshades or alliums!)
   
 ### Bug Fixes
 - Mipmaps would cause the game to fail/mipmaps would not work, this has been fixed
