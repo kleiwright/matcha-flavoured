@@ -174,26 +174,3 @@ Talk to the project manager, Nat. You can find the discord here: [discord](https
   Provided a framework for looting shears. 
   
   Their [datapack](https://modrinth.com/datapack/purpurpacks-looting-shears?version=26.1&loader=datapack).
-
-## Changes/Features in the queue (not soon soon, but next on the docket)
-
-Enchanting
-- All enchants will work like Warding. AKA You will not be able to craft 2 unbreaking II books into an unbreaking III. Which means the player will not be able to combine golden pickaxes to get more fortune, not be able to combine found weapons with their current weapons etc. This will be done for balancing reasons, to make Sure Electrum really feels as special as its meant to. 
-
-Armour Reworks
-- Electrum
-- Adamant
-- Adamant tools will no longer have divinity, ill come up with something better
-- (Electrum may be nerfed and split between itsself and a new alloy)
-
-Adventure Rework and End Changes
-- **These plans are subject to change**
-- The End will require you visit all main overworld structures (Only those locatable by map, ie. not dungeons). Instead of buying maps, you trade the corresponding Sacred Text to gain the map for the next structure. I may influence the spawn rates of certain structures, increase their loot etc to balance this. 
-- I want at least three main overworld structures each with a unique sacred text that leads to the next. Abbey -> ??? -> ???
-- The Mouthpiece will still trade for sacred texts, but the Archaeologist will also buy them. The Moutpiece seeks wisdom, the Archaeologist seeks knowledge.
-- I want YOUR feedback on these ideas. I think making adventure integral to the gameplay, and to make it so that each combat encounter can be subverted, for less sweaty players, would be good for the datapack. But I want your opinions too.
-
-### Bugs I can't fix (or need help with trying to fix)
-- Enchanted Amour when smithed, if it has an enchant (Ex. Electrum) it overrides existing enchantments. Is it possible to make it so that it keeps previous enchants and ADDs the new ones?
-
-
